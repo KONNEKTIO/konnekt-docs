@@ -19,7 +19,7 @@ Using the support website will generate a ticket in our ticket system, which wil
 
 ## Language
 
-Our support engineers are able to communicate in these languages:
+Our engineers are happy to support you in these languages:
 
 * English
 * German
