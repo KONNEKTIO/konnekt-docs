@@ -17,6 +17,13 @@ You can access our support in the tab "help" on our main product web-site ([http
 
 Using the support website will generate a ticket in our ticket system, which will be the basis for the support process.
 
+## Language
+
+Our support engineers are able to communicate in these languages:
+
+* English
+* German
+
 ## Service Level
 
 ### Support hours
