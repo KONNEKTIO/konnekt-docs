@@ -66,7 +66,7 @@ Do not forget to restart **KONNEKT** to apply the policy
 **Query string**
 
 ```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web OR ContentClass=STS_Web)
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
 ```
 
 **Result**
