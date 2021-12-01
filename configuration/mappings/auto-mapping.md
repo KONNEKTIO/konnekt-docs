@@ -27,9 +27,11 @@ The site query needs to be expressed in KQL. You can find general KQL documentat
 
 A list of query properties for SharePoint can be found here: [https://docs.microsoft.com/en-us/sharepoint/technical-reference/crawled-and-managed-properties-overview](https://docs.microsoft.com/en-us/sharepoint/technical-reference/crawled-and-managed-properties-overview)
 
-### **Example 1:** control which sites should be available under KONNEKT&#x20;
+## **Example 1**
 
-**Query String**
+### **C**ontrol which sites should be available under KONNEKT&#x20;
+
+**Query String to map only the sites "Give" and "Contoso"**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (Title="Give" OR Title="Contoso")
@@ -45,7 +47,9 @@ To apply the policy you have to restart **KONNEKT**
 
 ![](<../../.gitbook/assets/2021-07-16 14\_41\_22-192.168.2.50 - Remote Desktop Connection.png>)
 
-### **Example 2:** add teams private channels automatically to KONNEKT&#x20;
+## **Example 2**
+
+### **A**dd teams private channels automatically to KONNEKT&#x20;
 
 **Query String**
 
@@ -61,13 +65,21 @@ Do not forget to restart **KONNEKT** to apply the policy
 
 ![](<../../.gitbook/assets/2021-08-13 08\_29\_21-192.168.2.50 - Remote Desktop Connection.png>)
 
-### Example 3: show SharePoint sites and subsites under KONNEKT
+## Example 3
+
+### Map SharePoint sites and subsites under KONNEKT
 
 **Query string**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
 ```
+
+{% hint style="warning" %}
+Do not forget to restart **KONNEKT** to apply the policy
+{% endhint %}
+
+****
 
 **Result**
 
@@ -83,7 +95,21 @@ you can change the site query string to fit your requirements to show:
 * and so on
 {% endhint %}
 
-### **There are several ways to apply the policy:**
+## Example 4
+
+Map all sites and libraries except specific sites (and their libraries), in the following example we will exclude Site01 and Site02 and all libraries under them.
+
+```
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (SiteTitle="Site01" OR SiteTitle="Site02"))
+```
+
+{% hint style="warning" %}
+Do not forget to restart **KONNEKT** to apply the policy
+{% endhint %}
+
+****
+
+## **There are several ways to apply the policy:**
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
