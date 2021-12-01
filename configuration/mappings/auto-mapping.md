@@ -29,9 +29,9 @@ A list of query properties for SharePoint can be found here: [https://docs.micro
 
 ## **Example 1**
 
-### **C**ontrol which sites should be available under KONNEKT&#x20;
+Control which sites should be available under KONNEKT&#x20;
 
-**Query String to map only the sites "Give" and "Contoso"**
+**Query String to map only the sites "Give" and "Contoso":**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (Title="Give" OR Title="Contoso")
@@ -49,9 +49,9 @@ To apply the policy you have to restart **KONNEKT**
 
 ## **Example 2**
 
-### **A**dd teams private channels automatically to KONNEKT&#x20;
+Add teams private channels automatically to KONNEKT&#x20;
 
-**Query String**
+**Query String:**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING OR webtemplate:TEAMCHANNEL) AND (contentclass=STS_Site OR contentclass=STS_Web)
@@ -67,9 +67,9 @@ Do not forget to restart **KONNEKT** to apply the policy
 
 ## Example 3
 
-### Map SharePoint sites and subsites under KONNEKT
+Map SharePoint sites and subsites under KONNEKT
 
-**Query string**
+**Query string:**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
@@ -97,7 +97,9 @@ you can change the site query string to fit your requirements to show:
 
 ## Example 4
 
-Map all sites and libraries except specific sites (and their libraries), in the following example we will exclude Site01 and Site02 and all libraries under them.
+Map all sites and libraries except specific sites (and their libraries)
+
+**Query string to exclude Site01 and Site02:**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (SiteTitle="Site01" OR SiteTitle="Site02"))
@@ -106,8 +108,6 @@ Map all sites and libraries except specific sites (and their libraries), in the 
 {% hint style="warning" %}
 Do not forget to restart **KONNEKT** to apply the policy
 {% endhint %}
-
-****
 
 ## **There are several ways to apply the policy:**
 
