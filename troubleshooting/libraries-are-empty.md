@@ -21,7 +21,7 @@ We implemented a workaround for that behavior starting with KONNNEKT V2 preview 
 After installing the new version of KONNEKT, please&#x20;
 
 * Reboot the machine,
-* Start Windows Explorer and click on KONNEKT node and
+* Start Windows Explorer and click on KONNEKT node,
 * Wait 5-10 minutes.
 
 After this procedure, the libraries should work.
