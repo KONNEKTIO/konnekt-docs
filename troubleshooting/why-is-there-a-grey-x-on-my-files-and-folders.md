@@ -16,4 +16,4 @@ The setting is called "FILE\_ATTRIBUTE\_OFFLINE". It indicates to the operating 
 
 The visualization is not visible to every client.
 
-If you want to have more details on this setting, have a look [here](https://docs.microsoft.com/en-us/windows/win32/fileio/file-attribute-constants).&#x20;
+See also: [offline-attribute.md](../configuration/performance/offline-attribute.md "mention")

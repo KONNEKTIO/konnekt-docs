@@ -28,6 +28,7 @@
     * [Offline Attribute Filter](configuration/gui-behavior/offline-attribute-filter.md)
   * [Performance](configuration/performance/README.md)
     * [Cache settings](configuration/performance/cache-setting.md)
+    * [Offline Attribute](configuration/performance/offline-attribute.md)
     * [Proxy settings](configuration/performance/proxy-settings.md)
   * [Other](configuration/other/README.md)
     * [Disable KONNEKT for a subset of users](configuration/other/configure-konnekt-for-a-subset-of-users.md)
