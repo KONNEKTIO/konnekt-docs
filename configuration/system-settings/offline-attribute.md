@@ -42,10 +42,10 @@ This policy controls which file types will not be marked with an offline attribu
 
 **Values**
 
-|   GPO-setting  |      Value      | Behavior                                                                              |
-| :------------: | :-------------: | ------------------------------------------------------------------------------------- |
-| Not configured |       N/A       | Only PDF files are excluded from offline attribute.                                   |
-|     Enable     |   \<filetypes>  | The specified file-extensions (separated by \| ) are excluded from offline attribute. |
-|    Disabled    | Key not present | Only PDF files are excluded from offline attribute.                                   |
+|   GPO-setting  |                Value               | Behavior                                                                              |
+| :------------: | :--------------------------------: | ------------------------------------------------------------------------------------- |
+| Not configured |                 N/A                | Only PDF files are excluded from offline attribute.                                   |
+|     Enable     |            \<filetypes>            | The specified file-extensions (separated by \| ) are excluded from offline attribute. |
+|    Disabled    | <p>N/A</p><p>(Key not present)</p> | Only PDF files are excluded from offline attribute.                                   |
 
 **Example** for \<filetypes>: `pdf|png|jpg|jpeg`
