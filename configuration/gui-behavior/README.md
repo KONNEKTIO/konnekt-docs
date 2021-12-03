@@ -16,3 +16,7 @@
 [hide-tray-icon.md](hide-tray-icon.md)
 {% endcontent-ref %}
 
+{% content-ref url="offline-attribute-filter.md" %}
+[offline-attribute-filter.md](offline-attribute-filter.md)
+{% endcontent-ref %}
+
