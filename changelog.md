@@ -9,6 +9,7 @@
   * [Cache settings](configuration/system-settings/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
   * [Intune Management](configuration/management-options/setting-for-intune-managed-devices.md)
   * Offline Attribute Filter to enable explorer previews on certain file types
+  * [ADMX file ](configuration/management-options/settings-via-gpo.md#admx-file)got new policies
 * FIX
   * Broken file links when resolving mapped drives (e.g. copy path in Outlook)
   * Stability issue when uploading files lager than 1 GB
