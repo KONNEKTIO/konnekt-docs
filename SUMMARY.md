@@ -25,6 +25,7 @@
     * [Change KONNEKT name in explorer](configuration/gui-behavior/change-konnekt-name-in-explorer.md)
     * [Explorer UI](configuration/gui-behavior/konnekt-explorer-ui.md)
     * [Hide tray icon](configuration/gui-behavior/hide-tray-icon.md)
+    * [Offline Attribute Filter](configuration/gui-behavior/offline-attribute-filter.md)
   * [Performance](configuration/performance/README.md)
     * [Cache settings](configuration/performance/cache-setting.md)
     * [Proxy settings](configuration/performance/proxy-settings.md)
