@@ -1,4 +1,4 @@
-# GUI behavior
+# GUI Settings
 
 {% content-ref url="untitled.md" %}
 [untitled.md](untitled.md)
@@ -14,9 +14,5 @@
 
 {% content-ref url="hide-tray-icon.md" %}
 [hide-tray-icon.md](hide-tray-icon.md)
-{% endcontent-ref %}
-
-{% content-ref url="offline-attribute-filter.md" %}
-[offline-attribute-filter.md](offline-attribute-filter.md)
 {% endcontent-ref %}
 

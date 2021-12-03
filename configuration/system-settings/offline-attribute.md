@@ -7,7 +7,7 @@ Marking files with the offline attribute therefore saves bandwidth between the K
 {% hint style="warning" %}
 Disabling the offline attribute for some file types allows the Windows Explorer to show preview information for the files, at the cost of more network traffic and possible slower response times when browsing through directories.
 
-Therefore, please disable this the offline attribute with care and only for environments that have a good connection to Office 365.
+Therefore, please disable the offline attribute with care and only for environments that have a good connection to Office 365.
 {% endhint %}
 
 ## Setting the Offline Attribute for all files

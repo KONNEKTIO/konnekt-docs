@@ -20,7 +20,6 @@
     * [Change KONNEKT name in explorer](configuration/gui-behavior/change-konnekt-name-in-explorer.md)
     * [Explorer UI](configuration/gui-behavior/konnekt-explorer-ui.md)
     * [Hide tray icon](configuration/gui-behavior/hide-tray-icon.md)
-    * [Offline Attribute Filter](configuration/gui-behavior/offline-attribute-filter.md)
   * [Mappings](configuration/mappings/README.md)
     * [Additional document libraries](configuration/mappings/add-a-document-library.md)
     * [Assign drive letters](configuration/mappings/assign-drive-letters.md)
