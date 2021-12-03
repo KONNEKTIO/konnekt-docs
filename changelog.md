@@ -6,7 +6,7 @@
   * Customize explorer UI ([Hide several options](configuration/gui-behavior/konnekt-explorer-ui.md), [hide tray icon](configuration/gui-behavior/hide-tray-icon.md))
   * Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
   * Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
-  * [Cache settings](configuration/performance/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
+  * [Cache settings](configuration/system-settings/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
   * [Intune Management](configuration/management-options/setting-for-intune-managed-devices.md)
   * Offline Attribute Filter to enable explorer previews on certain file types
 * FIX

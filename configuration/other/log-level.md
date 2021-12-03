@@ -20,5 +20,3 @@ You can find the KONNEKT client logs in `%LocalAppData%\konnekt`
 |   Debug   |   3   |
 
 Default Log level value is 2 (Info Level).
-
-We recommend using our [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting.

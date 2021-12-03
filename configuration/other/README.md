@@ -8,15 +8,10 @@
 [log-level.md](log-level.md)
 {% endcontent-ref %}
 
-{% content-ref url="multi-tenant-configuration.md" %}
-[multi-tenant-configuration.md](multi-tenant-configuration.md)
-{% endcontent-ref %}
-
-{% content-ref url="office365-co-authoring.md" %}
-[office365-co-authoring.md](office365-co-authoring.md)
+{% content-ref url="proxy-settings.md" %}
+[proxy-settings.md](proxy-settings.md)
 {% endcontent-ref %}
 
 {% content-ref url="license-key-on-multi-user-environments.md" %}
 [license-key-on-multi-user-environments.md](license-key-on-multi-user-environments.md)
 {% endcontent-ref %}
-

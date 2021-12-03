@@ -12,8 +12,8 @@
 [gui-behavior](gui-behavior/)
 {% endcontent-ref %}
 
-{% content-ref url="performance/" %}
-[performance](performance/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="other/" %}

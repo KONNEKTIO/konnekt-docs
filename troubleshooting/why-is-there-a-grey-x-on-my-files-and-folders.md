@@ -16,4 +16,4 @@ The setting is called "FILE\_ATTRIBUTE\_OFFLINE". It indicates to the operating 
 
 The visualization is not visible to every client.
 
-See also: [offline-attribute.md](../configuration/performance/offline-attribute.md "mention")
+See also: [offline-attribute.md](../configuration/system-settings/offline-attribute.md "mention")
