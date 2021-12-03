@@ -1,22 +1,19 @@
 # Changelog
 
-### 2.0 (currently in public preview)
+### 2.0.0 (Published 2021-12-03)
 
-* ADD: Customize explorer UI ([Hide several options](configuration/gui-behavior/konnekt-explorer-ui.md), [hide tray icon](configuration/gui-behavior/hide-tray-icon.md))
-* ADD: Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
-* ADD: Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
-* ADD: [Cache settings](configuration/performance/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
-* ADD: [Intune Management](configuration/management-options/setting-for-intune-managed-devices.md)
-* If you want to try KONNEKT V2, you can download the current preview here. \
-  Please do not use for production. We are looking forward to your feedback!
-
-{% file src=".gitbook/assets/V2-Preview_Konnekt-X64-1.20.43.0.zip" %}
-64 Bit KONNEKT V2 Preview Build 43
-{% endfile %}
-
-{% file src=".gitbook/assets/V2-Preview_Konnekt-X86-1.20.43.0.zip" %}
-32 Bit KONNEKT V2 Preview Build 43
-{% endfile %}
+* ADD
+  * Customize explorer UI ([Hide several options](configuration/gui-behavior/konnekt-explorer-ui.md), [hide tray icon](configuration/gui-behavior/hide-tray-icon.md))
+  * Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
+  * Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
+  * [Cache settings](configuration/performance/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
+  * [Intune Management](configuration/management-options/setting-for-intune-managed-devices.md)
+  * Offline Attribute Filter to enable explorer previews on certain file types
+* FIX
+  * Broken file links when resolving mapped drives (e.g. copy path in Outlook)
+  * Stability issue when uploading files lager than 1 GB
+  * Cache directory may be filled up
+  * SharePoint document libraries may be shown empty
 
 ### 1.20.0 (Published 2021-04-21)
 

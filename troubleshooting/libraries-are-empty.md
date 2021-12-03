@@ -16,7 +16,7 @@ This only happens if the feature "Automatically add all SharePoint document libr
 
 ### Solution
 
-We implemented a workaround for that behavior starting with KONNNEKT V2 preview 44 (1.20.44.0). You can download it here: [#2.0-currently-in-public-preview](../changelog.md#2.0-currently-in-public-preview "mention").
+We implemented a workaround for that behavior starting with KONNNEKT V2.0.0. Please see here, how do get the update: [software-updates.md](../installation/software-updates.md "mention").
 
 After installing the new version of KONNEKT, please&#x20;
 
