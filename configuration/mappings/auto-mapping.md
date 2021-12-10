@@ -27,11 +27,29 @@ The site query needs to be expressed in KQL. You can find general KQL documentat
 
 A list of query properties for SharePoint can be found here: [https://docs.microsoft.com/en-us/sharepoint/technical-reference/crawled-and-managed-properties-overview](https://docs.microsoft.com/en-us/sharepoint/technical-reference/crawled-and-managed-properties-overview)
 
-## **Example 1**
+You can test your KQL site query at this SharePoint Online URL:
 
-Control which sites should be available under KONNEKT&#x20;
+```
+https://<YourTenantName>.sharepoint.com/_layouts/15/osssearchresults.aspx
+```
 
-**Query String to map only the sites "Give" and "Contoso":**
+### **There are several ways to apply the policy:**
+
+* manually by adding the key in the registry under machine or user registry settings
+* via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+
+**Policies** stored in:
+
+`HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+### **Example 1: Filter on Site Name/Title (whitelist)**
+
+`Title="MySiteName"`
+
+**Query String** to map only the sites "Give" and "Contoso":
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (Title="Give" OR Title="Contoso")
@@ -47,9 +65,23 @@ To apply the policy you have to restart **KONNEKT**
 
 ![](<../../.gitbook/assets/2021-07-16 14\_41\_22-192.168.2.50 - Remote Desktop Connection.png>)
 
-## **Example 2**
+### Example 2: Exclude Site Names (blacklist)
 
-Add teams private channels automatically to KONNEKT&#x20;
+Map all sites and libraries except specific sites (and their libraries)
+
+**Query string to exclude Site01 and Site02:**
+
+```
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (SiteTitle="Site01" OR SiteTitle="Site02"))
+```
+
+{% hint style="warning" %}
+Do not forget to restart **KONNEKT** to apply the policy
+{% endhint %}
+
+### **Example 3: Add Microsoft Teams private channels**
+
+`webtemplate:TEAMCHANNEL`
 
 **Query String:**
 
@@ -65,7 +97,7 @@ Do not forget to restart **KONNEKT** to apply the policy
 
 ![](<../../.gitbook/assets/2021-08-13 08\_29\_21-192.168.2.50 - Remote Desktop Connection.png>)
 
-## Example 3
+### Example 4: Add SharePoint Subsites
 
 Map SharePoint sites and subsites under KONNEKT
 
@@ -94,32 +126,6 @@ you can change the site query string to fit your requirements to show:
 * specific sites and specific subsites
 * and so on
 {% endhint %}
-
-## Example 4
-
-Map all sites and libraries except specific sites (and their libraries)
-
-**Query string to exclude Site01 and Site02:**
-
-```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (SiteTitle="Site01" OR SiteTitle="Site02"))
-```
-
-{% hint style="warning" %}
-Do not forget to restart **KONNEKT** to apply the policy
-{% endhint %}
-
-## **There are several ways to apply the policy:**
-
-* manually by adding the key in the registry under machine or user registry settings
-* via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
-
-**Policies** stored in:
-
-`HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
-
-`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 ## 2. Library scope
 
