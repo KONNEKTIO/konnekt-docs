@@ -45,7 +45,7 @@ https://<YourTenantName>.sharepoint.com/_layouts/15/osssearchresults.aspx
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
-### **Example 1: Filter on Site Name/Title (whitelist)**
+### **Example 1: Filter on Site name/title (whitelist)**
 
 `Title="MySiteName"`
 
@@ -65,7 +65,7 @@ To apply the policy you have to restart **KONNEKT**
 
 ![](<../../.gitbook/assets/2021-07-16 14\_41\_22-192.168.2.50 - Remote Desktop Connection.png>)
 
-### Example 2: Exclude Site Names (blacklist)
+### Example 2: Exclude Site name/title (blacklist)
 
 Map all sites and libraries except specific sites (and their libraries)
 
