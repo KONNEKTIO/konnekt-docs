@@ -4,7 +4,7 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 # Welcome
 
-{% hint style="info" %}
+{% hint style="success" %}
 ## **log4j**
 
 KONNEKT is **not** affected by the **log4j** vulnerability ([CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228)).
