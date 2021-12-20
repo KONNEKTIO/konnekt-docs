@@ -7,7 +7,7 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 {% hint style="success" %}
 ## **log4j**
 
-KONNEKT is **not** affected by the **log4j** vulnerability ([CVE-2021-44228](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228)).
+KONNEKT is **not** affected by the **log4j** vulnerability ([CVE-2021-44228](https://www.cve.org/CVERecord?id=CVE-2021-44228)).
 {% endhint %}
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
