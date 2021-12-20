@@ -97,26 +97,6 @@ Do not forget to restart **KONNEKT** to apply the policy
 
 ![](<../../.gitbook/assets/2021-08-13 08\_29\_21-192.168.2.50 - Remote Desktop Connection.png>)
 
-### Example 4: Add SharePoint Subsites
-
-Map SharePoint sites and subsites under KONNEKT
-
-**Query string:**
-
-```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
-```
-
-{% hint style="warning" %}
-Do not forget to restart **KONNEKT** to apply the policy
-{% endhint %}
-
-****
-
-**Result**
-
-![](<../../.gitbook/assets/2021-11-04 17\_39\_56-Win10\_RJoin\_Scepman on LAPTOP-2BEFN6TS - Virtual Machine Connection.png>)
-
 {% hint style="info" %}
 you can change the site query string to fit your requirements to show:
 
