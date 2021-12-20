@@ -81,6 +81,8 @@ Do not forget to restart **KONNEKT** to apply the policy
 
 ### **Example 3: Add Microsoft Teams private channels**
 
+Map all teams private channels
+
 `webtemplate:TEAMCHANNEL`
 
 **Query String:**
