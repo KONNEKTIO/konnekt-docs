@@ -34,24 +34,24 @@ It is **not** allowed to&#x20;
 ### Pricing Model
 
 * KONNEKT is offered as an **annual subscription plan** with different [User Segments](licensing.md#user-segments). The correct **user segment** is automatically selected by our platform based on the amount of desired users.
-* The **annual subscription plan** consists of a **base fee** which includes a certain amount of users per year - depending on the **user segment**. For example, the **base fee** for the **user segment** _KONNEKT 25_ includes 25 users per year.
+* The annual subscription plan consists of a **base fee** which includes a certain amount of users per year - depending on the **user segment**. For example, the **base fee** for the user segment _KONNEKT 25_ includes 25 users per year.
 * If more than the included amount of users is required, **additional users** can be added to the  plan. For each additional user, we charge an additional annual per-user fee.
-* The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the **user segment** _KONNEKT 250_. This includes the __ base fee for 250 users **plus 50 additional users** in the user segment _KONNEKT 250_.
+* The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the user segment _KONNEKT 250_. This includes the __ base fee for 250 users plus 50 additional users in the user segment _KONNEKT 250_.
 * You will be prompted for your desired total user count on our platform during the subscription enrolment process.
-* Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items we will report to Microsoft as well as the associated licensing costs you have to expect to be charged with by Microsoft in _your_ currency.
+* Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items we will report to Microsoft as well as the associated licensing costs in _your_ currency.
 
 {% hint style="warning" %}
-For CSP deals we cannot display a licensing cost estimation as special CSP margins might be in place.
+For CSP deals we cannot display the licensing costs as CSP margins might be in place.
 {% endhint %}
 
 ### Invoicing
 
 * During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will report them to Microsoft after your cancellation grace period has expired.&#x20;
 * Upon every renewal date, we will report your fees to Microsoft immediately.
-* The related items should appear on your Microsoft invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
+* The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
 
 {% hint style="info" %}
-Both (if applicable), the base fee as well as the additional users fee will appear as separate items on your Microsoft invoice.
+Both (if applicable), the base fee as well as the additional users fee will appear as separate items on your Microsoft Azure invoice.
 {% endhint %}
 
 ### Plan Overview
@@ -118,7 +118,7 @@ To get started with your KONNEKT subscription,
 ![](<.gitbook/assets/image (30).png>)
 
 {% hint style="info" %}
-Please not be confused by the random order of the add-ons. This is currently investigated by Microsoft. Later during the the enrolment process, we will provide you with transparent information on the expected licensing fees.
+The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
 {% endhint %}
 
 * Once you have successfully deployed the SaaS subscription into your Azure SaaS portal, please navigate to our subscription landing page by clicking "Configure account now"
