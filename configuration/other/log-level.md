@@ -6,8 +6,9 @@ You can find this setting in the preferences menu:
 
 You can also configure this setting via registry/GPO/MDM:
 
-Key name: **LogLevel**\
-****Key type: **REG\_DWORD**.&#x20;
+Key name: `LogLevel`\
+****Key type: `REG_DWORD`\
+``Stored in: `HKEY_CURRENT_USER\SOFTWARE\GlueckKanja\Konnekt`
 
 Controls the KONNEKT client log level. \
 You can find the KONNEKT client logs in `%LocalAppData%\konnekt`
