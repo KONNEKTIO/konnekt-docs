@@ -38,6 +38,9 @@ It is **not** allowed to&#x20;
 * If more than the included amount of users is required, **additional users** can be added to the  plan. For each additional user, we charge an additional annual per-user fee.
 * The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the user segment _KONNEKT 250_. This includes the __ base fee for 250 users plus 50 additional users in the user segment _KONNEKT 250_.
 * You will be prompted for your desired total user count on our platform during the subscription enrolment process.
+
+![](<.gitbook/assets/konnekt-landing-page (1).png>)
+
 * Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items we will report to Microsoft as well as the associated licensing costs in _your_ currency.
 
 {% hint style="warning" %}
@@ -80,9 +83,9 @@ For prices in Euro (EUR), please check out our <mark style="color:green;"></mark
 
 #### Upgrades
 
-* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking on "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our landing page where the amount of users can be upgraded.
+* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking on "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 * In case the upgrade occurs within the current subscription interval, only the prorated amount of fees incurred by the additional users will be reported to Microsoft for this interval.
-* Our landing page will inform you about the new fees for a **complete** subscription cycle.
+* Our platform will inform you about the new fees for a **complete** subscription cycle.
 * After confirming your choice and once we have updated the license in our backend, you will receive a confirmation email from us.
 
 ![](.gitbook/assets/SaaSPortal\_changeSubscription.png)
@@ -121,13 +124,13 @@ To get started with your KONNEKT subscription,
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
 {% endhint %}
 
-* Once you have successfully deployed the SaaS subscription into your Azure SaaS portal, please navigate to our subscription landing page by clicking "Configure account now"
+* Once you have successfully deployed the SaaS subscription into your Azure SaaS portal, please navigate to our platform by clicking "Configure account now"
 
 {% hint style="info" %}
-You will only be charged by Microsoft, once you have completed the enrolment on our landing page. Until then the subscription will remain in status "Fulfillment pending".
+You will only be charged by Microsoft, once you have completed the enrolment on our platform. Until then the subscription will remain in status "Fulfillment pending".
 {% endhint %}
 
-* After authenticating on our landing page using your Microsoft credentials, you will be prompted for additional information, such as the desired User amount
-* Based on the amount of users provided on our landing page, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
-* The landing page will show you the licensing fees you have to expect
-* If you are happy with it, please complete the enrolment, which triggers us to generate a **KONNEKT license key**. You will receive this key as part of our welcome email including all relevant information on the next steps regarding the installation of KONNEKT. This won't take any longer than one business day.
+* After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired User amount and a technical admin contact.
+* Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
+* The platform will show you the licensing fees you have to expect
+* If you are happy with it, please complete the enrolment, which triggers us to generate your KONNEKT **license key**. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
