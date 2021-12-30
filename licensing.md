@@ -8,11 +8,13 @@ The subscription for KONNEKT is **user-based**.&#x20;
 
 The licensing is per seat, which means that the subscription of a "user" is required for each user (UPN), who is using KONNEKT to log into OneDrive for Business or SharePoint online.
 
-A user subscription is bound to the using UPN and cannot be shared with other UPNs. The assignment of a user subscription to a UPN is detached and can be rebound to another UPN after KONNEKT has not been used for a calendar-month with the already issued UPN.
-
 {% hint style="info" %}
 In many cases the required amount of KONNEKT subscriptions equals the amount of Microsoft Office 365 / OneDrive for Business / SharePoint Online subscriptions.
 {% endhint %}
+
+The minimum amount of users that can be subscribed for one organization is 25.
+
+A user subscription is bound to a single user for at least one calendar month and cannot be shared with other users.
 
 ## Device limits per user
 
