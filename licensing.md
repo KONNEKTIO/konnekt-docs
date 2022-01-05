@@ -38,11 +38,6 @@ It is **not** allowed to&#x20;
 * KONNEKT is offered as an **annual subscription plan** with different [User Segments](licensing.md#user-segments). The correct **user segment** is automatically selected by our platform based on the amount of desired users.
 * The annual subscription plan consists of a **base fee** which includes a certain amount of users per year - depending on the **user segment**. For example, the **base fee** for the user segment _KONNEKT 25_ includes 25 users per year.
 * If more than the included amount of users is required, **additional users** can be added to the  plan. For each additional user, we charge an additional annual per-user fee.
-* Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items and the associated licensing costs in _your_ currency.
-
-{% hint style="warning" %}
-For CSP deals we cannot display the Cost Projection as CSP margins might be in place.
-{% endhint %}
 
 ### Invoicing
 
@@ -119,6 +114,9 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 * Once you have successfully deployed the SaaS subscription into your Azure SaaS portal, please navigate to our platform by clicking "Configure account now"
 * After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired **total user amount** and a **technical admin contact**.
+
+![](<.gitbook/assets/konnekt-landing-page (2).png>)
+
 * Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee (see screenshot below).
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.
 
@@ -126,7 +124,9 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the user segment _KONNEKT 250_. This includes the __ base fee for 250 users plus 50 additional users in the user segment _KONNEKT 250_.
 {% endhint %}
 
-![](<.gitbook/assets/konnekt-landing-page (2).png>)
+{% hint style="warning" %}
+For CSP deals we cannot display the Cost Projection as CSP margins might be in place.
+{% endhint %}
 
 * If you are happy with it, please complete the enrolment, which triggers us to generate your KONNEKT **license key**. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
 
