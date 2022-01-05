@@ -43,20 +43,20 @@ It is **not** allowed to&#x20;
 
 ![](<.gitbook/assets/konnekt-landing-page (2).png>)
 
-* Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items we will report to Microsoft as well as the associated licensing costs in _your_ currency.
+* Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items and the associated licensing costs in _your_ currency.
 
 {% hint style="warning" %}
-For CSP deals we cannot display the licensing costs as CSP margins might be in place.
+For CSP deals we cannot display the Cost Projection as CSP margins might be in place.
 {% endhint %}
 
 ### Invoicing
 
-* During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will report them to Microsoft after your cancellation grace period has expired.&#x20;
-* Upon every renewal date, we will report your fees to Microsoft immediately.
+* During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will start billing once your cancellation grace period has expired.&#x20;
+* Upon every renewal date, you will be billed immediately.
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
 
 {% hint style="info" %}
-Both (if applicable), the base fee as well as the additional users fee will appear as separate items on your Microsoft Azure invoice.
+Both, the base fees as well as the additional users fees (if applicable) will appear as separate items on your Microsoft Azure invoice.
 {% endhint %}
 
 ### Plan Overview
@@ -71,26 +71,27 @@ Subscriptions for KONNEKT are available based on an annual renewal interval.
 
 The following user segments are available.
 
-| **User Segment** | **Included Users in Base Fee** | **Maximum Total User** |
-| ---------------- | ------------------------------ | ---------------------- |
-| KONNEKT 25       | 25                             | 249                    |
-| KONNEKT 250      | 250                            | 999                    |
-| KONNEKT 1000     | 1,000                          | 4,999                  |
-| KONNEKT 5000     | 5,000                          | 9,999                  |
-| KONNEKT 10000    | 10,000                         | unlimited              |
+| **User Segment** | **Included Users in Base Fee** | **Maximum Total Users** |
+| ---------------- | ------------------------------ | ----------------------- |
+| KONNEKT 25       | 25                             | 249                     |
+| KONNEKT 250      | 250                            | 999                     |
+| KONNEKT 1000     | 1,000                          | 4,999                   |
+| KONNEKT 5000     | 5,000                          | 9,999                   |
+| KONNEKT 10000    | 10,000                         | unlimited               |
 
-For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.konnekt.io). For prices in _your_ currency, please directly refer to the Azure Marketplace in the [Azure Portal](https://portal.azure.com).
+For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com).
 
 ### User Up- and Downgrades
 
 #### Upgrades
 
 * If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking on "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
-* In case the upgrade occurs within the current subscription interval, only the prorated amount of fees incurred by the additional users will be reported to Microsoft for this interval.
-* Our platform will inform you about the new fees for a **complete** subscription cycle.
-* After confirming your choice and once we have updated the license in our backend, you will receive a confirmation email from us.
 
 ![](.gitbook/assets/SaaSPortal\_changeSubscription.png)
+
+* Our platform will inform you about the new fees you  to expect for a **complete** subscription cycle.
+* For the current cycle, we will bill the additional users for remaining days only.
+* After confirming your choice and once we have updated the license in our backend, you will receive a confirmation email from us.
 
 #### Downgrades
 
