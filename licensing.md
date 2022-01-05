@@ -39,9 +39,9 @@ It is **not** allowed to&#x20;
 * The annual subscription plan consists of a **base fee** which includes a certain amount of users per year - depending on the **user segment**. For example, the **base fee** for the user segment _KONNEKT 25_ includes 25 users per year.
 * If more than the included amount of users is required, **additional users** can be added to the  plan. For each additional user, we charge an additional annual per-user fee.
 * The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the user segment _KONNEKT 250_. This includes the __ base fee for 250 users plus 50 additional users in the user segment _KONNEKT 250_.
-* You will be prompted for your desired total user count on our platform during the subscription enrolment process.
+* You will be prompted for your desired **total user** **count** on our platform during the subscription enrolment process.
 
-![](<.gitbook/assets/konnekt-landing-page (1).png>)
+![](<.gitbook/assets/konnekt-landing-page (2).png>)
 
 * Upon initial subscription enrolment or during an intermediate subscription upgrade, our platform will inform you about the billing items we will report to Microsoft as well as the associated licensing costs in _your_ currency.
 
