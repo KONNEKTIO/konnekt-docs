@@ -47,6 +47,7 @@
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
   * [Why is there a grey "X" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
 * [Changelog](changelog.md)
-* [Licensing](licensing.md)
+* [Licensing](licensing/README.md)
+  * [Azure Marketplace](licensing/azure-marketplace.md)
 * [Support](support.md)
 * [KONNEKT Website](https://konnekt.io)
