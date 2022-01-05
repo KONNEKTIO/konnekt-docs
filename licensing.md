@@ -75,7 +75,7 @@ For prices in Euro (EUR), please check out our <mark style="color:green;"></mark
 
 #### Upgrades
 
-* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking on "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
+* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 
 ![](.gitbook/assets/SaaSPortal\_changeSubscription.png)
 
@@ -117,18 +117,14 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 ![](<.gitbook/assets/konnekt-landing-page (2).png>)
 
-* Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee (see screenshot below).
+* Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.
-
-{% hint style="info" %}
-The logic on our platform will always choose the cheapest user segment based on your desired amount of total users. For example, if you require 300 users, we will charge you based on the user segment _KONNEKT 250_. This includes the __ base fee for 250 users plus 50 additional users in the user segment _KONNEKT 250_.
-{% endhint %}
 
 {% hint style="warning" %}
 For CSP deals we cannot display the Cost Projection as CSP margins might be in place.
 {% endhint %}
 
-* If you are happy with it, please complete the enrolment, which triggers us to generate your KONNEKT **license key**. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
+* If you are happy with it, please complete the enrolment by clicking **submit**, which triggers us to generate your KONNEKT **license key**. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
 
 {% hint style="info" %}
 You will only be charged by Microsoft, once you have completed the enrolment on our landing page and received our welcome email.
