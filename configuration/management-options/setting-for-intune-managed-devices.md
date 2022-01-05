@@ -32,7 +32,7 @@ Click on **Add** then in the new window:
 ```
 
 * **Data type:** String
-* **Value:** copy the content of this [admx file](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-M8zLVuKYctMIUr68\_fs%2F-M\_QAL1AwCW0cEwatnDl%2F-M\_QCBBYo6kgrK2QQ-pf%2Fadmx-adml.zip?alt=media\&token=ad86d8b4-e2ea-428b-b2e8-14d431fe7521), then **Save**
+* **Value:** copy the content of this [admx file](settings-via-gpo.md#admx-file), then **Save**
 
 ![](<../../.gitbook/assets/2021-07-14 11\_10\_18-Window (1).png>)
 
