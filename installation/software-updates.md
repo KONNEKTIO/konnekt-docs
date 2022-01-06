@@ -21,13 +21,13 @@ Local admin permissions are required to execute an update of KONNEKT.&#x20;
 Please follow the following steps to update KONNEKT:
 
 1. Uninstall the previous version of KONNEKT
-2. Install the current version of KONNEKT (see [Setup](setup.md) for details)
-3. Reboot the machine, if KONNEKT asks for a reboot.
+2. Reboot the machine.
+3. Install the current version of KONNEKT (see [Setup](setup.md) for details)
 
 {% hint style="info" %}
 Why do I have to reboot the machine?
 
-An important module of KONNEKT is a kernel driver. This type of drivers can be updated with a reboot of the machine, only.
+An important module of KONNEKT is a kernel driver. This kind of drivers must be unloaded before being updated. If you update KONNEKT without unloading the driver (= reboot the system after uninstallation), bluescreens may occur.
 {% endhint %}
 
 ## Recommended update procedure
