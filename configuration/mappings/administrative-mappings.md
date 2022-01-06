@@ -24,7 +24,7 @@ To add mappings click on **Show**
 **Format of site definitions:** `sharepoint-url|Name|DriveLetter|TenantName`
 
 `sharepoint-url:` Your sharepoint site/library URL\
-`Name:` Name you choose for the mapped site\
+`Name:` Name you choose for the mapped site. This name must be unique for each mapping.\
 `DriveLetter:` for drive mapping\
 `TenantName:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).
 
