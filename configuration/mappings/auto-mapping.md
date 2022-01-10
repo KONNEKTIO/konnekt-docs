@@ -21,6 +21,10 @@ By default KONNEKT will map all team and communication sites, the user has acces
 **If you are fine with that, you do not need to use this policy.**
 {% endhint %}
 
+### **Policy** Definition
+
+* **Policy Name (ADMX):** `Sharepoint Sites Query`
+
 This policy enables you to define the query string used to find SharePoint sites.
 
 The site query needs to be expressed in KQL. You can find general KQL documentation here: [https://docs.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
@@ -33,17 +37,7 @@ You can test your KQL site query at this SharePoint Online URL:
 https://<YourTenantName>.sharepoint.com/_layouts/15/osssearchresults.aspx
 ```
 
-### **There are several ways to apply the policy:**
-
-* manually by adding the key in the registry under machine or user registry settings
-* via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
-
-**Policies** stored in:
-
-`HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
-
-`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+In the following paragraphs, you can find some examples for KQL query strings.
 
 ### **Example 1: Filter on Site name/title (whitelist)**
 
@@ -108,6 +102,26 @@ you can change the site query string to fit your requirements to show:
 * specific sites and specific subsites
 * and so on
 {% endhint %}
+
+### **There are several ways to apply the policy:**
+
+* manually by adding the key in the registry under machine or user registry settings
+* via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+
+#### **Manual setting in registry**
+
+{% hint style="info" %}
+You do not need this, if you use GPO or Intune management.
+{% endhint %}
+
+* **Registry Value name:** `SharepointSiteQuery`
+* **Registry Value type:** `REG_SZ`
+* **Registry Value data:** KQL string
+* **Registry Value storage location**:
+  * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
+    ``or
+  * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 ## 2. Library scope
 
