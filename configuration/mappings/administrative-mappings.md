@@ -18,9 +18,6 @@ To add mappings click on **Show**
 
 **Policy name:** `Sharepoint Sites`&#x20;
 
-**Key name:** `SharepointSites`\
-**Key type:** REG\_DWORD, Key and one REG-SZ per Mapping under Key
-
 **Format of site definitions:** `sharepoint-url|Name|DriveLetter|TenantName`
 
 `sharepoint-url:` Your sharepoint site/library URL\
@@ -69,14 +66,51 @@ This will add all document libraries of the site "mysite", from the tenant "Fore
 
 The user must have an account configured in KONNEKT, that belongs to the Azure AD in the tenant "ForeignTenant".
 
-## **There are several ways to apply the policy:**
+## **There are several ways to apply the policy**
 
-* manually by adding the key in the registry under machine or user registry settings
-* via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+1. via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
+2. pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+3. manually by adding the key in the registry under machine or user registry settings
 
-**Policies** stored in:
+{% hint style="warning" %}
+We highly recommend to use 1. or 2., since this policy has several components.
+{% endhint %}
 
-`HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
+### Manual setting in registry
 
-`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+{% hint style="info" %}
+You do not need this, if you use GPO or Intune management.
+{% endhint %}
+
+The policy consists of two components in the registry:
+
+1. **Value** (activate the feature)
+2. **Key with value per mapping** (describe every single mapping)
+
+#### **1. Value**
+
+* **Value name:** `SharepointSites`
+* **Value type:** `REG_DWORD`
+* **Value data:** `1` (to activate the feature)
+* Value **stored** in:
+  * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
+    ``or
+  * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+#### **2. Key with value per mapping**
+
+* **Key name:** `SharepointSites`
+* Key **stored** in:
+  * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
+    ``or
+  * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+Under this key, one value/data entry has to be generated per mapping:
+
+* **Value name:** equals Value data
+* **Value type:** `REG_SZ`
+* **Value data:** see [Policy definition](administrative-mappings.md#policy-definition).
+* Value **stored** in:
+  * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt\SharepointSites`\
+    ``or
+  * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt\SharepointSites`
