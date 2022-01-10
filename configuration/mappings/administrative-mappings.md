@@ -20,7 +20,7 @@ To add mappings click on **Show**
 
 **Format of site definitions:** `sharepoint-url|Name|DriveLetter|TenantName`
 
-`sharepoint-url:` Your sharepoint site/library URL\
+`sharepoint-url:` Your sharepoint site/library URL. Must be URL encoded (e.g. Spaces are represented by `%20`).\
 `Name:` Name you choose for the mapped site. This name must be unique for each mapping.\
 `DriveLetter:` for drive mapping\
 `TenantName:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).
@@ -48,13 +48,13 @@ This will add all document libraries of the site "mysite". The Drive will be lab
 
 #### Dedicated library of a site
 
-`https://mytenant.sharepoint.com/sites/mysite/Shared Documents|MySite Docs`
+`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs`
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs".
 
 #### Assign a drive letter
 
-`https://mytenant.sharepoint.com/sites/mysite/Shared Documents|MySite Docs|M:`&#x20;
+`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|M:`&#x20;
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs". The network path will be mapped to drive M.
 
