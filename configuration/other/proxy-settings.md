@@ -15,5 +15,5 @@ You should also make sure, that the KONNEKT client can reach [Azure AD and Share
 {% endhint %}
 
 {% hint style="warning" %}
-KONNEKT can use proxy servers. But we offer limited support for clients that are experiencing network connectivity issues, while connecting to Microsoft 365 via proxy server or other application layer gateways (ALG).
+KONNEKT can use proxy servers. But we offer limited support for clients that are experiencing network connectivity related issues, while connecting to Microsoft 365 via proxy server or other application layer gateways (ALG).
 {% endhint %}
