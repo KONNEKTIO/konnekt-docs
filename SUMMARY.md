@@ -46,6 +46,7 @@
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
   * [Why is there a grey "X" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
+  * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
   * [Azure Marketplace](licensing/azure-marketplace.md)
