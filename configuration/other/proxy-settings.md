@@ -11,9 +11,9 @@ To bypass your proxy server with traffic from KONNEKT, please make sure, that Wi
 
 You may do this by putting this URI on the exclude-list in your proxy PAC file.
 
-You should also make sure, that the KONNEKT client can reach [Azure AD and SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) without being interfered by proxy servers or other application level gateways.
+You should also make sure, that the KONNEKT client can reach [Azure AD and SharePoint Online](https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) without being interfered by proxy servers or other application layer gateways (ALG).
 {% endhint %}
 
 {% hint style="warning" %}
-We offer limited support for clients that are experiencing network connectivity issues, while connecting to Microsoft 365 via proxy server.
+KONNEKT can use proxy servers. But we offer limited support for clients that are experiencing network connectivity issues, while connecting to Microsoft 365 via proxy server or other application layer gateways (ALG).
 {% endhint %}
