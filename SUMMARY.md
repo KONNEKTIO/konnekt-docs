@@ -45,6 +45,7 @@
   * [Libraries are empty](troubleshooting/libraries-are-empty.md)
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
+  * [Some sites or libraries do not appear in KONNEKT](troubleshooting/some-sites-or-libraries-do-not-appear-in-konnekt.md)
   * [Why is there a grey "X" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
 * [Changelog](changelog.md)
