@@ -15,4 +15,4 @@ It consists of path and file name:
 * **file name** is: `<name>.<extension>`\
   12 characters are always preserved for the file name (8.3). Path and file name together must not exceed the limit of 260 characters in total.
 
-These limits are mainly caused by Windows OS restrictions. Details can be found [here](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=cmd).
+These limits are mainly caused by Windows OS and File Explorer restrictions. Details can be found [here](https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=cmd).
