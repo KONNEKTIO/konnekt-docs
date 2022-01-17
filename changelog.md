@@ -5,7 +5,7 @@
 * ADD: Improvements for heavy load environments
 * ADD: Remove limit of 192 libraries per site
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
-* FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
+* FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working (please update [ADMX from here](configuration/management-options/settings-via-gpo.md#admx-file))
 
 This is a preview of upcoming KONNEKT Version 2.1
 
