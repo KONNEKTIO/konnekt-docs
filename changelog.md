@@ -1,5 +1,21 @@
 # Changelog
 
+### 2.0.8 (Preview for KONNEKT V2.1 - 2022-01-17)
+
+* ADD: Improvements for heavy load environments
+* ADD: Remove limit of 192 libraries per site
+* FIX: Pinned links in taskbar lead to SPO site instead of UNC
+
+This is a preview of upcoming KONNEKT Version 2.1
+
+{% file src=".gitbook/assets/Konnekt-X64-2.0.8.0.Msi" %}
+64 Bit
+{% endfile %}
+
+{% file src=".gitbook/assets/Konnekt-X86-2.0.8.0.Msi" %}
+32 Bit (not recommended)
+{% endfile %}
+
 ### 2.0.0 (Published 2021-12-03)
 
 * ADD
