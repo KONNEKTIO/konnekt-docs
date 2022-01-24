@@ -1,55 +1,85 @@
 # Manual uninstallation
 
-1. If Konnekt is listed under programs you can uninstall it, but if the uninstall process fails or it's not available:
-   * Open **Regedit** and go to`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
-   * Check the GUID-named subkeys for the one that belongs to KONNEKT
-     * Check the DisplayName for '**Konnekt xy'**
-     * Check the Publisher for '**Glück & Kanja Consulting'**
-   * Delete the whole key
-2.  Remove the driver
+{% hint style="info" %}
+To uninstall KONNEKT from your system, we recommend to use the uninstaller that is part of KONNNEKT and can be activated via the _add remove software_ dialog of Windows.
+{% endhint %}
 
-    * Delete the following registry keys&#x20;
+However, if you can not leverage the uninstaller or there are settings left, you may use the information given on this site, to remove KONNEKT from your system.&#x20;
 
-    `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\konnekt`
+{% hint style="danger" %}
+This procedure is for IT pros, only. It is not supported by our service team.
+{% endhint %}
 
-    `Computer\HKEY_CURRENT_USER\SOFTWARE\Classes\Access.Application.16`
+### Remove Installer
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Excel.Sheet.12`
+If Konnekt is listed under programs you can uninstall it, but if the uninstall process fails or it's not available:
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Excel.Sheet.8`
+* Open **Regedit** and go to\
+  `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
+* Check the GUID-named subkeys for the one that belongs to KONNEKT
+  * Check the DisplayName for '**Konnekt xy'**
+  * Check the Publisher for '**Glück & Kanja Consulting'**
+* Delete the whole key
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Excel.SheetMacroEnabled.12`
+### Remove Driver
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\PowerPoint.Show.12`
+Remove the driver
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\PowerPoint.Show.8`
+* Run `net stop konnekt`
+* Delete `c:\windows\system32\drivers\konnektrx.sys`
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\PowerPoint.ShowMacroEnabled.12`
+### Remove the shell extensions
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Word.Document.12`
+* Run `regsvr32 /unregister "C:\Program Files\Konnekt\shellext.dll`
+*   Remove the following Windows Registry keys for **every user** on the machine:
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Word.Document.8`
+    ```
+    HKCU\SOFTWARE\Classes\Access.Application.16
+    HKCU\SOFTWARE\Classes\Excel.Sheet.12
+    HKCU\SOFTWARE\Classes\Excel.Sheet.8
+    HKCU\SOFTWARE\Classes\Excel.SheetMacroEnabled.12
+    HKCU\SOFTWARE\Classes\PowerPoint.Show.12
+    HKCU\SOFTWARE\Classes\PowerPoint.Show.8
+    HKCU\SOFTWARE\Classes\PowerPoint.ShowMacroEnabled.12
+    HKCU\SOFTWARE\Classes\Word.Document.12
+    HKCU\SOFTWARE\Classes\Word.Document.8
+    HKCU\SOFTWARE\Classes\Word.DocumentMacroEnabled.12
+    ```
 
-    `Computer\HKEY_USERS\S-1-5-21-83704801-2950256748-3048643274-500\SOFTWARE\Classes\Word.DocumentMacroEnabled.12`
+### Clean the registry
 
-    * Run `net stop konnekt`
-    * Delete `c:\windows\system32\drivers\konnektrx.sys`
-3. Remove shell extensions:
-   * Run `regsvr32 /unregister "C:\Program Files\Konnekt\shellext.dll`
-   * Restart the explorer&#x20;
-     * Navigate to Task Manager
-     * Search for Explorer
-     * Right-click on it
-     * Restart or logoff/logon
-4. Delete Konnekt folder under `%localappdata%`
-5. Delete `C:\Program Files\Konnekt`
-6.  Delete the following keys in the Windows Registry
+Remove the following Windows Registry keys on the **machine**:
 
-    `HKEY_CURRENT_USER\SOFTWARE\GlueckKanja\Konnekt`
+```
+HKLM\SYSTEM\CurrentControlSet\Services\konnekt
+HKLM\SOFTWARE\GlueckKanja\Konnekt
+HKLM\SOFTWARE\Policies\GlueckKanja\Konnekt
+```
 
-    `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
+Remove the following Windows Registry keys for **every user** on the machine:
 
-    `HKEY_LOCAL_MACHINE\SOFTWARE\GlueckKanja\Konnekt`
+```
+HKCU\SOFTWARE\GlueckKanja\Konnekt
+HKCU\SOFTWARE\Policies\GlueckKanja\Konnekt
+```
 
-    `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+### Clean Folders
 
+1. Delete the "Konnekt" folder under `%localappdata%`
+2. Delete `C:\Program Files\Konnekt`
+
+### Restart
+
+Some of the changes (like driver or the shell extensions) may need&#x20;
+
+* a reboot\
+  or
+* log-off & log-on\
+  or
+* restart the explorer with this procedure:
+  * Navigate to Task Manager
+  * Search for Explorer
+  * Right-click on it
+  * Click Restart.
+
+If you are unsure, please reboot.
