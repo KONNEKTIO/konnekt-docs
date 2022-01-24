@@ -23,8 +23,6 @@ If KONNEKT is listed under programs you can uninstall it, but if the uninstall p
 
 ### Remove Driver
 
-Remove the driver
-
 * Run `net stop konnekt`
 * Delete `c:\windows\system32\drivers\konnektrx.sys`
 
