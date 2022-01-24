@@ -4,7 +4,7 @@
 To uninstall KONNEKT from your system, we recommend to use the uninstaller that is part of KONNNEKT and can be activated via the _add remove software_ dialog of Windows.
 {% endhint %}
 
-However, if you can not leverage the uninstaller or there are settings left, you may use the information given on this site, to remove KONNEKT from your system.&#x20;
+However, if you can not leverage the uninstaller or there are settings left on your system after running the uninstaller, you may use the information given on this site, to remove KONNEKT from your system.&#x20;
 
 {% hint style="danger" %}
 This procedure is for IT pros, only. It is not supported by our service team.
@@ -12,7 +12,7 @@ This procedure is for IT pros, only. It is not supported by our service team.
 
 ### Remove Installer
 
-If Konnekt is listed under programs you can uninstall it, but if the uninstall process fails or it's not available:
+If KONNEKT is listed under programs you can uninstall it, but if the uninstall process fails or it's not available:
 
 * Open **Regedit** and go to\
   `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
