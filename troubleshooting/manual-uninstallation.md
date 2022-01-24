@@ -12,8 +12,6 @@ This procedure is for IT pros, only. It is not supported by our service team.
 
 ### Remove Installer
 
-If KONNEKT is listed under programs you can uninstall it, but if the uninstall process fails or it's not available:
-
 * Open **Regedit** and go to\
   `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
 * Check the GUID-named subkeys for the one that belongs to KONNEKT
@@ -63,8 +61,8 @@ HKCU\SOFTWARE\Policies\GlueckKanja\Konnekt
 
 ### Clean Folders
 
-1. Delete the "Konnekt" folder under `%localappdata%`
-2. Delete `C:\Program Files\Konnekt`
+* Delete the "Konnekt" folder under `%localappdata%`
+* Delete `C:\Program Files\Konnekt`
 
 ### Restart
 
