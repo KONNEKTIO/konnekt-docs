@@ -41,7 +41,6 @@
   * [Debug log preparation](troubleshooting/debug-log-preparation.md)
   * [Error message about missing token](troubleshooting/error-message-about-missing-token.md)
   * [How to deal with error(s)](troubleshooting/how-to-deal-with-error-s.md)
-  * [Incorrect hyperlink in Outlook](troubleshooting/incorrect-hyperlink-in-outlook.md)
   * [Libraries are empty](troubleshooting/libraries-are-empty.md)
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)

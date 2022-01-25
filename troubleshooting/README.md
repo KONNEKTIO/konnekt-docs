@@ -22,10 +22,6 @@ description: >-
 [how-to-deal-with-error-s.md](how-to-deal-with-error-s.md)
 {% endcontent-ref %}
 
-{% content-ref url="incorrect-hyperlink-in-outlook.md" %}
-[incorrect-hyperlink-in-outlook.md](incorrect-hyperlink-in-outlook.md)
-{% endcontent-ref %}
-
 {% content-ref url="manual-uninstallation.md" %}
 [manual-uninstallation.md](manual-uninstallation.md)
 {% endcontent-ref %}
