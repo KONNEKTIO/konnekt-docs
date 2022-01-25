@@ -6,6 +6,10 @@ description: >-
 
 # Troubleshooting
 
+{% content-ref url="add-share-key-not-found.md" %}
+[add-share-key-not-found.md](add-share-key-not-found.md)
+{% endcontent-ref %}
+
 {% content-ref url="clicking-a-share-does-nothing.md" %}
 [clicking-a-share-does-nothing.md](clicking-a-share-does-nothing.md)
 {% endcontent-ref %}
@@ -22,6 +26,10 @@ description: >-
 [how-to-deal-with-error-s.md](how-to-deal-with-error-s.md)
 {% endcontent-ref %}
 
+{% content-ref url="libraries-are-empty.md" %}
+[libraries-are-empty.md](libraries-are-empty.md)
+{% endcontent-ref %}
+
 {% content-ref url="manual-uninstallation.md" %}
 [manual-uninstallation.md](manual-uninstallation.md)
 {% endcontent-ref %}
@@ -30,7 +38,15 @@ description: >-
 [opening-ms-office-documents-displays-a-warning-message.md](opening-ms-office-documents-displays-a-warning-message.md)
 {% endcontent-ref %}
 
+{% content-ref url="some-sites-or-libraries-do-not-appear-in-konnekt.md" %}
+[some-sites-or-libraries-do-not-appear-in-konnekt.md](some-sites-or-libraries-do-not-appear-in-konnekt.md)
+{% endcontent-ref %}
+
 {% content-ref url="why-is-there-a-grey-x-on-my-files-and-folders.md" %}
 [why-is-there-a-grey-x-on-my-files-and-folders.md](why-is-there-a-grey-x-on-my-files-and-folders.md)
+{% endcontent-ref %}
+
+{% content-ref url="what-is-the-maximum-path-and-file-name-length.md" %}
+[what-is-the-maximum-path-and-file-name-length.md](what-is-the-maximum-path-and-file-name-length.md)
 {% endcontent-ref %}
 
