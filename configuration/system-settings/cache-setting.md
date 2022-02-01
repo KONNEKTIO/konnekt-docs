@@ -4,7 +4,11 @@
 This policy is applicable to version 2.0 and above
 {% endhint %}
 
-This policy defines the caching behavior of Konnekt.
+All files, that are read from or written to SharePoint Online via KONNEKT are temporarily cached on the local disc.&#x20;
+
+The cache directory is located at: `%localappdata%\konnekt\cache`
+
+This policy defines the caching behavior of KONNEKT.
 
 ## **KONNEKT uses the cache for different purposes:**
 
