@@ -34,6 +34,7 @@
     * [Disable KONNEKT for a subset of users](configuration/other/configure-konnekt-for-a-subset-of-users.md)
     * [Log level](configuration/other/log-level.md)
     * [Proxy settings](configuration/other/proxy-settings.md)
+    * [Open File Size Limitations](configuration/other/open-file-size-limitations.md)
     * [Set license key](configuration/other/license-key-on-multi-user-environments.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Add Share: "Key not found"](troubleshooting/add-share-key-not-found.md)

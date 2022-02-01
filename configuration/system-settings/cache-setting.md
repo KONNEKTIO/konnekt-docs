@@ -51,27 +51,6 @@ Maximum value of CacheSize is **20000** (Size in megabytes), if zero (0), the ca
 To apply the policy you have to restart the **Windows Explorer**
 {% endhint %}
 
-## KONNEKT read file limitations
-
-* **Policy key name: OneDriveOpenFilesLargerThanReadOnly**\
-  &#x20;Files which are larger than this size are opened read-only on OneDrive and O365 accounts.\
-  **Default: 512 \* 1024 \* 1024 bytes.**
-* **Policy key name: OneDriveDoNotOpenFilesLargerThan**\
-  &#x20;Do not open files which are larger than this size on OneDrive and O365 accounts.\
-  **Default: 1024 \* 1024 \* 1024 bytes.**
-
-## Recommendations for VDI environments
-
-We recommend the following settings for VDI environments in general, but please make sure, that this settings fits your use-case of KONNEKT:&#x20;
-
-&#x20;**Cache TTL**: 10-60 min
-
-**Cache Size**: 500-1000 MB
-
-**OneDriveOpenFilesLargerThanReadOnly**: 100-500 MB (= 104,857,600 - 524,288,000 bytes)
-
-**OneDriveDoNotOpenFilesLargerThan**: 200-1000 MB (= 209,715,200 - 1,048,576,000 bytes)
-
 ## **There are several ways to apply the policy:**
 
 * manually by adding the key in the registry under machine or user registry settings
@@ -84,3 +63,16 @@ We recommend the following settings for VDI environments in general, but please 
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
+## Recommendations for VDI environments
+
+We recommend the following settings for VDI environments in general, but please make sure, that this settings fits your use-case of KONNEKT:&#x20;
+
+**Cache TTL**: 10-60 min
+
+**Cache Size**: 500-1000 MB
+
+You may also want to [restrict the file size](../other/open-file-size-limitations.md), that you are reading from SharePoint Online:
+
+**OneDriveOpenFilesLargerThanReadOnly**: 100-500 MB (= 104,857,600 - 524,288,000 bytes)
+
+**OneDriveDoNotOpenFilesLargerThan**: 200-1000 MB (= 209,715,200 - 1,048,576,000 bytes)
