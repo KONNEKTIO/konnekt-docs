@@ -8,6 +8,10 @@
 [log-level.md](log-level.md)
 {% endcontent-ref %}
 
+{% content-ref url="open-file-size-limitations.md" %}
+[open-file-size-limitations.md](open-file-size-limitations.md)
+{% endcontent-ref %}
+
 {% content-ref url="proxy-settings.md" %}
 [proxy-settings.md](proxy-settings.md)
 {% endcontent-ref %}
