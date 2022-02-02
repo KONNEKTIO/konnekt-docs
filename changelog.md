@@ -4,18 +4,23 @@
 
 * ADD: Improvements for heavy load environments
 * ADD: Remove limit of 192 libraries per site
+* ADD: Logging level policy
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working (please update [ADMX from here](configuration/management-options/settings-via-gpo.md#admx-file))
 * FIX: Installation on RDS
 
-This is a preview of upcoming KONNEKT Version 2.1
+This is a preview of the upcoming KONNEKT Version 2.1
 
-{% file src=".gitbook/assets/Konnekt-X64-2.0.10.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.11.0.zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.10.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.11.0.zip" %}
 32 Bit
+{% endfile %}
+
+{% file src=".gitbook/assets/KONNEKT_ADMX_V2.1Preview.zip" %}
+Preview ADMX file for V2.1
 {% endfile %}
 
 ### 2.0.0 (Published 2021-12-03)
