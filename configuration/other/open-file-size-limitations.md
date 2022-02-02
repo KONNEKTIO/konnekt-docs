@@ -36,7 +36,7 @@ Files which are larger than this size are opened read-only on OneDrive and O365 
 
 ### **Block opening threshold**
 
-**Value name:** `OneDriveOpenFilesLargerThanReadOnly`\
+**Value name:** `OneDriveDoNotOpenFilesLargerThan`\
 **Value storage location:** `HKCU\SOFTWARE\GlueckKanja\Konnekt`\
 **Value type:** `DWORD`\
 ``**Value unit:** `bytes`
