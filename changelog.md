@@ -11,16 +11,16 @@
 
 This is a preview of the upcoming KONNEKT Version 2.1
 
-{% file src=".gitbook/assets/Konnekt-X64-2.0.11.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.11.0 (1).zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.11.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.11.0 (1).zip" %}
 32 Bit
 {% endfile %}
 
-{% file src=".gitbook/assets/KONNEKT_ADMX_V2.1Preview.zip" %}
-Preview ADMX file for V2.1
+{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-V2.0.11.0.zip" %}
+ADMX, ADML Preview
 {% endfile %}
 
 ### 2.0.0 (Published 2021-12-03)
@@ -30,7 +30,7 @@ Preview ADMX file for V2.1
   * Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
   * Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
   * [Cache settings](configuration/system-settings/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
-  * [Intune Management](configuration/management-options/setting-for-intune-managed-devices.md)
+  * [Intune Management](configuration/management-options/setting-for-intune-managed-devices/)
   * Offline Attribute Filter to enable explorer previews on certain file types
   * [ADMX & ADML files ](configuration/management-options/settings-via-gpo.md#admx-file)got new policies & structure
 * FIX
@@ -41,7 +41,7 @@ Preview ADMX file for V2.1
 
 ### 1.20.0 (Published 2021-04-21)
 
-* ADD: Advanced sharepoint throttle handling
+* ADD: Advanced SharePoint throttle handling
 * FIX: Handling of multiple accounts in the same tenant
 * FIX: Stability issues under write pressure
 
@@ -54,7 +54,7 @@ Preview ADMX file for V2.1
 ### 1.18.0 (Published 2021-02-10)
 
 * ADD: Improve SSO flow
-* FIX: Sharepoint token may expire
+* FIX: SharePoint token may expire
 * FIX: Proxy settings are not reevaluated on network connection changes
 * FIX: Path issues if profile path contains umlauts
 

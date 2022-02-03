@@ -1,4 +1,4 @@
-# Managed Mappings
+# Managed mappings
 
 {% hint style="info" %}
 This policy is applicable to version 2.0 and above
@@ -69,7 +69,7 @@ The user must have an account configured in KONNEKT, that belongs to the Azure A
 ## **There are several ways to apply the policy**
 
 1. via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-2. pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+2. pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
 3. manually by adding the key in the registry under machine or user registry settings
 
 {% hint style="warning" %}

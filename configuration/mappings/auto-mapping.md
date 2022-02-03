@@ -1,4 +1,4 @@
-# Auto Mapping
+# Auto mapping
 
 Auto Mapping is the feature of KONNEKT, that automatically maps all SharePoint Online sites & document libraries into the users Windows File Explorer (and other file dialogues). Only sites & libraries, the user has access to, are mapped.
 
@@ -107,7 +107,7 @@ you can change the site query string to fit your requirements to show:
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
 
 #### **Manual setting in registry**
 

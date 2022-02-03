@@ -1,4 +1,4 @@
-# Offline Attribute
+# Offline attribute
 
 Files provided by KONNEKT can be marked with the offline attribute (see also [FILE\_ATTRIBUTE\_OFFLINE](https://docs.microsoft.com/en-us/openspecs/windows\_protocols/ms-fscc/ca28ec38-f155-4768-81d6-4bfeb8586fc9)). This offline attribute signals to other system components like the Windows Explorer that the file is not locally available. This prevents components like preview, search and indexing from accessing the files.&#x20;
 
@@ -52,7 +52,7 @@ This policy controls which file types will not be marked with an offline attribu
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
 
 **Policies** stored in:
 
