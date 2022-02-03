@@ -16,7 +16,7 @@ To apply the policy you have to restart **KONNEKT**
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-gui-settings.md#account-re-authentication-ui)
 
 **Policies** stored in:
 

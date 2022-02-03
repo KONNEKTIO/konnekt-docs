@@ -29,11 +29,7 @@ Policy name: `Connect drive`
 ### Registry
 
 **Key name:** `ConnectDrive`\
-**Key type:** REG\_SZ (String Value)\
-**Storage locations:**
-
-* `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
-* `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+**Key type:** REG\_SZ (String Value)
 
 ## Assign drive letters to other folders using "net use"
 
@@ -62,3 +58,15 @@ net use <DRIVE-LETTER>: <KONNEKT-UNC-PATH> [/PERSISTENT:{YES | NO}]
 ## Assign drive letters with Managed Mappings
 
 You can map drive letters to sites and libraries with [Managed Mappings](administrative-mappings.md).
+
+## **There are several ways to apply the policy:**
+
+* manually by adding the key in the registry under machine or user registry settings
+* via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-mappings.md#connect-drive)
+
+**Policies** stored in:
+
+`HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`

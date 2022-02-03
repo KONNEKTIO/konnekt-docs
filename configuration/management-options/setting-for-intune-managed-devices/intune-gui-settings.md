@@ -135,7 +135,7 @@ Device context:
 ./Device/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~ExplorerUI/ShowTrayIcon
 ```
 
-**Value**
+**Value options**
 
 ```
 <enabled/>

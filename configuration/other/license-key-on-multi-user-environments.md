@@ -28,7 +28,7 @@ Entering the license key in the preferences menu:
 ![](<../../.gitbook/assets/image (16).png>)
 
 {% hint style="danger" %}
-The preference menu sets the license for the current user (HKCU), only. Other users logging in the same machine would also have to set the license.
+The preference menu sets the license for the current user (HKCU), only. Other users logging into the same machine would also have to set the license.
 
 If a license key is configured at HKLM, settings via preferences menu are not effective. (see [Set License Key](license-key-on-multi-user-environments.md#license-key-storage) for details).&#x20;
 {% endhint %}
@@ -46,7 +46,7 @@ We recommend to use our [ADMX template](../management-options/settings-via-gpo.m
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-other-settings.md#set-license-key)
 
 **Policies** stored in:
 

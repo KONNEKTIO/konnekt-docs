@@ -52,12 +52,14 @@ Device context:
 
 **Data type:** String
 
-**Value**&#x20;
+**Value options**
 
 ```
 <enabled/>
-or
-<disabled/>
+```
+
+```
+<disabled/
 ```
 
 **Note**
@@ -84,11 +86,13 @@ Device context:
 
 **Data type:** String
 
-**Value**&#x20;
+**Value options**
 
 ```
 <enabled/>
-or
+```
+
+```
 <disabled/>
 ```
 

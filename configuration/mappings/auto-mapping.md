@@ -107,7 +107,7 @@ you can change the site query string to fit your requirements to show:
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-mappings.md#sharepoint-site-query)
 
 #### **Manual setting in registry**
 
@@ -176,3 +176,9 @@ To prevent this, make sure, that all users use the same value for this setting.
 {% endhint %}
 
 We recommend using our [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting.
+
+## **There are several ways to apply the policy:**
+
+* manually by adding the key in the registry under machine or user registry settings
+* via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-mappings.md#add-sharepoint-libraries)

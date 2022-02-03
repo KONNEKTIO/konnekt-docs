@@ -22,14 +22,14 @@ Please check your "[Default SharePoint link scope policy](https://docs.microsoft
 
 _Copy Link To Clipboard_ in KONNEKT will not work, if the _Default sharing link type_ of a SharePoint Site is set to _Specific people_ and the KONNEKT _Default SharePoint link scope policy_ is not set.
 
-If you have sites with the default sharing link type _Specific people_, we therefore recommend to set this policy in KONNEKT to _Anonymous_, _Organization_ or _Disabled_. _Default company setting_ will not work.
+If you have sites with the default sharing link type _Specific people_, we therefore recommend to set this policy in KONNEKT to _Anonymous_, _Organization,_ or _Disabled_. The _default company setting_ will not work.
 {% endhint %}
 
 ## **There are several ways to apply the policy:**
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#link-scope)
 
 **Policies** stored in:
 

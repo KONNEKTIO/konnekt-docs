@@ -59,7 +59,7 @@ To apply the policy you have to restart the **Windows Explorer**
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#cache)
 
 #### **Policies** stored in:
 
@@ -69,7 +69,7 @@ To apply the policy you have to restart the **Windows Explorer**
 
 ## Recommendations for VDI environments
 
-We recommend the following settings for VDI environments in general, but please make sure, that this settings fits your use-case of KONNEKT:&#x20;
+We recommend the following settings for VDI environments in general, but please make sure, that this setting fit your use-case of KONNEKT:&#x20;
 
 **Cache TTL**: 10-60 min
 

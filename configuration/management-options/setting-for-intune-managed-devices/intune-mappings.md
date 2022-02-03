@@ -20,11 +20,13 @@ Device context:
 
 **Data type:** String
 
-**Value**&#x20;
+**Value options**
 
 ```
 <enabled/>
-or 
+```
+
+```
 <disabled/>
 ```
 
@@ -52,11 +54,13 @@ Device context:
 
 **Data type:** String
 
-**Value**&#x20;
+**Value options**
 
 ```
 <enabled/> <data id="DriveSelect" value="F:"/>
-or
+```
+
+```
 <disabled/>
 ```
 
@@ -115,11 +119,13 @@ Device context:
 
 **Data type:** String
 
-**Value**&#x20;
+**Value options**
 
 ```
 <enabled/>
-or
+```
+
+```
 <disabled/>
 ```
 
