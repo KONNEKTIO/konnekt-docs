@@ -1,6 +1,8 @@
 # Changelog
 
-### 2.0.10 (Preview for KONNEKT V2.1 - 2022-01-25)
+### 2.0.11 preview release (published 2022-02-02)
+
+**This is a preview version for KONNEKT V2.1.** Some features are still  in development. Bugs may occur.
 
 * ADD: Improvements for heavy load environments
 * ADD: Remove limit of 192 libraries per site
