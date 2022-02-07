@@ -18,7 +18,7 @@ For more information see [https://github.com/OneDrive/onedrive-api-docs/blob/liv
 
 Please check your "[Default SharePoint link scope policy](https://docs.microsoft.com/en-us/sharepoint/change-default-sharing-link)" setting in SharePoint Online.&#x20;
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (1).png>)
 
 _Copy Link To Clipboard_ in KONNEKT will not work, if the _Default sharing link type_ of a SharePoint Site is set to _Specific people_ and the KONNEKT _Default SharePoint link scope policy_ is not set.
 

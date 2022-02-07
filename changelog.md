@@ -11,7 +11,11 @@
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
 * FIX: Installation on RDS
 
-This is a preview of the upcoming KONNEKT Version 2.1
+Known issue: "Enable Sharepoint Sites" and "Automatically add all Sharepoint document libraries" can not be changed from the preferences menu and shows "deactivated", although the setting is activated:&#x20;
+
+![](<.gitbook/assets/image (24).png>)
+
+Workaround: If you want to change the default, set the features via policy. See [here](configuration/mappings/auto-mapping.md#2.-library-scope) for details.
 
 {% file src=".gitbook/assets/Konnekt-X64-2.0.11.0 (1).zip" %}
 64 Bit (Recommended)

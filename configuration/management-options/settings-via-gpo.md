@@ -20,9 +20,9 @@ To use group policies for KONNEKT please use the attached ADMX Template. For sce
 
 With the ADMX Template the following settings can be set:
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
-{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-V2-0-0.zip" %}
+{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-V2-0-8.zip" %}
 **ADMX and ADML files for KONNEKT V2**
 {% endfile %}
 
