@@ -10,7 +10,7 @@
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
 * FIX: Installer coordinator issue during setup on some RDS environments
-* FIX: Unwanted policy changes after hybernation
+* FIX: Unwanted policy changes after hybernation in some environments
 
 Known issue: "Enable Sharepoint Sites" and "Automatically add all Sharepoint document libraries" can not be changed from the preferences menu and shows "deactivated", although the setting is activated:&#x20;
 
