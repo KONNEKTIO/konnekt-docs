@@ -11,7 +11,7 @@
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
 * FIX: Installer coordinator issue during setup on some RDS environments
 * FIX: Unwanted policy changes after hibernation in some environments&#x20;
-* FIX: "Enable Sharepoint Sites" option not grayed out using GPO/Intune policy.
+* FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
 
 {% file src=".gitbook/assets/Konnekt-X64-2.0.15.0.zip" %}
 64 Bit (Recommended)
