@@ -1,8 +1,8 @@
 # Changelog
 
-### 2.0.11 preview release (published 2022-02-02)
+### 2.0.15 preview release (published 2022-02-10)
 
-**This is a preview version for KONNEKT V2.1.** Some features are still  in development. Bugs may occur.
+**This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
 * ADD: Improvements for heavy load environments
 * ADD: Remove limit of 192 libraries per site
@@ -10,19 +10,13 @@
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
 * FIX: Installer coordinator issue during setup on some RDS environments
-* FIX: Unwanted policy changes after hybernation in some environments
+* FIX: Unwanted policy changes after hibernation in some environments&#x20;
 
-Known issue: "Enable Sharepoint Sites" and "Automatically add all Sharepoint document libraries" can not be changed from the preferences menu and shows "deactivated", although the setting is activated:&#x20;
-
-![](<.gitbook/assets/image (24).png>)
-
-Workaround: If you want to change the default, set the features via policy. See [here](configuration/mappings/auto-mapping.md#2.-library-scope) for details.
-
-{% file src=".gitbook/assets/Konnekt-X64-2.0.11.0 (1).zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.15.0.zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.11.0 (1).zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.15.0.zip" %}
 32 Bit
 {% endfile %}
 
