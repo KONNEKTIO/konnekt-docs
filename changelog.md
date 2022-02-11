@@ -7,6 +7,7 @@
 * ADD: Improvements for heavy load environments
 * ADD: Remove limit of 192 libraries per site
 * ADD: Logging level policy
+* ADD: OneDrive and SharePoint Online Multi-Geo support
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
 * FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
 * FIX: Installer coordinator issue during setup on some RDS environments

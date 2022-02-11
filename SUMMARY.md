@@ -31,6 +31,7 @@
     * [Managed mappings](configuration/mappings/administrative-mappings.md)
   * [System Settings](configuration/system-settings/README.md)
     * [Cache settings](configuration/system-settings/cache-setting.md)
+    * [Multi-Geo](configuration/system-settings/multi-geo.md)
     * [Office365 Co-Authoring](configuration/system-settings/office365-co-authoring.md)
     * [Offline attribute](configuration/system-settings/offline-attribute.md)
     * [Link scope](configuration/system-settings/link-scope.md)
