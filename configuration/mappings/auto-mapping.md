@@ -39,6 +39,14 @@ https://<YourTenantName>.sharepoint.com/_layouts/15/osssearchresults.aspx
 
 In the following paragraphs, you can find some examples for KQL query strings.
 
+### Default
+
+If you do not configure this policy, KONNEKT will use the following default KQL query:
+
+```
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
+```
+
 ### **Example 1: Filter on Site name/title (whitelist)**
 
 `Title="MySiteName"`
