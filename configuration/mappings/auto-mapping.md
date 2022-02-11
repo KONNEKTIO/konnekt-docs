@@ -47,6 +47,8 @@ If you do not configure this policy, KONNEKT will use the following default KQL 
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web)
 ```
 
+This will map all team and communication sites, the user has access to. Private channels of Teams are not in the default site scope
+
 ### **Example 1: Filter on Site name/title (whitelist)**
 
 `Title="MySiteName"`
