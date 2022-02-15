@@ -26,6 +26,10 @@ Policy name: `Connect drive`
 |    Enable   |                   "Disabled"                  | KONNEKT will not assign a drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                                |
 |    Enable   | <p>&#x3C;drive-letter>:</p><p>(e.g. "H:")</p> | KONNEKT will assign the configured drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                       |
 
+{% hint style="info" %}
+After applying the policy, restarting the machine is required
+{% endhint %}
+
 ### Registry
 
 **Key name:** `ConnectDrive`\
