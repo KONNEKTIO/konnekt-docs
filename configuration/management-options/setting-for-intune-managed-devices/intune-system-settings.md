@@ -161,3 +161,38 @@ Device context:
 **Note**
 
 For more information about the policy and setting the value, see [Link scope](../../system-settings/link-scope.md)
+
+## Log level
+
+{% hint style="info" %}
+Available for KONNEKT 2.1 or newer
+{% endhint %}
+
+**Name:** Konnekt-Log-Level
+
+**OMA-URI**
+
+User context:
+
+```
+./User/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~SystemSettings/LogLevel
+```
+
+Device context:
+
+```
+./Device/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~SystemSettings/LogLevel
+```
+
+**Data type:** String
+
+**Value**&#x20;
+
+```
+<enabled/>
+<data id="LogLevelSelect" value="see Note"/>
+```
+
+**Note**
+
+For more information about the policy and setting the value, see [Log level](../../system-settings/log-level.md)

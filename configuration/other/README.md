@@ -4,8 +4,8 @@
 [configure-konnekt-for-a-subset-of-users.md](configure-konnekt-for-a-subset-of-users.md)
 {% endcontent-ref %}
 
-{% content-ref url="log-level.md" %}
-[log-level.md](log-level.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="open-file-size-limitations.md" %}

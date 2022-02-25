@@ -23,16 +23,16 @@ You can find more details on OneDrive and SharePoint Online Multi-Geo [here](htt
 2. Pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
 3. Manually by adding the key in the registry
 
-### Manual setting in registry
+### Manual setting in the registry
 
 {% hint style="info" %}
-You do not need this, if you use GPO or Intune management
+You do not need this if you use GPO or Intune management
 {% endhint %}
 
 * **Value name:** `SharepointMultiGeo`
 * **Value type:** `REG_DWORD`
 * **Value data:** `1` (to activate the feature)
-* Value **stored** in:
+* **Value stored** **in**:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
     ``or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
