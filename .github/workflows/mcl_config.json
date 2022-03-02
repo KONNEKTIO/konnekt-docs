@@ -1,0 +1,29 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": ".*broken-reference.*"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "\\\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\\\_",
+      "replacement": "_"
+    },
+    {
+      "pattern": "\\\\_",
+      "replacement": "_"
+    }
+  ]
+}
