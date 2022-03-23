@@ -30,3 +30,11 @@ We made KONNEKT more robust to error responses from SharePoint Online starting f
 {% hint style="warning" %}
 If the error responses happen **frequently or permanently**, KONNEKT will not work properly, since KONNEKT relies on a proper availability of SharePoint Online.
 {% endhint %}
+
+### Similar Problems
+
+Please also check this pages:&#x20;
+
+[Some sites or libraries do not appear in KONNEKT](some-sites-or-libraries-do-not-appear-in-konnekt.md)
+
+[Libraries are empty](libraries-are-empty.md)

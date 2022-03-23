@@ -13,3 +13,7 @@ In some cases, users may be owners of a site, but not members. This results in n
 ### Solution
 
 Ensure, that owners of sites are also members. See [here](https://docs.microsoft.com/en-us/sharepoint/troubleshoot/search/search-results-dont-appear-for-group-owners) for more details.
+
+### Similar Problems
+
+Please also check this page: [Sites missing or folders empty](sites-missing-or-folders-empty.md)

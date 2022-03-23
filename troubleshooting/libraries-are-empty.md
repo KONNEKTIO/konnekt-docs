@@ -25,3 +25,7 @@ After installing the new version of KONNEKT, please&#x20;
 * Wait 5-10 minutes.
 
 After this procedure, the libraries should work.
+
+### Similar Problems
+
+Please also check this page: [Sites missing or folders empty](sites-missing-or-folders-empty.md)
