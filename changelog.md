@@ -1,6 +1,6 @@
 # Changelog
 
-### 2.0.15 preview release (published 2022-02-10)
+### 2.0.16 preview release (published 2022-03-23)
 
 **This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
@@ -13,16 +13,17 @@
 * FIX: Installer coordinator issue during setup on some RDS environments
 * FIX: Unwanted policy changes after hibernation in some environments&#x20;
 * FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
+* FIX: Handling of type 500 error responses from SharePoint Online
 
-{% file src=".gitbook/assets/Konnekt-X64-2.0.15.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.16.0.zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.15.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.16.0.zip" %}
 32 Bit
 {% endfile %}
 
-{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-V2.0.11.0.zip" %}
+{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-V2.0.15.0.zip" %}
 ADMX, ADML Preview
 {% endfile %}
 
