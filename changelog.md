@@ -13,7 +13,7 @@
 * FIX: Installer coordinator issue during setup on some RDS environments
 * FIX: Unwanted policy changes after hibernation in some environments&#x20;
 * FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
-* FIX: Handling of type 500 error responses from SharePoint Online
+* FIX: Handling of type 500 error responses from SharePoint Online causing empty folders
 
 {% file src=".gitbook/assets/Konnekt-X64-2.0.16.0.zip" %}
 64 Bit (Recommended)
