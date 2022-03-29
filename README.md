@@ -4,12 +4,6 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 # Welcome
 
-{% hint style="success" %}
-## **log4j**
-
-KONNEKT is **not** affected by the **log4j** vulnerability ([CVE-2021-44228](https://www.cve.org/CVERecord?id=CVE-2021-44228)).
-{% endhint %}
-
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
 
 KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix** or **Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD).
