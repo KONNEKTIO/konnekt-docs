@@ -30,7 +30,7 @@ Try to reproduce whatever the problem is. Give it some time.
 
 ### Download and run the following batch file:
 
-{% file src="../.gitbook/assets/KONNEKT-debug.zip" %}
+{% file src="../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
 
 ### Find the files and send them to our engineering team
 
@@ -40,7 +40,7 @@ You'll find the collected files in:
 %UserProfile%\KONNEKT
 ```
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (30).png>)
 
 Please select all files, zip them and send the zip file to our support.
 
