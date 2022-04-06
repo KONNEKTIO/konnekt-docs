@@ -1,11 +1,11 @@
 # Changelog
 
-### 2.0.17 preview release (published 2022-03-25)
+### 2.0.21 preview release (published 2022-04-02)
 
 **This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
 * ADD: Improvements for heavy load environments
-* ADD: Remove limit of 192 libraries per site
+* ADD: Remove the limit of 192 libraries per site
 * ADD: Logging level policy
 * ADD: OneDrive and SharePoint Online Multi-Geo support
 * FIX: Pinned links in taskbar lead to SPO site instead of UNC
@@ -15,15 +15,15 @@
 * FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
 * FIX: Handling of error responses from SharePoint Online causing empty folders
 
-{% file src=".gitbook/assets/Konnekt-X64-2.0.17.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.21.0.zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.17.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.21.0.zip" %}
 32 Bit
 {% endfile %}
 
-{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-V2.0.15.0.zip" %}
+{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-2.1Preview.zip" %}
 ADMX, ADML Preview
 {% endfile %}
 
