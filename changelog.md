@@ -1,6 +1,6 @@
 # Changelog
 
-### 2.0.21 preview release (published 2022-04-02)
+### 2.0.24 preview release (published 2022-04-07)
 
 **This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
@@ -14,12 +14,13 @@
 * FIX: Unwanted policy changes after hibernation in some environments&#x20;
 * FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
 * FIX: Handling of error responses from SharePoint Online causing empty folders
+* FIX: "Add site favorite" feature
 
-{% file src=".gitbook/assets/Konnekt-X64-2.0.21.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X64-2.0.24.0.zip" %}
 64 Bit (Recommended)
 {% endfile %}
 
-{% file src=".gitbook/assets/Konnekt-X86-2.0.21.0.zip" %}
+{% file src=".gitbook/assets/Konnekt-X86-2.0.24.0.zip" %}
 32 Bit
 {% endfile %}
 
