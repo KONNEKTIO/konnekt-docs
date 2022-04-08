@@ -9,7 +9,7 @@ Administrators can control this feature on two levels:
 
 KONNEKT updates the mappings every 60 minutes.
 
-## 1. Site scope
+## Site scope
 
 {% hint style="info" %}
 This policy is applicable to version 2.0 and above
@@ -49,68 +49,93 @@ If you do not configure this policy, KONNEKT will use the following default KQL 
 
 This will map all team and communication sites, the user has access to. Private channels of Teams are not in the default site scope
 
-### **Example 1: Filter on Site name/title (whitelist)**
+![](<../../.gitbook/assets/sharepoint site query policy.png>)
 
-`Title="MySiteName"`
+### Examples
 
-**Query String** to map only the sites "Give" and "Contoso":
+<details>
+
+<summary>Filter on site name/title (whitelisting)</summary>
+
+`Title="<MySiteName>"`
+
+**Query String** to map only the sites "Give" and "Leadership"
 
 ```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (Title="Give" OR Title="Contoso")
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (title="Give" OR title="Leadership")
 ```
 
-![](<../../.gitbook/assets/2021-07-16 14\_40\_28-192.168.2.50 - Remote Desktop Connection.png>)
+**Note:** restarting KONNEKT is required to apply the policy
 
-{% hint style="warning" %}
-To apply the policy you have to restart **KONNEKT**
+</details>
+
+![](../../.gitbook/assets/KONNEKTQueryPolicy.png)
+
+{% hint style="info" %}
+**Note:** To show all sites with \<Leadership> in the name, use the operator **(:)** instead of **(=)** by title
 {% endhint %}
 
-**Result**
+<details>
 
-![](<../../.gitbook/assets/2021-07-16 14\_41\_22-192.168.2.50 - Remote Desktop Connection.png>)
+<summary>Filter on site name/title using (*) operator(whitelisting)</summary>
 
-### Example 2: Exclude Site name/title (blacklist)
+Show all sites has a word starting with Con `title:<"Con*">`
+
+**Query string**
+
+```
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (title:"Con*")
+```
+
+</details>
+
+{% hint style="info" %}
+**Note**: We do not recommend combining the **(=)** operator together with asterisk **(\*)** when you do exact matching. Instead, use the **(:)** operator with **(\*)**
+{% endhint %}
+
+<details>
+
+<summary>Exclude sites per site name/title (blacklisting)</summary>
 
 Map all sites and libraries except specific sites (and their libraries)
 
-**Query string to exclude Site01 and Site02:**
+**Query string** to exclude **** `<Site01>` **** and **** `<Site02>`
 
 ```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (SiteTitle="Site01" OR SiteTitle="Site02"))
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (sitetitle:"Site01" OR sitetitle:"Site02"))
 ```
 
-{% hint style="warning" %}
-Do not forget to restart **KONNEKT** to apply the policy
-{% endhint %}
+**Note:** restarting KONNEKT is required to apply the policy
 
-### **Example 3: Add Microsoft Teams private channels**
+</details>
 
-Map all teams private channels
+<details>
 
-`webtemplate:TEAMCHANNEL`
+<summary>Add Microsoft Teams private channels</summary>
 
-**Query String:**
+Map all **** SP **** sites and teams private channels
+
+By adding `webtemplate:TEAMCHANNEL` to the query
+
+**Query string**
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING OR webtemplate:TEAMCHANNEL) AND (contentclass=STS_Site OR contentclass=STS_Web)
 ```
 
-{% hint style="warning" %}
-Do not forget to restart **KONNEKT** to apply the policy
-{% endhint %}
+**Note:** restarting KONNEKT is required to apply the policy
 
-**Result**
-
-![](<../../.gitbook/assets/2021-08-13 08\_29\_21-192.168.2.50 - Remote Desktop Connection.png>)
+</details>
 
 {% hint style="info" %}
-you can change the site query string to fit your requirements to show:
+Also you can change the site query string to fit your requirements to show:
 
 * all subsites
 * only specific subsites
 * all sites and specific subsites
 * specific sites and specific subsites
-* and so on
+* specific sites, specific subsites and private channels
+* etc..
 {% endhint %}
 
 ### **There are several ways to apply the policy:**
@@ -119,10 +144,10 @@ you can change the site query string to fit your requirements to show:
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
 * pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-mappings.md#sharepoint-site-query)
 
-#### **Manual setting in registry**
+#### **Manual setting in the registry**
 
 {% hint style="info" %}
-You do not need this, if you use GPO or Intune management.
+You do not need this if you use GPO or Intune management.
 {% endhint %}
 
 * **Registry Value name:** `SharepointSiteQuery`
@@ -133,7 +158,7 @@ You do not need this, if you use GPO or Intune management.
     ``or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
-## 2. Library scope
+## Library scope
 
 ### Map default document site libraries
 
