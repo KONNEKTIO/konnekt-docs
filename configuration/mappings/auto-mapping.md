@@ -53,9 +53,11 @@ This will map all team and communication sites, the user has access to. Private 
 
 ### Examples
 
+#### Sites whitelisting
+
 <details>
 
-<summary>Filter on site name/title (whitelisting)</summary>
+<summary>Filter on site name/title</summary>
 
 `Title="<MySiteName>"`
 
@@ -75,9 +77,11 @@ This will map all team and communication sites, the user has access to. Private 
 **Note:** To show all sites with \<Leadership> in the name, use the operator **(:)** instead of **(=)** by title
 {% endhint %}
 
+#### Sites whitelisting using \* operator
+
 <details>
 
-<summary>Filter on site name/title using (*) operator(whitelisting)</summary>
+<summary>Filter on site name/title using (*) operator</summary>
 
 Show all sites has a word starting with Con `title:<"Con*">`
 
@@ -93,9 +97,11 @@ Show all sites has a word starting with Con `title:<"Con*">`
 **Note**: We do not recommend combining the **(=)** operator together with asterisk **(\*)** when you do exact matching. Instead, use the **(:)** operator with **(\*)**
 {% endhint %}
 
+#### Sites blacklisting
+
 <details>
 
-<summary>Exclude sites per site name/title (blacklisting)</summary>
+<summary>Exclude sites per site name/title</summary>
 
 Map all sites and libraries except specific sites (and their libraries)
 
@@ -108,6 +114,8 @@ Map all sites and libraries except specific sites (and their libraries)
 **Note:** restarting KONNEKT is required to apply the policy
 
 </details>
+
+#### Teams private channels
 
 <details>
 
@@ -126,17 +134,6 @@ By adding `webtemplate:TEAMCHANNEL` to the query
 **Note:** restarting KONNEKT is required to apply the policy
 
 </details>
-
-{% hint style="info" %}
-Also you can change the site query string to fit your requirements to show:
-
-* all subsites
-* only specific subsites
-* all sites and specific subsites
-* specific sites and specific subsites
-* specific sites, specific subsites and private channels
-* etc..
-{% endhint %}
 
 ### **There are several ways to apply the policy:**
 
