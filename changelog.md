@@ -5,7 +5,7 @@
 **This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
 * ADD
-  * OneDrive and SharePoint Online Multi-Geo support
+  * Multi-Geo support for OneDrive and SharePoint Online&#x20;
   * Improvements for heavy load environments
   * Remove the limit of 192 libraries per site
   * Logging level policy
