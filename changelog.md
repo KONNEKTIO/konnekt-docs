@@ -1,8 +1,6 @@
 # Changelog
 
-### 2.0.28 preview release (published 2022-05-05)
-
-**This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
+### 2.1.0 (Published 2022-05-12)
 
 * ADD
   * Multi-Geo support for OneDrive and SharePoint Online&#x20;
@@ -17,18 +15,6 @@
   * "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
   * Handling of error responses from SharePoint Online causing empty folders
   * "Add site favorite" feature
-
-{% file src=".gitbook/assets/Konnekt-X64-2.0.28.0.zip" %}
-64 Bit (Recommended)
-{% endfile %}
-
-{% file src=".gitbook/assets/Konnekt-X86-2.0.28.0.zip" %}
-32 Bit
-{% endfile %}
-
-{% file src=".gitbook/assets/KONNEKT-ADMX-ADML-2.1Preview.zip" %}
-ADMX, ADML Preview
-{% endfile %}
 
 ### 2.0.0 (Published 2021-12-03)
 
