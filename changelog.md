@@ -4,17 +4,19 @@
 
 **This is a preview version for KONNEKT V2.1.** Some features are still in development. Bugs may occur.
 
-* ADD: Improvements for heavy load environments
-* ADD: Remove the limit of 192 libraries per site
-* ADD: Logging level policy
-* ADD: OneDrive and SharePoint Online Multi-Geo support
-* FIX: Pinned links in taskbar lead to SPO site instead of UNC
-* FIX: CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
-* FIX: Installer coordinator issue during setup on some RDS environments
-* FIX: Unwanted policy changes after hibernation in some environments&#x20;
-* FIX: "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
-* FIX: Handling of error responses from SharePoint Online causing empty folders
-* FIX: "Add site favorite" feature
+* ADD
+  * OneDrive and SharePoint Online Multi-Geo support
+  * Improvements for heavy load environments
+  * Remove the limit of 192 libraries per site
+  * Logging level policy
+* FIX
+  * Pinned links in taskbar lead to SPO site instead of UNC
+  * CoAuthoring setting in [ADMX](configuration/management-options/settings-via-gpo.md#admx-file) not working
+  * Installer coordinator issue during setup on some RDS environments
+  * Unwanted policy changes after hibernation in some environments&#x20;
+  * "Enable Sharepoint Sites" option not grayed out after applying GPO/Intune policy.
+  * Handling of error responses from SharePoint Online causing empty folders
+  * "Add site favorite" feature
 
 {% file src=".gitbook/assets/Konnekt-X64-2.0.28.0.zip" %}
 64 Bit (Recommended)
