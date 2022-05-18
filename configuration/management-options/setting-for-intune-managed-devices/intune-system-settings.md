@@ -196,3 +196,42 @@ Device context:
 **Note**
 
 For more information about the policy and setting the value, see [Log level](../../system-settings/log-level.md)
+
+## Update check
+
+{% hint style="info" %}
+Available for KONNEKT 2.1 or newer
+{% endhint %}
+
+**Name:** Konnekt-Update-Check
+
+**OMA-URI**
+
+User context:
+
+```
+./User/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~SystemSettings/UpdateInterval
+```
+
+Device context:
+
+```
+./Device/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~SystemSettings/UpdateInterval
+```
+
+**Data type:** String
+
+**Value options**
+
+```
+<enabled/>
+<data value="120"/>
+```
+
+```
+<disabled/>
+```
+
+**Note**
+
+For more information about the policy, see [Update checker](../../system-settings/update-checker.md)

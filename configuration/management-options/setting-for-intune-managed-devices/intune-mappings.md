@@ -132,3 +132,41 @@ Device context:
 **Note**
 
 For more information about the policy, see [Map default document site libraries](../../mappings/auto-mapping.md#map-default-document-site-libraries)
+
+## Multi-Geo
+
+{% hint style="info" %}
+Available for KONNEKT 2.1 or newer
+{% endhint %}
+
+**Name:** Konnekt-Multi-Geo
+
+**OMA-URI**
+
+User context:
+
+```
+./User/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~Mappings/SharepointMultiGeo
+```
+
+Device context:
+
+```
+./Device/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~Mappings/SharepointMultiGeo
+```
+
+**Data type:** String
+
+**Value options**
+
+```
+<enabled/>
+```
+
+```
+<disabled/>
+```
+
+**Note**
+
+For more information about the policy, see [Multi-Geo](../../mappings/multi-geo.md)
