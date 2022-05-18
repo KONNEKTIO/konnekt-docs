@@ -39,7 +39,7 @@ The following user segments are available.
 | KONNEKT 5000     | 5,000                          | 9,999                   |
 | KONNEKT 10000    | 10,000                         | unlimited               |
 
-For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com).
+For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
 
 ## User Up- and Downgrades
 

@@ -37,4 +37,4 @@ KONNEKT is a client-side tool - there is no backend. **Data is transferred direc
 | Multitenancy                            | Connects to multiple tenants simultaneously                                                                                     |
 | Co-authoring                            | Supports the co-authoring of Microsoft Office 365                                                                               |
 
-These docs cover the technical aspects of KONNEKT. All other information can be found on [https://konnekt.io/](https://konnekt.io)
+These docs cover the technical aspects of KONNEKT. All other information can be found on [https://konnekt.io/](https://konnekt.io/)

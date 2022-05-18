@@ -10,7 +10,7 @@ You may alternatively observe the context menu of the KONNEKT tray icon (right c
 
 ## Manual download of current setup files
 
-You can get the latest version of KONNEKT [here](https://trial.konnekt.io).
+You can get the latest version of KONNEKT [here](https://trial.konnekt.io/).
 
 ## Executing the update
 

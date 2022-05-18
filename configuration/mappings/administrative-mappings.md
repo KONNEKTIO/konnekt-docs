@@ -80,7 +80,7 @@ The user must have an account configured in KONNEKT, that belongs to the Azure A
 We highly recommend to use 1. or 2., since this policy has several components.
 {% endhint %}
 
-### Manual setting in registry
+## Manual setting in registry
 
 {% hint style="info" %}
 You do not need this, if you use GPO or Intune management.

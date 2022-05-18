@@ -2,7 +2,7 @@
 
 ## Download current setup files
 
-You can get the latest version of KONNEKT [here](https://trial.konnekt.io).
+You can get the latest version of KONNEKT [here](https://trial.konnekt.io/).
 
 If you want (as an admin) to grant tenant-wide consent for KONNEKT please visit [here ](grant-admin-consent-in-enterprise-applications.md)
 
@@ -44,7 +44,7 @@ Click Finish to finalize the setup.
 
 ## Silent Installation
 
-If you want a silent installation without any user interface interaction you can use the following command after downloading the msi installation file from [here ](https://trial.konnekt.io)and rename it to `konnekt`:\
+If you want a silent installation without any user interface interaction you can use the following command after downloading the msi installation file from [here ](https://trial.konnekt.io/)and rename it to `konnekt`:\
 \
 `msiexec /quiet /qn /norestart /i konnekt.msi LICENSE_KEY=<YourKey>`
 

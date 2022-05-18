@@ -6,7 +6,7 @@ Available for KONNEKT 2.1 or newer
 
 With this setting, you can set the log level to KONNEKT so that users can not change it anymore, the default log level is info.
 
-Policy name: `Logging Level`
+**Policy name:** `Logging Level`
 
 ![](<../../.gitbook/assets/2022-02-25 Log Level.png>)
 
@@ -34,8 +34,8 @@ Log records will be stored in **client.x.txt** files under `%localappdata%\konne
 You do not need this if you use GPO or Intune management
 {% endhint %}
 
-* **Value name:** `SharepointMultiGeo`
-* **Value type:** `LogLevel`
+* **Value name:** `LogLevel`
+* **Value type:** `REG_DWORD`
 * **Value data:** `0, 1, 2 or 3` (see table above)
 * **Value stored in:**
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
