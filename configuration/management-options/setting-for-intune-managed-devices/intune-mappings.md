@@ -170,3 +170,42 @@ Device context:
 **Note**
 
 For more information about the policy, see [Multi-Geo](../../mappings/multi-geo.md)
+
+## Sharepoint Sites
+
+{% hint style="info" %}
+Available for KONNEKT 2.1 or newer
+{% endhint %}
+
+**Name:** Konnekt-SharePoint-Sites
+
+**OMA-URI**
+
+User context:
+
+```
+./User/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~Mappings/SharepointSites
+```
+
+Device context:
+
+```
+./Device/Vendor/MSFT/Policy/Config/Konnekt~Policy~Konnekt~Mappings/SharepointSites
+```
+
+**Data type:** String
+
+**Value options**
+
+```
+<enabled/>
+<data id="SharepointSites_List" value="URL1&#xF000;URL1&#xF000;URL2&#xF000;URL2" />
+```
+
+```
+<disabled/>
+```
+
+**Note**
+
+For more information about the policy and how to set the URL with examples, see [Managed mappings](../../mappings/administrative-mappings.md)
