@@ -1,5 +1,9 @@
 # Changelog
 
+### 2.1.1 (Published 2022-07-05)
+
+* FIX: Machine policy may not be applied correctly
+
 ### 2.1.0 (Published 2022-05-12)
 
 * ADD
