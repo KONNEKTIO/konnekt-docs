@@ -9,7 +9,7 @@ KONNEKT writes the log to `%localappdata%\KONNEKT`. The log consists of up to 6 
 * client.4.txt
 * client.5.txt
 
-`Client.txt` hold the newest and `client.5.txt` the oldest log lines.&#x20;
+`Client.txt` holds the newest and `client.5.txt` the oldest log lines.&#x20;
 
 The [Log Level](logging.md#log-level) setting determines what information is written to to log.
 
