@@ -195,7 +195,7 @@ Device context:
 
 **Note**
 
-For more information about the policy and setting the value, see [Log level](../../system-settings/log-level.md)
+For more information about the policy and setting the value, see [Log level](../../system-settings/logging.md)
 
 ## Update check
 

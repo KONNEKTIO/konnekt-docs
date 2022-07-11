@@ -35,7 +35,7 @@
     * [Office365 Co-Authoring](configuration/system-settings/office365-co-authoring.md)
     * [Offline attribute](configuration/system-settings/offline-attribute.md)
     * [Link scope](configuration/system-settings/link-scope.md)
-    * [Log level](configuration/system-settings/log-level.md)
+    * [Logging](configuration/system-settings/logging.md)
     * [Update checker](configuration/system-settings/update-checker.md)
   * [Other](configuration/other/README.md)
     * [Disable KONNEKT for a subset of users](configuration/other/configure-konnekt-for-a-subset-of-users.md)

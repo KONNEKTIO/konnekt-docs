@@ -17,7 +17,7 @@ In this menu you can enable or disable four check boxes:
 * Enable SharePoint Sites
 * Automatically add all SharePoints document libraries
 
-It is also possible to change the download directory. Additionally you can select a log level: Off, Error, Info or Debug. Depending on what the user selects, the status messages in the **Log** will change. For more info check [Log level](../configuration/system-settings/log-level.md)
+It is also possible to change the download directory. Additionally you can select a log level: Off, Error, Info or Debug. Depending on what the user selects, the status messages in the **Log** will change. For more info check [Log level](../configuration/system-settings/logging.md)
 
 | Log Level | Explanation                                                                                                                                          |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
