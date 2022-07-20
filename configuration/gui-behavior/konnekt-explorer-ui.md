@@ -8,7 +8,7 @@ This policy defines which components of the Konnekt explorer node are shown and 
 
 Konnekt has 4 components shown in the Explorer window: **Uploads**, **History**, **Offline Files,** and **Accounts**
 
-![](../../.gitbook/assets/Last.png)
+![](<../../.gitbook/assets/2022-07-20 18\_13\_04-Window.png>)
 
 **Example:** Show Uploads, History, Offline Files and hide Accounts (to prevent users adding new M365 accounts)&#x20;
 
@@ -20,7 +20,7 @@ To apply the policy you have to restart the **Windows Explorer** process, no nee
 
 **Result:**
 
-![](<../../.gitbook/assets/2021-07-15 15\_47\_17-Window.png>)
+![](<../../.gitbook/assets/2022-07-20 18\_10\_09-Window.png>)
 
 ### **Policy information**
 
