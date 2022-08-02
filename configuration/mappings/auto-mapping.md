@@ -161,7 +161,7 @@ You do not need this if you use GPO or Intune management.
 
 You can find this setting in the preferences menu:
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/2022-08-02 16\_26\_17-Window.png>)
 
 You can also configure this setting via registry/GPO/MDM:
 
@@ -183,7 +183,7 @@ We recommend using our [ADMX template](../management-options/settings-via-gpo.md
 
 You can find this setting in the preferences menu:
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/2022-08-02 16\_26\_54-Window.png>)
 
 {% hint style="info" %}
 Please make sure to reboot **KONNEKT** after changing this setting.

@@ -14,15 +14,15 @@ KONNEKT setup requires local admin permissions&#x20;
 
 You can install KONNEKT by running the MSI file interactively. The setup dialog will start:
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/2022-08-02 15\_18\_53-Window.png>)
 
 Click next.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/2022-08-02 15\_19\_21-Window.png>)
 
-Accept the license terms an click next.
+Accept the license terms and click next.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/2022-08-02 15\_19\_47-Window.png>)
 
 You may then enter your license key.
 
@@ -30,13 +30,11 @@ You may then enter your license key.
 If you do not enter a license key, you start a 14 days trial version.
 {% endhint %}
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/2022-08-02 15\_20\_34-Window.png>)
 
 KONNEKT is now ready to start the setup.
 
-![](<../.gitbook/assets/image (7).png>)
-
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/2022-08-02 15\_21\_06-Window.png>)
 
 Click Finish to finalize the setup.
 

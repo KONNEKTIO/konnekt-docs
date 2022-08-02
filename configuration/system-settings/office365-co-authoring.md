@@ -2,7 +2,7 @@
 
 You can find this setting in the preferences menu:
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/2022-08-02 16\_30\_24-Window.png>)
 
 You can also configure this setting via registry/GPO/MDM:
 

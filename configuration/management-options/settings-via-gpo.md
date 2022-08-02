@@ -22,8 +22,8 @@ With the ADMX Template the following settings can be set:
 
 ![](<../../.gitbook/assets/image (27) (1).png>)
 
-{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-V2-0-8.zip" %}
-**ADMX and ADML files for KONNEKT V2**
+{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-V2.1.zip" %}
+**ADMX and ADML files for KONNEKT V2.1**
 {% endfile %}
 
 ## **GPO / Registry key priorities**
@@ -37,6 +37,6 @@ KONNEKT evaluates the settings of the GPO / registry in this order:
 
 Some of the settings are also available in the preferences menu:
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/2022-08-02 15\_37\_07-Window.png>)
 
 If a GPO is enforced, the corresponding setting in the preferences menu will still be shown but disabled for user change.

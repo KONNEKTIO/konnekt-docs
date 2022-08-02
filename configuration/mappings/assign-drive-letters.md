@@ -10,9 +10,7 @@ You can configure this feature with the following options alternatively:
 
 ### Preferences menu
 
-![](<../../.gitbook/assets/image (14).png>)
-
-
+![](<../../.gitbook/assets/2022-08-02 16\_18\_33-Window.png>)
 
 ### GPO/Intune
 
@@ -57,7 +55,7 @@ net use <DRIVE-LETTER>: <KONNEKT-UNC-PATH> [/PERSISTENT:{YES | NO}]
 
 **Result:**
 
-![](../../.gitbook/assets/DriveLetterExplorer2.png)
+![](<../../.gitbook/assets/2022-08-02 16\_22\_46-Window.png>)
 
 ## Assign drive letters with Managed Mappings
 

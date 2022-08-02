@@ -5,24 +5,23 @@ Our support team may ask you to provide debug logs to analyze issues. To do so, 
 ### **Set Log-Level to Debug:**
 
 Right-Click on the KONNEKT Tray Icon and choose "Preferences"\
-\
 
 
-![](../.gitbook/assets/preferences1.png)
+![](<../.gitbook/assets/2022-08-02 17\_01\_27-Window.png>)
 
 Set Log-Level to "Debug":
 
-![](../.gitbook/assets/DebugLevel.png)
+![](<../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
 
-### Exit KONNEKT from the Tray Icon: 
+### Exit KONNEKT from the Tray Icon:
 
-![](../.gitbook/assets/exit1.png)
+![](<../.gitbook/assets/2022-08-02 17\_03\_22-Window.png>)
 
 ### Restart KONNEKT:
 
 The easiest way to start KONNEKT is to just open Windows Explorer and Click on KONNEKT
 
-![](../.gitbook/assets/konnektaccess1.png)
+![](<../.gitbook/assets/2022-08-02 17\_10\_29-Window.png>)
 
 ### Try reproduce the Issue
 

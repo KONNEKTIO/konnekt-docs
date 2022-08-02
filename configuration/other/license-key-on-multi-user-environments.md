@@ -25,7 +25,7 @@ There are several options how you can configure the license key:
 
 Entering the license key in the preferences menu:
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/2022-08-02 16\_32\_15-Window.png>)
 
 {% hint style="danger" %}
 The preference menu sets the license for the current user (HKCU), only. Other users logging into the same machine would also have to set the license.

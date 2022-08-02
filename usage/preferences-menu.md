@@ -2,7 +2,7 @@
 
 Under **Preferences** you see the following KONNEKT settings.
 
-![](../.gitbook/assets/preferences1.png)
+![](<../.gitbook/assets/2022-08-02 15\_12\_19-Window.png>)
 
 ### General
 
