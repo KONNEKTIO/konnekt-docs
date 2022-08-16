@@ -38,7 +38,17 @@ KONNEKT is now ready to start the setup.
 
 Click Finish to finalize the setup.
 
+After the installation is successfully finished, a pop up window shows up automatically to connect your Office 365 account and grant the required permissions to create an Enterprise Application in your tenant (see screenshots below).
 
+![](<../.gitbook/assets/2022-08-16 15\_28\_19-Windows Sandbox.png>)
+
+![](<../.gitbook/assets/2022-08-16 15\_37\_05-Windows Sandbox.png>)
+
+{% hint style="info" %}
+To grant the permissions, you have to log in with an admin account or an account that has permissions to create an Enterprise Application in your tenant.
+
+To grant the permissions tenant-wide please check [Grant tenant-wide admin consent](grant-admin-consent-in-enterprise-applications.md)&#x20;
+{% endhint %}
 
 ## Silent Installation
 
@@ -46,4 +56,4 @@ If you want a silent installation without any user interface interaction you can
 \
 `msiexec /quiet /qn /norestart /i konnekt.msi LICENSE_KEY=<YourKey>`
 
-Instead of the `<YourKey>` at the end, enter your license key.
+Instead of the `<YourKey>` in the end, enter your license key.

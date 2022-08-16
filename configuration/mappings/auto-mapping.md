@@ -165,6 +165,12 @@ You can find this setting in the preferences menu:
 
 You can also configure this setting via registry/GPO/MDM:
 
+**Policy Name (ADMX):** Sharepoint Sites Autodiscovery
+
+![](<../../.gitbook/assets/2022-08-16 15\_15\_20-LabServer ‎- Remotedesktop.png>)
+
+#### Registry
+
 Key name: **O365SharepointUsage**\
 Key type: REG\_DWORD
 
@@ -190,6 +196,12 @@ Please make sure to reboot **KONNEKT** after changing this setting.
 {% endhint %}
 
 You can also configure this setting via registry/GPO/MDM:
+
+**Policy Name (ADMX):** Add all sharepoint libraries
+
+![](<../../.gitbook/assets/2022-08-16 15\_22\_33-LabServer ‎- Remotedesktop.png>)
+
+#### Registry
 
 Key name: **AddAllSharepointLibraries**\
 Type: REG\_DWORD
