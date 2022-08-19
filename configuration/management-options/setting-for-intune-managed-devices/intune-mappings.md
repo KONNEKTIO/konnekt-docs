@@ -213,6 +213,8 @@ To map multiple sites, use the following syntax and replace your site/library UR
 <data id="SharepointSites_List" value="URL1&#xF000;URL1&#xF000;URL2&#xF000;URL2" />
 ```
 
+To disable the policy
+
 ```
 <disabled/>
 ```

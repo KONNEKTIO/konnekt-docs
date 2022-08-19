@@ -12,10 +12,10 @@ To add mappings, go to the policy and click on **Show...**
 
 ![](<../../.gitbook/assets/2021-08-18 09\_44\_27-192.168.2.50 - Remote Desktop Connection.png>)
 
-![](<../../.gitbook/assets/2021-08-19 09\_59\_16-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../../.gitbook/assets/2022-08-19 11\_17\_20-LabServer ‎- Remotedesktop.png>)
 
 {% hint style="info" %}
-This policy does not support folder mappings, for folder mappings please use **net use**  as described [here](assign-drive-letters.md#assign-drive-letters-to-other-folders-using-net-use)
+This policy does not support folder mapping, for folder mapping please use **net use**  as described [here](assign-drive-letters.md#assign-drive-letters-to-other-folders-using-net-use)
 {% endhint %}
 
 ## **Policy definition**
