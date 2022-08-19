@@ -199,6 +199,15 @@ Device context:
 
 **Value options**
 
+To map one site, use the following syntax and replace your site/library URL with URL1 (URL1 should be added twice as in the following syntax)
+
+```
+<enabled/>
+<data id="SharepointSites_List" value="URL1&#xF000;URL1" />
+```
+
+To map multiple sites, use the following syntax and replace your site/library URL with URL1 and the second URL with URL2, and so on (each URL should be added twice as in the following syntax)
+
 ```
 <enabled/>
 <data id="SharepointSites_List" value="URL1&#xF000;URL1&#xF000;URL2&#xF000;URL2" />
