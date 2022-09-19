@@ -1,5 +1,21 @@
 # Changelog
 
+### 2.1.4 (preview for V2.2 - Published 2022-09-19)
+
+{% hint style="warning" %}
+This is a preview version for V 2.2. Bugs may occur.
+{% endhint %}
+
+* ADD: SharePoint Throttling Prevention policy
+
+{% file src=".gitbook/assets/2022-09-19-KONNEKT-2-1-4-X64.zip" %}
+KONNEKT 2.2 preview - 64 Bit
+{% endfile %}
+
+{% file src=".gitbook/assets/2022-09-19-KONNEKT-2-1-4-X86.zip" %}
+KONNEKT 2.2 preview - 32 Bit
+{% endfile %}
+
 ### 2.1.1 (Published 2022-07-05)
 
 * FIX: Machine policy may not be applied correctly

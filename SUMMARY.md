@@ -36,6 +36,7 @@
     * [Offline attribute](configuration/system-settings/offline-attribute.md)
     * [Link scope](configuration/system-settings/link-scope.md)
     * [Logging](configuration/system-settings/logging.md)
+    * [SharePoint Throttling Prevention](configuration/system-settings/sharepoint-throttling-prevention.md)
     * [Update checker](configuration/system-settings/update-checker.md)
   * [Other](configuration/other/README.md)
     * [Disable KONNEKT for a subset of users](configuration/other/configure-konnekt-for-a-subset-of-users.md)
