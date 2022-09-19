@@ -8,7 +8,7 @@ The usage of SharePoint Online API is subject to limitations in terms of the amo
 
 Since KONNEKT is using Microsoft SharePoint Online and Microsoft Graph APIs, it may happen, that SharePoint Online will throttle your KONNEKT usage. If an application is throttled, SharePoint Online will not respond for a defined amount of time. This starts from some seconds and can grow up to minutes, depending on the usage. Impacts for KONNEKT may be slow browsing through or loading/writing of files. If the throttling grows up to minutes, it will result in error messages that the drive is currently not available.
 
-KONNEKT has several mechanisms to reduce the danger of throttling, that happen automatically. There are other settings, that you can decide on, since this will affect the timeliness e.g. of new libraries or files being available in KONNEKT. Please take a look at the following policy to learn about the available options.
+KONNEKT has several mechanisms to reduce the occurrence of throttling, which are applied automatically. There are other settings, that you can decide on, since this will affect the timeliness e.g. of new libraries or files being available in KONNEKT. Please take a look at the following policy to learn about the available options.
 
 {% hint style="warning" %}
 In heavy load environments, all measures may not be enough to prevent throttling.
