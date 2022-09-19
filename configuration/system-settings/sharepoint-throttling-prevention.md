@@ -27,7 +27,7 @@ The following circumstances promote throttling:
 To avoid this, please
 
 * Do not use any preview renderer for KONNEKT resources. See also [here](offline-attribute.md). You can additionally set the [Offline Filter](offline-attribute.md#exclude-dedicated-file-types-from-offline-attribute-filter) to the file extension "YYY" (which does not exist), to prevent Windows File Explorer from rendering previews for PDF files.
-* Segment your data (no very big libraries, not too many files in the fiorst level of a folder).
+* Segment your data (no very big libraries, not too many files in the first level of a folder).
 
 ## How can I detect throttling?
 
