@@ -18,7 +18,7 @@ KONNEKT was made for regular office work. If you use high volume files (e.g. vid
 
 ## Policy
 
-You can load this policy in Policy Editor or Intune with our ADMX.
+You can load this policy in Policy Editor or Intune with our [ADMX](../management-options/settings-via-gpo.md#admx-file).
 
 Policy Name (GPO & Intune): `Sharepoint Throttling Prevention`
 

@@ -6,7 +6,7 @@
 This is a preview version for V 2.2. Bugs may occur.
 {% endhint %}
 
-* ADD: SharePoint Throttling Prevention policy
+* ADD: [SharePoint Throttling Prevention policy](configuration/system-settings/sharepoint-throttling-prevention.md)
 
 {% file src=".gitbook/assets/2022-09-19-KONNEKT-2-1-4-X64.zip" %}
 KONNEKT 2.2 preview - 64 Bit
