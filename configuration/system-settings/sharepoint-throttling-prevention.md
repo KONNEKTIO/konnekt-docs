@@ -16,6 +16,23 @@ In heavy load environments, all measures may not be enough to prevent throttling
 KONNEKT was made for regular office work. If you use high volume files (e.g. video editing, graphics design, CAD) or read/write gigabytes of data, KONNEKT (& SharePoint Online) may not be the proper tool of choice.
 {% endhint %}
 
+## How can I prevent throttling?
+
+The following circumstances promote throttling:
+
+* Use of very big libraries with hundred-thousands of files in total
+* Use of very big folders with >1000 files on the first level of the folder
+* Use of tools that crawl your whole filesystem (like preview renderer etc.)
+
+To avoid this, please
+
+* Do not use any preview renderer for KONNEKT resources. See also [here](offline-attribute.md). You can additionally set the [Offline Filter](offline-attribute.md#exclude-dedicated-file-types-from-offline-attribute-filter) to the file extension "YYY" (which does not exist), to prevent Windows File Explorer from rendering previews for PDF files.
+* Segment your data (no very big libraries, not too many files in the fiorst level of a folder).
+
+## How can I detect throttling?
+
+When you turn the [KONNEKT logging to "debug"](logging.md#log-level), you will see log entries with "Throttling detected: 429 Retry-After X" (where X stands for the amount of seconds SharePoint Online wants us to wait).
+
 ## Policy
 
 You can load this policy in Policy Editor or Intune with our [ADMX](../management-options/settings-via-gpo.md#admx-file).
@@ -35,6 +52,12 @@ Available settings:
     Throttling prevention has the highest priority. Some changes from other clients (e.g. new libraries or new files/folders) may be updated late (up to 24 hours).
 * `Disabled`\
   Default Throttling Prevention takes place
+
+{% hint style="warning" %}
+SharePoint Online monitors throttling on several levels. From our experience the tenant level is the most important one for KONNEKT.
+
+Because of that, throttling prevention becomes effective, if **ALL** KONNEKT clients in your tenant use the same prevention level. For example: Just setting this policy to "high" on some clients may have no effect at all. Please set all to "high", if you experience throttling while using KONNEKT.
+{% endhint %}
 
 ## Manual setting in the registry
 
