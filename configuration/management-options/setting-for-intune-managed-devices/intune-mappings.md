@@ -181,7 +181,7 @@ Available for KONNEKT 2.1 or newer
 
 **Name:** Konnekt-SharePoint-Sites
 
-**OMA-URI**
+### **OMA-URI**
 
 User context:
 
@@ -197,7 +197,7 @@ Device context:
 
 **Data type:** String
 
-**Value options**
+### **Value options**
 
 To map one site, use the following syntax and replace <mark style="color:blue;">\<URL1></mark> with your site/library URL (<mark style="color:blue;">\<URL1></mark> must be added twice as in the following syntax and be separated by "<mark style="color:green;">\&#xF000;</mark>"):
 
@@ -215,9 +215,9 @@ To disable the policy
 <disabled/>
 ```
 
-#### **Example**
+### **Example**
 
-_**Site 1**_
+#### **Site 1**
 
 * Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite1`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
 * Assigned Name = `TestSite1Name`
@@ -227,7 +227,7 @@ KONNEKT URL for this site mapping would be:
 
 _<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark>_
 
-_**Site 2**_
+#### **Site 2**
 
 * Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite2`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
 * Assigned Name = `TestSite2Name`
@@ -237,11 +237,11 @@ KONNEKT URL for this site mapping would be:
 
 _<mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark>_
 
-_**Resulting Intune Policy String Value**_
+#### **Resulting Intune Policy String Value**
 
 _\<enabled/>_\
 _<<mark style="color:red;">data id</mark>="<mark style="color:green;">SharepointSites\_List</mark>" <mark style="color:red;">value</mark>="<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark>" />_
 
-**Note**
+### **Note**
 
 For more information about the policy and how to set the URL with examples, see [Managed mappings](../../mappings/administrative-mappings.md)
