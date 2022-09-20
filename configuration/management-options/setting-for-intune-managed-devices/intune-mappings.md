@@ -223,7 +223,7 @@ _**Site 1**_
 * Assigned Name = `TestSite1Name`
 * Assigned drive letter = `k:`
 
-KONNEKT URL for this site would be:
+KONNEKT URL for this site mapping would be:
 
 _<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark>_
 
@@ -233,7 +233,7 @@ _**Site 2**_
 * Assigned Name = `TestSite2Name`
 * Assigned drive letter = `m:`
 
-KONNEKT URL for this site would be:
+KONNEKT URL for this site mapping would be:
 
 _<mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark>_
 
