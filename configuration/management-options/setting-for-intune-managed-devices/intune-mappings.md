@@ -199,19 +199,15 @@ Device context:
 
 **Value options**
 
-To map one site, use the following syntax and replace your site/library URL with URL1 (URL1 should be added twice as in the following syntax)
+To map one site, use the following syntax and replace <mark style="color:blue;">\<URL1></mark> with your site/library URL (<mark style="color:blue;">\<URL1></mark> must be added twice as in the following syntax and be separated by "<mark style="color:green;">\&#xF000;</mark>"):
 
-```
-<enabled/>
-<data id="SharepointSites_List" value="URL1&#xF000;URL1" />
-```
+_\<enabled/>_\
+_<<mark style="color:red;">data id</mark>="<mark style="color:green;">SharepointSites\_List</mark>" <mark style="color:red;">value</mark>="<mark style="color:blue;">\<URL1></mark><mark style="color:green;">\&#xF000;</mark><mark style="color:blue;">\<URL1></mark>" />_
 
-To map multiple sites, use the following syntax and replace your site/library URL with URL1 and the second URL with URL2, and so on (each URL should be added twice as in the following syntax)
+To map multiple sites, use the following syntax and replace <mark style="color:blue;">\<URL1></mark> with your first site/library URL and <mark style="color:orange;">\<URL2></mark> with your second site/library URL, and so on (each URL should be added twice as in the following syntax):
 
-```
-<enabled/>
-<data id="SharepointSites_List" value="URL1&#xF000;URL1&#xF000;URL2&#xF000;URL2" />
-```
+_\<enabled/>_\
+_<<mark style="color:red;">data id</mark>="<mark style="color:green;">SharepointSites\_List</mark>" <mark style="color:red;">value</mark>="<mark style="color:blue;">\<URL1></mark><mark style="color:green;">\&#xF000;</mark><mark style="color:blue;">\<URL1></mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">\<URL2></mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">\<URL2></mark>" />_
 
 To disable the policy
 
