@@ -215,6 +215,33 @@ To disable the policy
 <disabled/>
 ```
 
+#### **Example**
+
+_**Site 1**_
+
+* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite1`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
+* Assigned Name = `TestSite1Name`
+* Assigned drive letter = `k:`
+
+KONNEKT URL for this site would be:
+
+_<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark>_
+
+_**Site 2**_
+
+* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite2`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
+* Assigned Name = `TestSite2Name`
+* Assigned drive letter = `m:`
+
+KONNEKT URL for this site would be:
+
+_<mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark>_
+
+_**Resulting Intune Policy String Value**_
+
+_\<enabled/>_\
+_<<mark style="color:red;">data id</mark>="<mark style="color:green;">SharepointSites\_List</mark>" <mark style="color:red;">value</mark>="<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|TestSite1Name|k:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark><mark style="color:green;">\&#xF000;</mark><mark style="color:orange;">https://konnektdemo.sharepoint.com/sites/TestSite2|TestSite2Name|m:</mark>" />_
+
 **Note**
 
 For more information about the policy and how to set the URL with examples, see [Managed mappings](../../mappings/administrative-mappings.md)
