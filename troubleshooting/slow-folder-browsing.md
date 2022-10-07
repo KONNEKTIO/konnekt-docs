@@ -18,6 +18,10 @@ The number of files & folders in one folder seems to have the major effect. The 
 
 Segment your data in folders. Having a maximum of 250 files/folders in one folder seems to be a good rule of thumb for affected environments.
 
+#### Direct Links
+
+Try to avoid browsing through KONNEKT folders, by using direct links to your most used folders (e.g. by leveraging the [Quick Access feature of Windows Files Explorer](https://support.microsoft.com/en-us/windows/pin-remove-and-customize-in-quick-access-7344ff13-bdf4-9f40-7f76-0b1092d2495b)).
+
 #### Caching
 
 You could also try our [current preview version](https://docs.konnekt.io/changelog#2.1.4-preview-for-v2.2-published-2022-09-19), that introduces throttling prevention mechanisms. One of those is to cache the data, that is requested for browsing through folders for a small amount of time. This will not lower the amount of time for the first access, but it may make the second access faster, if you access the same folder again within a small amount of time.
