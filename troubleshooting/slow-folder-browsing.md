@@ -38,4 +38,8 @@ KONNEKT uses the following SharePoint Online REST API call to browse a folder:
 https://<yourTenant>.sharepoint.com/sites/<siteName>/_api/v2.0/drive/items/<ID>/children
 ```
 
-If you want us to help to name the corresponding site name and ID for your incident with Microsoft, please [contact our support team](https://www.konnekt.io/help/).
+If you want us to help to name the corresponding site name and ID for your incident with Microsoft, please:
+
+* [Contact our support team](https://www.konnekt.io/help/)&#x20;
+* Tell us a folder name (including site & library name) where you can reproduce the issue
+* Send us a [debug log](debug-log-preparation.md) (if not already sent), where you were trying to access the folder.
