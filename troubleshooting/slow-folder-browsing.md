@@ -20,7 +20,7 @@ Segment your data in folders. Having a maximum of 250 files/folders in one folde
 
 #### Caching
 
-You could also try our [current preview version](https://docs.konnekt.io/changelog#2.1.4-preview-for-v2.2-published-2022-09-19), that introduces throttling prevention mechanisms. One of those is to cache the data, that is requested for browsing through folders for a small amount of time. This will not lower the amount of time for the first access, but it makes the second access faster, if you access the same folder again within a small amount of time.
+You could also try our [current preview version](https://docs.konnekt.io/changelog#2.1.4-preview-for-v2.2-published-2022-09-19), that introduces throttling prevention mechanisms. One of those is to cache the data, that is requested for browsing through folders for a small amount of time. This will not lower the amount of time for the first access, but it may make the second access faster, if you access the same folder again within a small amount of time.
 
 If you want to try the preview version, please use the setting "high" for the throttling prevention policy.
 
