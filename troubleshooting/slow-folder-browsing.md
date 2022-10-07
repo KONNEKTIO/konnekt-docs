@@ -26,7 +26,7 @@ If you want to try the preview version, please use the setting "high" for the th
 
 ### Solution
 
-Please contact Microsoft and report, that your SharePoint Online REST API performance is degraded.
+Please contact your Microsoft support and report, that your SharePoint Online REST API performance is degraded.
 
 KONNEKT uses the following SharePoint Online REST API call to browse a folder:
 
