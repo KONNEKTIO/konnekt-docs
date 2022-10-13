@@ -22,12 +22,23 @@ This policy does not support folder mapping, for folder mapping please use **net
 
 **Policy name:** `Sharepoint Sites`&#x20;
 
-**Format of site definitions:** `sharepoint-url|Name|DriveLetter|TenantName`
+**Syntax of site definition:**&#x20;
 
-`sharepoint-url:` Your sharepoint site/library URL. Must be URL encoded (e.g. Spaces are represented by `%20`).\
-`Name:` Name you choose for the mapped site. This name must be unique for each mapping.\
-`DriveLetter:` for drive mapping\
-`TenantName:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).
+```
+<sharepoint-url>[|<Name>[|<DriveLetter>[|<TenantName>[|<Favorite>]]]]
+```
+
+* <mark style="background-color:blue;">`<sharepoint-url>:`</mark> Your sharepoint site/library URL. Must be URL encoded (e.g. Spaces are represented by `%20`).
+* `<Name>:` Name you choose for the mapped site. This name must be unique for each mapping.\
+  _optional => value may be empty_
+* `<DriveLetter>:` Drive letter for drive mapping.\
+  _optional => value may be empty_
+* `<TenantName>:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
+  _optional => value may be empty_
+* `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. Possible values:\
+  \- `FALSE` (default)\
+  \- `TRUE`\
+  _optional => value may be empty_
 
 {% hint style="info" %}
 Adding `Name, DriveLetter or TenantName` is optional. \
@@ -69,6 +80,12 @@ This will add the "shared documents" library of the site "mysite". The Drive wil
 This will add all document libraries of the site "mysite", from the tenant "ForeignTenant.onmicrosoft.com". The network path will be mapped to drive X.&#x20;
 
 The user must have an account configured in KONNEKT, that belongs to the Azure AD in the tenant "ForeignTenant".
+
+#### Make mapping a KONNEKT favorite
+
+`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|||TRUE`
+
+This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs". It will be added as KONNEKT favorite.
 
 ## **There are several ways to apply the policy**
 

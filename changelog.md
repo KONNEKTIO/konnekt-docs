@@ -1,5 +1,35 @@
 # Changelog
 
+### 2.1.6 (preview for V2.2 - Published 2022-10-13)
+
+{% hint style="warning" %}
+This is a preview version for V 2.2. The occurrence of bugs is likely.
+{% endhint %}
+
+* ADD
+  * [ARM64 processor platform support ](installation/system-requirements.md#processor-platform)(662)
+  * [SharePoint Throttling Prevention policy](configuration/system-settings/sharepoint-throttling-prevention.md) (730)
+  * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
+  * Changed search strategy for folder browsing to workaround [performance degradation of Microsoft SharePoint Online REST API](troubleshooting/slow-folder-browsing.md) (736)
+* FIX
+  * Windows File Explorer loops generating new folders while trying to add one folder in Site root (648)
+  * "This file does not exist" after re-install or uninstall (649)
+  * Save new file not working in special conditions, e.g. substring of existing file (651)
+  * History misses one backslash in UNC for some entries (721)
+  * Prevent blue screen during driver update in some environments (672)
+
+{% file src=".gitbook/assets/2022-10-13-KONNEKT-X64-2.1.6.0.zip" %}
+KONNEKT 2.2 preview - 64 Bit X86 Windows
+{% endfile %}
+
+{% file src=".gitbook/assets/2022-10-13-KONNEKT-X86-2.1.6.0.zip" %}
+KONNEKT 2.2 preview - 32 Bit X86 Windows
+{% endfile %}
+
+{% file src=".gitbook/assets/2022-10-13-KONNEKT-Arm64-2.1.6.0.zip" %}
+KONNEKT 2.2 preview - 64 Bit ARM Windows
+{% endfile %}
+
 ### 2.1.4 (preview for V2.2 - Published 2022-09-19)
 
 {% hint style="warning" %}

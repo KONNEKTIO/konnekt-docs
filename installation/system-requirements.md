@@ -1,8 +1,11 @@
 # System requirements
 
-## Operating Systems
+## Client Machine
 
-* **Windows** or **Windows Server**
+### Operating System
+
+* **Windows** or \
+  **Windows Server**
   * with current and complete system updates and
   * supported by Microsoft via Mainstream Support.
   * Older Windows versions may work - we offer limited support for those systems.
@@ -24,6 +27,12 @@ KONNEKT works **independent** from:
 * Microsoft365 Apps (fka Office365 ProPlus)
 * OneDrive Sync Client
 {% endhint %}
+
+### Processor Platform
+
+* 64 Bit X86 (Intel & AMD)
+* 32 Bit X86 (Intel & AMD)
+* 64 Bit ARM
 
 ## Office 365 Licensing
 

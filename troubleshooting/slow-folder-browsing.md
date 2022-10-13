@@ -30,6 +30,8 @@ If you want to try the preview version, please use the setting "high" for the th
 
 ### Solution
 
+#### Contact Microsoft (to work with KONNEKT Version < 2.1.6)
+
 Please contact your Microsoft support and report, that your SharePoint Online REST API performance is degraded.
 
 KONNEKT uses the following SharePoint Online REST API call to browse a folder:
@@ -38,8 +40,20 @@ KONNEKT uses the following SharePoint Online REST API call to browse a folder:
 https://<yourTenant>.sharepoint.com/sites/<siteName>/_api/v2.0/drive/items/<ID>/children
 ```
 
+The property "createdBy" is the main driver of the delay.
+
 If you want us to help to name the corresponding site name and ID for your incident with Microsoft, please:
 
 * [Contact our support team](https://www.konnekt.io/help/)&#x20;
 * Tell us a folder name (including site & library name) where you can reproduce the issue
 * Send us a [debug log](debug-log-preparation.md) (if not already sent), where you were trying to access the folder.
+
+#### KONNEKT update (starting from KONNEKT 2.1.6)
+
+We were redesigning the search strategy for folder browsing to work without the performance degraded properties.
+
+The first preview for this change is available in KONNEKT 2.1.6, which is a preview for KONNEKT 2.2 and contains several code-changes. The occurrence of bugs is likely in 2.1.6. We would be very happy, if you tried the current preview and give feedback.
+
+The first stable release will be published as 2.2, which is currently planned for November.
+
+You can find details and download options for available preview versions in our [changelog](../changelog.md).
