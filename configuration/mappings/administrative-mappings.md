@@ -40,11 +40,6 @@ This policy does not support folder mapping, for folder mapping please use **net
   \- `TRUE`\
   _optional => value may be empty_
 
-{% hint style="info" %}
-Adding `Name, DriveLetter or TenantName` is optional. \
-**For example:** the SharePoint site can be configured without drive mapping.
-{% endhint %}
-
 **Site mapping result:**
 
 ![](<../../.gitbook/assets/2021-08-19 10\_10\_40-192.168.2.50 - Remote Desktop Connection (2).png>)
