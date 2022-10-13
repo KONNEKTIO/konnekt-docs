@@ -52,7 +52,7 @@ If you want us to help to name the corresponding site name and ID for your incid
 
 We were redesigning the search strategy for folder browsing to work without the performance degraded properties.
 
-The first preview for this change is available in KONNEKT 2.1.6, which is a preview for KONNEKT 2.2 and contains several code-changes. The occurrence of bugs is likely in 2.1.6. We would be very happy, if you tried the current preview and give feedback.
+The first preview for this change is available in KONNEKT 2.1.6, which is a preview for KONNEKT 2.2 and contains several code-changes. The occurrence of bugs is likely in 2.1.6. We would be very happy, if you tried the current preview and gave feedback.
 
 The first stable release will be published as 2.2, which is currently planned for November.
 
