@@ -14,7 +14,7 @@ https://login.microsoftonline.com/{tenant-id}/adminconsent?client_id=fbaaaa6a-1a
 
 Therefore you need your`tenant-id`which you get from **Azure Portal** under **Azure Active Directory:**
 
-![](<../.gitbook/assets/2021-08-09 11\_36\_25-Contoso - Microsoft Azure - TestTenant - Microsoft​ Edge.png>)
+![](<../../.gitbook/assets/2021-08-09 11\_36\_25-Contoso - Microsoft Azure - TestTenant - Microsoft​ Edge.png>)
 
 {% hint style="info" %}
 Don't forget to delete the `{}` from the link
@@ -33,7 +33,7 @@ If you get **Page Not Found** after accepting the consent, please ignore it. It 
 
 To check **KONNEKT** permissions you can find it in your **Azure Active Directory** under **Enterprise applications** -> **Permissions**
 
-![](<../.gitbook/assets/2021-06-29 17\_17\_45-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)
+![](<../../.gitbook/assets/2021-06-29 17\_17\_45-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)
 
 For more Info about admin consent visit [MS.Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent)
 
@@ -47,4 +47,4 @@ In case you want to remove the admin-consent for KONNEKT, please proceed the fol
 4. Select **properties.**
 5. **Delete**, **** and confirm the delete.
 
-![](<../.gitbook/assets/2021-06-29 15\_54\_57-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)
+![](<../../.gitbook/assets/2021-06-29 15\_54\_57-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)

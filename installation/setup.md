@@ -4,7 +4,7 @@
 
 You can get the latest version of KONNEKT [here](https://trial.konnekt.io/).
 
-If you want (as an admin) to grant tenant-wide consent for KONNEKT please visit [here ](grant-admin-consent-in-enterprise-applications.md)
+If you want (as an admin) to grant tenant-wide consent for KONNEKT please visit [here ](security/grant-admin-consent-in-enterprise-applications.md)
 
 ## Interactive Installation
 
@@ -47,7 +47,7 @@ After the installation is successfully finished, a pop up window shows up automa
 {% hint style="info" %}
 To grant the permissions, you have to log in with an admin account or an account that has permissions to create an Enterprise Application in your tenant.
 
-To grant the permissions tenant-wide please check [Grant tenant-wide admin consent](grant-admin-consent-in-enterprise-applications.md)&#x20;
+To grant the permissions tenant-wide please check [Grant tenant-wide admin consent](security/grant-admin-consent-in-enterprise-applications.md)&#x20;
 {% endhint %}
 
 ## Silent Installation
