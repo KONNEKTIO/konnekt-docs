@@ -4,9 +4,9 @@
 This feature is available in KONNEKT 2.2 or newer
 {% endhint %}
 
-The usage of SharePoint Online API is subject to limitations in terms of the amount of requests per time, that an application may use. If an application uses more resources, it will be throttled by SharePoint Online. You can find more on this in the [Microsoft docs](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online).
+The usage of Microsoft 365 APIs is subject to limitations in terms of the amount of requests per time, that an application may send. If an application uses more resources, it will be throttled. You can find more on this in the [Microsoft docs](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online).
 
-Since KONNEKT is using Microsoft SharePoint Online and Microsoft Graph APIs, it may happen, that SharePoint Online will throttle your KONNEKT usage. If an application is throttled, SharePoint Online will not respond for a defined amount of time. This starts from some seconds and can grow up to minutes, depending on the usage. Impacts for KONNEKT may be slow browsing through or loading/writing of files. If the throttling grows up to minutes, it will result in error messages that the drive is currently not available.
+Since KONNEKT is using Microsoft SharePoint Online REST API and Microsoft Graph API, it may happen, that Microsoft APIs will throttle your KONNEKT usage. If an application is throttled, the corresponding API (e.g. SharePoint Online REST API) tells KONNEKT, that it has to wait for a defined amount of time. This starts from some seconds and can grow up to minutes, depending on the usage. Impacts for KONNEKT may be slow browsing through or loading/writing of files. If the throttling grows up to minutes, it will result in error messages that the drive is currently not available.
 
 KONNEKT has several mechanisms to reduce the occurrence of throttling, which are applied automatically. There are other settings, that you can decide on, since this will affect the timeliness e.g. of new libraries or files being available in KONNEKT. Please take a look at the following policy to learn about the available options.
 
