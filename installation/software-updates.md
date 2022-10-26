@@ -2,7 +2,7 @@
 
 ## How do I know?
 
-If a software update is available, KONNEKT informs the user with a toast, if the user has local admin priviledges.&#x20;
+If a software update is available, KONNEKT informs the user with a toast, if the user has local admin privileges.&#x20;
 
 You may alternatively observe the context menu of the KONNEKT tray icon (right click), if there is a new version available.
 
@@ -11,6 +11,16 @@ You may alternatively observe the context menu of the KONNEKT tray icon (right c
 ## Manual download of current setup files
 
 You can get the latest version of KONNEKT [here](https://trial.konnekt.io/).
+
+## Preview Releases
+
+Sometimes we publish KONNEKT Preview Releases. We do this, when we are working on a new version of KONNEKT, to give customers the opportunity to try new features before those are finally released. We are happy, when we get feedback on those versions, to find bugs and improve release quality.
+
+{% hint style="info" %}
+Preview Releases are still in development and therefore bugs may occur.
+{% endhint %}
+
+KONNEKT Preview Releases are not published via the built-in update-checker in KONNEKT. You have to manually download it. If a preview release is available, you can find it in the [changelog](../changelog.md).
 
 ## Executing the update
 
