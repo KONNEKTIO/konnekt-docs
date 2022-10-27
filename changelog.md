@@ -17,6 +17,11 @@ This is a preview version for V 2.2. The occurrence of bugs is likely.
   * Save new file not working in special conditions, e.g. substring of existing file (651)
   * History misses one backslash in UNC for some entries (721)
   * Prevent blue screen during driver update in some environments (672)
+* Known issues
+  * Saving downloaded files from Microsoft Edge directly to a KONNEKT folder may fail. (742)
+  * Adding files as attachment to Outlook messages via "attach file" dialog may fail. (744)\
+    Workaround: Use drag & drop to attach files to a mail.
+  * Setting a managed mapping as a favorite may generate two instances of a mapping in the favorites section. (733)
 
 {% file src=".gitbook/assets/2022-10-13-KONNEKT-X64-2.1.6.0.zip" %}
 KONNEKT 2.2 preview - 64 Bit X86 Windows
