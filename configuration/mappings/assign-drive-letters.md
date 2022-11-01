@@ -43,7 +43,11 @@ You can assign a drive letter to a KONNEKT folder, by using the _`net use`_ comm
 net use <DRIVE-LETTER>: <KONNEKT-UNC-PATH> [/PERSISTENT:{YES | NO}]
 ```
 
-&#x20;For more information on the _`net use`_ command see [here](https://ss64.com/nt/net-use.html), or run `net use /?` in your command prompt.
+For more information on the _`net use`_ command see [here](https://ss64.com/nt/net-use.html), or run `net use /?` in your command prompt.
+
+{% hint style="info" %}
+Make sure to run CMD without admin rights to avoid any connecting errors for normal users.
+{% endhint %}
 
 {% hint style="info" %}
 **Note:** if the name of Folder contains spaces you have to but the UNC-Path in " " like in the next example.
