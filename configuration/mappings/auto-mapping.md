@@ -115,13 +115,13 @@ Map all sites and libraries except specific sites (and their libraries)
 
 </details>
 
-#### Teams private channels
+#### Teams private and shared channels
 
 <details>
 
-<summary>Add Microsoft Teams private channels</summary>
+<summary>Add Microsoft Teams private and shared channels</summary>
 
-Map all **** SP **** sites and teams private channels
+Map all **** SP **** sites, Teams private channels and Teams shared channels&#x20;
 
 By adding `webtemplate:TEAMCHANNEL` to the query
 
