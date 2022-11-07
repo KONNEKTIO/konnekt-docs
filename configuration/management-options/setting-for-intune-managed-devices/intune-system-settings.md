@@ -225,7 +225,7 @@ Device context:
 
 ```
 <enabled/>
-<data value="120"/>
+<data id ="UpdateInterval" value="120"/>
 ```
 
 ```
