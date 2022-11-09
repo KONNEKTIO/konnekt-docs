@@ -57,7 +57,7 @@
   * [Sites missing or folders empty](troubleshooting/sites-missing-or-folders-empty.md)
   * [Some sites or libraries do not appear in KONNEKT](troubleshooting/some-sites-or-libraries-do-not-appear-in-konnekt.md)
   * [Slow Folder Browsing](troubleshooting/slow-folder-browsing.md)
-  * [Why is there a grey "X" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
+  * [Why is there a grey "X" or "brown suitcase" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
