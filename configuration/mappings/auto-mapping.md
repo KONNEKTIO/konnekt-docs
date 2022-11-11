@@ -16,7 +16,7 @@ This policy is applicable to version 2.0 and above
 {% endhint %}
 
 {% hint style="info" %}
-By default KONNEKT will map all team and communication sites, the user has access to. Private channels of Teams are not in the default site scope.
+By default KONNEKT will map all team and communication sites and subsites the user has access to. Private channels of Teams are not in the default site scope.
 
 **If you are fine with that, you do not need to use this policy.**
 {% endhint %}
