@@ -50,6 +50,7 @@
   * [Clicking a share does nothing](troubleshooting/clicking-a-share-does-nothing.md)
   * [Debug log preparation](troubleshooting/debug-log-preparation.md)
   * [Error message about missing token](troubleshooting/error-message-about-missing-token.md)
+  * [Subscribe a subset of users](troubleshooting/subscribe-a-subset-of-users.md)
   * [How to deal with error(s)](troubleshooting/how-to-deal-with-error-s.md)
   * [Libraries are empty](troubleshooting/libraries-are-empty.md)
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
