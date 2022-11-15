@@ -5,3 +5,9 @@ To disable KONNEKT for some users you just need to disable the initialization wi
 ```
 HKCU\Software\GlueckKanja\Konnekt\SkipAccountWizard -> 1 (DWORD)
 ```
+
+{% hint style="warning" %}
+Once you have installed KONNEKT on a machine, you must disable the Account Setup Wizard prior the first login of the user(s) to be effective.
+{% endhint %}
+
+Please see also [here](../../troubleshooting/subscribe-a-subset-of-users.md) for details on this topic.
