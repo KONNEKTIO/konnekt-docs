@@ -5,7 +5,7 @@ Files provided by KONNEKT can be marked with the offline attribute (see also [FI
 Marking files with the offline attribute therefore saves bandwidth between the KONNEKT client and SharePoint Online. The downside of this is, that no thumbnails or previews (e.g. of pictures) are rendered in Windows Explorer. Sometimes Windows Explorer also shows a grey X on files that are marked offline (see also [why-is-there-a-grey-x-on-my-files-and-folders.md](../../troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md "mention")).
 
 {% hint style="warning" %}
-Disabling the offline attribute for some file types allows the Windows Explorer to show preview information for the files, at the cost of more network traffic and possible slower response times when browsing through directories.
+Disabling the offline attribute for some file types allows the Windows Explorer to show preview information for the files, at the cost of more network traffic and possible slower response times when browsing through directories. It is also increasing the risk of [SharePoint Throttling](sharepoint-throttling-prevention.md).
 
 Therefore, please disable the offline attribute with care and only for environments that have a good connection to Office 365.
 {% endhint %}
