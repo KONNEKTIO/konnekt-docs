@@ -20,7 +20,7 @@ Details on how to set license keys can be found [here](../configuration/other/li
 
 You should install KONNEKT on machines with subscribed users, only.
 
-In case of multi-user systems like VDI, there may be machines, where both types of users (subscribed/non-subscribed) are working. In those cases, you should prevent, that KONNEKT is generating an account for non-subscribed users. You can do this by disabling the Account Setup Wizard for the non-subscribed users. You can find details on this [here](subscribe-a-subset-of-users.md).
+In case of multi-user systems like VDI, there may be machines, where both types of users (subscribed/non-subscribed) are working. In those cases, you should prevent, that KONNEKT is generating an account for non-subscribed users. You can do this by disabling the Account Setup Wizard for the non-subscribed users. You can find details on this [here](subscribe-a-subset-of-users.md#disable-konnekt-on-machines).
 
 {% hint style="warning" %}
 Once you have installed KONNEKT on a machine, you must disable the Account Setup Wizard prior the first login of the user(s) to be effective.
