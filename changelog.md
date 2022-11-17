@@ -1,10 +1,8 @@
 # Changelog
 
-### 2.1.7 (preview for V2.2 - Published 2022-11-02)
+You can download the most current release of KONNEKT [here](installation/software-updates.md#manual-download-of-current-setup-files).
 
-{% hint style="warning" %}
-This is a preview version for V 2.2. Bugs may occur.
-{% endhint %}
+### 2.2.0 (Published 2022-11-17)
 
 * ADD
   * [ARM64 processor platform support ](installation/system-requirements.md#processor-platform)(662)
@@ -12,24 +10,12 @@ This is a preview version for V 2.2. Bugs may occur.
   * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
   * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](troubleshooting/slow-folder-browsing.md) (736)
 * FIX
+  * Explorer may get unresponsive when creating new folder in SharePoint root (648)
   * "This file does not exist" after re-install or uninstall (649)
   * Save new file not working in special conditions, e.g. substring of existing file (651)
-  * History misses one backslash in UNC for some entries (721)
   * Prevent blue screen during driver update in some environments (672)
-* Known issues
-  * Setting a managed mapping as a favorite may generate two instances of a mapping in the favorites section. (733)
-
-{% file src=".gitbook/assets/2022-11-02-Konnekt-X64-2.1.7.0.zip" %}
-KONNEKT 2.2 preview - 64 Bit X86 Windows
-{% endfile %}
-
-{% file src=".gitbook/assets/2022-11-02-Konnekt-X86-2.1.7.0.zip" %}
-KONNEKT 2.2 preview - 32 Bit X86 Windows
-{% endfile %}
-
-{% file src=".gitbook/assets/2022-11-02-Konnekt-Arm64-2.1.7.0.zip" %}
-KONNEKT 2.2 preview - 64 Bit ARM Windows
-{% endfile %}
+  * History misses one backslash in UNC for some entries (721)
+  * Deleted folders may re-appear in some scenarios (738)
 
 ### 2.1.1 (Published 2022-07-05)
 
