@@ -1,7 +1,5 @@
 # Changelog
 
-You can download the most current release of KONNEKT [here](installation/software-updates.md#manual-download-of-current-setup-files).
-
 ### 2.2.0 (Published 2022-11-17)
 
 * ADD
@@ -16,6 +14,12 @@ You can download the most current release of KONNEKT [here](installation/softwar
   * Prevent blue screen during driver update in some environments (672)
   * History misses one backslash in UNC for some entries (721)
   * Deleted folders may re-appear in some scenarios (738)
+
+#### Downloads
+
+* [KONNEKT 2.2.0 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.2.0.0.Msi)
+* [KONNEKT 2.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.2.0.0.Msi)
+* [KONNEKT 2.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.2.0.0.Msi)
 
 ### 2.1.1 (Published 2022-07-05)
 
