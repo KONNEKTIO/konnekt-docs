@@ -44,7 +44,7 @@ If you are working with files in the gigabyte size, the performance of your netw
 
 KONNEKT is doing a great job in several environments. It can handle hundreds of mappings (sites & libraries) and very big libraries.&#x20;
 
-Although there are no issues with the total amount of files within one library, we recommend segmenting the data. A maximum amount of 1000 files per single folder is a good rule of thumb.
+Although there are no issues with the total amount of files within one library, we recommend segmenting the data within the library in folders. A maximum amount of 1000 files per single folder is a good rule of thumb.
 
 ## Architecture
 
