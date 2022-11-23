@@ -14,20 +14,24 @@ KONNEKT has several mechanisms to reduce the occurrence of throttling, which are
 In heavy load environments, all measures may not be enough to prevent throttling.
 
 KONNEKT was made for regular office work. If you use high volume files (e.g. video editing, graphics design, CAD) or read/write gigabytes of data, KONNEKT (& SharePoint Online) may not be the proper tool of choice.
+
+Please also check our [use-cases](../../#use-cases).
 {% endhint %}
 
 ## How can I prevent throttling?
 
 The following circumstances promote throttling:
 
-* Use of very big libraries with hundred-thousands of files in total
-* Use of very big folders with >1000 files on the first level of the folder
+* Usage of 3rd party tools for SharePoint Online backup - especially during working hours
 * Use of tools that crawl your whole filesystem (like preview renderer etc.)
+* Use of very big folders with >1000 files on the first level of the folder
 
 To avoid this, please
 
+* Do not run backups of SharePoint online during working hours.
 * Do not use any preview renderer for KONNEKT resources. See also [here](offline-attribute.md). You can additionally set the [Offline Filter](offline-attribute.md#exclude-dedicated-file-types-from-offline-attribute-filter) to the file extension "YYY" (which does not exist), to prevent Windows File Explorer from rendering previews for PDF files.
-* Segment your data (no very big libraries, not too many files in the first level of a folder).
+* Segment your data (not too many files in the first level of a folder).
+* Set KONNEKT SharePoint Throttling Prevention Policy (see below) to "High"
 
 ## How can I detect throttling?
 
