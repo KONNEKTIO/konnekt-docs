@@ -4,7 +4,7 @@
 Available for KONNEKT 2.1 or newer
 {% endhint %}
 
-Using this policy, you can activate support for OneDrive and SharePoint Online Multi-Geo in KONNEKT.
+Using this policy, you can activate support for [OneDrive and SharePoint Online Multi-Geo](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365?view=o365-worldwide) in KONNEKT.
 
 **Policy name:** `Multi-Geo Sharepoint support`
 

@@ -16,13 +16,14 @@ These docs cover the technical aspects of KONNEKT. All other information can be 
 
 ## Features
 
-| Features                                | Explanation                                                                                                                     |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Drive Letter Mapping and Network Shares | Uses a deeply integrated network provider technology. A sophisticated implementation allows UNC paths and drive letter mapping. |
-| Explorer Integrated                     | Integrates into the Windows File Explorer structure.                                                                            |
-| Citrix and Terminal Services Support    | Transparent access to any SharePoint from Citrix and Terminal Services                                                          |
-| Multitenancy                            | Connects to multiple tenants simultaneously                                                                                     |
-| Co-authoring                            | Supports the co-authoring of Microsoft Office 365                                                                               |
+| Features                                                                                 | Explanation                                                                                                                     |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Drive Letter Mapping](configuration/mappings/) and Network Shares                       | Uses a deeply integrated network provider technology. A sophisticated implementation allows UNC paths and drive letter mapping. |
+| Explorer Integrated                                                                      | Integrates into the Windows File Explorer structure.                                                                            |
+| Citrix and Terminal Services Support                                                     | Transparent access to any SharePoint from Citrix and Terminal Services                                                          |
+| [Multi-tenancy](installation/configure-office-365-account.md#multi-tenant-configuration) | Connects to multiple tenants simultaneously                                                                                     |
+| [Multi-geo](configuration/mappings/multi-geo.md)                                         | Support for OneDrive and SharePoint Online Multi-Geo                                                                            |
+| [Co-authoring](configuration/system-settings/office365-co-authoring.md)                  | Supports the co-authoring of Microsoft Office 365                                                                               |
 
 ## Use cases
 
