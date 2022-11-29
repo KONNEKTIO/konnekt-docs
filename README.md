@@ -32,7 +32,7 @@ KONNEKT was designed for regular office work on Windows machines (fat clients an
 
 When it comes to applications, where bigger amounts of data with high throughput are used, like databases, graphics design, video editing or computer aided design (CAD), KONNEKT (and SharePoint Online in general) will most probably not be a satisfactory solution.
 
-KONNEKT is not the right tool to do data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online.
+KONNEKT is not the appropriate tool to perform data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online.
 
 ### File sizes
 
