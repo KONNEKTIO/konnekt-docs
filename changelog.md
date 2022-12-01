@@ -20,6 +20,7 @@
 * [KONNEKT 2.2.0 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.2.0.0.Msi)
 * [KONNEKT 2.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.2.0.0.Msi)
 * [KONNEKT 2.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.2.0.0.Msi)
+* [KONNEKT ADMX & ADML 2.2.0](configuration/management-options/settings-via-gpo.md#admx-file)
 
 ### 2.1.1 (Published 2022-07-05)
 
