@@ -12,8 +12,8 @@
 [gui-behavior](gui-behavior/)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="system-settings/" %}
+[system-settings](system-settings/)
 {% endcontent-ref %}
 
 {% content-ref url="other/" %}

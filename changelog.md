@@ -1,5 +1,23 @@
 # Changelog
 
+### ADMX-ADML 2.2.0.1 (Preview Version)
+
+{% hint style="warning" %}
+This is a preview version. Bugs may occur.
+{% endhint %}
+
+* ADD
+  * Ready for new [Intune ADMX and ADML administrative templates import (public preview)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom)
+  * New Policies (requires KONNEKT 2.2.0)
+    * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
+    * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
+
+#### Downloads
+
+{% file src=".gitbook/assets/KONNEKT-ADMX-ADMX-2.2.0.1-preview.zip" %}
+KONNEKT ADMX & ADML 2.2.0.1 (preview)
+{% endfile %}
+
 ### 2.2.0 (Published 2022-11-17)
 
 * ADD

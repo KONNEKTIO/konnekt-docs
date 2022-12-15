@@ -39,7 +39,7 @@ KONNEKT is not the appropriate tool to perform data-migrations, where huge amoun
 
 KONNEKT is relying on the performance of the network connection to SharePoint Online. Working with files in the one- or two-digit megabyte size is the main use-case.&#x20;
 
-If you are working with files in the gigabyte size, the performance of your network and SharePoint Online may be an issue. We do not recommend to use KONNEKT in such use-cases and therefore KONNEKT [limits the usage of bigger files by default](configuration/other/open-file-size-limitations.md).
+If you are working with files in the gigabyte size, the performance of your network and SharePoint Online may be an issue. We do not recommend to use KONNEKT in such use-cases and therefore KONNEKT [limits the usage of bigger files by default](configuration/system-settings/open-file-size-limitations.md).
 
 ### File structure
 

@@ -75,7 +75,7 @@ We recommend the following settings for VDI environments in general, but please 
 
 **Cache Size**: 500-1000 MB
 
-You may also want to [restrict the file size](../other/open-file-size-limitations.md), that you are reading from SharePoint Online:
+You may also want to [restrict the file size](open-file-size-limitations.md), that you are reading from SharePoint Online:
 
 **OneDriveOpenFilesLargerThanReadOnly**: 100-500 MB (= 104,857,600 - 524,288,000 bytes)
 
