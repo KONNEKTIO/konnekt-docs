@@ -7,8 +7,8 @@ This is a preview version. Bugs may occur.
 {% endhint %}
 
 * ADD
-  * Ready for new [Intune ADMX and ADML administrative templates import (public preview)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom)
-  * New Policies (requires KONNEKT 2.2.0)
+  * Ready for new [Intune ADMX and ADML administrative templates import (public preview)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom) (753)
+  * New Policies (requires KONNEKT 2.2.0) (754)
     * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
     * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
 
