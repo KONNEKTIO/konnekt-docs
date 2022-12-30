@@ -85,7 +85,7 @@ This will add the "shared documents" library of the site "mysite". The Drive wil
 ## **There are several ways to apply the policy**
 
 1. via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-2. pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+2. pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/)
 3. manually by adding the key in the registry under machine or user registry settings
 
 {% hint style="warning" %}

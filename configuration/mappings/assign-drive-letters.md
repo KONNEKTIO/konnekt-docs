@@ -69,7 +69,7 @@ You can map drive letters to sites and libraries with [Managed Mappings](adminis
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-mappings.md#connect-drive)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-mappings.md#connect-drive)
 
 **Policies** stored in:
 

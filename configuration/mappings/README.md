@@ -16,3 +16,7 @@
 [administrative-mappings.md](administrative-mappings.md)
 {% endcontent-ref %}
 
+{% content-ref url="multi-geo.md" %}
+[multi-geo.md](multi-geo.md)
+{% endcontent-ref %}
+

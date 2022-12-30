@@ -40,7 +40,7 @@ The default log level is `info`.
 ### **There are several ways to apply the policy**
 
 1. Via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-2. Pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/)
+2. Pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/)
 3. Manually by adding the key in the registry
 
 ### Manual setting in the registry

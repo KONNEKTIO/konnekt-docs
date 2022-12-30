@@ -22,6 +22,10 @@ description: >-
 [error-message-about-missing-token.md](error-message-about-missing-token.md)
 {% endcontent-ref %}
 
+{% content-ref url="subscribe-a-subset-of-users.md" %}
+[subscribe-a-subset-of-users.md](subscribe-a-subset-of-users.md)
+{% endcontent-ref %}
+
 {% content-ref url="how-to-deal-with-error-s.md" %}
 [how-to-deal-with-error-s.md](how-to-deal-with-error-s.md)
 {% endcontent-ref %}
@@ -38,8 +42,16 @@ description: >-
 [opening-ms-office-documents-displays-a-warning-message.md](opening-ms-office-documents-displays-a-warning-message.md)
 {% endcontent-ref %}
 
+{% content-ref url="sites-missing-or-folders-empty.md" %}
+[sites-missing-or-folders-empty.md](sites-missing-or-folders-empty.md)
+{% endcontent-ref %}
+
 {% content-ref url="some-sites-or-libraries-do-not-appear-in-konnekt.md" %}
 [some-sites-or-libraries-do-not-appear-in-konnekt.md](some-sites-or-libraries-do-not-appear-in-konnekt.md)
+{% endcontent-ref %}
+
+{% content-ref url="slow-folder-browsing.md" %}
+[slow-folder-browsing.md](slow-folder-browsing.md)
 {% endcontent-ref %}
 
 {% content-ref url="why-is-there-a-grey-x-on-my-files-and-folders.md" %}

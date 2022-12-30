@@ -35,7 +35,7 @@ To apply the policy you have to restart the **Windows Explorer** process, no nee
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-gui-settings.md#konnekt-explorer-ui)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-gui-settings.md#konnekt-explorer-ui)
 
 **Policies** stored in:
 

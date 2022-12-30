@@ -29,7 +29,7 @@ If you have sites with the default sharing link type _Specific people_, we there
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#link-scope)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#link-scope)
 
 **Policies** stored in:
 

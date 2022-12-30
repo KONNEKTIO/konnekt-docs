@@ -1,6 +1,22 @@
 # Changelog
 
-### ADMX-ADML 2.2.0.1 (Preview Version)
+### 2.2.1 (30-12-2022 - Preview Version)
+
+{% hint style="warning" %}
+This is a preview version. Bugs may occur.
+{% endhint %}
+
+* Fix
+  * Windows File Explorer stuck while trying to add new folders/files directly in Site root (648)
+  * License check issue in version 2.2.0 (766)
+
+#### Downloads
+
+{% file src=".gitbook/assets/Konnekt 2.2.1.0-Preview.zip" %}
+KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
+{% endfile %}
+
+### ADMX-ADML 2.2.1.0 (Preview Version)
 
 {% hint style="warning" %}
 This is a preview version. Bugs may occur.
@@ -14,8 +30,8 @@ This is a preview version. Bugs may occur.
 
 #### Downloads
 
-{% file src=".gitbook/assets/KONNEKT-ADMX-ADMX-2.2.0.1-preview.zip" %}
-KONNEKT ADMX & ADML 2.2.0.1 (preview)
+{% file src=".gitbook/assets/KONNEKT-ADMX-ADMX-2.2.1.0-preview.zip" %}
+KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 {% endfile %}
 
 ### 2.2.0 (Published 2022-11-17)
@@ -67,7 +83,7 @@ KONNEKT ADMX & ADML 2.2.0.1 (preview)
   * Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
   * Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
   * [Cache settings](configuration/system-settings/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
-  * [Intune Management](configuration/management-options/setting-for-intune-managed-devices/)
+  * [Intune Management](configuration/management-options/setting-for-intune-managed-devices-1/)
   * Offline Attribute Filter to enable explorer previews on certain file types
   * [ADMX & ADML files ](configuration/management-options/settings-via-gpo.md#admx-file)got new policies & structure
 * FIX

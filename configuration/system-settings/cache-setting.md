@@ -59,7 +59,7 @@ To apply the policy you have to restart the **Windows Explorer**
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#cache)
+* pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#cache)
 
 #### **Policies** stored in:
 

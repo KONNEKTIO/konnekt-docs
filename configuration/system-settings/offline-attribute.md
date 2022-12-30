@@ -52,7 +52,7 @@ This policy controls which file types will not be marked with an offline attribu
 
 * manually by adding the key in the registry under machine or user registry settings
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#offline-attribute)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#offline-attribute)
 
 **Policies** stored in:
 

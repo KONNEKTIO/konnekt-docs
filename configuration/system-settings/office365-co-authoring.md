@@ -44,7 +44,7 @@ We recommend to use our [ADMX template](../management-options/settings-via-gpo.m
 There are several ways to apply the policy:
 
 * via GPO, see [settings via GPO](../management-options/settings-via-gpo.md)
-* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices/intune-system-settings.md#co-authoring)
+* pushing policies via Intune, see [settings for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#co-authoring)
 
 **Policies** stored in:
 
