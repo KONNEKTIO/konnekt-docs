@@ -1,13 +1,13 @@
 # Changelog
 
-### 2.2.1 (30-12-2022 - Preview Version)
+### 2.2.1 (30-12-2022 - Preview Version for KONNEKT 2.3)
 
 {% hint style="warning" %}
 This is a preview version. Bugs may occur.
 {% endhint %}
 
 * Fix
-  * Windows File Explorer stuck while trying to add new folders/files directly in Site root (648)
+  * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
   * License check issue in version 2.2.0 (766)
 
 #### Downloads
@@ -28,6 +28,10 @@ This is a preview version. Bugs may occur.
     * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
     * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
 
+#### Known Issues
+
+* ["Connect drive" policy](configuration/mappings/assign-drive-letters.md#gpo-intune) can not be set to "disabled".
+
 #### Downloads
 
 {% file src=".gitbook/assets/KONNEKT-ADMX-ADMX-2.2.1.0-preview.zip" %}
@@ -42,7 +46,7 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
   * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
   * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](troubleshooting/slow-folder-browsing.md) (736)
 * FIX
-  * Explorer may get unresponsive when creating new folder in SharePoint root (648)
+  * Explorer may get unresponsive when creating new folder in SharePoint root - part 1 (648)
   * "This file does not exist" after re-install or uninstall (649)
   * Save new file not working in special conditions, e.g. substring of existing file (651)
   * Prevent blue screen during driver update in some environments (672)
