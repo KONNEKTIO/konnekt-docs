@@ -31,7 +31,7 @@ This is a preview version. Bugs may occur.
 
 #### Known Issues
 
-* ["Connect drive" policy](configuration/mappings/assign-drive-letters.md#gpo-intune) can not be set to "disabled".
+* Can not set ["Connect drive" policy](configuration/mappings/assign-drive-letters.md#gpo-intune) to "disabled" in Intune.
 
 #### Downloads
 
