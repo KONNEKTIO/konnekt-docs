@@ -35,7 +35,8 @@ This policy does not support folder mapping, for folder mapping please use **net
   _optional => value may be empty_
 * `<TenantName>:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
   _optional => value may be empty_
-* `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. Possible values:\
+* `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. You must run KONNEKT 2.2.1 or newer for this feature to work properly.\
+  Possible values:\
   \- `FALSE` (default)\
   \- `TRUE`\
   _optional => value may be empty_
