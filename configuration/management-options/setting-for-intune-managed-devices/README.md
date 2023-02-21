@@ -13,4 +13,10 @@ For more information about the import see [https://learn.microsoft.com/en-us/mem
 
 **New KONNEKT ADMX and ADML files are available under** [**changelog**](../../../changelog.md#admx-adml-2.2.1.0-preview-version) **to download**
 
+{% hint style="info" %}
+After importing the ADMX,ADML files, you have to choose by creating the configuration profile "Imported Administrative templates (Preview)" to find KONNEKT policies.
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/2023-02-21 09_11_36-Create a profile.png" alt=""><figcaption></figcaption></figure>
+
 <figure><img src="../../../.gitbook/assets/2022-12-30 17_01_40-Window.png" alt=""><figcaption></figcaption></figure>
