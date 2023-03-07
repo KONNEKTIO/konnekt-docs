@@ -15,7 +15,7 @@ To add mappings, go to the policy and click on **Show...**
 ![](<../../.gitbook/assets/2022-08-19 11\_17\_20-LabServer ‎- Remotedesktop.png>)
 
 {% hint style="info" %}
-Using this policy for driver-letter mapping will always map the site as root.
+Using this policy for drive-letter mapping will always map the site as root.
 
 If you specify a library in the URL, only this library will be mapped. The site will still be the root of the driver-letter mapping.
 
