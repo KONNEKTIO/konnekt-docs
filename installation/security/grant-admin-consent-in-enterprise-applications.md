@@ -2,7 +2,11 @@
 
 KONNEKT is an application that interacts with several Microsoft365 APIs. Therefore it needs the permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. Giving this permission for a single user is called "consent", giving this permission for all users in the tenant is called "admin consent".
 
+The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This means, that users in this tenant are allowed to use this app to access the requested APIs. This does **not** enable the app to access without the user.
+
 The user consent automatically shows up, if a user logs in with KONNEKT the first time. As an admin, you can do that work for all your users by following the procedure in the next chapter.
+
+You can learn more about [managing consent to applications and evaluate consent requests in the Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/manage-consent-requests).
 
 ## Add KONNEKT permissions in AAD Enterprise Applications
 
@@ -33,7 +37,7 @@ If you get **Page Not Found** after accepting the consent, please ignore it. It 
 
 To check **KONNEKT** permissions you can find it in your **Azure Active Directory** under **Enterprise applications** -> **Permissions**
 
-![](<../../.gitbook/assets/2021-06-29 17\_17\_45-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 For more Info about admin consent visit [MS.Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent)
 
