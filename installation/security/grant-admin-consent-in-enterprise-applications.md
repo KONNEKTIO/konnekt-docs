@@ -2,9 +2,21 @@
 
 KONNEKT is an application that interacts with several Microsoft365 APIs. Therefore it needs the permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. Giving this permission for a single user is called "consent", giving this permission for all users in the tenant is called "admin consent".
 
-The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This means, that users in this tenant are allowed to use this app to access the requested APIs. This does **not** enable the app to access without the user.
+Enterprise App Consent in Azure AD is a major advantage over legacy approaches such as network- or proxy-based access controls for client types, since it is working at every place and allows very granular permissions.
 
-The user consent automatically shows up, if a user logs in with KONNEKT the first time. As an admin, you can do that work for all your users by following the procedure in the next chapter.
+The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This means, that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
+
+KONNEKT requests the following permissions to be consented:
+
+| API Name                       | Claim value                | Permission                                   |
+| ------------------------------ | -------------------------- | -------------------------------------------- |
+| Microsoft Graph                | User.Read                  | Sign in and read user profile                |
+| Office 365 SharePoint Online   | AllSites.Write             | Read and write items in all site collections |
+| Office 365 SharePoint Online   | MyFiles.Write              | Read and write user files                    |
+| Windows Azure Active Directory | Directory.AccessAsUser.All | Access the directory as the signed-in user   |
+| Windows Azure Active Directory | User.Read                  | Sign in and read user profile                |
+
+[Since some of the permissions require to be consented by an admin](https://learn.microsoft.com/en-us/graph/permissions-reference#teams-permissions), you have to do the admin consent before using KONNEKT with regular users.
 
 You can learn more about [managing consent to applications and evaluate consent requests in the Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/manage-consent-requests).
 
