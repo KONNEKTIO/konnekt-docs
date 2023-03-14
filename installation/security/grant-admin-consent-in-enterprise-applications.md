@@ -1,10 +1,8 @@
 # Grant tenant-wide admin consent
 
-KONNEKT is an application that interacts with several Microsoft365 APIs. Therefore it needs the permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. Giving this permission for a single user is called "consent", giving this permission for all users in the tenant is called "admin consent".
+KONNEKT is an application that interacts with several Microsoft365 APIs. Therefore it needs the permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. One level (but not the only one) of this permission is the Enterprise App Consent in Azure AD. It is a major advantage over legacy approaches such as network- or proxy-based access controls for client types, since it is working at every place and allows very granular permissions.
 
-Enterprise App Consent in Azure AD is a major advantage over legacy approaches such as network- or proxy-based access controls for client types, since it is working at every place and allows very granular permissions.
-
-The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This means, that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
+The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This basically means, that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
 
 KONNEKT requests the following permissions to be consented:
 
