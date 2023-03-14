@@ -16,7 +16,7 @@ KONNEKT requests the following permissions to be consented:
 | Windows Azure Active Directory | Directory.AccessAsUser.All | Access the directory as the signed-in user   |
 | Windows Azure Active Directory | User.Read                  | Sign in and read user profile                |
 
-[Since some of the permissions require to be consented by an admin](https://learn.microsoft.com/en-us/graph/permissions-reference#teams-permissions), you have to do the admin consent before using KONNEKT with regular users.
+[Since some of the permissions require to be consented by an admin](https://learn.microsoft.com/en-us/graph/permissions-reference), you have to do the admin consent before using KONNEKT with regular users.
 
 You can learn more about [managing consent to applications and evaluate consent requests in the Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/manage-consent-requests).
 
