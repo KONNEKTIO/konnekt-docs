@@ -133,6 +133,8 @@ By adding `webtemplate:TEAMCHANNEL` to the query
 
 **Note:** restarting KONNEKT is required to apply the policy
 
+Since private and shared channels are dedicated sites on SharePoint, they appear as dedicated volumes in KONNEKT.
+
 </details>
 
 ### **There are several ways to apply the policy:**
