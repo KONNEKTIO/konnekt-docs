@@ -8,6 +8,7 @@ This is a preview version. Bugs may occur.
 
 * Fix
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
+  * Deleted folders may re-appear in some scenarios (738)
   * Managed Mapping sometimes not working after machine reboot (763)
   * License check issue in version 2.2.0 (766)
 
