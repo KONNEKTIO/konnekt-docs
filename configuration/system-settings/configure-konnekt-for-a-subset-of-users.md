@@ -4,7 +4,7 @@
 Available in KONNEKT 2.2.0 or newer
 {% endhint %}
 
-When KONNEKT starts, it automatically deploys KONNEKT for the current user. With this policy, you can prevent this.
+When KONNEKT starts, it automatically deploys KONNEKT for the current user including the setup of an account. With this policy, you can prevent this.
 
 **Policy name:** `SkipAccountWizard`
 
