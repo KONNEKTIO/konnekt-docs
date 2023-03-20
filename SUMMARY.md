@@ -38,7 +38,7 @@
     * [Multi-Geo](configuration/mappings/multi-geo.md)
   * [System settings](configuration/system-settings/README.md)
     * [Cache settings](configuration/system-settings/cache-setting.md)
-    * [Disable KONNEKT for a subset of users](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
+    * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
     * [Link scope](configuration/system-settings/link-scope.md)
     * [Logging](configuration/system-settings/logging.md)
     * [Office365 Co-Authoring](configuration/system-settings/office365-co-authoring.md)
