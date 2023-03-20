@@ -37,4 +37,4 @@ You do not need this if you use GPO or Intune management
   * `0` = disabled
   * `1` = enabled
 * **Value stored in:**
-  * `HKEY_CURRENT_USER\SOFTWARE\GlueckKanja\Konnekt`
+  * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
