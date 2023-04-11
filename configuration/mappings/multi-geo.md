@@ -4,6 +4,12 @@
 Available for KONNEKT 2.1 or newer
 {% endhint %}
 
+{% hint style="info" %}
+With KONNEKT 2.3 or newer, Multi-Geo support is always enabled because there are no issues when it is enabled in non-Multi-Geo environments.
+
+If the policy is set in those versions, it will be ignored.
+{% endhint %}
+
 Using this policy, you can activate support for [OneDrive and SharePoint Online Multi-Geo](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365?view=o365-worldwide) in KONNEKT.
 
 **Policy name:** `Multi-Geo Sharepoint support`
@@ -36,5 +42,5 @@ You do not need this if you use GPO or Intune management
 * **Value data:** `1` (to activate the feature), `0` to disable it
 * **Value stored** **in**:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
