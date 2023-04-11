@@ -32,7 +32,7 @@ Device context:
 
 **Note**
 
-For more information about the policy, see **** [Map all document libraries](../../mappings/auto-mapping.md#map-all-document-libraries)
+For more information about the policy, see [Map all document libraries](../../mappings/auto-mapping.md#map-all-document-libraries)
 
 ## Connect Drive
 
@@ -63,7 +63,7 @@ Device context:
 Disable connect drive mapping
 
 ```
-<enabled/> <data id="DriveSelect" value=""/>
+<enabled/> <data id="DriveSelect" value="disabled"/>
 ```
 
 **Note**
@@ -219,7 +219,7 @@ To disable the policy
 
 #### **Site 1**
 
-* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite1`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
+* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite1`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)
 * Assigned Name = `TestSite1Name`
 * Assigned drive letter = `k:`
 
@@ -229,7 +229,7 @@ _<mark style="color:blue;">https://konnektdemo.sharepoint.com/sites/TestSite1|Te
 
 #### **Site 2**
 
-* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite2`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)``
+* Site URI = [`https://konnektdemo.sharepoint.com/sites/TestSite2`](https://c4a8.sharepoint.com/sites/GKGABSlides/Shared%20Documents/Forms/AllItems.aspx)
 * Assigned Name = `TestSite2Name`
 * Assigned drive letter = `m:`
 
