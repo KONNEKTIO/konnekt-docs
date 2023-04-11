@@ -7,7 +7,7 @@ Available for KONNEKT 2.1 or newer
 {% hint style="info" %}
 With KONNEKT 2.3 or newer, Multi-Geo support is always enabled because there are no issues when it is enabled in non-Multi-Geo environments.
 
-If the policy is set in those versions, it will be ignored.
+If the policy is set on a machine with KONNEKT 2.3 or newer, it is ignored.
 {% endhint %}
 
 Using this policy, you can activate support for [OneDrive and SharePoint Online Multi-Geo](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365?view=o365-worldwide) in KONNEKT.
