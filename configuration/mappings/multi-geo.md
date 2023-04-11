@@ -5,7 +5,7 @@ Available for KONNEKT 2.1 or newer
 {% endhint %}
 
 {% hint style="info" %}
-With KONNEKT 2.3 or newer, Multi-Geo support is always enabled because there are no issues when it is enabled in non-Multi-Geo environments.
+With KONNEKT 2.3 or newer, Multi-Geo support is always enabled.
 
 If the policy is set on a machine with KONNEKT 2.3 or newer, it is ignored.
 {% endhint %}
