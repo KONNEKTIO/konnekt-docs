@@ -1,6 +1,6 @@
 # Changelog
 
-### 2.2.22 (19-04-2022 - Preview Version for KONNEKT 2.3)
+### 2.2.22 (19-04-2023 - Preview Version for KONNEKT 2.3)
 
 {% hint style="warning" %}
 This is a preview version. Bugs may occur.
