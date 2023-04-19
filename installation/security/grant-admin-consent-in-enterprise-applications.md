@@ -59,6 +59,6 @@ In case you want to remove the admin-consent for KONNEKT, please proceed the fol
 2. Select **Azure Active Directory** then **Enterprise applications.**
 3. Look for **Konnekt** and click on it.
 4. Select **properties.**
-5. **Delete**, **** and confirm the delete.
+5. **Delete**, and confirm the delete.
 
 ![](<../../.gitbook/assets/2021-06-29 15\_54\_57-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)

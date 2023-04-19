@@ -1,4 +1,4 @@
-# Open File Size Limitations
+# Open file size limitations
 
 By default, KONNEKT limits the size of files, that you open on SharePoint or read from SharePoint:
 
@@ -11,7 +11,7 @@ We recommend, to keep these defaults.&#x20;
 
 ## Changing the open file size defaults
 
-You can change the thresholds for "open file size" via registry keys. This may be a good idea, if you are restricting the [cache size](../system-settings/cache-setting.md).
+You can change the thresholds for "open file size" via registry keys. This may be a good idea, if you are restricting the [cache size](cache-setting.md).
 
 {% hint style="info" %}
 Please be aware, that this is about the file sizes, that KONNEKT is opening/reading **from** SharePoint Online.&#x20;
@@ -26,9 +26,9 @@ Our support team will offer limited support for environments with thresholds, th
 ### **Read-only threshold**
 
 **Value name:** `OneDriveOpenFilesLargerThanReadOnly`\
-``**Value storage location:** `HKCU\SOFTWARE\GlueckKanja\Konnekt`\
+**Value storage location:** `HKCU\SOFTWARE\GlueckKanja\Konnekt`\
 **Value type:** `DWORD`\
-``**Value unit:** `bytes`
+**Value unit:** `bytes`
 
 Files which are larger than this size are opened read-only on OneDrive and O365 accounts.
 
@@ -39,7 +39,7 @@ Files which are larger than this size are opened read-only on OneDrive and O365 
 **Value name:** `OneDriveDoNotOpenFilesLargerThan`\
 **Value storage location:** `HKCU\SOFTWARE\GlueckKanja\Konnekt`\
 **Value type:** `DWORD`\
-``**Value unit:** `bytes`
+**Value unit:** `bytes`
 
 Do not open files which are larger than this size on OneDrive and O365 accounts.
 

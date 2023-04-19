@@ -1,4 +1,4 @@
-# SharePoint Throttling Prevention
+# SharePoint throttling prevention
 
 {% hint style="info" %}
 This feature is available in KONNEKT 2.2 or newer
@@ -80,5 +80,5 @@ You do not need this, if you use GPO or Intune management.
   * `3` => High
 * Value **stored** in:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`

@@ -1,9 +1,41 @@
 # Changelog
 
-### 2.2.1 (30-12-2022 - Preview Version for KONNEKT 2.3)
+### 2.2.22 (19-04-2022 - Preview Version for KONNEKT 2.3)
 
 {% hint style="warning" %}
 This is a preview version. Bugs may occur.
+{% endhint %}
+
+* Add
+  * Updated API handling
+  * Support for custom SharePoint domain name and SharePoint Vanity Domain (780)
+  * [Multi-Geo support ](configuration/mappings/multi-geo.md)is always active - no dedicated config needed anymore.
+* Fix
+  * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
+  * Deleted folders may re-appear in some scenarios (738)
+  * Managed Mapping sometimes not working after machine reboot (763)
+  * License check issue in version 2.2.0 (766)
+  * Failed to open .XLSB files when sensitivity/encryption is enabled (768)
+  * Move Folder within a library is reversed after some seconds (775)
+
+#### Downloads
+
+{% file src=".gitbook/assets/Konnekt-X64-2.2.22.0-Preview.zip" %}
+64 Bit X86
+{% endfile %}
+
+{% file src=".gitbook/assets/Konnekt-X86-2.2.22.0-Preview.zip" %}
+32 Bit X86
+{% endfile %}
+
+{% file src=".gitbook/assets/Konnekt-Arm64-2.2.22.0-Preview.zip" %}
+64 Bit ARM
+{% endfile %}
+
+### 2.2.1 (30-12-2022 - Preview Version for KONNEKT 2.3)
+
+{% hint style="warning" %}
+This is a stable preview version. We recommend to use this release to all customers who have issues while using 2.2.0.
 {% endhint %}
 
 * Fix

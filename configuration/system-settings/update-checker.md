@@ -29,5 +29,5 @@ You do not need this if you use GPO or Intune management
 * **Value data:** `78` (Hexadecimal) for enabled, and `0` for disabled
 * **Value stored in:**
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`

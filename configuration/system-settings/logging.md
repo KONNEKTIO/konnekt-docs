@@ -54,7 +54,7 @@ You do not need this if you use GPO or Intune management
 * **Value data:** `0, 1, 2 or 3` (see table above)
 * **Value stored in:**
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 ## Log Rotation

@@ -10,7 +10,7 @@ You can consent **KONNEKT** permissions in two ways:
 
 ![](<../.gitbook/assets/2021-08-09 12\_26\_06-Windows Sandbox.png>)
 
-**2-** From **Azure Portal**, you can check the permissions granted to KONNEKT, edit, or delete it. Therefore please check **** [Granting tenant-wide admin consent](../installation/security/grant-admin-consent-in-enterprise-applications.md)&#x20;
+**2-** From **Azure Portal**, you can check the permissions granted to KONNEKT, edit, or delete it. Therefore please check [Granting tenant-wide admin consent](../installation/security/grant-admin-consent-in-enterprise-applications.md)&#x20;
 
 &#x20;
 

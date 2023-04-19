@@ -22,7 +22,7 @@ To apply the policy you have to restart **KONNEKT**
 
 **Key names:** `ShowTrayIcon`\
 **Key type:** REG\_SZ (String Value)\
-****
+
 
 ## **There are several ways to apply the policy:**
 

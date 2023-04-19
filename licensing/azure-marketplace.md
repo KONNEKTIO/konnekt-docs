@@ -39,13 +39,13 @@ The following user segments are available.
 | KONNEKT 5000     | 5,000                          | 9,999                   |
 | KONNEKT 10000    | 10,000                         | unlimited               |
 
-For prices in Euro (EUR), please check out our <mark style="color:green;"></mark> [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
+For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
 
 ## User Up- and Downgrades
 
 ### Upgrades
 
-* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) <mark style="color:green;"></mark> and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
+* If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 
 ![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
 
@@ -56,7 +56,7 @@ For prices in Euro (EUR), please check out our <mark style="color:green;"></mark
 ### Downgrades
 
 * Downgrading the amount of users is currently not possible without cancelling the subscription.
-* If you want to perform a downgrade, please cancel your current subscription from the <mark style="color:green;"></mark> [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
+* If you want to perform a downgrade, please cancel your current subscription from the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
 
 ![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 3.png>)
 
@@ -77,7 +77,7 @@ To get started with your KONNEKT subscription,
 
 * Create or select the **Resource group** you would like to deploy the subscription to
 * Assign a **Name** to later identify your SCEPman subscription
-* We recommend to keep **Recurring billing** on **** so that you do not have to worry about a manual renewal of your subscription.
+* We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
 * Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
 
 ![](<../.gitbook/assets/image (30) (1).png>)

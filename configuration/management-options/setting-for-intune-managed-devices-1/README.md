@@ -1,4 +1,4 @@
-# Settings for Intune managed devices
+# Settings for Intune-managed devices (Legacy)
 
 Starting in Windows 10, version 1703, you can import ADMX files (also called ADMX ingestion) and set those ADMX-backed policies for Win32 and Desktop Bridge apps by using Windows 10 Mobile Device Management (MDM) on desktop SKUs. The ADMX files that define policy information can be ingested to your device by using the Policy CSP URI, The ingested ADMX file is then processed into MDM policies.
 
@@ -12,12 +12,12 @@ In order to set the KONNEKT policies you need to ingest the admx file in a confi
 
 1\. Go to your **Microsoft Endpoint Manager** portal\
 2\. Click on **Devices**, then in the sub-menu go to **Configuration profiles**\
-****3. **Create profile:** Select Platform **Windows 10 and later,** profile type **Templates,** in search field choose **Custom,** then **Create**
+3\. **Create profile:** Select Platform **Windows 10 and later,** profile type **Templates,** in search field choose **Custom,** then **Create**
 
 ![](<../../../.gitbook/assets/2021-07-14 10\_17\_11-Window.png>)
 
 4\. Now choose a **Name** for this profile, **Next**\
-****5. Under **Configuration settings:**
+5\. Under **Configuration settings:**
 
 **First you have to** ingest the admx file: **Add** new Row
 
@@ -46,8 +46,8 @@ In the following picture 4 policies are added (as an example). After ingesting t
 
 6\. Assign the policies to groups/users, and **Next, Next, and Create**
 
-****\
-****After a successful **** Sync for assigned devices/users restart **KONNEKT** to apply the new policies.
+\
+After a successful Sync for assigned devices/users restart **KONNEKT** to apply the new policies.
 
 To check that the URI's have been deployed correctly in your MDM go to **Devices -> Windows -> your Device -> Device configuration -> your configuration profile**
 

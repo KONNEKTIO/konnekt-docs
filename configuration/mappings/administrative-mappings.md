@@ -123,7 +123,7 @@ The policy consists of two components in the registry:
 * **Value data:** `1` (to activate the feature)
 * Value **stored** in:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 #### **2. Key with value per mapping**
@@ -131,7 +131,7 @@ The policy consists of two components in the registry:
 * **Key name:** `SharepointSites`
 * Key **stored** in:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 Under this key, one value/data entry has to be generated per mapping:
@@ -141,5 +141,5 @@ Under this key, one value/data entry has to be generated per mapping:
 * **Value data:** see [Policy definition](administrative-mappings.md#policy-definition).
 * Value **stored** in:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt\SharepointSites`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt\SharepointSites`

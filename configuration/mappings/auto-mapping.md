@@ -105,7 +105,7 @@ Show all sites has a word starting with Con `title:<"Con*">`
 
 Map all sites and libraries except specific sites (and their libraries)
 
-**Query string** to exclude **** `<Site01>` **** and **** `<Site02>`
+**Query string** to exclude `<Site01>` and `<Site02>`
 
 ```
 (webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (NOT (sitetitle:"Site01" OR sitetitle:"Site02"))
@@ -121,7 +121,7 @@ Map all sites and libraries except specific sites (and their libraries)
 
 <summary>Add Microsoft Teams private and shared channels</summary>
 
-Map all **** SP **** sites, Teams private channels and Teams shared channels&#x20;
+Map all SP sites, Teams private channels and Teams shared channels&#x20;
 
 By adding `webtemplate:TEAMCHANNEL` to the query
 
@@ -154,7 +154,7 @@ You do not need this if you use GPO or Intune management.
 * **Registry Value data:** KQL string
 * **Registry Value storage location**:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`\
-    ``or
+    or
   * `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 ## Library scope
