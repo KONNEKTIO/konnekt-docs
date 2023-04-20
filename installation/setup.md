@@ -1,5 +1,14 @@
 # Setup
 
+## Security
+
+To setup KONNEKT you first have to meet the security requirements:
+
+* admin consent
+* conditional access config (if used)
+
+Please see [here](security/) for details.
+
 ## Download current setup files
 
 You can get the latest version of KONNEKT [here](https://trial.konnekt.io/).
