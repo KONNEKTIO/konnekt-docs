@@ -8,7 +8,8 @@ This is a preview version. Bugs may occur.
 
 * Add
   * Updated API handling
-  * Support for custom SharePoint domain name and SharePoint Vanity Domain (780)
+  * Support for [SharePoint Domain Name Change](https://learn.microsoft.com/en-us/sharepoint/change-your-sharepoint-domain-name) (765)
+  * Support for Custom/Vanity SharePoint Domain Names (780)
   * [Multi-Geo support ](configuration/mappings/multi-geo.md)is always active - no dedicated config needed anymore.
 * Fix
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
