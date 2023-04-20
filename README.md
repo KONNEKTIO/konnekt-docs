@@ -57,13 +57,13 @@ KONNEKT uses the **native Microsoft APIs** (Microsoft SharePoint and Microsoft G
 
 The **main differences** between Microsoft **OneDrive Sync Client** and **KONNEKT** are:
 
-| Feature                                                            |                     OneDrive Sync Client                     |                        KONNEKT                        |
-| ------------------------------------------------------------------ | :----------------------------------------------------------: | :---------------------------------------------------: |
-| Are the files **synced** to the local machine?                     |             <p>Yes</p><p>(at least partially)</p>            |                           No                          |
-| Automatically map the SharePoint volumes, the user has access to   | <p>No</p><p>(Users mark libraries to be synced manually)</p> |     [Yes](configuration/mappings/auto-mapping.md)     |
-| **Drive-Letter** support                                           |                              No                              | [Yes](configuration/mappings/assign-drive-letters.md) |
-| Works in **VDI** environments (e.g. Citrix,  AVD/WVD, Windows 365) |                            limited                           |                          Yes                          |
-| Support for **UNC** addressing                                     |                              No                              |                          Yes                          |
-| <p>Work with big Sites/Libraries<br>(>100 k files)</p>             |                            limited                           |                [Yes](./#file-structure)               |
+| Feature                                                            |                                                                OneDrive Sync Client                                                                |                        KONNEKT                        |
+| ------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------: |
+| Are the files **synced** to the local machine?                     |                                                        <p>Yes</p><p>(at least partially)</p>                                                       |                           No                          |
+| Automatically map the SharePoint volumes, the user has access to   |                                            <p>No</p><p>(Users mark libraries to be synced manually)</p>                                            |     [Yes](configuration/mappings/auto-mapping.md)     |
+| **Drive-Letter** support                                           |                                                                         No                                                                         | [Yes](configuration/mappings/assign-drive-letters.md) |
+| Works in **VDI** environments (e.g. Citrix,  AVD/WVD, Windows 365) |                                                                       limited                                                                      |                          Yes                          |
+| Support for **UNC** addressing                                     |                                                                         No                                                                         |                          Yes                          |
+| <p>Work with big Sites/Libraries<br>(>100 k files)</p>             | [limited](https://support.microsoft.com/en-us/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa) |                [Yes](./#file-structure)               |
 
 You have the option to use KONNEKT side-by-side with Microsoft 365 or stand-alone by replacing the OneDrive client. But in every configuration KONNEKT is a helpful leap to the Office 365 ecosytem (Office, Outlook, SharePoint,...) by providing not only the documents and data but also the right options to jump directly to the Sharepoint Online Site, providing the links to share or make the versions of a file accessible.
