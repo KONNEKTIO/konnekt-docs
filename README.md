@@ -64,5 +64,6 @@ The **main differences** between Microsoft **OneDrive Sync Client** and **KONNEK
 | **Drive-Letter** support                                           |                              No                              | [Yes](configuration/mappings/assign-drive-letters.md) |
 | Works in **VDI** environments (e.g. Citrix,  AVD/WVD, Windows 365) |                            limited                           |                          Yes                          |
 | Support for **UNC** addressing                                     |                              No                              |                          Yes                          |
+| <p>Work with big Sites/Libraries<br>(>100 k files)</p>             |                            limited                           |                [Yes](./#file-structure)               |
 
 You have the option to use KONNEKT side-by-side with Microsoft 365 or stand-alone by replacing the OneDrive client. But in every configuration KONNEKT is a helpful leap to the Office 365 ecosytem (Office, Outlook, SharePoint,...) by providing not only the documents and data but also the right options to jump directly to the Sharepoint Online Site, providing the links to share or make the versions of a file accessible.
