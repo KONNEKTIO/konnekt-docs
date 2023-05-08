@@ -24,7 +24,7 @@
 * [KONNEKT 2.5.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.0.0.Msi)
 
 {% hint style="info" %}
-KONNEKT version numbers 2.3 and 2.4 were skipped due to major changes in the handling of Microsoft APIs.
+KONNEKT version numbers 2.3 and 2.4 were skipped due to major code rework.
 {% endhint %}
 
 ### 2.2.1 (2022-12-30 - Bugfix release for KONNEKT 2.2.0)
