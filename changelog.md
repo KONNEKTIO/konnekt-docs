@@ -1,10 +1,6 @@
 # Changelog
 
-### 2.2.22 (19-04-2023 - Preview Version for KONNEKT 2.3)
-
-{% hint style="warning" %}
-This is a preview version. Bugs may occur.
-{% endhint %}
+### 2.5.0 (Published 2023-05-08)
 
 * Add
   * Updated API handling
@@ -14,6 +10,8 @@ This is a preview version. Bugs may occur.
 * Fix
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
   * Deleted folders may re-appear in some scenarios (738)
+  * Unable to install MSI file located in Konnekt share (748)
+  * Cannot access sites with names ending on a dot (761)
   * Managed Mapping sometimes not working after machine reboot (763)
   * License check issue in version 2.2.0 (766)
   * Failed to open .XLSB files when sensitivity/encryption is enabled (768)
@@ -21,23 +19,15 @@ This is a preview version. Bugs may occur.
 
 #### Downloads
 
-{% file src=".gitbook/assets/Konnekt-X64-2.2.22.0-Preview.zip" %}
-64 Bit X86
-{% endfile %}
+* [KONNEKT 2.5.0 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.0.0.Msi)
+* [KONNEKT 2.5.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.0.0.Msi)
+* [KONNEKT 2.5.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.0.0.Msi)
 
-{% file src=".gitbook/assets/Konnekt-X86-2.2.22.0-Preview.zip" %}
-32 Bit X86
-{% endfile %}
-
-{% file src=".gitbook/assets/Konnekt-Arm64-2.2.22.0-Preview.zip" %}
-64 Bit ARM
-{% endfile %}
-
-### 2.2.1 (30-12-2022 - Preview Version for KONNEKT 2.3)
-
-{% hint style="warning" %}
-This is a stable preview version. We recommend to use this release to all customers who have issues while using 2.2.0.
+{% hint style="info" %}
+KONNEKT version numbers 2.3 and 2.4 were skipped due to major changes in the handling of Microsoft APIs.
 {% endhint %}
+
+### 2.2.1 (2022-12-30 - Bugfix release for KONNEKT 2.2.0)
 
 * Fix
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
@@ -87,13 +77,6 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
   * Prevent blue screen during driver update in some environments (672)
   * History misses one backslash in UNC for some entries (721)
   * Deleted folders may re-appear in some scenarios (738)
-
-#### Downloads
-
-* [KONNEKT 2.2.0 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.2.0.0.Msi)
-* [KONNEKT 2.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.2.0.0.Msi)
-* [KONNEKT 2.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.2.0.0.Msi)
-* [KONNEKT ADMX & ADML 2.2.0](configuration/management-options/settings-via-gpo.md#admx-file)
 
 ### 2.1.1 (Published 2022-07-05)
 
