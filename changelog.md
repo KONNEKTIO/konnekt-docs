@@ -8,12 +8,8 @@
   * Support for Custom/Vanity SharePoint Domain Names (780)
   * [Multi-Geo support ](configuration/mappings/multi-geo.md)is always active - no dedicated config needed anymore.
 * Fix
-  * Explorer may get unresponsive when creating new folder in SharePoint root - part 2 (648)
-  * Deleted folders may re-appear in some scenarios (738)
   * Unable to install MSI file located in Konnekt share (748)
   * Cannot access sites with names ending on a dot (761)
-  * Managed Mapping sometimes not working after machine reboot (763)
-  * License check issue in version 2.2.0 (766)
   * Failed to open .XLSB files when sensitivity/encryption is enabled (768)
   * Move Folder within a library is reversed after some seconds (775)
 
