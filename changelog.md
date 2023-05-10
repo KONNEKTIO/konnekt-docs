@@ -23,12 +23,6 @@ Fix: An invalid account token may cause issues (895)
   * Failed to open .XLSB files when sensitivity/encryption is enabled (768)
   * Move Folder within a library is reversed after some seconds (775)
 
-#### Downloads
-
-* [KONNEKT 2.5.0 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.0.0.Msi)
-* [KONNEKT 2.5.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.0.0.Msi)
-* [KONNEKT 2.5.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.0.0.Msi)
-
 {% hint style="info" %}
 KONNEKT version numbers 2.3 and 2.4 were skipped due to major code rework.
 {% endhint %}
