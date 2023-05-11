@@ -1,14 +1,21 @@
 # Changelog
 
-### 2.5.1 (Published 2023-05-10)
+### 2.5.2 (Published 2023-05-11)
 
-Fix: An invalid account token may cause issues (895)
+Fix:&#x20;
+
+* Volume free and total size is wrong (896)
+* Stability issues
 
 #### Downloads
 
-* [KONNEKT 2.5.1 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.1.0.Msi)
-* [KONNEKT 2.5.1 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.1.0.Msi)
-* [KONNEKT 2.5.1 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.1.0.Msi)
+* [KONNEKT 2.5.2 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.2.0.Msi)
+* [KONNEKT 2.5.2 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.2.0.Msi)
+* [KONNEKT 2.5.2 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.2.0.Msi)
+
+### 2.5.1 (Published 2023-05-10)
+
+Fix: An invalid account token may cause issues (895)
 
 ### 2.5.0 (Published 2023-05-08)
 
