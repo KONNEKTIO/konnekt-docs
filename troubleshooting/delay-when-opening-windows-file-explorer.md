@@ -10,7 +10,7 @@ When opening Windows File Explorer (WFE) or a WFE based save/open dialog from an
 
 ## Cause
 
-When WFE starts is accesses all resources linked in the Quick Access pane in WFE.
+When WFE starts it accesses all resources linked in the Quick Access pane in WFE.
 
 ![](../.gitbook/assets/image.png)
 

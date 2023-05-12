@@ -7,7 +7,7 @@ Fix:&#x20;
 * Volume free and total size is wrong (896)
 * Stability issues
 
-#### Know issues
+#### Known issues
 
 * Delay when opening Windows File Explorer. \
   Please have a look into our [Troubleshooting article](troubleshooting/delay-when-opening-windows-file-explorer.md) if your system is affected by this issue.
