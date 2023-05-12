@@ -7,6 +7,11 @@ Fix:&#x20;
 * Volume free and total size is wrong (896)
 * Stability issues
 
+#### Know issues
+
+* Delay when opening Windows File Explorer. \
+  Please have a look into our [Troubleshooting article](troubleshooting/delay-when-opening-windows-file-explorer.md) if your system is affected by this issue.
+
 #### Downloads
 
 * [KONNEKT 2.5.2 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.2.0.Msi)
