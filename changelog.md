@@ -1,22 +1,24 @@
 # Changelog
 
+### 2.5.4 (Published 2023-05-16)
+
+Fix:
+
+* Poor response times when trying to negotiate HTTP/2 multiplexing (836)
+* Managed Mappings showing empty drives  when the policy "Add all SharePoint libraries" is disabled (932)
+
+#### Downloads
+
+* [KONNEKT 2.5.4 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.4.0.Msi)
+* [KONNEKT 2.5.4 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.4.0.Msi)
+* [KONNEKT 2.5.4 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.4.0.Msi)
+
 ### 2.5.2 (Published 2023-05-11)
 
 Fix:&#x20;
 
 * Volume free and total size is wrong (896)
 * Stability issues
-
-#### Known issues
-
-* Delay when opening Windows File Explorer. \
-  Please have a look into our [Troubleshooting article](troubleshooting/delay-when-opening-windows-file-explorer.md) if your system is affected by this issue.
-
-#### Downloads
-
-* [KONNEKT 2.5.2 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.2.0.Msi)
-* [KONNEKT 2.5.2 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.2.0.Msi)
-* [KONNEKT 2.5.2 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.2.0.Msi)
 
 ### 2.5.1 (Published 2023-05-10)
 
