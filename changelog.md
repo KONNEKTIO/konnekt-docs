@@ -1,17 +1,21 @@
 # Changelog
 
+### 2.5.6 (Published 2023-05-25)
+
+Fix: App may crash during SSO login attempt (1046)
+
+#### Downloads
+
+* [KONNEKT 2.5.6 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.6.0.Msi)
+* [KONNEKT 2.5.6 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.6.0.Msi)
+* [KONNEKT 2.5.6 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.6.0.Msi)
+
 ### 2.5.4 (Published 2023-05-16)
 
 Fix:
 
 * Poor response times when trying to negotiate HTTP/2 multiplexing (836)
 * Managed Mappings showing empty drives  when the policy "Add all SharePoint libraries" is disabled (932)
-
-#### Downloads
-
-* [KONNEKT 2.5.4 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.4.0.Msi)
-* [KONNEKT 2.5.4 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.4.0.Msi)
-* [KONNEKT 2.5.4 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.4.0.Msi)
 
 ### 2.5.2 (Published 2023-05-11)
 
