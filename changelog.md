@@ -1,14 +1,18 @@
 # Changelog
 
-### 2.5.6 (Published 2023-05-25)
+### 2.5.7 (Published 2023-05-30)
 
-Fix: App may crash during SSO login attempt (1046)
+Fix: App may crash if access token cannot be obtained
 
 #### Downloads
 
-* [KONNEKT 2.5.6 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.6.0.Msi)
-* [KONNEKT 2.5.6 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.6.0.Msi)
-* [KONNEKT 2.5.6 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.6.0.Msi)
+* [KONNEKT 2.5.7 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.7.0.Msi)
+* [KONNEKT 2.5.7 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.7.0.Msi)
+* [KONNEKT 2.5.7 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.7.0.Msi)
+
+### 2.5.6 (Published 2023-05-25)
+
+Fix: App may crash during SSO login attempt (1046)
 
 ### 2.5.4 (Published 2023-05-16)
 
