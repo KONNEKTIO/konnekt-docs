@@ -18,7 +18,7 @@ A user subscription is bound to a single user for at least one calendar month an
 
 ## Device limits per user
 
-A single user may have up to 5 Windows devices or terminal sessions (e.g. Citrix XenApp).
+A single user may have up to 5 Windows devices or VDI sessions (e.g. Citrix XenApp).
 
 ## Subscription scope
 
