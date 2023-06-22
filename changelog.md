@@ -2,7 +2,7 @@
 
 ### 2.5.7 (Published 2023-05-30)
 
-Fix: App may crash if access token cannot be obtained
+Fix: App may crash if the access token cannot be obtained
 
 #### Downloads
 
@@ -132,7 +132,7 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
   * [ADMX & ADML files ](configuration/management-options/settings-via-gpo.md#admx-file)got new policies & structure
 * FIX
   * Broken file links when resolving mapped drives (e.g. copy path in Outlook)
-  * Stability issue when uploading files lager than 1 GB
+  * Stability issue when uploading files larger than 1 GB
   * Cache directory may be filled up
   * SharePoint document libraries may be shown empty
 
@@ -208,7 +208,7 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 
 * ADD: Add account endpoint to sharename if displayed one left side of explorer
 * FIX: Double menu in Windows Explorer
-* FIX: Account context menu not completely visible in german language
+* FIX: Account context menu is not completely visible in German language
 * FIX: Crash in kernel driver
 
 ### 1.9.0 (Published 2019-04-17)
@@ -218,7 +218,7 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 * ADD: Option to remove manually added shares
 * ADD: Policy to rename "Konnekt" in the Windows Explorer
 * ADD: Rename "Personal" in OneDrive to "OneDrive"
-* ADD: Registry setting to to set personal folder name in OneDrive
+* ADD: Registry setting to set personal folder name in OneDrive
 
 ### 1.8.2 (Published 2019-04-02)
 
@@ -232,8 +232,8 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 * FIX: Improved performance during start-up on terminal servers
 * FIX: Office Co-authoring opens wrong URL in personal OneDrive if user was re-created (#366)
 * FIX: Co-authoring does not work on mapped network drives
-* FIX: Co-authoring does not work for macro enabled excel files (#360)
-* FIX: Remove add account entries for german cloud (#342)
+* FIX: Co-authoring does not work for macro enabled Excel files (#360)
+* FIX: Remove add account entries for German cloud (#342)
 * FIX: Race condition during start-up
 * FIX: Driver does not work on Windows 7 x64
 * FIX: Improved logging
@@ -329,7 +329,6 @@ KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 * ADD: Settings dialog
 * ADD: Show favorite and personal shares in explorer's left side
 * ADD: Remove chromium embedded framework in favor of MSHTML
-* ADD: Support for german and chinese O365 cloud (#245)
 * ADD: Automatically create account on first start if computer is joined to an Azure AD
 * ADD: Setting to connect first personal volume to drive H:
 * FIX: Cannot access SharePoint site if its name contains special characters (#258)
