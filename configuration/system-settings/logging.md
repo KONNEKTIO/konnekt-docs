@@ -29,13 +29,7 @@ The default log level is `info`.
 
 ![](<../../.gitbook/assets/2022-02-25 Log Level.png>)
 
-|                |           |                                       |
-| -------------- | --------- | ------------------------------------- |
-| **Option**     | **Value** | **Behavior**                          |
-| No logging     | 0         | No logging                            |
-| Error          | 1         | Only error records will be stored     |
-| Info (default) | 2         | Info and error records will be stored |
-| Debug          | 3         | All log records will be stored        |
+<table><thead><tr><th width="232.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Option</strong></td><td><strong>Value</strong></td><td><strong>Behavior</strong></td></tr><tr><td>No logging</td><td>0</td><td>No logging</td></tr><tr><td>Error</td><td>1</td><td>Only error records will be stored</td></tr><tr><td>Info (default)</td><td>2</td><td>Info and error records will be stored</td></tr><tr><td>Debug</td><td>3</td><td>All log records will be stored</td></tr></tbody></table>
 
 ### **There are several ways to apply the policy**
 

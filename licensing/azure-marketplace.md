@@ -31,13 +31,7 @@ Subscriptions for KONNEKT are available based on an annual renewal interval.
 
 The following user segments are available.
 
-| **User Segment** | **Included Users in Base Fee** | **Maximum Total Users** |
-| ---------------- | ------------------------------ | ----------------------- |
-| KONNEKT 25       | 25                             | 249                     |
-| KONNEKT 250      | 250                            | 999                     |
-| KONNEKT 1000     | 1,000                          | 4,999                   |
-| KONNEKT 5000     | 5,000                          | 9,999                   |
-| KONNEKT 10000    | 10,000                         | unlimited               |
+<table data-header-hidden><thead><tr><th width="240.02162801098973">Plan</th><th width="244.07580174927114">Included Users</th><th></th></tr></thead><tbody><tr><td><strong>User Segment</strong></td><td><strong>Included Users in Base Fee</strong></td><td><strong>Maximum Total Users</strong></td></tr><tr><td>KONNEKT 25</td><td>25</td><td>249</td></tr><tr><td>KONNEKT 250</td><td>250</td><td>999</td></tr><tr><td>KONNEKT 1000</td><td>1,000</td><td>4,999</td></tr><tr><td>KONNEKT 5000</td><td>5,000</td><td>9,999</td></tr><tr><td>KONNEKT 10000</td><td>10,000</td><td>unlimited</td></tr></tbody></table>
 
 For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/pricing/). For prices in _your_ currency, please directly refer to the **Marketplace** in the [Azure Portal](https://portal.azure.com/).
 

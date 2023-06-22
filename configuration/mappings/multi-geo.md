@@ -16,12 +16,7 @@ Using this policy, you can activate support for [OneDrive and SharePoint Online 
 
 ![](<../../.gitbook/assets/2022-05-18 16\_42\_33MultiGeo.png>)
 
-|          |       |                            |
-| -------- | ----- | -------------------------- |
-| Function | Value | Behavior                   |
-| not set  | N/A   | Multi-Geo is de-activated  |
-| enabled  | 1     | Multi-Geo is  activated    |
-| disabled | 0     | Multi-Geo is  de-activated |
+<table><thead><tr><th width="232.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td>Function</td><td>Value</td><td>Behavior</td></tr><tr><td>not set</td><td>N/A</td><td>Multi-Geo is de-activated</td></tr><tr><td>enabled</td><td>1</td><td>Multi-Geo is  activated</td></tr><tr><td>disabled</td><td>0</td><td>Multi-Geo is  de-activated</td></tr></tbody></table>
 
 You can find more details on OneDrive and SharePoint Online Multi-Geo [here](https://docs.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365?view=o365-worldwide).
 

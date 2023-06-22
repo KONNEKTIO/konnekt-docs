@@ -12,13 +12,7 @@ The admin consent for KONNEKT is for "delegated access", only (please see [Micro
 
 KONNEKT requests the following permissions to be consented:
 
-| API Name                       | Claim value                | Permission                                   |
-| ------------------------------ | -------------------------- | -------------------------------------------- |
-| Microsoft Graph                | User.Read                  | Sign in and read user profile                |
-| Office 365 SharePoint Online   | AllSites.Write             | Read and write items in all site collections |
-| Office 365 SharePoint Online   | MyFiles.Write              | Read and write user files                    |
-| Windows Azure Active Directory | Directory.AccessAsUser.All | Access the directory as the signed-in user   |
-| Windows Azure Active Directory | User.Read                  | Sign in and read user profile                |
+<table><thead><tr><th width="146.5">API Name</th><th>Claim value</th><th>Permission</th></tr></thead><tbody><tr><td>Microsoft Graph</td><td>User.Read</td><td>Sign in and read user profile</td></tr><tr><td>Office 365 SharePoint Online</td><td>AllSites.Write</td><td>Read and write items in all site collections</td></tr><tr><td>Office 365 SharePoint Online</td><td>MyFiles.Write</td><td>Read and write user files</td></tr><tr><td>Windows Azure Active Directory</td><td>Directory.AccessAsUser.All</td><td>Access the directory as the signed-in user</td></tr><tr><td>Windows Azure Active Directory</td><td>User.Read</td><td>Sign in and read user profile</td></tr></tbody></table>
 
 [Since some of the permissions require to be consented by an admin](https://learn.microsoft.com/en-us/graph/permissions-reference), you have to do the admin consent before using KONNEKT with regular users.
 

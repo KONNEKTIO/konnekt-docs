@@ -28,13 +28,13 @@ After the successful setup of the Office 365 account, KONNEKT will start to sear
 
 If needed, libraries can be mapped to a specific driver letter (see [Assign drive letter to a KONNEKT folder](../configuration/mappings/assign-drive-letters.md)).
 
-If additional SharePoint Online environments are to be accessed under other Azure Active Directory identities/tenants, this can be set up manually (see [#undefined](configure-office-365-account.md#undefined "mention")).
+If additional SharePoint Online environments are to be accessed under other Azure Active Directory identities/tenants.
 
 ## Multi-Tenant Configuration
 
-With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts**:
+With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts**
 
-![](<../.gitbook/assets/2022-08-02 15\_25\_23-Window.png>)
+<figure><img src="../.gitbook/assets/AddAccount.png" alt=""><figcaption></figcaption></figure>
 
 Log in with the account for the tenant you want to add.
 
