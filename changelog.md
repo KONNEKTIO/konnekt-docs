@@ -1,14 +1,24 @@
 # Changelog
 
-### 2.5.7 (Published 2023-05-30)
+### 2.5.8 (Published 2023-06-28)
 
-Fix: App may crash if the access token cannot be obtained
+Fix:
+
+* Copy Link To Clipboard fails on SharePoint libraries (1271)
+* Konnekt read operations may fail if content-range directive is ignored by SharePoint.
+* Error logged when accessing root of document library
+* File lock/checkout checks produce parsing erros in log
+* Stability issues
 
 #### Downloads
 
-* [KONNEKT 2.5.7 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.7.0.Msi)
-* [KONNEKT 2.5.7 Windows X86 64 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.7.0.Msi)
-* [KONNEKT 2.5.7 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.7.0.Msi)
+* [KONNEKT 2.5.8 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.8.0.Msi)
+* [KONNEKT 2.5.8 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.8.0.Msi)
+* [KONNEKT 2.5.8 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.8.0.Msi)
+
+### 2.5.7 (Published 2023-05-30)
+
+Fix: App may crash if the access token cannot be obtained
 
 ### 2.5.6 (Published 2023-05-25)
 
