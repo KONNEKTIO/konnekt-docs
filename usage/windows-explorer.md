@@ -38,7 +38,7 @@ If you want to use multi-tenancy, you can add more than one Microsoft 365 accoun
 
 Right click mouse and you’ll get the Add an O365 account option to be able to add another Microsoft 365 account.
 
-![](<../.gitbook/assets/2022-07-21 13\_39\_27-Windows Sandbox.png>)
+<figure><img src="../.gitbook/assets/AddAccount.png" alt=""><figcaption></figcaption></figure>
 
 If you right-click on your existing site you will get the following options:
 
