@@ -15,8 +15,8 @@ This procedure is for IT pros, only. It is not supported by our service team.
 * Open **Regedit** and go to\
   `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
 * Check the GUID-named subkeys for the one that belongs to KONNEKT
-  * Check the DisplayName for '**Konnekt xy'**
-  * Check the Publisher for '**Glück & Kanja Consulting'**
+  * Check the DisplayName for '**Konnekt'**
+  * Check the Publisher for '**glueckkanja-gab AG'**
 * Delete the whole key
 
 ### Remove Driver
