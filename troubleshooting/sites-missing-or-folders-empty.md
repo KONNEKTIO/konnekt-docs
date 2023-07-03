@@ -9,7 +9,7 @@ Some folders of mapped sites/libraries are empty.
 
 ### Cause
 
-Currently we see more and more error responses (e.g. 500) for proper requests to SharePoint Online. Sometimes also the site discovery of KONNEKT is affected by this.&#x20;
+Currently we see more and more error responses (e.g. 500) for proper requests to SharePoint Online Search. Sometimes the site discovery of KONNEKT is affected by this.&#x20;
 
 In some cases/tenants, SharePoint Online does permanently fail to search at all. If this is the case, KONNEKT will not work properly.
 
@@ -25,7 +25,7 @@ If you see a result like this frequently, please open a ticket at Microsoft:
 
 ### Solution
 
-We made KONNEKT more robust to error responses from SharePoint Online. This applies to the following KONNEKT releases:
+We made KONNEKT more robust to failures of SharePoint Online Search. This applies to the following KONNEKT releases:
 
 * 2.1.0 - 2.2.1
 * 2.5.9 or newer (not released, yet)
