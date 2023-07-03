@@ -25,7 +25,12 @@ If you see a result like this frequently, please open a ticket at Microsoft:
 
 ### Solution
 
-We made KONNEKT more robust to error responses from SharePoint Online starting from Build 2.1.0. If the error responses happen **sometimes**, this build may circumvent the problem.
+We made KONNEKT more robust to error responses from SharePoint Online. This applies to the following KONNEKT releases:
+
+* 2.1.0 - 2.2.1
+* 2.5.9 or newer (not released, yet)
+
+If the error responses happen **sometimes**, these builds may circumvent the problem.
 
 {% hint style="warning" %}
 If the error responses happen **frequently or permanently**, KONNEKT will not work properly, since KONNEKT relies on a proper availability of SharePoint Online.
