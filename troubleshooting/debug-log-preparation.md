@@ -2,7 +2,7 @@
 
 Our support team may ask you to provide debug logs to analyze issues. To do so, please follow these steps:
 
-### **Set Log-Level to Debug:**
+## **1) Set Log-Level to Debug:**
 
 Right-Click on the KONNEKT Tray Icon and choose "Preferences"\
 
@@ -13,25 +13,17 @@ Set Log-Level to "Debug":
 
 ![](<../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
 
-### Exit KONNEKT from the Tray Icon:
+## 2) Restart affected machine
 
-![](<../.gitbook/assets/2022-08-02 17\_03\_22-Window.png>)
+## 3) Try reproduce the Issue
 
-### Restart KONNEKT:
+When trying to reproduce the problem, please note the use case you are trying. A description of the steps with details of the path, file name and timestamp is very helpful when troubleshooting.
 
-The easiest way to start KONNEKT is to just open Windows Explorer and Click on KONNEKT
-
-![](<../.gitbook/assets/2022-08-02 17\_10\_29-Window.png>)
-
-### Try reproduce the Issue
-
-Try to reproduce whatever the problem is. Give it some time.
-
-### Download and run the following batch file:
+## 4) Download and run the following batch file
 
 {% file src="../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
 
-### Find the files and send them to our engineering team
+## 5) Zip the files
 
 You'll find the collected files in:
 
@@ -41,6 +33,13 @@ You'll find the collected files in:
 
 ![](<../.gitbook/assets/image (30).png>)
 
-Please select all files, zip them and send the zip file to our support.
+Please zip the whole folder.
+
+## 6) Send to us
+
+* Zip folder from 5)
+* Use case / what went wrong?
+* Timestamp / when did it happen?
+* Path / file name
 
 ##
