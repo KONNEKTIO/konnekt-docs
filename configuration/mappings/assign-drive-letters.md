@@ -14,19 +14,30 @@ You can configure this feature with the following options alternatively:
 
 ### GPO/Intune
 
-Please use our [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting or via Intune management.
+Please use our [ADMX template](../management-options/#admx-adml-files) to configure this setting or via Intune management.
 
 Policy name: `Connect drive`
-
-| GPO-setting |                     Value                     | Behavior                                                                                                                                                                                                                                                                                  |
-| :---------: | :-------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   Disabled  |                      N/A                      | KONNEKT will assign and map the default drive letter! To disable drive mappings to the OneDrive for Business document library, you should enable the policy and set the **Drive** under **Options** to **Disabled.** Config item in preferences menu will be disabled for change by user. |
-|    Enable   |                   "Disabled"                  | KONNEKT will not assign a drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                                |
-|    Enable   | <p>&#x3C;drive-letter>:</p><p>(e.g. "H:")</p> | KONNEKT will assign the configured drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                       |
 
 {% hint style="info" %}
 After applying the policy, restarting the machine is required
 {% endhint %}
+
+#### KONNEKT 2.6.0 and newer:
+
+| Policy-setting |                     Value                     | Behavior                                                                                                                                                                                 |
+| :------------: | :-------------------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Not configured |                      N/A                      | <p>KONNEKT will assign H: to the OneDrive for Business document library by default. <br>User can change the setting in the preferences menu.<br>OneDrive is mapped to H: by default.</p> |
+|    Disabled    |                      N/A                      | <p>KONNEKT will not assign any drive letter to the OneDrive for Business document library. <br>User can not change the setting in the preferences menu.</p>                              |
+|     Enabled    | <p>&#x3C;drive-letter>:</p><p>(e.g. "H:")</p> | <p>KONNEKT will assign the configured drive letter to the OneDrive for Business document library. <br>User can not change the setting in the preferences menu.</p>                       |
+
+#### KONNEKT older than 2.6.0
+
+| Policy-setting |                     Value                     | Behavior                                                                                                                                                                                                                                                                                  |
+| :------------: | :-------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Not configured |                      N/A                      | <p>KONNEKT will assign H: to the OneDrive for Business document library by default. <br>User can change the setting in the preferences menu.<br>OneDrive is mapped to H: by default.</p>                                                                                                  |
+|    Disabled    |                      N/A                      | KONNEKT will assign and map the default drive letter! To disable drive mappings to the OneDrive for Business document library, you should enable the policy and set the **Drive** under **Options** to **Disabled.** Config item in preferences menu will be disabled for change by user. |
+|     Enable     |                   "Disabled"                  | KONNEKT will not assign a drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                                |
+|     Enable     | <p>&#x3C;drive-letter>:</p><p>(e.g. "H:")</p> | KONNEKT will assign the configured drive letter to the OneDrive for Business document library. Config item in preferences menu will be disabled for change by user.                                                                                                                       |
 
 ### Registry
 
