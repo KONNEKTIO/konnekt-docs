@@ -9,6 +9,7 @@ Add:
 * [Policy to configure downloads directory](configuration/system-settings/download-directory.md) (792)
 * CoAuthoring support for additional file types including .xslb and office template files
 * [Ready for new Intune ADMX and ADML administrative templates import (public preview)](configuration/management-options/setting-for-intune-managed-devices/) (753)
+  * [New configuration & behavior for "Connect drive" policy](configuration/mappings/assign-drive-letters.md#konnekt-2.6.0-and-newer) (753)
 * New Policies (754)
   * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
   * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
