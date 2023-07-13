@@ -1,5 +1,32 @@
 # Changelog
 
+### 2.6.0 (Published 2023-07-13)
+
+Add:
+
+* [Circumvent error/outage of SharePoint Search](troubleshooting/sites-missing-or-folders-empty.md) (703)
+* [Extend Cache TTL range in policy](configuration/system-settings/cache-setting.md#cache-ttl-time-to-live) (756)
+* [Policy to configure downloads directory](configuration/system-settings/download-directory.md) (792)
+* CoAuthoring support for additional file types including .xslb and office template files
+* [Ready for new Intune ADMX and ADML administrative templates import (public preview)](configuration/management-options/setting-for-intune-managed-devices/) (753)
+* New Policies (754)
+  * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
+  * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
+
+Fix:
+
+* Error when opening certain office files (e.g. XLSB) with sensitivity/encryption enabled (768)
+* Kernel driver misinterprets modern standby as deadlocked userland (809)
+* Files and Folders named with a single character cause problems in searches (866)
+* Stability issues
+
+#### Downloads
+
+* [KONNEKT 2.6.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.6.0.0.Msi)
+* [KONNEKT 2.6.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.6.0.0.Msi)
+* [KONNEKT 2.6.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.6.0.0.Msi)
+* [KONNEKT ADMX/ADML 2.6.0](configuration/management-options/#admx-adml-files)
+
 ### 2.5.8 (Published 2023-06-28)
 
 Fix:
@@ -9,12 +36,6 @@ Fix:
 * Error logged when accessing root of document library
 * File lock/checkout checks produce parsing erros in log
 * Stability issues
-
-#### Downloads
-
-* [KONNEKT 2.5.8 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.5.8.0.Msi)
-* [KONNEKT 2.5.8 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.5.8.0.Msi)
-* [KONNEKT 2.5.8 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.5.8.0.Msi)
 
 ### 2.5.7 (Published 2023-05-30)
 
@@ -71,28 +92,6 @@ KONNEKT version numbers 2.3 and 2.4 were skipped due to major code rework.
 
 {% file src=".gitbook/assets/Konnekt 2.2.1.0-Preview.zip" %}
 KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
-{% endfile %}
-
-### ADMX-ADML 2.2.1.0 (Preview Version)
-
-{% hint style="warning" %}
-This is a preview version. Bugs may occur.
-{% endhint %}
-
-* ADD
-  * Ready for new [Intune ADMX and ADML administrative templates import (public preview)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom) (753)
-  * New Policies (requires KONNEKT 2.2.0) (754)
-    * [Skip Account Wizard](configuration/system-settings/configure-konnekt-for-a-subset-of-users.md)
-    * [Open File Size Limitations](configuration/system-settings/open-file-size-limitations.md)
-
-#### Known Issues
-
-* Can not set ["Connect drive" policy](configuration/mappings/assign-drive-letters.md#gpo-intune) to "disabled" in Intune.
-
-#### Downloads
-
-{% file src=".gitbook/assets/KONNEKT-ADMX-ADMX-2.2.1.0-preview.zip" %}
-KONNEKT ADMX & ADML 2.2.1.0 (preview version compatible with Intune-Import)
 {% endfile %}
 
 ### 2.2.0 (Published 2022-11-17)

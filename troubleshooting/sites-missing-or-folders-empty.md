@@ -28,7 +28,7 @@ If you see a result like this frequently, please open a ticket at Microsoft:
 We made KONNEKT more robust to failures of SharePoint Online Search. This applies to the following KONNEKT releases:
 
 * 2.1.0 - 2.2.1
-* 2.5.9 or newer (not released, yet)
+* 2.6.0 or newer
 
 If the error responses happen **sometimes**, these builds may circumvent the problem.
 

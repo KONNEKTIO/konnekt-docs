@@ -22,9 +22,7 @@ With the ADMX Template the following settings can be set:
 
 ![](<../../.gitbook/assets/image (27) (1).png>)
 
-{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-V2.1.zip" %}
-**ADMX and ADML files for KONNEKT V2.1**
-{% endfile %}
+You can **download** the ADMX/ADML files [here](./#admx-adml-files).
 
 ## **GPO / Registry key priorities**
 

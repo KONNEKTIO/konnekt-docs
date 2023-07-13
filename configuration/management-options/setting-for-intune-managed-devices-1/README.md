@@ -32,7 +32,7 @@ Click on **Add** then in the new window:
 ```
 
 * **Data type:** String
-* **Value:** copy the content of this [admx file](../settings-via-gpo.md#admx-file), then **Save**
+* **Value:** copy the content of this [admx file](../#admx-adml-files), then **Save**
 
 ![](<../../../.gitbook/assets/2021-07-14 11\_10\_18-Window (1).png>)
 

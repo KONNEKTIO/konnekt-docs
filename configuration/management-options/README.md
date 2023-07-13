@@ -12,3 +12,8 @@
 [settings-via-gpo.md](settings-via-gpo.md)
 {% endcontent-ref %}
 
+## ADMX / ADML files
+
+You can download the ADMX / ADML files here:
+
+{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-2-6-0-0.zip" %}

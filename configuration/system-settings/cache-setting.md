@@ -4,25 +4,45 @@
 This policy is applicable to version 2.0 and above
 {% endhint %}
 
+## Basics
+
 All files, that are read from or written to SharePoint Online via KONNEKT are temporarily cached on the local disc.&#x20;
 
 The cache directory is located at: `%localappdata%\konnekt\cache`
 
 This policy defines the caching behavior of KONNEKT.
 
-## **KONNEKT uses the cache for different purposes:**
+KONNEKT uses the cache for different purposes:
 
 * Files that are currently opened by the user
 * Files that need to be uploaded (write cache)
 * Files that are closed (read cache)
 
-#### **Definitions:**&#x20;
+## **Definitions**&#x20;
 
-* **Cache TTL (Time To Live):** How long (in minutes) closed documents (read cache) will stay in the Cache. This value needs to be filled in the input field if the policy is enabled.
-* **Fixed Cache Size:** How big (in Megabytes) is the KONNEKT cache folder. This value needs to be filled in the input field if the policy is enabled.
-* **Cache Size:** Main cache size of the machine.&#x20;
+### **Cache TTL (Time To Live)**
 
-## **The cache operates in different pressure states:**
+How long (in minutes) closed documents (read cache) will stay in the Cache. This value needs to be filled in the input field if the policy is enabled. The cache is always cleared after a restart of KONNEKT.
+
+* Dimension: Minutes
+* Minimum Value: 0
+* Maximum Value:
+  * 2880 (KONNEKT releases < 2.6.0)
+  * 60480 (KONNEKT release 2.6.0 or newer)
+
+### **Fixed Cache Size**
+
+How big (in Megabytes) is the KONNEKT cache folder. This value needs to be filled in the input field if the policy is enabled.
+
+* Dimension: Megabytes
+* Minimum Value: 0 => cache size will be calculated from free disk space (default)
+* Maximum Value: 20000
+
+## **Behind the scenes**
+
+### Pressure states
+
+The cache operates in different pressure states:
 
 * **Normal pressure:** The cache is utilized below critical values. Closed files will be kept in the read cache up to the TTL value.
 * **High read pressure:** The cache is filled up with too many closed files. The read cache will be deleted.
@@ -30,15 +50,7 @@ This policy defines the caching behavior of KONNEKT.
 * **Critical write pressure:** The cache is nearly filled up with files queued for upload. Further, write operations will be throttled significantly in order to empty the upload queue.
 * **Cache full:** The cache is completely occupied. Requests to open further files will be rejected.
 
-{% hint style="danger" %}
-Maximum value of CacheTTL is **2880** (Time in minutes) \
-\
-Maximum value of CacheSize is **20000** (Size in megabytes), if zero (0), the cache size will be calculated from free disk space (default)
-{% endhint %}
-
-
-
-![](<../../.gitbook/assets/2021-07-16 12\_27\_25-Cache.png>)
+### Calculations
 
 * **Cache size from free disk calculation**\
   &#x20;_sizeMax_ = (_FreeDiskSize_ + _CacheSize_) \* 75%
@@ -52,7 +64,7 @@ Maximum value of CacheSize is **20000** (Size in megabytes), if zero (0), the ca
   &#x20;_sizeUsed_ >= _sizeMax_
 
 {% hint style="warning" %}
-To apply the policy you have to restart the **Windows Explorer**
+To apply the policy you have to **restart the machine**
 {% endhint %}
 
 ## **There are several ways to apply the policy:**
@@ -61,11 +73,19 @@ To apply the policy you have to restart the **Windows Explorer**
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
 * pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#cache)
 
+![](<../../.gitbook/assets/2021-07-16 12\_27\_25-Cache.png>)
+
 #### **Policies** stored in:
 
 `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt`
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+
+
+{% hint style="warning" %}
+To apply the policy you have to **restart the machine**
+{% endhint %}
 
 ## Recommendations for VDI environments
 
