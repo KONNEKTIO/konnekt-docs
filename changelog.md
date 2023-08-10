@@ -1,5 +1,26 @@
 # Changelog
 
+### 2.7.0 (Published 2023-08-10)
+
+Add:
+
+* [Managed Mapping supports root site URLs and Teams URLs](configuration/mappings/administrative-mappings.md#policy-definition) (741)
+* Login prompt negotiates for Edge Browser (791)
+* File support for OneNote notebooks (2730)
+* CoAuthoring for OneNote documents (2730)
+
+Fix:
+
+* "View SharePoint Site" context-menu broken for OneDrive (1509)
+* Added favorites lost after log off (2894)
+* Stability improvements
+
+#### Downloads
+
+* [KONNEKT 2.7.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.7.0.0.Msi)
+* [KONNEKT 2.7.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.7.0.0.Msi)
+* [KONNEKT 2.7.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.7.0.0.Msi)
+
 ### 2.6.0 (Published 2023-07-13)
 
 Add:
@@ -20,13 +41,6 @@ Fix:
 * Kernel driver misinterprets modern standby as deadlocked userland (809)
 * Files and Folders named with a single character cause problems in searches (866)
 * Stability issues
-
-#### Downloads
-
-* [KONNEKT 2.6.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.6.0.0.Msi)
-* [KONNEKT 2.6.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.6.0.0.Msi)
-* [KONNEKT 2.6.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.6.0.0.Msi)
-* [KONNEKT ADMX/ADML 2.6.0](configuration/management-options/#admx-adml-files)
 
 ### 2.5.8 (Published 2023-06-28)
 
