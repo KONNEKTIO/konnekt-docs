@@ -42,7 +42,10 @@ We have a feature-request in the backlog to improve the flexibility of mappings 
 <sharepoint-url>[|<Name>[|<DriveLetter>[|<TenantName>[|<Favorite>]]]]
 ```
 
-* <mark style="background-color:blue;">`<sharepoint-url>:`</mark> Your sharepoint site/library URL. Must be URL encoded (e.g. Spaces are represented by `%20`).
+* <mark style="background-color:blue;">`<sharepoint-url>:`</mark> Your sharepoint site/library URL. Must be URL encoded (e.g. Spaces are represented by `%20`).\
+  If you are mapping your root site, please make sure to have a slash at the end of the <mark style="background-color:blue;">`<sharepoint-url>`</mark> .  Example:\
+  Your root site: `https://contoso.sharepoint.com`\
+  The Managed Mapping should look like this: `https://contoso.sharepoint.com`<mark style="color:red;">**`/`**</mark>`|RootSite|R:`
 * `<Name>:` Name you choose for the mapped site. This name must be unique for each mapping.\
   _optional => value may be empty_
 * `<DriveLetter>:` Drive letter for drive mapping.\
