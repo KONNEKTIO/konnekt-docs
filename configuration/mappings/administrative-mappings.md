@@ -26,12 +26,6 @@ This policy does not support folder mapping, for folder mapping please use **net
 We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
 {% endhint %}
 
-{% hint style="warning" %}
-Currently KONNEKT supports regular sites, only. The root site of your SharePoint Online is currently not supported.
-
-We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
-{% endhint %}
-
 ## **Policy definition**
 
 **Policy name:** `Sharepoint Sites`&#x20;
