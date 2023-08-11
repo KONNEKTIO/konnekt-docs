@@ -4,6 +4,7 @@
 
 Add:
 
+* "View Online" for a folder directs to corresponding subfolder in SharePoint (591)
 * [Managed Mapping supports root site URLs and Teams URLs](configuration/mappings/administrative-mappings.md#policy-definition) (741)
 * Login prompt negotiates for Edge Browser (791)
 * File support for OneNote notebooks (2730)
