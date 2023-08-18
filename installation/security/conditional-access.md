@@ -14,4 +14,6 @@ Make sure, to [grant tenant-wide admin](grant-admin-consent-in-enterprise-applic
 
 {% hint style="danger" %}
 KONNEKT does not support to configure Excluded Apps in the corresponding Conditional Access policy. We are working to support this scenario in one of the upcoming releases.
+
+Please see also "[Failed to obtain access token](../../troubleshooting/failed-to-obtain-access-token.md)".
 {% endhint %}
