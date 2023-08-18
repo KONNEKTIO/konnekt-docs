@@ -11,3 +11,7 @@ It is **not** enough to just select the app "KONNEKT".
 {% hint style="warning" %}
 Make sure, to [grant tenant-wide admin](grant-admin-consent-in-enterprise-applications.md) consent first. Without this, KONNEKT will not be part of "All cloud apps".
 {% endhint %}
+
+{% hint style="danger" %}
+KONNEKT does not support to configure Excluded Apps in the corresponding Conditional Access policy. We are working to support this scenario in one of the upcoming releases.
+{% endhint %}
