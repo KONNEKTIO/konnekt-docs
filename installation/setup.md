@@ -66,3 +66,7 @@ If you want a silent installation without any user interface interaction you can
 `msiexec /quiet /qn /norestart /i konnekt.msi LICENSE_KEY=<YourKey>`
 
 Instead of the `<YourKey>` in the end, enter your license key.
+
+{% hint style="info" %}
+After the trail period, it is recommended to set the license key to machine level (HKLM).
+{% endhint %}
