@@ -1,5 +1,18 @@
 # Changelog
 
+### 2.7.2 (Published 2023-09-07)
+
+Fix:
+
+* Authentication window may be shown without content
+* Stability improvements
+
+#### Downloads
+
+* [KONNEKT 2.7.2 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.7.2.0.Msi)
+* [KONNEKT 2.7.2 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.7.2.0.Msi)
+* [KONNEKT 2.7.2 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.7.2.0.Msi)
+
 ### 2.7.0 (Published 2023-08-10)
 
 Add:
@@ -15,12 +28,6 @@ Fix:
 * "View SharePoint Site" context-menu broken for OneDrive (1509)
 * Added favorites lost after log off (2894)
 * Stability improvements
-
-#### Downloads
-
-* [KONNEKT 2.7.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.7.0.0.Msi)
-* [KONNEKT 2.7.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.7.0.0.Msi)
-* [KONNEKT 2.7.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.7.0.0.Msi)
 
 ### 2.6.0 (Published 2023-07-13)
 
