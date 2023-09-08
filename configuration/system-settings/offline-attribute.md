@@ -32,7 +32,7 @@ This policy controls if all files handeled by KONNEKT will be marked with an off
 This policy is applicable to version 2.0 and above
 {% endhint %}
 
-This policy controls which file types will not be marked with an offline attribute.
+This policy controls which file types will **not** be marked with an offline attribute.
 
 **GPO Policy Name**: "Offline Attribute Filter"
 
