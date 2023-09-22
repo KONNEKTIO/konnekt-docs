@@ -13,11 +13,13 @@ Set Log-Level to "Debug":
 
 ![](<../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
 
-## 2) Restart affected machine
+## 2) Restart the affected machine
 
-## 3) Try reproduce the Issue
+## 3) Try to reproduce the Issue
 
-When trying to reproduce the problem, please note the use case you are trying. A description of the steps with details of the path, file name and timestamp is very helpful when troubleshooting.
+When trying to reproduce the problem, please note the use case you are trying. A description of the steps with details of the path, file name, and timestamp is very helpful when troubleshooting.
+
+## 4) Close KONNEKT
 
 ## 4) Download and run the following batch file
 
