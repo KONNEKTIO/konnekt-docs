@@ -21,11 +21,11 @@ When trying to reproduce the problem, please note the use case you are trying. A
 
 ## 4) Close KONNEKT
 
-## 4) Download and run the following batch file
+## 5) Download and run the following batch file
 
 {% file src="../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
 
-## 5) Zip the files
+## 6) Zip the files
 
 You'll find the collected files in:
 
@@ -37,9 +37,9 @@ You'll find the collected files in:
 
 Please zip the whole folder.
 
-## 6) Send to us
+## 7) Send to us
 
-* Zip folder from 5)
+* Zip folder from 6)
 * Use case / what went wrong?
 * Timestamp / when did it happen?
 * Path / file name
