@@ -23,6 +23,7 @@ This procedure is for IT pros, only. It is not supported by our service team.
 
 * Run `net stop konnekt`
 * Delete `c:\windows\system32\drivers\konnektrx.sys`
+* Delete `C:\Windows\System32\konnektnp.dll`
 
 ### Remove the shell extensions
 
