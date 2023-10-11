@@ -22,6 +22,28 @@ Fix:
 * [KONNEKT 2.8.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.8.0.0.Msi)
 * [KONNEKT 2.8.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.8.0.0.Msi)
 
+### 2.8.0 (Published 2023-10-11)
+
+Add:
+
+* New document from office template in CoAuthoring mode &#x20;
+
+Fix:
+
+* EMERGENCY FIX: Security fix for libcurl CVE-2023-38545 (HIGH) SOCKS5 heap buffer overflow
+* Security fix for libcurl CVE-2023-38545 (HIGH) and CVE-2023-38546 (LOW)&#x20;
+* Malware alarm on konnektUpdate.exe due to missing digital signature&#x20;
+* Reauthentication not triggered after password reset&#x20;
+* Deinstalls and installs with suppressed reboot may lead to deinstalled driver after next reboot&#x20;
+* SharePoint mapping might be shown empty when chache TTL is very long&#x20;
+* Stability improvements
+
+#### Downloads
+
+* [KONNEKT 2.8.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.8.0.0.Msi)
+* [KONNEKT 2.8.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.8.0.0.Msi)
+* [KONNEKT 2.8.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.8.0.0.Msi)
+
 ### 2.7.2 (Published 2023-09-07)
 
 Fix:
