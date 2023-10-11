@@ -4,16 +4,16 @@
 
 Add:
 
-* New document from office template in CoAuthoring mode
+* New document from office template in CoAuthoring mode (#30)
 
 Fix:
 
 * Security fix for [libcurl CVE-2023-38545 (HIGH) SOCKS5 heap buffer overflow](https://curl.se/docs/CVE-2023-38545.html)
 * Security fix for [libcurl CVE-2023-38546 (LOW)](https://curl.se/docs/CVE-2023-38546.html)
-* Malware alarm on konnektUpdate.exe due to missing digital signature
-* Re-authentication not triggered after password reset
-* Uninstall and install with suppressed reboot may lead to uninstalled driver after next reboot
-* SharePoint mapping might be shown empty when cache TTL is very long
+* Malware alarm on konnektUpdate.exe due to missing digital signature (#31)
+* Re-authentication not triggered after password reset (#23)
+* Uninstall and install with suppressed reboot may lead to uninstalled driver after next reboot (#3855)
+* SharePoint mapping might be shown empty when cache TTL is very long (#6)
 * Stability improvements
 
 #### Downloads
