@@ -35,7 +35,7 @@ To avoid this, please
 
 ## How can I detect throttling?
 
-When you turn the [KONNEKT logging to "debug"](logging.md#log-level), you will see log entries with "ThrottlingHook: Need to wait `X`s before start" (where X stands for the amount of seconds SharePoint Online wants us to wait).
+When you turn the [KONNEKT logging to "debug"](logging.md#log-level), you will see log entries with "`ThrottlingHook: Need to wait Xs before start`" (where X stands for the amount of seconds SharePoint Online wants us to wait).
 
 Log entries that contain "`ThrottledRequest:`" are NOT caused by SharePoint throttling. Those indicate regular operations - nothing to worry about. ;-)
 
