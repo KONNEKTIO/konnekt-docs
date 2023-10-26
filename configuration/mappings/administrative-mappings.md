@@ -31,7 +31,7 @@ SharePoint **Subsites** are **currently not supported** with KONNEKT Managed Map
 
 We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
 
-Please also have a look on [Microsofts recommendations regarding subsites](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#subsites), since subsites have limited scalability and may result in performance issues.
+Please also note [Microsoft's recommendations regarding subsites](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#subsites), as subsites have limited scalability and can cause performance issues.
 {% endhint %}
 
 ## **Policy definition**
