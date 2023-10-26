@@ -26,6 +26,12 @@ This policy does not support folder mapping, for folder mapping please use **net
 We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
 {% endhint %}
 
+{% hint style="warning" %}
+SharePoint **Subsites** are **currently not supported** with KONNEKT Managed Mappings. Please use Auto Mapping to use Subsites with KONNEKT, instead.
+
+We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
+{% endhint %}
+
 ## **Policy definition**
 
 **Policy name:** `Sharepoint Sites`&#x20;
