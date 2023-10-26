@@ -24,26 +24,26 @@ KONNEKT Preview Releases are not published via the built-in update-checker in KO
 
 ## Executing the update
 
+Please follow the following steps to update KONNEKT:
+
+1. Run the MSI of the most current version of KONNEKT\
+   (see [Setup](setup.md) for details)
+2. Reboot the machine if needed
+
 {% hint style="warning" %}
 **Local admin permissions** are required to execute an update of KONNEKT.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+Why do I have to reboot the machine?
+
+An important module of KONNEKT is a kernel driver. This kind of drivers can be updated during a reboot, only.
 {% endhint %}
 
 {% hint style="warning" %}
 **Restart vs. Shutdown**
 
 If KONNEKT setup requests a restart, please do so. Please be aware that shutting down a Windows machine and start it up again may not be equal to a restart. Many modern Windows machines use hibernation for shutdown by default. In this case driver updates may fail.
-{% endhint %}
-
-Please follow the following steps to update KONNEKT:
-
-1. Uninstall the previous version of KONNEKT
-2. Reboot the machine.
-3. Install the current version of KONNEKT (see [Setup](setup.md) for details)
-
-{% hint style="info" %}
-Why do I have to reboot the machine?
-
-An important module of KONNEKT is a kernel driver. This kind of drivers must be unloaded before being updated. If you update KONNEKT without unloading the driver (= reboot the system after uninstallation), bluescreens may occur.
 {% endhint %}
 
 ## Recommended update procedure
