@@ -30,6 +30,8 @@ We have a feature-request in the backlog to improve the flexibility of mappings 
 SharePoint **Subsites** are **currently not supported** with KONNEKT Managed Mappings. Please use Auto Mapping to use Subsites with KONNEKT, instead.
 
 We have a feature-request in the backlog to improve the flexibility of mappings in a future version of KONNEKT.
+
+Please also have a look on [Microsofts recommendations regarding subsites](https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits#subsites), since subsites have limited scalability and may result in performance issues.
 {% endhint %}
 
 ## **Policy definition**
