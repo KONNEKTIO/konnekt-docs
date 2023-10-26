@@ -22,7 +22,7 @@ KONNEKT uses the cache for different purposes:
 
 ### **Cache TTL (Time To Live)**
 
-How long (in minutes) closed documents (read cache) will stay in the Cache. This value needs to be filled in the input field if the policy is enabled. The cache is always cleared after a restart of KONNEKT.
+How long (in minutes) closed documents (read cache) will stay in the Cache. Without this setting, TTL remains automatically at 60 minutes - at "Normal pressure". This value needs to be filled in the input field if the policy is enabled. The cache is always cleared after a restart of KONNEKT.
 
 * Dimension: Minutes
 * Minimum Value: 0
@@ -50,7 +50,7 @@ The cache operates in different pressure states:
 * **Critical write pressure:** The cache is nearly filled up with files queued for upload. Further, write operations will be throttled significantly in order to empty the upload queue.
 * **Cache full:** The cache is completely occupied. Requests to open further files will be rejected.
 
-### Calculations
+### Automatic cache size calculation
 
 * **Cache size from free disk calculation**\
   &#x20;_sizeMax_ = (_FreeDiskSize_ + _CacheSize_) \* 75%
