@@ -26,7 +26,7 @@ KONNEKT Preview Releases are not published via the built-in update-checker in KO
 
 Please follow the following steps to update KONNEKT:
 
-1. Run the MSI of the most current version of KONNEKT
+1. Run the MSI of [the most current KONNEKT version](../changelog.md)
 2. Reboot the machine if needed
 
 {% hint style="warning" %}
