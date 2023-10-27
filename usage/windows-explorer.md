@@ -26,7 +26,7 @@ The files which have changed or opened in your sites.
 
 ### **Offline Files**
 
-All the files you would like to use offline. Available on OneDrive sites, by right-click on the file you need to use it offline -> Konnekt -> Offline available.
+All the files you would like to use offline. Available on **OneDrive** sites only, by right-click on the file you need to use it offline -> Konnekt -> Offline available.
 
 ![](<../.gitbook/assets/2021-05-21 17\_03\_26-OneDrive.png>)
 
