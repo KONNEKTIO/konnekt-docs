@@ -6,9 +6,9 @@ You have to do the admin consent **before** using KONNEKT with regular users.
 
 ## Background
 
-KONNEKT is an application that interacts with several Microsoft365 APIs. Therefore it needs the permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. One level (but not the only one) of this permission is the Enterprise App Consent in Azure AD. It is a major advantage over legacy approaches such as network- or proxy-based access controls for client types, since it is working at every place and allows very granular permissions.
+KONNEKT is an application that interacts with several Microsoft 365 APIs. Therefore it needs permission to do so in each Microsoft365 tenant, KONNEKT wants to connect to. One level (but not the only one) of this permission is the Enterprise App Consent in Microsoft Entra ID (Azure AD). It is a major advantage over legacy approaches such as network- or proxy-based access controls for client types, since it is working at every place and allows very granular permissions.
 
-The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This basically means, that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
+The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This basically means that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
 
 KONNEKT requests the following permissions to be consented:
 
@@ -18,7 +18,7 @@ KONNEKT requests the following permissions to be consented:
 
 You can learn more about [managing consent to applications and evaluate consent requests in the Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/manage-consent-requests).
 
-## Add KONNEKT permissions in AAD Enterprise Applications
+## Add KONNEKT permissions in Microsoft Entra ID (Azure AD) Enterprise Applications
 
 As an admin (or having a role that allows granting admin consent) you can grant tenant-wide admin consent to **KONNEKT** by using the following "Magic URL":
 
@@ -51,7 +51,7 @@ To check **KONNEKT** permissions you can find it in your **Azure Active Director
 
 For more Info about admin consent visit [MS.Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent)
 
-## Delete KONNEKT permissions from AAD Enterprise Applications
+## Delete KONNEKT permissions from Microsoft Entra ID (Azure AD) Enterprise Applications
 
 In case you want to remove the admin-consent for KONNEKT, please proceed the following steps:
 

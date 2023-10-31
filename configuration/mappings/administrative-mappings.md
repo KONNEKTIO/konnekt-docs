@@ -98,7 +98,7 @@ This will add the "shared documents" library of the site "mysite". The Drive wil
 
 This will add all document libraries of the site "mysite", from the tenant "ForeignTenant.onmicrosoft.com". The network path will be mapped to drive X.&#x20;
 
-The user must have an account configured in KONNEKT, that belongs to the Azure AD in the tenant "ForeignTenant".
+The user must have an account configured in KONNEKT, that belongs to the Microsoft Entra ID (Azure AD) in the tenant "ForeignTenant".
 
 #### Make mapping a KONNEKT favorite
 

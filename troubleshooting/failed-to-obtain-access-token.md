@@ -2,11 +2,11 @@
 
 ## Problem
 
-When you are trying to login to KONNEKT you get the error message "Failed to obtain access token".
+When you are trying to log in to KONNEKT you get the error message "Failed to obtain access token".
 
 ## Cause
 
-KONNEKT does not support to have "Excluded Apps" in the Azure AD Conditional Access policy.
+KONNEKT does not support having "Excluded Apps" in the Microsoft Entra ID (Azure AD) Conditional Access policy.
 
 ## Workaround
 
