@@ -1,7 +1,7 @@
 # GUI Settings
 
-{% content-ref url="untitled.md" %}
-[untitled.md](untitled.md)
+{% content-ref url="account-reauthentication.md" %}
+[account-reauthentication.md](account-reauthentication.md)
 {% endcontent-ref %}
 
 {% content-ref url="change-konnekt-name-in-explorer.md" %}

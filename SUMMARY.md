@@ -26,7 +26,7 @@
       * [Intune other settings](configuration/management-options/setting-for-intune-managed-devices-1/intune-other-settings.md)
     * [Settings via GPO](configuration/management-options/settings-via-gpo.md)
   * [GUI Settings](configuration/gui-behavior/README.md)
-    * [Account re-authentication](configuration/gui-behavior/untitled.md)
+    * [Account re-authentication](configuration/gui-behavior/account-reauthentication.md)
     * [Change KONNEKT name in explorer](configuration/gui-behavior/change-konnekt-name-in-explorer.md)
     * [Explorer UI](configuration/gui-behavior/konnekt-explorer-ui.md)
     * [Hide tray icon](configuration/gui-behavior/hide-tray-icon.md)

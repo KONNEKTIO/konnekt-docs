@@ -67,7 +67,7 @@ Device context:
 
 **Note**
 
-For more information about the policy, see [Account re-authentication](../../gui-behavior/untitled.md)
+For more information about the policy, see [Account re-authentication](../../gui-behavior/account-reauthentication.md)
 
 ## Konnekt Explorer UI
 
