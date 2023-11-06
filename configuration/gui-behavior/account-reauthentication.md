@@ -16,11 +16,11 @@ If you are running KONNEKT in environments **without SSO**, user have to enter c
 
 **Policy Group:** KONNEKT / GUI Settings
 
-| Policy Setting | Behavior                                                                                                                                                            |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Not configured | The default is used.                                                                                                                                                |
-| Enabled        | The login dialogue is shown, if an account needs to be re-authenticated.                                                                                            |
-| Disabled       | The login dialogue is **not** shown, if an account needs to be re-authenticated. An error is indicated in the tray and in the KONNEKT node in Windows File Explorer |
+| Policy Setting    | Behavior                                                                                                                                                            |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Not configured    | The default is used (enabled).                                                                                                                                      |
+| Enabled (default) | The login dialogue is shown, if an account needs to be re-authenticated.                                                                                            |
+| Disabled          | The login dialogue is **not** shown, if an account needs to be re-authenticated. An error is indicated in the tray and in the KONNEKT node in Windows File Explorer |
 
 {% hint style="warning" %}
 To apply the policy you have to restart **KONNEKT**
