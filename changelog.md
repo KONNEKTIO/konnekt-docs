@@ -1,5 +1,26 @@
 # Changelog
 
+### 2.9.0 (Published 2023-11-16)
+
+Add:
+
+* Policy to disable Edge Browser component (WebView2)&#x20;
+* Full support of x64 Processes on ARM64 machines
+
+Fix:
+
+* SharePoint throttling: Parsing issues in Retry-After header&#x20;
+* Possible loss of delayed write data if disk IO pressure is high&#x20;
+* ARM64 setup may show a warning&#x20;
+* Gray login window due to failed browser component negotiation&#x20;
+* Stability improvements
+
+#### Downloads
+
+* [KONNEKT 2.9.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.0.0.Msi)
+* [KONNEKT 2.9.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.0.0.Msi)
+* [KONNEKT 2.9.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.0.0.Msi)
+
 ### 2.8.0 (Published 2023-10-11)
 
 Add:
@@ -15,12 +36,6 @@ Fix:
 * Uninstall and install with suppressed reboot may lead to uninstalled driver after next reboot (#3855)
 * SharePoint mapping might be shown empty when cache TTL is very long (#6)
 * Stability improvements
-
-#### Downloads
-
-* [KONNEKT 2.8.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.8.0.0.Msi)
-* [KONNEKT 2.8.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.8.0.0.Msi)
-* [KONNEKT 2.8.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.8.0.0.Msi)
 
 ### 2.7.2 (Published 2023-09-07)
 
