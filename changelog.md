@@ -20,6 +20,7 @@ Fix:
 * [KONNEKT 2.9.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.0.0.Msi)
 * [KONNEKT 2.9.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.0.0.Msi)
 * [KONNEKT 2.9.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.0.0.Msi)
+* [KONNEKT ADMX-ADML 2.9.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.8.0 (Published 2023-10-11)
 
