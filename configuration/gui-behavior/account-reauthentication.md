@@ -6,10 +6,6 @@ This policy is applicable to version 2.0 and above
 
 This policy controls if the login dialog pops up immediately if an account needs to be re-authenticated.
 
-KONNEKT supports AAD/Entra ID **SSO**. Therefore users do not have to enter credentials for the KONNEKT account in Windows sessions supporting SSO, like on Entra ID/AAD joined (AADJ), Entra ID/AAD hybrid joined (AADHJ) or Entra ID/AAD registered devices. On those machines you would **disable this policy**, since authentication for KONNEKT does not require any user interaction and happens automatically.
-
-If you are running KONNEKT in environments **without SSO**, user have to enter credentials to work with KONNEKT. After successful authentication, KONNEKT receives a [refresh token](https://learn.microsoft.com/en-us/entra/identity-platform/refresh-tokens) from AAD/Entra ID. Users will have to re-authenticate, once the refresh token is expired. In those environments we recommend to **enable this policy**.
-
 ### **Definition**
 
 **Policy name:** `Account Reauthentication UI`
