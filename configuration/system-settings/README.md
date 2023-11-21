@@ -1,5 +1,9 @@
 # System settings
 
+{% content-ref url="authentication-browser-engine.md" %}
+[authentication-browser-engine.md](authentication-browser-engine.md)
+{% endcontent-ref %}
+
 {% content-ref url="cache-setting.md" %}
 [cache-setting.md](cache-setting.md)
 {% endcontent-ref %}
