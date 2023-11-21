@@ -4,14 +4,6 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 # Welcome
 
-{% hint style="warning" %}
-On October 11th, the CURL team published a **high priority CVE** ([CVE-2023-38545 - SOCKS5 heap buffer overflow](https://curl.se/docs/CVE-2023-38545.html)). KONNEKT uses libcurl and therefore falls within the scope of this CVE.&#x20;
-
-We have evaluated the CVE and concluded that it is **not** **relevant** to most KONNEKT usage scenarios. It is only relevant to customers who use a SOCKS5 proxy with KONNEKT.
-
-However, we updated libcurl to the fixed version in [KONNEKT 2.8.0](changelog.md#2.8.0-published-2023-10-11).
-{% endhint %}
-
 ## Overview
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
