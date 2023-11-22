@@ -1,10 +1,14 @@
 # Authentication browser engine
 
 {% hint style="info" %}
-This policy is applicable to version 2.9 and above
+This policy is applicable to version 2.9 and above.
 {% endhint %}
 
 This policy controls whether KONNEKT uses the Edge (Chromium) web browser component WebView2.
+
+{% hint style="success" %}
+To set this policy, you need the ADMX/ADML files 2.9.0 and above.
+{% endhint %}
 
 ### Definition
 
