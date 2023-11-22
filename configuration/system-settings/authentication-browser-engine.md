@@ -12,11 +12,11 @@ This policy controls whether KONNEKT uses the Edge (Chromium) web browser compon
 
 **Policy group:** KONNEKT / System Settings
 
-| Policy setting    | Behavior                                                                                   |
-| ----------------- | ------------------------------------------------------------------------------------------ |
-| Not configured    | The default is used (disabled).                                                            |
-| Enabled (default) | KONNEKT will not use WebView2, instead Internet Explorer based control is used.            |
-| Disabled          | KONNEKT will try to use WebView2. If it fails it will use Internet Explorer based control. |
+| Policy setting     | Behavior                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| Not configured     | The default is used (disabled).                                                            |
+| Enabled            | KONNEKT will not use WebView2, instead Internet Explorer based control is used.            |
+| Disabled (default) | KONNEKT will try to use WebView2. If it fails it will use Internet Explorer based control. |
 
 {% hint style="warning" %}
 To apply the policy you have to restart **KONNEKT**
