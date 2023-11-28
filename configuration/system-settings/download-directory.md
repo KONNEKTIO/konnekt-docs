@@ -4,7 +4,7 @@ The Download Directory is the path where KONNEKT saves files to, that the user w
 
 The typical use-case is, that an error happened during the transfer of a file to SharePoint Online. In this case KONNEKT will show an error in Windows File Explorer. One option for users is to "[export file to download folder](../../troubleshooting/how-to-deal-with-error-s.md)".
 
-You can find more about handling errors [here](../../troubleshooting/error-message-about-missing-token.md).
+You can find more about handling errors [here](../../troubleshooting/access-token-issues/error-message-about-missing-token.md).
 
 ## Default location
 

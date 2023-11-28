@@ -18,8 +18,8 @@ description: >-
 [debug-log-preparation.md](debug-log-preparation.md)
 {% endcontent-ref %}
 
-{% content-ref url="error-message-about-missing-token.md" %}
-[error-message-about-missing-token.md](error-message-about-missing-token.md)
+{% content-ref url="access-token-issues/error-message-about-missing-token.md" %}
+[error-message-about-missing-token.md](access-token-issues/error-message-about-missing-token.md)
 {% endcontent-ref %}
 
 {% content-ref url="subscribe-a-subset-of-users.md" %}

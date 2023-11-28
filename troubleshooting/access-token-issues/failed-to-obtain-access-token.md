@@ -12,7 +12,7 @@ KONNEKT does not support having "Excluded Apps" in the Microsoft Entra ID (Azure
 
 Please make sure to use a Conditional Access Policy without "Excluded Apps".
 
-Please also see [Conditional Access configuration](../installation/security/conditional-access.md).
+Please also see [Conditional Access configuration](../../installation/security/conditional-access.md).
 
 ## Solution
 
