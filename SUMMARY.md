@@ -37,6 +37,7 @@
     * [Managed mappings](configuration/mappings/administrative-mappings.md)
     * [Multi-Geo](configuration/mappings/multi-geo.md)
   * [System settings](configuration/system-settings/README.md)
+    * [Adobe Acrobat Compatibility Mode](configuration/system-settings/adobe-acrobat-compatibility-mode.md)
     * [Authentication browser engine](configuration/system-settings/authentication-browser-engine.md)
     * [Cache settings](configuration/system-settings/cache-setting.md)
     * [Download Directory](configuration/system-settings/download-directory.md)

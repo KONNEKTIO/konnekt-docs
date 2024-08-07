@@ -2,7 +2,7 @@
 
 KONNEKT users (Windows 10 or earlier) may see a grey "X" on file and folder icons in Windows File Explorer.
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (43).png>)
 
 In Windows 11 it looks like&#x20;
 

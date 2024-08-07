@@ -37,4 +37,4 @@ A manually added document library can be removed using the following steps:
 2. Navigate to **Konnekt**
 3. Click **Remove share**
 
-![](<../../.gitbook/assets/2022-08-02 16\_13\_44-Window (1).png>)
+![](<../../.gitbook/assets/2022-08-02 16\_13\_44-Window.png>)

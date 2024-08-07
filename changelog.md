@@ -1,5 +1,26 @@
 # Changelog
 
+### 2.9.1 (Published 2024-02-15)
+
+Add:
+
+* Support for more than 10 KONNEKT Accounts
+
+Fix:
+
+* Account deletion may leave ghost volumes
+* Explorer freezes if KONNEKT account or share is removed
+* KONNEKT cannot find sites with dot in name when adding shares or managed mappings
+* Windows Terminal Servers (Windows Server 2019) may freeze due to konnektrx.sys timeout after Windows Update
+* Stability improvements
+
+#### Downloads
+
+* [KONNEKT 2.9.1 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.1.0.Msi)
+* [KONNEKT 2.9.1 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.1.0.Msi)
+* [KONNEKT 2.9.1 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.1.0.Msi)
+* [KONNEKT ADMX-ADML 2.9.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.9.0 (Published 2023-11-16)
 
 Add:
@@ -14,13 +35,6 @@ Fix:
 * ARM64 setup may show a warning&#x20;
 * Gray login window due to failed browser component negotiation&#x20;
 * Stability improvements
-
-#### Downloads
-
-* [KONNEKT 2.9.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.0.0.Msi)
-* [KONNEKT 2.9.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.0.0.Msi)
-* [KONNEKT 2.9.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.0.0.Msi)
-* [KONNEKT ADMX-ADML 2.9.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.8.0 (Published 2023-10-11)
 

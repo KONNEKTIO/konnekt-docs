@@ -31,16 +31,16 @@ This procedure is for IT pros, only. It is not supported by our service team.
 *   Remove the following Windows Registry keys for **every user** on the machine:
 
     ```
-    HKCU\SOFTWARE\Classes\Access.Application.16
-    HKCU\SOFTWARE\Classes\Excel.Sheet.12
-    HKCU\SOFTWARE\Classes\Excel.Sheet.8
-    HKCU\SOFTWARE\Classes\Excel.SheetMacroEnabled.12
-    HKCU\SOFTWARE\Classes\PowerPoint.Show.12
-    HKCU\SOFTWARE\Classes\PowerPoint.Show.8
-    HKCU\SOFTWARE\Classes\PowerPoint.ShowMacroEnabled.12
-    HKCU\SOFTWARE\Classes\Word.Document.12
-    HKCU\SOFTWARE\Classes\Word.Document.8
-    HKCU\SOFTWARE\Classes\Word.DocumentMacroEnabled.12
+    HKCU\SOFTWARE\Classes\Access.Application.16\shell\konnekt
+    HKCU\SOFTWARE\Classes\Excel.Sheet.12\shell\konnekt
+    HKCU\SOFTWARE\Classes\Excel.Sheet.8\shell\konnekt
+    HKCU\SOFTWARE\Classes\Excel.SheetMacroEnabled.12\shell\konnekt
+    HKCU\SOFTWARE\Classes\PowerPoint.Show.12\shell\konnekt
+    HKCU\SOFTWARE\Classes\PowerPoint.Show.8\shell\konnekt
+    HKCU\SOFTWARE\Classes\PowerPoint.ShowMacroEnabled.12\shell\konnekt
+    HKCU\SOFTWARE\Classes\Word.Document.12\shell\konnekt
+    HKCU\SOFTWARE\Classes\Word.Document.8\shell\konnekt
+    HKCU\SOFTWARE\Classes\Word.DocumentMacroEnabled.12\shell\konnekt
     ```
 
 ### Clean the registry

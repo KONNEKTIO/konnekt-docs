@@ -2,12 +2,13 @@
 
 ## Eligibility
 
-Customers, who have an active subscription of KONNEKT are eligible for our support services. The support is included in the subscription fee of KONNEKT.
+Customers, who have an active subscription to KONNEKT are eligible for our support services. The support is included in the subscription fee of KONNEKT.
 
 ## Scope
 
 Our support services cover technical assistance for administrators:
 
+* For the most current KONNEKT version
 * Technical questions about features of KONNEKT
 * Support for incidents regarding KONNEKT
 
@@ -30,10 +31,10 @@ Our engineers are happy to support you in these languages:
 
 * Monday-Friday
 * 09:00-17:00 CET / CEST
-* Except from public holidays for Hesse / Germany
+* Except for public holidays in Hesse / Germany
 
 ### Response time
 
 Typical < 8 hours for incidents
 
-Response time is defined as the duration between the report of the incident and the start of incident or problem handling through one of our support engineers. The response time is to be calculated within the support hours.
+Response time is defined as the duration between the report of the incident and the start of the incident or problem handling through one of our support engineers. The response time is to be calculated within the support hours.

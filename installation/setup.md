@@ -61,12 +61,12 @@ To grant the permissions tenant-wide please check [Grant tenant-wide admin conse
 
 ## Silent Installation
 
-If you want a silent installation without any user interface interaction you can use the following command after downloading the msi installation file from [here ](https://trial.konnekt.io/)and rename it to `konnekt`:\
+If you want a silent installation without any user interface interaction you can use the following [msiexec](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec) command after downloading the msi installation file from [here ](https://trial.konnekt.io/)and rename it to `konnekt`:\
 \
 `msiexec /quiet /qn /norestart /i konnekt.msi LICENSE_KEY=<YourKey>`
 
 Instead of the `<YourKey>` in the end, enter your license key.
 
 {% hint style="info" %}
-After the trail period, it is recommended to set the license key to machine level (HKLM).
+After the trial period, it is recommended to set the license key to machine level (HKLM).
 {% endhint %}

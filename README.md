@@ -33,6 +33,8 @@ KONNEKT was designed for regular office work on Windows machines (fat clients an
 
 When it comes to applications, where bigger amounts of data with high throughput are used, like databases, graphics design, video editing or computer aided design (CAD), KONNEKT (and SharePoint Online in general) will most probably not be a satisfactory solution.
 
+Database-files requiring simultaneous access from multiple workstations will not work with KONNEKT (and SharePoint Online in general) by design.
+
 KONNEKT is not the appropriate tool to perform data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online.
 
 ### File sizes
@@ -51,7 +53,7 @@ Although there are no issues with the total amount of files or folders within on
 
 KONNEKT is a client-side tool - there is no backend. **Data is transferred directly between the KONNEKT client and the SharePoint Online services**. Thus, the data neither runs over external systems, nor are they stored on the publisher systems.&#x20;
 
-KONNEKT uses the **native Microsoft APIs** (Microsoft SharePoint and Microsoft Graph) with standard Microsoft authentication to access Microsoft 365. This means that **conditional access** is also effective for access from KONNEKT to SharePoint Online.
+KONNEKT uses the **native Microsoft APIs** (Microsoft SharePoint API and Microsoft Graph API) with standard Microsoft authentication to access Microsoft 365. This means that **conditional access** is also effective for access from KONNEKT to SharePoint Online.
 
 ## KONNEKT vs. OneDrive Sync Client
 

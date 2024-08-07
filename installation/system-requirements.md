@@ -64,22 +64,26 @@ KONNEKT can use proxy servers. However, we offer limited support for clients tha
 
 ## Firewall and Network settings
 
-Network
-
-* It is recommended to "Bypass Allow endpoints on network devices and services that perform traffic interception, SSL decryption, deep packet inspection, and content filtering"
-
-{% embed url="https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?view=o365-worldwide#new-office-365-endpoint-categories" %}
-
-**GraphAPI**
-
-[https://graph.microsoft.com](https://graph.microsoft.com)
-
-\*.portal.azure.com and portal.azure.com
+It is recommended to "Bypass Allow endpoints on network devices and services that perform traffic interception, SSL decryption, deep packet inspection, and content filtering"
 
 
 
-**Microsoft Entra ID (Azure AD)**
+**Whitelist Graph API URL**
+
+* The Graph API is a RESTful API that uses HTTPS calls. Each API call technically has a unique UR
+* To allow for use of different versions of the API, whitelist [https://graph.microsoft.com](https://graph.microsoft.com)
 
 
 
-{% embed url="https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls?tabs=public-cloud" %}
+**Whitelist KONNEKT**
+
+* Mandatory for licensing purposes, whitelist [https://license.c4a8.net](https://license.c4a8.net/)
+* Users can send us details, when errors occur -  [https://crashguard.konnekt.io](https://crashguard.konnekt.io)
+
+
+
+**Microsoft EntraID (Azure AD)**
+
+* Whitelist both endpoints \*.portal.azure.com and portal.azure.com to ensure access to the domain and the subdomains
+* [Azure portal URLs for proxy bypass](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls?tabs=public-cloud#azure-portal-urls-for-proxy-bypass)
+* To troubleshoot network connection issues, check [https://portal.azure.com/selfhelp](https://portal.azure.com/selfhelp)

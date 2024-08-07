@@ -21,7 +21,7 @@ You can check if your tenant is affected, by calling this site multiple times at
 
 If you see a result like this frequently, please open a ticket at Microsoft:
 
-![](<../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 ### Solution
 

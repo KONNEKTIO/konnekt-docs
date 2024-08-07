@@ -1,18 +1,24 @@
 # Office365 Co-Authoring
 
-[Microsoft Office 365 Co-Authoring](https://support.microsoft.com/en-us/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) is a technology, that allows you advanced collaboration with Microsoft Office files. One of the benefits is, that multiple users can work on an office file simultaneously.
+[Microsoft Office 365 Co-Authoring](https://support.microsoft.com/en-us/office/document-collaboration-and-co-authoring-ee1509b4-1f6e-401e-b04a-782d26f564a4) is a technology, that allows you advanced collaboration with Microsoft Office files. One of the benefits is, that multiple users can work on an co-authoring friendly office file simultaneously.
 
 ## Setting in KONNEKT
 
-KONNEKT can leverage Microsoft Office 365 Co-Authoring, when opening files from Windows File Explorer. In this case, KONNEKT just hands of the SharePoint URL of a file to the corresponding Microsoft 365 App (e.g. Microsoft Word). The App will then load the file directly from SharePoint.
+KONNEKT can leverage Microsoft Office 365 Co-Authoring, when opening files from Windows File Explorer. In this case, KONNEKT just hands over the SharePoint URL of a file to the corresponding Microsoft 365 App (Microsoft Word, Excel and PowerPoint). The App will then load the file directly from SharePoint Online.
 
 {% hint style="info" %}
-This setting will affect files, that are opened from Windows File Explorer, only.&#x20;
+This setting will affect Office files, that are opened from **Windows File Explorer**, only.&#x20;
 
 Other use-cases (e.g. KONNEKT file is opened from Office App) are not covered and Co-Authoring & Auto-Save will not work.
 {% endhint %}
 
 We recommend using Microsoft Office 365 Co-Authoring, since it has valuable benefits. This is why Co-Authoring is activated by default in KONNEKT.
+
+{% hint style="info" %}
+Microsoft supports Co-Authoring is not supported for password protected files. [Best Practices for Co-Authoring](https://support.microsoft.com/en-us/office/best-practices-for-coauthoring-in-excel-7564b417-977b-48f1-aa31-98a95bad4dc7)
+
+Instead use [sensitivity labeling](https://learn.microsoft.com/en-us/purview/sensitivity-labels-coauthoring) to keep information safe.
+{% endhint %}
 
 However, if you do not want to use Co-Authoring and want to load office files through KONNEKT instead, you can use this setting and deactivate it.
 

@@ -6,7 +6,7 @@ KONNEKT is using different APIs to connect to Microsoft 365. Therefore, it is ne
 
 It is **not** enough to just select the app "KONNEKT".
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Make sure, to [grant tenant-wide admin](grant-admin-consent-in-enterprise-applications.md) consent first. Without this, KONNEKT will not be part of "All cloud apps".

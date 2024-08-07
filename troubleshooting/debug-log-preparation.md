@@ -33,7 +33,7 @@ You'll find the collected files in:
 %UserProfile%\KONNEKT
 ```
 
-![](<../.gitbook/assets/image (30).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 Please zip the whole folder.
 

@@ -137,6 +137,26 @@ Since private and shared channels are dedicated sites on SharePoint, they appear
 
 </details>
 
+#### All Subsites for multiple SharePoint sites
+
+<details>
+
+<summary>Show all Subsites of one or more SharePoint sites</summary>
+
+To map all Subsites (and Libraries) of one or more SharePoint sites, you can use the following query
+
+**Query string**
+
+```
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (path:https://c4a8ehamed.sharepoint.com/sites/MySite1 OR path:https://c4a8ehamed.sharepoint.com/sites/MySite2)
+```
+
+**Note:** change MySite1 and MySite2 to your SharePoint site names.&#x20;
+
+You map Subsites and libraries of only  one SharePoint site or even add multiple URLs if needed
+
+</details>
+
 ### **There are several ways to apply the policy:**
 
 * manually by adding the key in the registry under machine or user registry settings

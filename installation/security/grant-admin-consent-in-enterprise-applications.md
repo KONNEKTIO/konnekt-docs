@@ -47,7 +47,7 @@ If you get **Page Not Found** after accepting the consent, please ignore it. It 
 
 To check **KONNEKT** permissions you can find it in your **Azure Active Directory** under **Enterprise applications** -> **Permissions**
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
 
 For more Info about admin consent visit [MS.Docs](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/grant-admin-consent)
 
@@ -61,4 +61,4 @@ In case you want to remove the admin-consent for KONNEKT, please proceed the fol
 4. Select **properties.**
 5. **Delete**, and confirm the delete.
 
-![](<../../.gitbook/assets/2021-06-29 15\_54\_57-Konnekt - Microsoft Azure and 2 more pages - TestTenant - Microsoft​ Edge.png>)
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
