@@ -34,7 +34,7 @@ If additional SharePoint Online environments are to be accessed under other Azur
 
 With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts**
 
-<figure><img src="../.gitbook/assets/AddAccount.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
 
 Log in with the account for the tenant you want to add.
 
