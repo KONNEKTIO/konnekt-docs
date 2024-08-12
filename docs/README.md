@@ -10,7 +10,7 @@ KONNEKT brings files that are stored in SharePoint Online document libraries to 
 
 KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365 Cloud PC**.
 
-![](.gitbook/assets/konnekt-explorer-menu.webp)
+![](../.gitbook/assets/konnekt-explorer-menu.webp)
 
 These docs cover the technical aspects of KONNEKT. All other information can be found on [https://konnekt.io/](https://konnekt.io/)
 
@@ -35,7 +35,9 @@ When it comes to applications, where bigger amounts of data with high throughput
 
 Database-files requiring simultaneous access from multiple workstations will not work with KONNEKT (and SharePoint Online in general) by design.
 
+{% hint style="info" %}
 KONNEKT is not the appropriate tool to perform data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online.
+{% endhint %}
 
 ### File sizes
 
