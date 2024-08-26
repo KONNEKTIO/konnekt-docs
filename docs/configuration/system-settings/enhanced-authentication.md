@@ -2,8 +2,6 @@
 
 Enhanced Authentication enables KONNEKT to use improved [OAuth 2.0 authorization](https://learn.microsoft.com/en-us/entra/identity-platform/v2-oauth2-auth-code-flow#protocol-details).
 
-This solves an long standing issue with excluded apps.
-
 {% hint style="danger" %}
 By enabling this setting:
 
@@ -16,13 +14,13 @@ By enabling this setting:
 This policy is applicable to KONNEKT version 2.10 and above.
 {% endhint %}
 
-To enable this setting, it needs to be set tenant wide with that setting. While enabling this setting Azure will prompt a new App registration with lesser permissions.
+To enable this setting, configure it tenant-wide. Enabling this will prompt Azure to register a new app with fewer permissions.
+
+With more detailed permissions, users have to reauthenticate. Additionally, the UNC path and displayed tenant name will switch to the default tenant name rather than the initial tenant name.
+
+This feature enables the use of conditional access policies with excluded apps in Azure/EntraID.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
-
-####
 
 ### Policy
 
@@ -32,7 +30,9 @@ Possible values: Can be enabled or disabled.&#x20;
 
 The default value is disabled.
 
-We recommend to use our [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting. You will find the policy in "System settings" in GPO editor.
+{% hint style="info" %}
+We recommend to use our latest [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting. You will find the policy in "System settings" in GPO editor.
+{% endhint %}
 
 ### Registry
 
@@ -40,13 +40,9 @@ Key name: EnhancedOAuth
 
 Type: REG\_DWORD 32 bit
 
-| Function |           Value          | Behavior                                            |
-| :------: | :----------------------: | --------------------------------------------------- |
-|  Disable | <p>0</p><p>(default)</p> | KONNEKT will use the traditional OAuth2 procedures. |
-|  Enable  |             1            | KONNEKT will use an improved OAuth 2.0 code.        |
+| Function |           Value          | Behavior                                               |
+| :------: | :----------------------: | ------------------------------------------------------ |
+|  Disable | <p>0</p><p>(default)</p> | KONNEKT will use the traditional OAuth 2.0 procedures. |
+|  Enable  |             1            | KONNEKT will use an improved OAuth 2.0 code with.      |
 
 The default value is 0 (disable).
-
-{% hint style="info" %}
-We recommend using our latest ADMX template to configure this setting.
-{% endhint %}
