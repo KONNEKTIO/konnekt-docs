@@ -16,7 +16,7 @@ By enabling this setting:
 This policy is applicable to KONNEKT version 2.10 and above.
 {% endhint %}
 
-To enable this setting, it needs to be set tenant wide with that setting. While enabling this setting Azure will prompt a new App registration.
+To enable this setting, it needs to be set tenant wide with that setting. While enabling this setting Azure will prompt a new App registration with lesser permissions.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -38,12 +38,12 @@ We recommend to use our [ADMX template](../management-options/settings-via-gpo.m
 
 Key name: EnhancedOAuth
 
-Type: REG\_DWORD
+Type: REG\_DWORD 32 bit
 
 | Function |           Value          | Behavior                                            |
 | :------: | :----------------------: | --------------------------------------------------- |
 |  Disable | <p>0</p><p>(default)</p> | KONNEKT will use the traditional OAuth2 procedures. |
-|  Enable  |             1            | KONNEKT will use the improved OAuth 2.0 code.       |
+|  Enable  |             1            | KONNEKT will use an improved OAuth 2.0 code.        |
 
 The default value is 0 (disable).
 
