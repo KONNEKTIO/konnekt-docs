@@ -2,11 +2,11 @@
 
 KONNEKT users (Windows 10 or earlier) may see a grey "X" on file and folder icons in Windows File Explorer.
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (43).png>)
 
 In Windows 11 it looks like&#x20;
 
-<figure><img src="../.gitbook/assets/2022-11-09 16_55_14-EyadWin11.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2022-11-09 16_55_14-EyadWin11.png" alt=""><figcaption></figcaption></figure>
 
 **This is not an Error or a Problem.** You can still work with your files without any restrictions.
 

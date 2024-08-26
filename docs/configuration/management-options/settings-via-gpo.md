@@ -20,7 +20,7 @@ To use group policies for KONNEKT please use the attached ADMX Template. For sce
 
 With the ADMX Template the following settings can be set:
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../../.gitbook/assets/image (44).png>)
 
 You can **download** the ADMX/ADML files [here](./#admx-adml-files).
 
@@ -35,6 +35,6 @@ KONNEKT evaluates the settings of the GPO / registry in this order:
 
 Some of the settings are also available in the preferences menu:
 
-![](<../../.gitbook/assets/2022-08-02 15\_37\_07-Window.png>)
+![](<../../../.gitbook/assets/2022-08-02 15\_37\_07-Window.png>)
 
 If a GPO is enforced, the corresponding setting in the preferences menu will still be shown but disabled for user change.

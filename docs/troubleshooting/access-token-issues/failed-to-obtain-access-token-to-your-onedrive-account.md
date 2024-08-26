@@ -8,7 +8,7 @@ Can appear in KONNEKT 2.9.0 and higher.
 
 When trying to log in to KONNEKT, the error message "Failed to obtain an access token to your OneDrive account" appears.
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ### Cause
 
@@ -16,11 +16,11 @@ If you see this error, please check the Sign-in logs in Azure/EntraID to see if 
 
 Take a look at the active and interactive Sign-ins.
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 Check the "Device info" under Activity Details: Sign-ins
 
-<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 ### Solution
 

@@ -2,7 +2,7 @@
 
 You might see this error message when KONNEKT **Office Co-Authoring** is enabled.
 
-![](../.gitbook/assets/warningmessage.png)
+![](../../.gitbook/assets/warningmessage.png)
 
 **Background:**
 

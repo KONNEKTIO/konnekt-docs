@@ -10,9 +10,9 @@ By using the feature Managed Mappings (policy name `"Sharepoint Sites"`), you ca
 
 To add mappings, go to the policy and click on **Show...**
 
-![](<../../.gitbook/assets/2021-08-18 09\_44\_27-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../../../.gitbook/assets/2021-08-18 09\_44\_27-192.168.2.50 - Remote Desktop Connection.png>)
 
-![](<../../.gitbook/assets/2022-08-19 11\_17\_20-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-19 11\_17\_20-LabServer ‎- Remotedesktop.png>)
 
 {% hint style="info" %}
 Using this policy for drive-letter mapping will always map the the default document library as root.
@@ -62,11 +62,11 @@ Please also note [Microsoft's recommendations regarding subsites](https://learn.
 
 **Site mapping result:**
 
-![](<../../.gitbook/assets/2021-08-19 10\_10\_40-192.168.2.50 - Remote Desktop Connection (2).png>)
+![](<../../../.gitbook/assets/2021-08-19 10\_10\_40-192.168.2.50 - Remote Desktop Connection (2).png>)
 
 **Drive mapping result:**
 
-![](<../../.gitbook/assets/2021-08-19 10\_20\_06-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../../../.gitbook/assets/2021-08-19 10\_20\_06-192.168.2.50 - Remote Desktop Connection.png>)
 
 ## **Examples**
 

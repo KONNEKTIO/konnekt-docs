@@ -7,11 +7,11 @@ Our support team may ask you to provide debug logs to analyze issues. To do so, 
 Right-Click on the KONNEKT Tray Icon and choose "Preferences"\
 
 
-![](<../.gitbook/assets/2022-08-02 17\_01\_27-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 17\_01\_27-Window.png>)
 
 Set Log-Level to "Debug":
 
-![](<../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
 
 ## 2) Restart the affected machine
 
@@ -23,7 +23,7 @@ When trying to reproduce the problem, please note the use case you are trying. A
 
 ## 5) Download and run the following batch file
 
-{% file src="../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
+{% file src="../../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
 
 ## 6) Zip the files
 
@@ -33,7 +33,7 @@ You'll find the collected files in:
 %UserProfile%\KONNEKT
 ```
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 Please zip the whole folder.
 

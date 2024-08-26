@@ -10,7 +10,7 @@ If the policy is enabled, KONNEKT will check for software updates and inform the
 
 **Policy name:** `Update check`
 
-![](<../../.gitbook/assets/2022-05-18 16\_14\_26 UpdateCheck.png>)
+![](<../../../.gitbook/assets/2022-05-18 16\_14\_26 UpdateCheck.png>)
 
 ## **There are several ways to apply the policy**
 

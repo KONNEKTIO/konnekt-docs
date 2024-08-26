@@ -49,7 +49,7 @@ If you do not configure this policy, KONNEKT will use the following default KQL 
 
 This will map all team and communication sites, the user has access to. Private channels of Teams are not in the default site scope
 
-![](<../../.gitbook/assets/sharepoint site query policy.png>)
+![](<../../../.gitbook/assets/sharepoint site query policy.png>)
 
 ### Examples
 
@@ -71,7 +71,7 @@ This will map all team and communication sites, the user has access to. Private 
 
 </details>
 
-![](../../.gitbook/assets/KONNEKTQueryPolicy.png)
+![](../../../.gitbook/assets/KONNEKTQueryPolicy.png)
 
 {% hint style="info" %}
 **Note:** To show all sites with \<Leadership> in the name, use the operator **(:)** instead of **(=)** by title
@@ -183,13 +183,13 @@ You do not need this if you use GPO or Intune management.
 
 You can find this setting in the preferences menu:
 
-![](<../../.gitbook/assets/2022-08-02 16\_26\_17-Window.png>)
+![](<../../../.gitbook/assets/2022-08-02 16\_26\_17-Window.png>)
 
 You can also configure this setting via registry/GPO/MDM:
 
 **Policy Name (ADMX):** Sharepoint Sites Autodiscovery
 
-![](<../../.gitbook/assets/2022-08-16 15\_15\_20-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-16 15\_15\_20-LabServer ‎- Remotedesktop.png>)
 
 #### Registry
 
@@ -211,7 +211,7 @@ We recommend using our [ADMX template](../management-options/settings-via-gpo.md
 
 You can find this setting in the preferences menu:
 
-![](<../../.gitbook/assets/2022-08-02 16\_26\_54-Window.png>)
+![](<../../../.gitbook/assets/2022-08-02 16\_26\_54-Window.png>)
 
 {% hint style="info" %}
 Please make sure to reboot **KONNEKT** after changing this setting.
@@ -221,7 +221,7 @@ You can also configure this setting via registry/GPO/MDM:
 
 **Policy Name (ADMX):** Add all sharepoint libraries
 
-![](<../../.gitbook/assets/2022-08-16 15\_22\_33-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-16 15\_22\_33-LabServer ‎- Remotedesktop.png>)
 
 #### Registry
 

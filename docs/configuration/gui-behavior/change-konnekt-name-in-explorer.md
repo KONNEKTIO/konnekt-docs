@@ -22,8 +22,8 @@ Change the value of the "(Default)" REG\_SZ to whatever name you would like. By 
 
 In the following example, we changed it to `SharePoint Data`
 
-![](<../../.gitbook/assets/2021-10-22 12\_50\_06-Window.png>)
+![](<../../../.gitbook/assets/2021-10-22 12\_50\_06-Window.png>)
 
 ### **Result**
 
-![](<../../.gitbook/assets/2021-10-25 11\_07\_36-Windows Sandbox.png>)
+![](<../../../.gitbook/assets/2021-10-25 11\_07\_36-Windows Sandbox.png>)

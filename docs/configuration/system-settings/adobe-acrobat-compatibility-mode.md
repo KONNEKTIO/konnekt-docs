@@ -6,7 +6,7 @@ In several environments, users may experience crashes of Adobe Acrobat applicati
 
 To prevent these crashes, it is recommended to set the Adobe Acrobat applications to operate in Windows 7 compatibility mode. By default, KONNEKT configures the compatibility mode for Adobe Acrobat applications to ensure smooth operation and prevent potential crashes.
 
-<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 While setting Adobe Acrobat applications to operate in Windows 7 compatibility mode can prevent crashes, it’s important to note that this setting may limit the functionality of some features in newer Acrobat applications.
 

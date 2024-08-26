@@ -2,7 +2,7 @@
 
 To configure the basic settings of KONNEKT, you can use the **tray menu**. A right-click on the KONNEKT icon opens the following menu:
 
-![](<../.gitbook/assets/2022-07-22 11\_15\_41-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2022-07-22 11\_15\_41-Windows Sandbox.png>)
 
 ### Version
 
@@ -22,7 +22,7 @@ To get an overview of activities, events and errors of KONNEKT. To open it just 
 
 A Log looks like the following example:
 
-![](<../.gitbook/assets/2022-07-22 11\_24\_05-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2022-07-22 11\_24\_05-Windows Sandbox.png>)
 
 ### Exit
 

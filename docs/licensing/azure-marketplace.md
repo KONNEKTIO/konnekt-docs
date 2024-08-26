@@ -13,7 +13,7 @@
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
 * In the PDF invoice you will receive from Microsoft, all SCEPman fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja-gab".
 
-![](<../.gitbook/assets/Screenshot 2022-02-18 at 12.39.15.png>)
+![](<../../.gitbook/assets/Screenshot 2022-02-18 at 12.39.15.png>)
 
 {% hint style="info" %}
 For a more detailed cost breakdown of your base and additional user fees, please refer to the invoice in your Azure portal.
@@ -41,7 +41,7 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 
 * If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 
-![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
+![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
 
 * Our platform will inform you about the new fees you to expect for a **complete** subscription cycle.
 * For the current cycle, we will bill the additional users for remaining days only.
@@ -52,7 +52,7 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 * Downgrading the amount of users is currently not possible without cancelling the subscription.
 * If you want to perform a downgrade, please cancel your current subscription from the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) towards the end of the current cycle by clicking "Cancel subscription" (see screenshot below) and re-subscribe with the desired user amount once the cancellation becomes effective.
 
-![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 3.png>)
+![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 3.png>)
 
 * Please do not forget to update the license key in your KONNEKT installation(s) afterwards as described in [here](https://docs.konnekt.io/configuration/other/license-key-on-multi-user-environments).
 
@@ -67,14 +67,14 @@ To get started with your KONNEKT subscription,
 * Locate KONNEKT on the **Marketplace** in your [**Azure Portal**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/glueckkanja-gabag.konnekt-transactable-prod).&#x20;
 * Click "Subscribe"
 
-![](<../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24).png>)
 
 * Create or select the **Resource group** you would like to deploy the subscription to
 * Assign a **Name** to later identify your SCEPman subscription
 * We recommend to keep **Recurring billing** on so that you do not have to worry about a manual renewal of your subscription.
 * Click "Review + subscribe" and in the next blade "Subscribe" to deploy the subscription to your Azure SaaS portal.
 
-![](<../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 {% hint style="info" %}
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
@@ -82,11 +82,11 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 * Once the deployment is complete, please navigate to our platform by clicking "Configure account now"
 
-![](<../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 * After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired **total user amount** and a **technical admin contact**.
 
-![](../.gitbook/assets/Screenshot\_2022-02-21\_at\_16\_38\_12.png)
+![](../../.gitbook/assets/Screenshot\_2022-02-21\_at\_16\_38\_12.png)
 
 * Based on the amount of users provided on our platform, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.

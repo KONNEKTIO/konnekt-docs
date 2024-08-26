@@ -8,7 +8,7 @@ This policy controls if Konnekt shows an icon in the window's start bar tray are
 
 If the policy is enabled, the tray icon is shown. If the policy is disabled, no tray icon is visible. Users can restart KONNEKT with the `/ui` option to have a tray icon.
 
-![](<../../.gitbook/assets/2021-10-27 10\_11\_42-Windows Sandbox.png>)
+![](<../../../.gitbook/assets/2021-10-27 10\_11\_42-Windows Sandbox.png>)
 
 {% hint style="warning" %}
 To apply the policy you have to restart **KONNEKT**

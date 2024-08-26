@@ -22,4 +22,5 @@ or
 
 ## Solution
 
-Not available, yet. We are working to support this scenario in a future release of KONNEKT.
+A solution was implemented in KONNEKT version 2.10 - "[Enhanced OAuth](../../configuration/system-settings/enhanced-authentication.md)".&#x20;
+
