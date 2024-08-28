@@ -8,7 +8,6 @@ By enabling this setting:
 * A new Azure app registration is required
 * Users need to reauthenticate!
 * Tenant name will be changed to the default name
-* [Authentication browser engine (WebView2)](authentication-browser-engine.md) is no longer needed
 {% endhint %}
 
 {% hint style="info" %}
