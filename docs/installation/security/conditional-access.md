@@ -12,8 +12,8 @@ It is **not** enough to just select the app "KONNEKT".
 Make sure, to [grant tenant-wide admin](grant-admin-consent-in-enterprise-applications.md) consent first. Without this, KONNEKT will not be part of "All cloud apps".
 {% endhint %}
 
-{% hint style="danger" %}
-KONNEKT does not support to configure Excluded Apps in the corresponding Conditional Access policy. We are working to support this scenario in one of the upcoming releases.
+{% hint style="info" %}
+KONNEKT supports Excluded Apps in the corresponding Conditional Access policy starting from KONNEKT 2.10. You must to enable [Enhanced Authentication](../../configuration/system-settings/enhanced-authentication.md) to make this work.
 
 Please see also "[Failed to obtain access token](../../troubleshooting/access-token-issues/failed-to-obtain-access-token.md)".
 {% endhint %}
