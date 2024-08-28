@@ -1,5 +1,33 @@
 # Changelog
 
+### 2.10 (Published 2024-08-28)
+
+Add:
+
+* Opt-in to [new OAuth component](configuration/system-settings/enhanced-authentication.md)
+  * New Azure app registration
+  * New permissions set with fewer permissions required
+  * Uses OAuth 2.0 API routes
+  * Namespaces are built from [default domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<DefaultDomainName>\\...), no longer from [initial domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<InitialDomainName>\\...).
+  * Intune DeviceIDs are sent during authentication
+  * Works with Conditional Access policies, when using excluded apps
+* Improved lock and read-only check for files and directories
+* Added Co-Authoring for editing (="open") Microsoft Office templates in Windows File Explorer context menu.
+
+Fix:
+
+* File Explorer cannot handle sites ending with a blank character
+* Adobe Acrobat might crash if not run in compatibility mode
+* New Notepad cannot save files (invalid function)
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.10.0.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.0.0.Msi)
+* [KONNEKT 2.10.0.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.0.0.Msi)
+* [KONNEKT 2.10.0.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.0.0.Msi)
+* [KONNEKT ADMX-ADML 2.10.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.9.1 (Published 2024-02-15)
 
 Add:
@@ -13,13 +41,6 @@ Fix:
 * KONNEKT cannot find sites with dot in name when adding shares or managed mappings
 * Windows Terminal Servers (Windows Server 2019) may freeze due to konnektrx.sys timeout after Windows Update
 * Stability improvements
-
-#### Downloads
-
-* [KONNEKT 2.9.1 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.1.0.Msi)
-* [KONNEKT 2.9.1 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.1.0.Msi)
-* [KONNEKT 2.9.1 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.1.0.Msi)
-* [KONNEKT ADMX-ADML 2.9.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.9.0 (Published 2023-11-16)
 
@@ -159,7 +180,7 @@ KONNEKT version numbers 2.3 and 2.4 were skipped due to major code rework.
 
 #### Downloads
 
-{% file src=".gitbook/assets/Konnekt 2.2.1.0-Preview.zip" %}
+{% file src="../.gitbook/assets/Konnekt 2.2.1.0-Preview.zip" %}
 KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
 {% endfile %}
 
