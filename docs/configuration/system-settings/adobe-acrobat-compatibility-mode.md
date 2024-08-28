@@ -2,17 +2,13 @@
 
 ## Description
 
-In several environments, users may experience crashes of Adobe Acrobat applications when attempting to open PDF files from a UNC-based file volume, such as KONNEKT. This issue can be mitigated by adjusting the compatibility settings of the Adobe Acrobat executables.
+In several environments, users may experience crashes of Adobe Acrobat applications when attempting to open PDF files from a UNC-based file volume, such as KONNEKT with versions before 2.10. In the past, we mitigated that issue by adjusting the compatibility settings of the Adobe Acrobat executables.
 
-To prevent these crashes, it is recommended to set the Adobe Acrobat applications to operate in Windows 7 compatibility mode. By default, KONNEKT configures the compatibility mode for Adobe Acrobat applications to ensure smooth operation and prevent potential crashes.
+KONNEKT versions older than 2.10 by default configure the compatibility mode for Adobe Acrobat applications to ensure smooth operation and prevent potential crashes.
 
 <figure><img src="../../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-While setting Adobe Acrobat applications to operate in Windows 7 compatibility mode can prevent crashes, it’s important to note that this setting may limit the functionality of some features in newer Acrobat applications.
-
-If you find that this is the case in your environment, KONNEKT provides the following policy that allows you to prevent the automatic configuration of the compatibility mode for Adobe Acrobat applications.&#x20;
-
-However, if you choose to use this policy and subsequently experience crashes with Adobe Acrobat applications, we recommend contacting Adobe support.
+KONNEKT 2.10 and newer has a change in the files system driver that circumvents Adobe Acrobat apps to crash. Therefore, it is not necessary to set compatibility mode for Acrobat applications. KONNEKT 2.10 automatically removes the compatibility mode setting for Adobe Acrobat applications. This policy allows you to keep compatibility mode if needed.
 
 ## Definition
 
@@ -26,11 +22,11 @@ This policy is available in KONNEKT 2.10 or newer
 
 **Policy group:** KONNEKT / System Settings
 
-| Policy setting    | Behavior                                                        |
-| ----------------- | --------------------------------------------------------------- |
-| Not configured    | The default is used (enabled).                                  |
-| Enabled (default) | KONNEKT sets compatibility modes for Adobe Acrobat apps         |
-| Disabled          | KONNEKT does not set compatibility modes for Adobe Acrobat apps |
+| Policy setting | Behavior                                                       |
+| -------------- | -------------------------------------------------------------- |
+| Not configured | KONNEKT removes the compatibility mode for Adobe Acrobat apps. |
+| Enabled        | KONNEKT sets compatibility modes for Adobe Acrobat apps        |
+| Disabled       | KONNEKT removes the compatibility mode for Adobe Acrobat apps  |
 
 {% hint style="warning" %}
 To apply the policy you have to restart **KONNEKT**
