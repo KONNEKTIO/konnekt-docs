@@ -8,6 +8,7 @@ By enabling this setting:
 * A new Azure app registration is required
 * Users need to reauthenticate!
 * Tenant name will be changed to the default name
+* [Authentication browser engine (WebView2)](authentication-browser-engine.md) is no longer needed
 {% endhint %}
 
 {% hint style="info" %}
@@ -33,6 +34,12 @@ The default value is disabled.
 {% hint style="info" %}
 We recommend to use our latest [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting. You will find the policy in "System settings" in GPO editor.
 {% endhint %}
+
+{% hint style="info" %}
+After the new Azure app registration is set up, the old one should be deleted.
+{% endhint %}
+
+
 
 ### Registry
 
