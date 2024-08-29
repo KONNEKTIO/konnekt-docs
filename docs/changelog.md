@@ -4,21 +4,21 @@
 
 Add:
 
-* Opt-in to [new OAuth component](configuration/system-settings/enhanced-authentication.md)
+* Opt-in to [new OAuth component](configuration/system-settings/enhanced-authentication.md) (EnhancedOAuth)
   * New Azure app registration
   * New permissions set with fewer permissions required
   * Uses OAuth 2.0 API routes
   * Namespaces are built from [default domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<DefaultDomainName>\\...), no longer from [initial domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<InitialDomainName>\\...).
   * Intune DeviceIDs are sent during authentication
-  * Works with Conditional Access policies, when using excluded apps
-* Improved lock and read-only check for files and directories
-* Added Co-Authoring for editing (="open") Microsoft Office templates in Windows File Explorer context menu.
+  * Works with Conditional Access policies, when using excluded apps (743)
+* Improved lock and read-only check for files and directories (725)
+* Added Co-Authoring for editing (="open") Microsoft Office templates in Windows File Explorer context menu. (68)
 
 Fix:
 
-* File Explorer cannot handle sites ending with a blank character
-* Adobe Acrobat might crash if not run in compatibility mode
-* New Notepad cannot save files (invalid function)
+* File Explorer cannot handle sites ending with a blank character (63)
+* Adobe Acrobat might crash if not run in compatibility mode (67)
+* New Notepad cannot save files (invalid function) (8599)
 * Stability improvements
 
 **Downloads**
