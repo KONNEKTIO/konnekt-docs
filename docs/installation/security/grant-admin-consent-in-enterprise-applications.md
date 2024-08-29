@@ -22,9 +22,19 @@ You can learn more about [managing consent to applications and evaluate consent 
 
 As an admin (or having a role that allows granting admin consent) you can grant tenant-wide admin consent to **KONNEKT** by using the following "Magic URL":
 
+App registration URL till KONNEKT version **2.9.1** and below:
+
 ```
 https://login.microsoftonline.com/{tenant-id}/adminconsent?client_id=fbaaaa6a-1ad0-4ac5-9c4c-4ce9353dc6cf
 ```
+
+App registration URL from KONNEKT version **2.10** and later:
+
+```
+https://login.microsoftonline.com/{tenant-id}/adminconsent?client_id=11fa31bb-2024-4f49-8b38-f458d596a81a
+```
+
+
 
 Therefore you need your`tenant-id`which you get from **Azure Portal** under **Azure Active Directory:**
 
