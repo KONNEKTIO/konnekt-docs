@@ -66,7 +66,7 @@ KONNEKT can use proxy servers. However, we offer limited support for clients tha
 
 [It is recommended to](https://learn.microsoft.com/en-us/microsoft-365-apps/best-practices/performance-recommendations) "bypass or allowlist Optimize endpoints on network devices and services that perform traffic interception, SSL decryption, deep packet inspection and content filtering":
 
-* To test network connectivity for M365 apps Microsoft provides this [connectivity test](https://connectivity.office.com/)
+* To test network connectivity for Microsoft 365 apps, Microsoft provides [this tool](https://connectivity.office.com/)
 * [Office 365 URLs and IP address ranges](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
 
 
