@@ -8,6 +8,9 @@ By enabling this setting:
 * **A new** [**Azure app registration**](../../installation/security/grant-admin-consent-in-enterprise-applications.md) **is required**
 * Users need to reauthenticate!
 * Namespaces are built from [default domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<DefaultDomainName>\\...), no longer from [initial domain](https://learn.microsoft.com/en-us/microsoft-365/admin/setup/domains-faq?view=o365-worldwide#how-do-i-set-or-change-the-default-domain-in-microsoft-365) (\\\onedrive-\<InitialDomainName>\\...).
+  * Possible side effects include:
+    * Pinned KONNEKT folders in Quick Access won't work
+    * KONNEKT UNC paths in Office apps might still refer to previous names
 {% endhint %}
 
 {% hint style="info" %}
