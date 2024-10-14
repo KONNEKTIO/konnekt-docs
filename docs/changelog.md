@@ -42,6 +42,12 @@ Fix:
 * Windows Terminal Servers (Windows Server 2019) may freeze due to konnektrx.sys timeout after Windows Update
 * Stability improvements
 
+**Downloads**
+
+* [KONNEKT 2.9.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.1.0.Msi)
+* [KONNEKT 2.9.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.1.0.Msi)
+* [KONNEKT 2.9.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.1.0.Msi)
+
 ### 2.9.0 (Published 2023-11-16)
 
 Add:
