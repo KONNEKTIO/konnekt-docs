@@ -36,4 +36,8 @@ With KONNEKT it is possible to work with multiple tenants simultaneously. Just o
 
 <figure><img src="../../.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+You cannot add guest accounts from foreign M365 tenants. Only members can be added.
+{% endhint %}
+
 Log in with the account for the tenant you want to add.
