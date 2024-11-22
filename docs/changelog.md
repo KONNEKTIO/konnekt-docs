@@ -1,5 +1,22 @@
 # Changelog
 
+### 2.10.1 (Published 2024-11-22)
+
+Fix:
+
+* Improved SharePoint throttling management
+* Parsing errors when checking `IsSiteReadOnly` on some SharePoint sites
+* Opening Microsoft Office templates files from some drives opens the template instead of creating new document from template
+* Shellext.dll might cause crashes
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.10.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.1.0.Msi)
+* [KONNEKT 2.10.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.1.0.Msi)
+* [KONNEKT 2.10.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.1.0.Msi)
+* [KONNEKT ADMX-ADML 2.10.0.0](https://docs.konnekt.io/configuration/management-options#admx-adml-files)
+
 ### 2.10 (Published 2024-08-28)
 
 Add:
@@ -20,13 +37,6 @@ Fix:
 * Adobe Acrobat might crash if not run in compatibility mode (67)
 * New Notepad cannot save files (invalid function) (8599)
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.10.0.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.0.0.Msi)
-* [KONNEKT 2.10.0.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.0.0.Msi)
-* [KONNEKT 2.10.0.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.0.0.Msi)
-* [KONNEKT ADMX-ADML 2.10.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.9.1 (Published 2024-02-15)
 
