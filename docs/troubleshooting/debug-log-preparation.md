@@ -7,11 +7,11 @@ Our support team may ask you to provide debug logs to analyze issues. To do so, 
 Right-Click on the KONNEKT Tray Icon and choose "Preferences"\
 
 
-![](<../../.gitbook/assets/2022-08-02 17\_01\_27-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 17_01_27-Window.png>)
 
 Set Log-Level to "Debug":
 
-![](<../../.gitbook/assets/2022-08-02 17\_02\_06-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 17_02_06-Window.png>)
 
 ## 2) Restart the affected machine
 
@@ -19,27 +19,22 @@ Set Log-Level to "Debug":
 
 When trying to reproduce the problem, please note the use case you are trying. A description of the steps with details of the path, file name, and timestamp is very helpful when troubleshooting.
 
-## 4) Close KONNEKT
+## 4) Wait a moment and close KONNEKT
 
-## 5) Download and run the following batch file
+## 5) Collect the logs
 
-{% file src="../../.gitbook/assets/KONNEKT-debug-20220330.zip" %}
+Run crashguard.exe and click "Send report":
 
-## 6) Zip the files
+"C:\Program Files\Konnekt\crashguard.exe"
 
-You'll find the collected files in:
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-```
-%UserProfile%\KONNEKT
-```
+In certain situations, a report cannot be sent due to company restrictions. In such cases, an email window may appear, or the new zipped folder will be saved on your Desktop.
 
-![](<../../.gitbook/assets/image (20).png>)
+## 6) Send to us
 
-Please zip the whole folder.
+After submitting the report, please send us a brief email:
 
-## 7) Send to us
-
-* Zip folder from 6)
 * Use case / what went wrong?
 * Timestamp / when did it happen?
 * Path / file name

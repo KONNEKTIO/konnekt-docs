@@ -10,9 +10,9 @@ By using the feature Managed Mappings (policy name `"Sharepoint Sites"`), you ca
 
 To add mappings, go to the policy and click on **Show...**
 
-![](<../../../.gitbook/assets/2021-08-18 09\_44\_27-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../../../.gitbook/assets/2021-08-18 09_44_27-192.168.2.50 - Remote Desktop Connection.png>)
 
-![](<../../../.gitbook/assets/2022-08-19 11\_17\_20-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-19 11_17_20-LabServer ‎- Remotedesktop.png>)
 
 {% hint style="info" %}
 Using this policy for drive-letter mapping will always map the the default document library as root.
@@ -49,24 +49,24 @@ Please also note [Microsoft's recommendations regarding subsites](https://learn.
   Your root site: `https://contoso.sharepoint.com`\
   The Managed Mapping should look like this: `https://contoso.sharepoint.com/|RootSite|R:`
 * `<Name>:` Name you choose for the mapped site. This name must be unique for each mapping.\
-  _optional => value may be empty_
+  &#xNAN;_&#x6F;ptional => value may be empty_
 * `<DriveLetter>:` Drive letter for drive mapping.\
-  _optional => value may be empty_
+  &#xNAN;_&#x6F;ptional => value may be empty_
 * `<TenantName>:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
-  _optional => value may be empty_
+  &#xNAN;_&#x6F;ptional => value may be empty_
 * `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. You must run KONNEKT 2.2.1 or newer for this feature to work properly.\
   Possible values:\
   \- `FALSE` (default)\
   \- `TRUE`\
-  _optional => value may be empty_
+  &#xNAN;_&#x6F;ptional => value may be empty_
 
 **Site mapping result:**
 
-![](<../../../.gitbook/assets/2021-08-19 10\_10\_40-192.168.2.50 - Remote Desktop Connection (2).png>)
+![](<../../../.gitbook/assets/2021-08-19 10_10_40-192.168.2.50 - Remote Desktop Connection (2).png>)
 
 **Drive mapping result:**
 
-![](<../../../.gitbook/assets/2021-08-19 10\_20\_06-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../../../.gitbook/assets/2021-08-19 10_20_06-192.168.2.50 - Remote Desktop Connection.png>)
 
 ## **Examples**
 

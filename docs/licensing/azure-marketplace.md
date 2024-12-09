@@ -23,7 +23,7 @@ In order to purchase solutions from independent software vendors (ISV) such as K
 *   In the PDF invoice you will receive from Microsoft, all KONNEKT fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja".\
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For a more detailed cost breakdown of your base and additional user fees, please refer to the invoice in your Azure portal.
@@ -91,7 +91,7 @@ In case you would like to test KONNEKT, please [get in contact with us](https://
 
 To get started with your KONNEKT subscription, follow below steps:
 
-* Locate [KONNEKT](https://portal.azure.com/#view/Microsoft\_Azure\_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the **Marketplace** in your **Azure Portal**. In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
+* Locate [KONNEKT](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the **Marketplace** in your **Azure Portal**. In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
   * More details on Private Offers and MPOs can be found in Microsoft's documentation.
     * [Private Offer](https://learn.microsoft.com/en-us/marketplace/private-offers-purchase)
     * [Multiparty Offer](https://www.youtube.com/watch?v=TANUlgLuVqI)
@@ -120,7 +120,7 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 The **Technical contact** must have a mailbox connected to it, so we are able to notify you in case there are relevant issues with KONNEKT.
 {% endhint %}
 
-![](../../.gitbook/assets/Screenshot\_2022-02-21\_at\_16\_38\_12.png)
+![](../../.gitbook/assets/Screenshot_2022-02-21_at_16_38_12.png)
 
 * Based on the amount of users provided, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee. **The platform automatically selects the best price / tier**.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.
