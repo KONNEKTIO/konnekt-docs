@@ -1,5 +1,24 @@
 # Changelog
 
+### 2.10.2 (Published 2024-12-12)
+
+Add:
+
+* Silent authentication for SSO-enabled environments (80)
+
+Fix:
+
+* Improved proxy detection (9669)
+* Moving and renaming files sometimes not stable (9594)
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.10.2.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.2.0.Msi)
+* [KONNEKT 2.10.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.2.0.Msi)
+* [KONNEKT 2.10.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.2.0.Msi)
+* [KONNEKT ADMX-ADML 2.10.0.0](https://docs.konnekt.io/configuration/management-options#admx-adml-files)
+
 ### 2.10.1 (Published 2024-11-22)
 
 Fix:
@@ -9,13 +28,6 @@ Fix:
 * Opening Microsoft Office templates files from some drives opens the template instead of creating new document from template
 * Shellext.dll might cause crashes
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.10.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.1.0.Msi)
-* [KONNEKT 2.10.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.1.0.Msi)
-* [KONNEKT 2.10.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.1.0.Msi)
-* [KONNEKT ADMX-ADML 2.10.0.0](https://docs.konnekt.io/configuration/management-options#admx-adml-files)
 
 ### 2.10 (Published 2024-08-28)
 
