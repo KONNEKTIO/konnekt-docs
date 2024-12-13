@@ -31,10 +31,11 @@ Our engineers are happy to support you in these languages:
 
 * Monday-Friday
 * 09:00-17:00 CET / CEST
-* Except for public holidays in Hesse / Germany
+* Except for public holidays in Hesse / Germany, Christmas Eve and New Year's Eve
 
 ### Response time
 
 Typical < 8 hours for incidents
 
 Response time is defined as the duration between the report of the incident and the start of the incident or problem handling through one of our support engineers. The response time is to be calculated within the support hours.
+
