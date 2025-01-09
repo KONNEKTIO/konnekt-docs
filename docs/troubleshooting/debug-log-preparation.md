@@ -21,6 +21,8 @@ When trying to reproduce the problem, please note the use case you are trying. A
 
 ## 4) Wait a moment and close KONNEKT
 
+Take a moment, then close KONNEKT from the Taskbar Tray icon.
+
 ## 5) Collect the logs
 
 Run crashguard.exe and click "Send report":
