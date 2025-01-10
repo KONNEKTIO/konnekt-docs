@@ -1,5 +1,13 @@
 # Changelog
 
+{% hint style="success" %}
+If you'd like to **stay up to date on the latest changes and news in the KONNEKT changelog**, you can subscribe to our email update service. Subscribers will receive **email notifications** when there are new updates to the changelog.
+
+[**Please click here to sign up for email notifications**](https://feedback.konnekt.io/)**.**
+{% endhint %}
+
+## Versions
+
 ### 2.10.2 (Published 2024-12-12)
 
 Add:
