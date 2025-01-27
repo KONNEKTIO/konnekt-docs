@@ -53,12 +53,12 @@ Although there are no issues with the total amount of files or folders within on
 
 ### Search
 
-If you use the search feature in Windows File Explorer to search in KONNEKT volumes, Windows File Explorer will request the filenames of the current folder and all subfolders. This works OK for smaller structures (<1000 Objects in total in all subfolders), of course depending on the connection speed to Microsoft 365.
+When you use the search function in Windows File Explorer to search in KONNEKT volumes, Windows File Explorer asks for the filenames of the current folder and all subfolders. This works fine for smaller structures (<1000 items in total in all subfolders), depending on the connection speed to Microsoft 365.
 
 {% hint style="info" %}
-If you have many objects (files, folders) in the current directory or subfolders, the search in Windows File Explorer may take unacceptable long.
+If you have many items (files, folders) in the current directory or subdirectories, the search in Windows File Explorer may take unacceptably long.
 
-If you have to search in big structures, we highly recommend to use the SharePoint Online web interface.
+If you need to search in large structures, we strongly recommend using the SharePoint Online web interface.
 {% endhint %}
 
 ## Architecture
