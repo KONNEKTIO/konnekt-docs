@@ -51,6 +51,16 @@ KONNEKT is doing a great job in several environments. It can handle hundreds of 
 
 Although there are no issues with the total amount of files or folders within one library, we recommend segmenting the data within the library in folders. A maximum amount of 1000 files per single folder is a good rule of thumb.
 
+### Search
+
+If you use the search feature in Windows File Explorer to search in KONNEKT volumes, Windows File Explorer will request the filenames of the current folder and all subfolders. This works OK for smaller structures (<1000 Objects in total in all subfolders), of course depending on the connection speed to Microsoft 365.
+
+{% hint style="info" %}
+If you have many objects (files, folders) in the current directory or subfolders, the search in Windows File Explorer may take unacceptable long.
+
+If you have to search in big structures, we highly recommend to use the SharePoint Online web interface.
+{% endhint %}
+
 ## Architecture
 
 KONNEKT is a client-side tool - there is no backend. **Data is transferred directly between the KONNEKT client and the SharePoint Online services**. Thus, the data neither runs over external systems, nor are they stored on the publisher systems.&#x20;
