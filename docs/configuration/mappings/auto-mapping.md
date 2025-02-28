@@ -9,6 +9,10 @@ Administrators can control this feature on two levels:
 
 KONNEKT updates the mappings every 60 minutes.
 
+{% hint style="info" %}
+KONNEKT uses SharePoint Online Search's default 'Result Source.' Modifying this setting could alter the Site Collections and Document Libraries displayed.
+{% endhint %}
+
 ## Site scope
 
 {% hint style="info" %}
@@ -183,13 +187,13 @@ You do not need this if you use GPO or Intune management.
 
 You can find this setting in the preferences menu:
 
-![](<../../../.gitbook/assets/2022-08-02 16\_26\_17-Window.png>)
+![](<../../../.gitbook/assets/2022-08-02 16_26_17-Window.png>)
 
 You can also configure this setting via registry/GPO/MDM:
 
 **Policy Name (ADMX):** Sharepoint Sites Autodiscovery
 
-![](<../../../.gitbook/assets/2022-08-16 15\_15\_20-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-16 15_15_20-LabServer ‎- Remotedesktop.png>)
 
 #### Registry
 
@@ -211,7 +215,7 @@ We recommend using our [ADMX template](../management-options/settings-via-gpo.md
 
 You can find this setting in the preferences menu:
 
-![](<../../../.gitbook/assets/2022-08-02 16\_26\_54-Window.png>)
+![](<../../../.gitbook/assets/2022-08-02 16_26_54-Window.png>)
 
 {% hint style="info" %}
 Please make sure to reboot **KONNEKT** after changing this setting.
@@ -221,7 +225,7 @@ You can also configure this setting via registry/GPO/MDM:
 
 **Policy Name (ADMX):** Add all sharepoint libraries
 
-![](<../../../.gitbook/assets/2022-08-16 15\_22\_33-LabServer ‎- Remotedesktop.png>)
+![](<../../../.gitbook/assets/2022-08-16 15_22_33-LabServer ‎- Remotedesktop.png>)
 
 #### Registry
 
