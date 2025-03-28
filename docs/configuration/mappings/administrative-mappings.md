@@ -8,6 +8,10 @@ This policy is applicable to version 2.0 and above
 
 By using the feature Managed Mappings (policy name `"Sharepoint Sites"`), you can map specific SharePoint sites and libraries to your KONNEKT. You can additionally define drive letters to those mappings.
 
+{% hint style="info" %}
+If enabled, this setting will map drives regardless of a users permissions.&#x20;
+{% endhint %}
+
 To add mappings, go to the policy and click on **Show...**
 
 ![](<../../../.gitbook/assets/2021-08-18 09_44_27-192.168.2.50 - Remote Desktop Connection.png>)
