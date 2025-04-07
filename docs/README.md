@@ -8,7 +8,7 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
 
-KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365 Cloud PC**.
+KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365** (W365) **Cloud PC**.
 
 ![](../.gitbook/assets/konnekt-explorer-menu.webp)
 
