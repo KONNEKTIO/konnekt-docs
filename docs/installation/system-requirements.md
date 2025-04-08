@@ -13,8 +13,8 @@
 {% hint style="success" %}
 KONNEKT runs in different **VDI** environments:
 
-* Hypervisor systems (e.g. Citrix XenDesktop, VMware Horizon),
-* Multi-session systems (e.g. Citrix XenApp, Microsoft Terminal server/RDS) and
+* Hypervisor systems (e.g. Citrix Virtual Desktops (fka Citrix XenDesktop), VMware Horizon),
+* Multi-session systems (e.g. Citrix Virtual Apps (fka Citrix XenApp), Microsoft Terminal server/RDS) and
 * Microsoft Azure Virtual Desktop (AVD)
 * Microsoft Windows 365 (W365) Cloud PC
 {% endhint %}

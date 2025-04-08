@@ -8,7 +8,9 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
 
-KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365** (W365) **Cloud PC**.
+KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix Virtual Apps** (fka Citrix XenApp)**, Citrix Virtual Desktop** (fka Citrix XenDesktop)**, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365** (W365) **Cloud PC**.
+
+KONNEKT is capable of efficiently handling **big SharePoint Document Libraries** containing over 300,000 files. Explore the use cases described below for additional insights.
 
 ![](../.gitbook/assets/konnekt-explorer-menu.webp)
 
@@ -20,7 +22,7 @@ These docs cover the technical aspects of KONNEKT. All other information can be 
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | [Drive Letter Mapping](configuration/mappings/) and Network Shares                       | Uses a deeply integrated network provider technology. A sophisticated implementation allows UNC paths and drive letter mapping. |
 | Explorer Integrated                                                                      | Integrates into the Windows File Explorer structure.                                                                            |
-| Citrix and Terminal Services Support                                                     | Transparent access to any SharePoint from Citrix and Terminal Services                                                          |
+| VDI Support (Citrix and Terminal Services)                                               | Transparent access to any SharePoint from Citrix and Terminal Services                                                          |
 | [Multi-tenancy](installation/configure-office-365-account.md#multi-tenant-configuration) | Connects to multiple tenants simultaneously                                                                                     |
 | [Multi-geo](configuration/mappings/multi-geo.md)                                         | Support for OneDrive and SharePoint Online Multi-Geo                                                                            |
 | [Co-authoring](configuration/system-settings/office365-co-authoring.md)                  | Supports the co-authoring of Microsoft Office 365                                                                               |
