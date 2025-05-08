@@ -30,8 +30,8 @@ description: >-
 [how-to-deal-with-error-s.md](how-to-deal-with-error-s.md)
 {% endcontent-ref %}
 
-{% content-ref url="libraries-are-empty.md" %}
-[libraries-are-empty.md](libraries-are-empty.md)
+{% content-ref url="libraries-are-empty/libraries-are-empty.md" %}
+[libraries-are-empty.md](libraries-are-empty/libraries-are-empty.md)
 {% endcontent-ref %}
 
 {% content-ref url="manual-uninstallation.md" %}
