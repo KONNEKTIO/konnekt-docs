@@ -42,4 +42,4 @@ Please also check this pages:&#x20;
 
 [Some sites or libraries do not appear in KONNEKT](some-sites-or-libraries-do-not-appear-in-konnekt.md)
 
-[Libraries are empty](libraries-are-empty/libraries-are-empty.md)
+[Libraries are empty](empty-libraries/libraries-are-empty.md)

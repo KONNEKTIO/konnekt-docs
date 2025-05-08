@@ -6,7 +6,7 @@ When you try to add a SharePoint library manually (see [#add-additional-document
 
 ![Error-Message: "Failed to open site: Key not found"](<../../.gitbook/assets/image (19).png>)
 
-Customers with this issue may also also experience this: [libraries-are-empty.md](libraries-are-empty/libraries-are-empty.md "mention")
+Customers with this issue may also also experience this: [libraries-are-empty.md](empty-libraries/libraries-are-empty.md "mention")
 
 ### Background
 

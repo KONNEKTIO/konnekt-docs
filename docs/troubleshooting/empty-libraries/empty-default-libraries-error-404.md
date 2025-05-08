@@ -31,12 +31,14 @@ To investigate, use GraphExplorer to check the get request for this document lib
 
 [https://developer.microsoft.com/en-us/graph/graph-explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-### Workaround
+### Workarounds
 
-Enable the setting "[Add all SharePoint document libraries](https://docs.konnekt.io/configuration/mappings/auto-mapping#map-all-document-libraries)".
+1\) Enable the setting "[Add all SharePoint document libraries](https://docs.konnekt.io/configuration/mappings/auto-mapping#map-all-document-libraries)".
 
 If enabled KONNEKT will use the [List drives](https://learn.microsoft.com/en-us/graph/api/drive-list?view=graph-rest-1.0\&tabs=http) request to retrieve all document libraries from Site Collections.
 
 {% hint style="info" %}
 Please be aware that enabling this setting will cause existing file links to break.
 {% endhint %}
+
+2\) Use "[Managed Mappings](../../configuration/mappings/administrative-mappings.md)" to map the document libraries and disable the setting "Sharepoint Sites Autodiscovery".
