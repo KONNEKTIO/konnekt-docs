@@ -41,4 +41,4 @@ If enabled KONNEKT will use the [List drives](https://learn.microsoft.com/en-us/
 Please be aware that enabling this setting will cause existing file links to break.
 {% endhint %}
 
-2\) Use "[Managed Mappings](../../configuration/mappings/administrative-mappings.md)" to map the document libraries and disable the setting "Sharepoint Sites Autodiscovery".
+2\) Use "[Managed Mappings](../../configuration/mappings/administrative-mappings.md)" to map the important document libraries and disable the setting "Sharepoint Sites Autodiscovery".

@@ -183,7 +183,9 @@ You do not need this if you use GPO or Intune management.
 
 ## Library scope
 
-### Map default document site libraries
+### Map default document libraries
+
+If enabled this setting will display all libraries from all SharePoint document libraries where a user has access to.
 
 You can find this setting in the preferences menu:
 
