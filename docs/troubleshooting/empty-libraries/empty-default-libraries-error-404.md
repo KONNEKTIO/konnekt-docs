@@ -27,6 +27,16 @@ x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"France Central","Slice":"E","R
 {"error":{"code":"itemNotFound","message":"The resource could not be found.","innerError":{"date":"2025-05-07T09:31:28","request-id":"17a44641-4204-4811-b176-58a379125b5d","client-request-id":"17a44641-4204-4811-b176-58a379125b5d"}}}
 ```
 
+or
+
+```
+[2025-05-09 08:43:36.353] [23796] [error] [RESTkitClient] Http request (OneDriveClient::GetDefaultDrive) GET: https://graph.microsoft.com/v1.0/sites/<TenantName>.sharepoint.com,8fd7d761-4f99-4fdc-a0aa-de6b685e5306,56d1fa73-2339-4329-9df3-61100d751650/drive - 404
+    error: Item not found: The resource could not be found.(404)
+   "{"error":{"code":"itemNotFound","message":"The resource could not be found.","innerError":{"date":"2025-05-09T06:43:36","request-id":"17a44641-4204-4811-b176-58a379125b5d","client-request-id":"17a44641-4204-4811-b176-58a379125b5d"}}}"
+```
+
+
+
 To investigate, use GraphExplorer to check the get request for this document library:
 
 [https://developer.microsoft.com/en-us/graph/graph-explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
