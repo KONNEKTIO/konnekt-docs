@@ -73,6 +73,7 @@
   * [Why is there a grey "X" or "brown suitcase" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
   * [How to change the tenant name](troubleshooting/how-to-change-the-tenant-name.md)
+  * [Failed to open Device](troubleshooting/failed-to-open-device.md)
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
   * [Azure Marketplace](licensing/azure-marketplace.md)
