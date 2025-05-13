@@ -67,6 +67,7 @@
     * [Empty default libraries - error 404](troubleshooting/empty-libraries/empty-default-libraries-error-404.md)
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
+  * [Site Collections are not displayed for some users](troubleshooting/site-collections-are-not-displayed-for-some-users.md)
   * [Sites missing or folders empty](troubleshooting/sites-missing-or-folders-empty.md)
   * [Some sites or libraries do not appear in KONNEKT](troubleshooting/some-sites-or-libraries-do-not-appear-in-konnekt.md)
   * [Slow Folder Browsing](troubleshooting/slow-folder-browsing.md)
