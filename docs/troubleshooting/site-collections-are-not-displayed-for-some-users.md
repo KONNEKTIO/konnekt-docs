@@ -4,10 +4,6 @@
 
 Currently, some customers are experiencing issues where specific users cannot view any Site Collections within KONNEKT.&#x20;
 
-
-
-
-
 KONNEKT uses the RestAPI connected to SharePoint Online to identify the Site Collections a user can access. The query responsible for this can be located in the KONNEKT logs preceding this line:
 
 ```
@@ -21,8 +17,6 @@ https://<TenantName>.sharepoint.com/_api/search/query?QueryText=%27%28webtemplat
 ```
 
 When using Edge, the XML should display all Site Collections that a user can access. At the end, the "InternalRequestId" will be provided, which can assist Microsoft in identifying the issue's root cause.\
-We are unable to determine what changes
-
 \
 **Temporary workaround to add shares**:\
 \- ​Manually- Right click on Accounts / Add Share
