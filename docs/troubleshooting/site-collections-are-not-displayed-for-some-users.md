@@ -2,7 +2,13 @@
 
 ## Situation
 
-Currently, some customers are experiencing issues where specific users cannot view any Site Collections within KONNEKT. KONNEKT uses the RestAPI connected to SharePoint Online to identify the Site Collections a user can access. The query responsible for this can be located in the KONNEKT logs preceding this line:
+Currently, some customers are experiencing issues where specific users cannot view any Site Collections within KONNEKT.&#x20;
+
+
+
+
+
+KONNEKT uses the RestAPI connected to SharePoint Online to identify the Site Collections a user can access. The query responsible for this can be located in the KONNEKT logs preceding this line:
 
 ```
 Sharepoint query returned the folloing sites 
