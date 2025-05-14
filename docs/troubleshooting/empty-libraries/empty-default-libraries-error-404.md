@@ -56,3 +56,7 @@ Please be aware that enabling this setting will cause existing file links to bre
 ## GitHub issue
 
 {% @github-files/github-code-block url="https://github.com/SharePoint/sp-dev-docs/issues/10241" %}
+
+## Issue solved
+
+[https://admin.microsoft.com/AdminPortal/home#/servicehealth/:/alerts/SP1070391](https://admin.microsoft.com/AdminPortal/home#/servicehealth/:/alerts/SP1070391?shdlinksource=IncidentMail)

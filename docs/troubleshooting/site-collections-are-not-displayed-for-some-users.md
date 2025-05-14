@@ -41,3 +41,7 @@ Please help to raise the awareness by opening a Microsoft for the affected M365 
 ## GitHub issue
 
 {% @github-files/github-code-block url="https://github.com/SharePoint/sp-dev-docs/issues/10256" %}
+
+## Issue solved
+
+[https://admin.microsoft.com/#/servicehealth/history/:/alerts/SP1072852](https://admin.microsoft.com/#/servicehealth/history/:/alerts/SP1072852)
