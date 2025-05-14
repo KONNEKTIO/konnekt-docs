@@ -1,6 +1,6 @@
-# Libraries are empty
+# All libraries are empty
 
-### Problem
+## Problem
 
 Some or all libraries in KONNEKT and mapped drives are empty.
 
@@ -8,13 +8,13 @@ KONNEKT client log shows the following messages: `[Sharepoint] Failed to determi
 
 Customers with this issue may also also experience this: [add-share-key-not-found.md](../add-share-key-not-found.md "mention")
 
-### Background
+## Background
 
 Microsoft (temporarily) changed the content of the response of the query for the library discovery for some tenants. Therefore KONNEKT will not map those affected libraries.
 
 This only happens if the feature "Automatically add all SharePoint document libraries" (see [#map-all-document-libraries](../../configuration/mappings/auto-mapping.md#map-all-document-libraries "mention")) is used.
 
-### Solution
+## Solution
 
 We implemented a workaround for that behavior starting with KONNNEKT V2.0.0. Please see here, how to get the update: [software-updates.md](../../installation/software-updates.md "mention").
 
@@ -26,6 +26,6 @@ After installing the new version of KONNEKT, please&#x20;
 
 After this procedure, the libraries should work.
 
-### Similar Problems
+## Similar Problems
 
 Please also check this page: [Sites missing or folders empty](../sites-missing-or-folders-empty.md)

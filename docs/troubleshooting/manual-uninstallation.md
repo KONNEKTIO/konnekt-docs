@@ -10,7 +10,7 @@ However, if you can not leverage the uninstaller or there are settings left on y
 This procedure is for IT pros, only. It is not supported by our service team.
 {% endhint %}
 
-### Remove Installer
+## Remove Installer
 
 * Open **Regedit** and go to\
   `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
@@ -19,13 +19,13 @@ This procedure is for IT pros, only. It is not supported by our service team.
   * Check the Publisher for '**glueckkanja-gab AG'**
 * Delete the whole key
 
-### Remove Driver
+## Remove Driver
 
 * Run `net stop konnekt`
 * Delete `c:\windows\system32\drivers\konnektrx.sys`
 * Delete `C:\Windows\System32\konnektnp.dll`
 
-### Remove the shell extensions
+## Remove the shell extensions
 
 * Run `regsvr32 /unregister "C:\Program Files\Konnekt\shellext.dll`
 *   Remove the following Windows Registry keys for **every user** on the machine:
@@ -43,7 +43,7 @@ This procedure is for IT pros, only. It is not supported by our service team.
     HKCU\SOFTWARE\Classes\Word.DocumentMacroEnabled.12\shell\konnekt
     ```
 
-### Clean the registry
+## Clean the registry
 
 Remove the following Windows Registry keys on the **machine**:
 
@@ -60,12 +60,12 @@ HKCU\SOFTWARE\GlueckKanja\Konnekt
 HKCU\SOFTWARE\Policies\GlueckKanja\Konnekt
 ```
 
-### Clean Folders
+## Clean Folders
 
 * Delete the "Konnekt" folder under `%localappdata%`
 * Delete `C:\Program Files\Konnekt`
 
-### Restart
+## Restart
 
 Some of the changes (like driver or the shell extensions) may need&#x20;
 

@@ -1,19 +1,19 @@
 # Sites missing or folders empty
 
-### Problem
+## Problem
 
 Some sites are not shown in the KONNEKT node.\
 or
 
 Some folders of mapped sites/libraries are empty.
 
-### Cause
+## Cause
 
 Currently we see more and more error responses (e.g. 500) for proper requests to SharePoint Online Search. Sometimes the site discovery of KONNEKT is affected by this.&#x20;
 
 In some cases/tenants, SharePoint Online does permanently fail to search at all. If this is the case, KONNEKT will not work properly.
 
-### Check if your tenant is affected
+## Check if your tenant is affected
 
 You can check if your tenant is affected, by calling this site multiple times at different times at the day:
 
@@ -23,7 +23,7 @@ If you see a result like this frequently, please open a ticket at Microsoft:
 
 ![](<../../.gitbook/assets/image (3).png>)
 
-### Solution
+## Solution
 
 We made KONNEKT more robust to failures of SharePoint Online Search. This applies to the following KONNEKT releases:
 
@@ -36,7 +36,7 @@ If the error responses happen **sometimes**, these builds may circumvent the pro
 If the error responses happen **frequently or permanently**, KONNEKT will not work properly, since KONNEKT relies on a proper availability of SharePoint Online.
 {% endhint %}
 
-### Similar Problems
+## Similar Problems
 
 Please also check this pages:&#x20;
 

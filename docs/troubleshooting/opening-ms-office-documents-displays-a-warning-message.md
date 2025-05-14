@@ -4,15 +4,15 @@ You might see this error message when KONNEKT **Office Co-Authoring** is enabled
 
 ![](../../.gitbook/assets/warningmessage.png)
 
-**Background:**
+## **Background**
 
 The issue behind this warning is the restrictions of Microsoft site zones.&#x20;
 
-**Solution 1:**
+## **Solution 1**
 
 To prevent this warning, you need to add the server shown in the error message to the **Trusted Sites** **Zone** in the Internet Explorer setting.
 
-**Solution 2:**
+## **Solution 2**
 
 * Open either Word, Excel or PowerPoint on the desktop
 * Select **File**
@@ -25,7 +25,7 @@ To prevent this warning, you need to add the server shown in the error message t
 * Checkmark "**Sub folders of this location are also trusted**"
 * Click **OK** to save.
 
-**Solution 3:**
+## **Solution 3**
 
 You can disable the Co-Authoring in **KONNEKT:**
 

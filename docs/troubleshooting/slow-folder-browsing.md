@@ -1,10 +1,10 @@
 # Slow Folder Browsing
 
-### Problem
+## Problem
 
 Browsing folders in Windows Files Explorer may be slow. Opening a single folder sometimes takes more than 20 seconds (up to several minutes).
 
-### Cause
+## Cause
 
 KONNEKT requests details (e.g. file names etc.) about the content of a folder once you are accessing the folder via KONNEKT. To do so, KONNEKT leverages the SharePoint Online REST API.
 
@@ -12,7 +12,7 @@ Currently it seems if SharePoint Online response performance for the correspondi
 
 The number of files & folders in one folder seems to have the major effect. The volume of data used by the whole site, may also be a driver.
 
-### Solution
+## Solution
 
 #### KONNEKT update
 

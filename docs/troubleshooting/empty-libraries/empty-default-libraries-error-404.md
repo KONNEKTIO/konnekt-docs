@@ -1,10 +1,10 @@
 # Empty default libraries - error 404
 
-### Problem
+## Problem
 
 All document libraries in KONNEKT and mapped drives are empty.
 
-### Background
+## Background
 
 There are glitches in certain data centers hosting SharePoint Online on Microsoft's site. KONNEKT uses Microsoft's GraphAPI to access all information related to document libraries and their content.
 
@@ -41,7 +41,7 @@ To investigate, use GraphExplorer to check the get request for this document lib
 
 [https://developer.microsoft.com/en-us/graph/graph-explorer](https://developer.microsoft.com/en-us/graph/graph-explorer)
 
-### Workarounds
+## Workarounds
 
 1\) Enable the setting "[Add all SharePoint document libraries](https://docs.konnekt.io/configuration/mappings/auto-mapping#map-all-document-libraries)".
 
@@ -52,3 +52,7 @@ Please be aware that enabling this setting will cause existing file links to bre
 {% endhint %}
 
 2\) Use "[Managed Mappings](../../configuration/mappings/administrative-mappings.md)" to map the important document libraries and disable the setting "[Sharepoint Sites Autodiscovery](https://docs.konnekt.io/configuration/mappings/auto-mapping#map-all-document-libraries)".
+
+## GitHub issue
+
+{% @github-files/github-code-block url="https://github.com/SharePoint/sp-dev-docs/issues/10241" %}
