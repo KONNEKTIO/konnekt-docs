@@ -8,6 +8,27 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 ## Versions
 
+### 2.11 (Published 2025-05-19)
+
+Add:
+
+* Enhanced SharePoint throttling prevention by introducing local limits based on the number of requests per time (client side throttling)
+* Support for Sensitivity Labels with Microsoft Purview Information Protection (fka Microsoft Information Protection MIP) in non-co-authoring scenarios (e.g. PDF files)
+* Improved handling when multiple files are selected in explorer
+
+Fix:
+
+* Renaming files mapped on a drive letter may result in an error: "Can't read from the source file"
+* Direcories may disappear when client has network issues
+* Account creation may fail if user name contains multibyte characters (e.g. kanji)
+
+**Downloads**
+
+* [KONNEKT 2.11.0.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.0.0.Msi)
+* [KONNEKT 2.11.0.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.0.0.Msi)
+* [KONNEKT 2.11.0.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.0.0.Msi)
+* [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.10.2 (Published 2024-12-12)
 
 Add:
@@ -25,7 +46,6 @@ Fix:
 * [KONNEKT 2.10.2.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.2.0.Msi)
 * [KONNEKT 2.10.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.2.0.Msi)
 * [KONNEKT 2.10.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.2.0.Msi)
-* [KONNEKT ADMX-ADML 2.10.0.0](https://docs.konnekt.io/configuration/management-options#admx-adml-files)
 
 ### 2.10.1 (Published 2024-11-22)
 
