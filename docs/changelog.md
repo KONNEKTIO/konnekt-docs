@@ -21,6 +21,8 @@ Fix:
 * Renaming files mapped on a drive letter may result in an error: "Can't read from the source file"
 * Directories may disappear when client has network issues
 * Account creation may fail if user name contains multibyte characters (e.g. kanji)
+* Optimized behavior for sites, libraries and files with read-only permissions
+* Stability improvements
 
 **Downloads**
 
