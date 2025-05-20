@@ -12,7 +12,7 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 Add:
 
-* Enhanced SharePoint throttling prevention by introducing local limits based on the number of requests per time (client side throttling)
+* Enhanced [SharePoint throttling prevention](configuration/system-settings/throttling-prevention/) by introducing [local limits based on the number of requests per time (client side throttling)](configuration/system-settings/throttling-prevention/throttling-prevention-client-side.md)
 * Support for Sensitivity Labels with Microsoft Purview Information Protection (fka Microsoft Information Protection MIP) in non-co-authoring scenarios (e.g. PDF files)
 * Improved handling when multiple files are selected in explorer
 
@@ -43,12 +43,6 @@ Fix:
 * Improved proxy detection (9669)
 * Moving and renaming files sometimes not stable (9594)
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.10.2.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.10.2.0.Msi)
-* [KONNEKT 2.10.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.10.2.0.Msi)
-* [KONNEKT 2.10.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.10.2.0.Msi)
 
 ### 2.10.1 (Published 2024-11-22)
 
@@ -94,12 +88,6 @@ Fix:
 * KONNEKT cannot find sites with dot in name when adding shares or managed mappings
 * Windows Terminal Servers (Windows Server 2019) may freeze due to konnektrx.sys timeout after Windows Update
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.9.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.9.1.0.Msi)
-* [KONNEKT 2.9.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.9.1.0.Msi)
-* [KONNEKT 2.9.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.9.1.0.Msi)
 
 ### 2.9.0 (Published 2023-11-16)
 
