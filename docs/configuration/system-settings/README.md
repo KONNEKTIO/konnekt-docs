@@ -32,8 +32,8 @@
 [open-file-size-limitations.md](open-file-size-limitations.md)
 {% endcontent-ref %}
 
-{% content-ref url="sharepoint-throttling-prevention.md" %}
-[sharepoint-throttling-prevention.md](sharepoint-throttling-prevention.md)
+{% content-ref url="throttling-prevention/sharepoint-throttling-prevention.md" %}
+[sharepoint-throttling-prevention.md](throttling-prevention/sharepoint-throttling-prevention.md)
 {% endcontent-ref %}
 
 {% content-ref url="update-checker.md" %}

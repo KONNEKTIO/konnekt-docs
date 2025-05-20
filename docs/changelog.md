@@ -22,6 +22,7 @@ Fix:
 * Directories may disappear when client has network issues
 * Account creation may fail if user name contains multibyte characters (e.g. kanji)
 * Optimized behavior for sites, libraries and files with read-only permissions
+* When opening multiple files simultaneously, Co-Authoring failed
 * Stability improvements
 
 **Downloads**
@@ -246,7 +247,7 @@ KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
 
 * ADD
   * [ARM64 processor platform support ](installation/system-requirements.md#processor-platform)(662)
-  * [SharePoint Throttling Prevention policy](configuration/system-settings/sharepoint-throttling-prevention.md) (730)
+  * [SharePoint Throttling Prevention policy](configuration/system-settings/throttling-prevention/sharepoint-throttling-prevention.md) (730)
   * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
   * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](troubleshooting/slow-folder-browsing.md) (736)
 * FIX

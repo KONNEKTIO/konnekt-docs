@@ -1,13 +1,13 @@
 # Offline attribute
 
-Files provided by KONNEKT are marked with the offline attribute (see also [FILE\_ATTRIBUTE\_OFFLINE](https://docs.microsoft.com/en-us/openspecs/windows\_protocols/ms-fscc/ca28ec38-f155-4768-81d6-4bfeb8586fc9)). This offline attribute signals to other system components like the Windows Explorer that the file is not locally available. This prevents components like preview, search and indexing from accessing the files.&#x20;
+Files provided by KONNEKT are marked with the offline attribute (see also [FILE\_ATTRIBUTE\_OFFLINE](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/ca28ec38-f155-4768-81d6-4bfeb8586fc9)). This offline attribute signals to other system components like the Windows Explorer that the file is not locally available. This prevents components like preview, search and indexing from accessing the files.&#x20;
 
 Marking files with the offline attribute therefore saves bandwidth between the KONNEKT client and SharePoint Online. The downside of this is, that no thumbnails or previews (e.g. of pictures) are rendered in Windows Explorer. Sometimes Windows Explorer also shows a grey X on files that are marked offline (see also [why-is-there-a-grey-x-on-my-files-and-folders.md](../../troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md "mention")).
 
 By default, KONNEKT marks all files (besides PDF) as offline. This policy allows to change this behavior.
 
 {% hint style="warning" %}
-Disabling the offline attribute for some file types allows the Windows Explorer to show preview information for the files, at the cost of more network traffic and possible slower response times when browsing through directories. It is also increasing the risk of [SharePoint Throttling](sharepoint-throttling-prevention.md).
+Disabling the offline attribute for some file types allows the Windows Explorer to show preview information for the files, at the cost of more network traffic and possible slower response times when browsing through directories. It is also increasing the risk of [SharePoint Throttling](throttling-prevention/sharepoint-throttling-prevention.md).
 
 Therefore, please disable the offline attribute with care and only for environments that have a good connection to Office 365.
 {% endhint %}
