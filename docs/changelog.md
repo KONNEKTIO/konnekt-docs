@@ -14,7 +14,7 @@ Add:
 
 * Enhanced [SharePoint throttling prevention](configuration/system-settings/throttling-prevention/) by introducing [local limits based on the number of requests per time (client side throttling)](configuration/system-settings/throttling-prevention/throttling-prevention-client-side.md)
 * Support for Sensitivity Labels with Microsoft Purview Information Protection (fka Microsoft Information Protection MIP) in non-co-authoring scenarios (e.g. PDF files)
-* Improved handling when multiple files are selected in explorer
+* Improved handling in co-authoring scenarios, when multiple files are opened simultaneously with Windows File Explorer
 
 Fix:
 
@@ -22,7 +22,6 @@ Fix:
 * Directories may disappear when client has network issues
 * Account creation may fail if user name contains multibyte characters (e.g. kanji)
 * Optimized behavior for sites, libraries and files with read-only permissions
-* When opening multiple files simultaneously, Co-Authoring failed
 * Stability improvements
 
 **Downloads**
