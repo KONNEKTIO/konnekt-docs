@@ -19,7 +19,7 @@ Add:
 Fix:
 
 * Renaming files mapped on a drive letter may result in an error: "Can't read from the source file"
-* Direcories may disappear when client has network issues
+* Directories may disappear when client has network issues
 * Account creation may fail if user name contains multibyte characters (e.g. kanji)
 
 **Downloads**
