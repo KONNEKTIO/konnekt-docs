@@ -199,7 +199,7 @@ To request a quote for KONNEKT,&#x20;
 
 * Get in [contact with us](mailto:sales@konnekt.io) and request a quote link.
 * Once we have sent the quote link to you,
-  * Click it,
+  * Click it.
   * Select the correct user segment, user quantity and fill our your company information.
   * Click **Next**, review your data and click **Request price quote**.
 
