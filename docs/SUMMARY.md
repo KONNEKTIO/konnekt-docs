@@ -80,5 +80,6 @@
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
   * [Azure Marketplace](licensing/azure-marketplace.md)
+  * [cleverbridge](licensing/cleverbridge.md)
 * [Support](support.md)
 * [KONNEKT Website](https://konnekt.io/)
