@@ -1,32 +1,34 @@
 # Tray Menu
 
-To configure the basic settings of KONNEKT, you can use the **tray menu**. A right-click on the KONNEKT icon opens the following menu:
+Right-click the KONNEKT icon in the taskbar to access the **tray menu** for configuring basic settings. The menu options are as follows:
 
-![](<../../.gitbook/assets/2022-07-22 11\_15\_41-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2022-07-22 11_15_41-Windows Sandbox.png>)
 
-### Version
+## Version
 
-Shows current version of your KONNEKT.
+Shows the current KONNEKT version.
 
-### Check for Update
+## Check for Update
 
-To check if there is an update for KONNEKT just click **Check for update**. KONNEKT will search for a newer version and install it automatically.
+To update KONNEKT, simply click **Check for update**. KONNEKT will find and install the latest version automatically.
 
-### Last Checked
+## Last Checked
 
 Shows how much time has passed since the last search for an update.
 
-### Log
+## Newest version
 
-To get an overview of activities, events and errors of KONNEKT. To open it just click on **Log** in the tray menu.
+Displays the most recent version of KONNEKT
 
-A Log looks like the following example:
+## Log
 
-![](<../../.gitbook/assets/2022-07-22 11\_24\_05-Windows Sandbox.png>)
+To get an overview of KONNEKT related activities, events and errors. To open it just click on **Log** in the tray menu.
 
-### Exit
+![Log example](<../../.gitbook/assets/2022-07-22 11_24_05-Windows Sandbox.png>)
 
-If you want to close KONNEKT and stop the connection to SharePoint and OneDrive click **Exit** in the tray menu.
+## Exit
+
+If you want to close KONNEKT and stop the connection to SharePoint Online and OneDrive click **Exit** in the tray menu.
 
 {% hint style="info" %}
 To restart KONNEKT, click the KONNEKT icon in your Windows Explorer, or re-open it from the Start menu.
