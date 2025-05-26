@@ -55,15 +55,22 @@ The following circumstances promote throttling:
 * Usage of 3rd party tools for SPO backup - especially during working hours
 * Use of tools that crawl your whole filesystem (like preview renderer etc.)
 * Use of very big folders with >1000 files on the first level of the folder
+* Excessive use of File Explorer Search in large Site Collections or Document Libraries
 
-To avoid this, please
+{% hint style="info" %}
+Consider the following settings and actions for all users of an M365 tenant without exceptions.
+{% endhint %}
 
-* Do not run backups of SPO during working hours.
+To avoid throttling:
+
+* Do not run SPO backups during business hours.
+* If the File Explorer Search is inevitable: Optimize File Explorer searches, focus on specific folders or sub-folders to limit GraphAPI requests
+* Regular Maintenance: Archive or remove outdated files, folders, Document Libraries, and Site Collections.
+* Avoid excessive use of File Explorer Search in large Site Collections or Document Libraries
 * Do not use any preview renderer for KONNEKT resources. See also [here](../offline-attribute.md). You can additionally set the [Offline Filter](../offline-attribute.md#exclude-dedicated-file-types-from-offline-attribute-filter) to the file extension "YYY" (which does not exist), to prevent Windows File Explorer from rendering previews for PDF files.
 * Segment your data (not too many files in the first level of a folder).
-* Set KONNEKT SharePoint Throttling Prevention Policy (see below) to "High"
-
-## How can I detect throttling?
+* Set "[SharePoint Throttling Prevention](sharepoint-throttling-prevention.md)" Policy to "High" - only recommended until KONNEKT version 2.10.2
+* As of version 2.11.0, we recommend enabling "[Client side throttling](throttling-prevention-client-side.md)" and setting the "[SharePoint Throttling Prevention](sharepoint-throttling-prevention.md)" policy to "Auto".
 
 When you turn the [KONNEKT logging to "debug"](../logging.md#log-level), you will see log entries with "`ThrottlingHook: Need to wait Xs before start`" (where X stands for the amount of seconds SPO wants us to wait).
 
