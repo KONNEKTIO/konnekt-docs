@@ -76,7 +76,9 @@ Please also note [Microsoft's recommendations regarding subsites](https://learn.
 
 #### All libraries of a site
 
-`https://mytenant.sharepoint.com/sites/mysite`
+```
+https://mytenant.sharepoint.com/sites/mysite
+```
 
 This will map the **default document library** of this site. The drive will be labeled as "mysite"
 
@@ -86,19 +88,25 @@ To map all libraries you need to enable the policy [AddAllSharePointLibraries](a
 
 #### Dedicated library of a site
 
-`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs`
+```
+https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs
+```
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs".
 
 #### Assign a drive letter
 
-`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|M:`&#x20;
+```
+https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|M: 
+```
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs". The network path will be mapped to drive M.
 
 #### Map foreign tenant
 
-`https://foreignTenant.sharepoint.com/sites/mysite||X:|ForeignTenant`
+```
+https://foreignTenant.sharepoint.com/sites/mysite||X:|ForeignTenant
+```
 
 This will add all document libraries of the site "mysite", from the tenant "ForeignTenant.onmicrosoft.com". The network path will be mapped to drive X.&#x20;
 
@@ -106,7 +114,9 @@ The user must have an account configured in KONNEKT, that belongs to the Microso
 
 #### Make mapping a KONNEKT favorite
 
-`https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|||TRUE`
+```
+https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|||TRUE
+```
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs". It will be added as KONNEKT favorite.
 

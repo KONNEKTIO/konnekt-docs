@@ -185,13 +185,13 @@ You do not need this if you use GPO or Intune management.
 
 ### Map default document libraries
 
-If enabled this setting will display all libraries from all SharePoint document libraries where a user has access to.
+If enabled this setting will display all default libraries from all Site Collections where a user has access to.
 
-You can find this setting in the preferences menu:
+A user can set this setting via the preferences menu:
 
 ![](<../../../.gitbook/assets/2022-08-02 16_26_17-Window.png>)
 
-You can also configure this setting via registry/GPO/MDM:
+It can be configured via registry/GPO/MDM as well:
 
 **Policy Name (ADMX):** Sharepoint Sites Autodiscovery
 
@@ -244,7 +244,7 @@ The default value is 0 (disable)
 {% hint style="danger" %}
 If users in your company are using different values of this setting, their UNC paths will not be compatible with each other (e.g. when they exchange UNC links).
 
-To prevent this, make sure, that all users use the same value for this setting.
+To prevent this, ensure that this setting is set for all users correctly.
 {% endhint %}
 
 We recommend using our [ADMX template](../management-options/settings-via-gpo.md#admx-file) to configure this setting.
