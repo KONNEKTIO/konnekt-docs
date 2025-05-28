@@ -97,7 +97,7 @@ This will add the "shared documents" library of the site "mysite". The Drive wil
 #### Assign a drive letter
 
 ```
-https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|M: 
+https://mytenant.sharepoint.com/sites/mysite/Shared%20Documents|MySite Docs|M:
 ```
 
 This will add the "shared documents" library of the site "mysite". The Drive will be labeled "MySite Docs". The network path will be mapped to drive M.
