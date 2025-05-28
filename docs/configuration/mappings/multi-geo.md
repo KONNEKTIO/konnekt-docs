@@ -1,20 +1,18 @@
 # Multi-Geo
 
 {% hint style="info" %}
-Available for KONNEKT 2.1 or newer
+Available for KONNEKT version 2.1 or later
 {% endhint %}
 
-{% hint style="info" %}
-With KONNEKT 2.3 or newer, Multi-Geo support is always enabled.
-
-If the policy is set on a machine with KONNEKT 2.3 or newer, it is ignored.
+{% hint style="success" %}
+For machines with KONNEKT 2.3 or later, the policy is ignored as Multi-Geo support is always enabled.
 {% endhint %}
 
 Using this policy, you can activate support for [OneDrive and SharePoint Online Multi-Geo](https://learn.microsoft.com/en-us/microsoft-365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-microsoft-365?view=o365-worldwide) in KONNEKT.
 
 **Policy name:** `Multi-Geo Sharepoint support`
 
-![](<../../../.gitbook/assets/2022-05-18 16\_42\_33MultiGeo.png>)
+![](<../../../.gitbook/assets/2022-05-18 16_42_33MultiGeo.png>)
 
 <table><thead><tr><th width="232.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td>Function</td><td>Value</td><td>Behavior</td></tr><tr><td>not set</td><td>N/A</td><td>Multi-Geo is de-activated</td></tr><tr><td>enabled</td><td>1</td><td>Multi-Geo is  activated</td></tr><tr><td>disabled</td><td>0</td><td>Multi-Geo is  de-activated</td></tr></tbody></table>
 
