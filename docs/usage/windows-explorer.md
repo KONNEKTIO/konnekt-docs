@@ -54,7 +54,7 @@ If you right-click on an existing user account, the following options will appea
 
     * To map Document Libraries as shares manually.
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 * Pause account:&#x20;
   * To stop the synchronization for this account temporarily.
 * Delete account

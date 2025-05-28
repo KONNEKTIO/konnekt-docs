@@ -176,7 +176,7 @@ Partners can leverage the same tools to manage subscriptions on behalf of their 
     <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 *   On that page, locate the button saying **Manage Your Subscription For "\<SKU>"** and click it.
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 * This will either navigate you to the self-management portal directly or you might have to re-generate the link (they might expire after a while) first.
 
 {% hint style="info" %}
