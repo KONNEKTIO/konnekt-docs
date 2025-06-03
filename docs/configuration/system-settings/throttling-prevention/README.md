@@ -50,7 +50,7 @@ For details see:\
 
 ## How can I prevent throttling?
 
-The following circumstances promote throttling:
+#### The following circumstances promote throttling:
 
 * Usage of 3rd party tools for SPO backup - especially during working hours
 * Use of tools that crawl your whole filesystem (like preview renderer etc.)
@@ -61,7 +61,7 @@ The following circumstances promote throttling:
 Consider the following settings and actions for all users of an M365 tenant without exceptions.
 {% endhint %}
 
-To avoid throttling:
+#### To avoid throttling:
 
 * Do not run SPO backups during business hours.
 * If the File Explorer Search is inevitable: Optimize File Explorer searches, focus on specific folders or sub-folders to limit GraphAPI requests
