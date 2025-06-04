@@ -1,5 +1,9 @@
 # Setup
 
+{% hint style="info" %}
+It's recommended to restart your device following any installation or update.&#x20;
+{% endhint %}
+
 ## Security
 
 To setup KONNEKT you first have to meet the security requirements:
@@ -18,20 +22,20 @@ If you want (as an admin) to grant tenant-wide consent for KONNEKT please visit 
 ## Interactive Installation
 
 {% hint style="warning" %}
-KONNEKT setup requires local admin permissions&#x20;
+This KONNEKT setup requires local admin permissions.
 {% endhint %}
 
 You can install KONNEKT by running the MSI file interactively. The setup dialog will start:
 
-![](<../../.gitbook/assets/2022-08-02 15\_18\_53-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 15_18_53-Window.png>)
 
 Click next.
 
-![](<../../.gitbook/assets/2022-08-02 15\_19\_21-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 15_19_21-Window.png>)
 
 Accept the license terms and click next.
 
-![](<../../.gitbook/assets/2022-08-02 15\_19\_47-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 15_19_47-Window.png>)
 
 You may then enter your license key.
 
@@ -39,19 +43,19 @@ You may then enter your license key.
 If you do not enter a license key, you start a 14 days trial version.
 {% endhint %}
 
-![](<../../.gitbook/assets/2022-08-02 15\_20\_34-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 15_20_34-Window.png>)
 
 KONNEKT is now ready to start the setup.
 
-![](<../../.gitbook/assets/2022-08-02 15\_21\_06-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 15_21_06-Window.png>)
 
 Click Finish to finalize the setup.
 
 After the installation is successfully finished, a pop up window shows up automatically to connect your Office 365 account and grant the required permissions to create an Enterprise Application in your tenant (see screenshots below).
 
-![](<../../.gitbook/assets/2022-08-16 15\_28\_19-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2022-08-16 15_28_19-Windows Sandbox.png>)
 
-![](<../../.gitbook/assets/2022-08-16 15\_37\_05-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2022-08-16 15_37_05-Windows Sandbox.png>)
 
 {% hint style="info" %}
 To grant the permissions, you have to log in with an admin account or an account that has permissions to create an Enterprise Application in your tenant.
