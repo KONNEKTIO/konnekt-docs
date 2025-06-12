@@ -10,9 +10,19 @@ KONNEKT is an application that interacts with several Microsoft 365 APIs. Theref
 
 The admin consent for KONNEKT is for "delegated access", only (please see [Microsoft docs](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview#access-scenarios) for more details on permissions and consent). This basically means that users in this tenant are allowed to use this app to access the requested M365 services/APIs. This does **not** enable the app to access without the user.
 
+### Permission Set: Before Version 2.10
+
 KONNEKT requests the following permissions to be consented:
 
 <table><thead><tr><th width="146.5">API Name</th><th>Claim value</th><th>Permission</th></tr></thead><tbody><tr><td>Microsoft Graph</td><td>User.Read</td><td>Sign in and read user profile</td></tr><tr><td>Office 365 SharePoint Online</td><td>AllSites.Write</td><td>Read and write items in all site collections</td></tr><tr><td>Office 365 SharePoint Online</td><td>MyFiles.Write</td><td>Read and write user files</td></tr><tr><td>Windows Azure Active Directory</td><td>Directory.AccessAsUser.All</td><td>Access the directory as the signed-in user</td></tr><tr><td>Windows Azure Active Directory</td><td>User.Read</td><td>Sign in and read user profile</td></tr></tbody></table>
+
+### Permission Set: Post Version 2.10
+
+{% hint style="warning" %}
+Functions exclusively when the setting "[**EnhancedOAuth**](../../configuration/system-settings/enhanced-authentication.md)" is enabled!
+{% endhint %}
+
+<table><thead><tr><th width="146.5">API Name</th><th>Claim value</th><th>Permission</th></tr></thead><tbody><tr><td>Microsoft Graph</td><td>Files.ReadWrite.All</td><td>Have full access to all files user can access</td></tr><tr><td>Microsoft Graph</td><td>Sites.Read.All</td><td>Read items in all site collections</td></tr><tr><td>Microsoft Graph</td><td>User.Read</td><td>Sign in and read user profile</td></tr><tr><td>Office 365 SharePoint Online</td><td>AllSites.Read</td><td>Read items in all site collections</td></tr></tbody></table>
 
 [Since some of the permissions require to be consented by an admin](https://learn.microsoft.com/en-us/graph/permissions-reference), you have to do the admin consent before using KONNEKT with regular users.
 
@@ -38,7 +48,7 @@ https://login.microsoftonline.com/{tenant-id}/adminconsent?client_id=11fa31bb-20
 
 Therefore you need your`tenant-id`which you get from **Azure Portal** under **Azure Active Directory:**
 
-![](<../../../.gitbook/assets/2021-08-09 11\_36\_25-Contoso - Microsoft Azure - TestTenant - Microsoft​ Edge.png>)
+![](<../../../.gitbook/assets/2021-08-09 11_36_25-Contoso - Microsoft Azure - TestTenant - Microsoft​ Edge.png>)
 
 {% hint style="info" %}
 Don't forget to delete the `{}` from the link
