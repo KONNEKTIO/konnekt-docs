@@ -40,7 +40,7 @@ The policy consists of two components in the registry:
 
 1. **Value**
 
-* **Value name:** `ClienThrottling`
+* **Value name:** `ClientThrottling`
 * **Value type:** `REG_DWORD`
 * **Value data:** `1` (to activate the feature)
 * Value **stored** in:
