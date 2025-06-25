@@ -27,7 +27,7 @@ When using Edge, the XML should display all Site Collections that a user can acc
 ![](https://eucattachment.freshdesk.com/inline/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjA0MDA2MTY3MTUzLCJkb21haW4iOiJjNGE4LmZyZXNoZGVzay5jb20iLCJhY2NvdW50X2lkIjozNDEwODY3fQ.EwKt8cWoK0Xa0306p3SGU4SYjphP1T-lB3LReg8fZG0)
 
 \
-\- or use "[Managed Mappings](../configuration/mappings/administrative-mappings.md)"\
+\- or use "[Managed Mappings](../../configuration/mappings/administrative-mappings.md)"\
 \
 \
 Please help to raise the awareness by opening a Microsoft for the affected M365 tenant.

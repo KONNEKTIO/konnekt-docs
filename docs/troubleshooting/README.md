@@ -42,12 +42,12 @@ description: >-
 [opening-ms-office-documents-displays-a-warning-message.md](opening-ms-office-documents-displays-a-warning-message.md)
 {% endcontent-ref %}
 
-{% content-ref url="sites-missing-or-folders-empty.md" %}
-[sites-missing-or-folders-empty.md](sites-missing-or-folders-empty.md)
+{% content-ref url="causes-of-missing-content/sites-missing-or-folders-empty.md" %}
+[sites-missing-or-folders-empty.md](causes-of-missing-content/sites-missing-or-folders-empty.md)
 {% endcontent-ref %}
 
-{% content-ref url="some-sites-or-libraries-do-not-appear-in-konnekt.md" %}
-[some-sites-or-libraries-do-not-appear-in-konnekt.md](some-sites-or-libraries-do-not-appear-in-konnekt.md)
+{% content-ref url="causes-of-missing-content/some-sites-or-libraries-do-not-appear-in-konnekt.md" %}
+[some-sites-or-libraries-do-not-appear-in-konnekt.md](causes-of-missing-content/some-sites-or-libraries-do-not-appear-in-konnekt.md)
 {% endcontent-ref %}
 
 {% content-ref url="slow-folder-browsing.md" %}

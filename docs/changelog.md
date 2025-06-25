@@ -152,7 +152,7 @@ Fix:
 
 Add:
 
-* [Circumvent error/outage of SharePoint Search](troubleshooting/sites-missing-or-folders-empty.md) (703)
+* [Circumvent error/outage of SharePoint Search](troubleshooting/causes-of-missing-content/sites-missing-or-folders-empty.md) (703)
 * [Extend Cache TTL range in policy](configuration/system-settings/cache-setting.md#cache-ttl-time-to-live) (756)
 * [Policy to configure downloads directory](configuration/system-settings/download-directory.md) (792)
 * CoAuthoring support for additional file types including .xslb and office template files

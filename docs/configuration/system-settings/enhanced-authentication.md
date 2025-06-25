@@ -23,7 +23,7 @@ With more detailed permissions, users have to reauthenticate. Additionally, the 
 
 This feature enables the use of conditional access policies with excluded apps in Azure/EntraID.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Policy
 

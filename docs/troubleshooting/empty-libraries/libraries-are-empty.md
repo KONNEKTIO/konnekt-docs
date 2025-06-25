@@ -28,4 +28,4 @@ After this procedure, the libraries should work.
 
 ## Similar Problems
 
-Please also check this page: [Sites missing or folders empty](../sites-missing-or-folders-empty.md)
+Please also check this page: [Sites missing or folders empty](../causes-of-missing-content/sites-missing-or-folders-empty.md)

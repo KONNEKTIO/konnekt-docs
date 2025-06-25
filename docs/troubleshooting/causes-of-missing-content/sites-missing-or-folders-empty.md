@@ -21,7 +21,7 @@ You can check if your tenant is affected, by calling this site multiple times at
 
 If you see a result like this frequently, please open a ticket at Microsoft:
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3).png>)
 
 ## Solution
 
@@ -42,4 +42,4 @@ Please also check this pages:&#x20;
 
 [Some sites or libraries do not appear in KONNEKT](some-sites-or-libraries-do-not-appear-in-konnekt.md)
 
-[Libraries are empty](empty-libraries/libraries-are-empty.md)
+[Libraries are empty](../empty-libraries/libraries-are-empty.md)
