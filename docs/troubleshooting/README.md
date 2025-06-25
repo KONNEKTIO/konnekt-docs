@@ -30,8 +30,8 @@ description: >-
 [how-to-deal-with-error-s.md](how-to-deal-with-error-s.md)
 {% endcontent-ref %}
 
-{% content-ref url="empty-libraries/libraries-are-empty.md" %}
-[libraries-are-empty.md](empty-libraries/libraries-are-empty.md)
+{% content-ref url="causes-of-missing-content/empty-libraries/libraries-are-empty.md" %}
+[libraries-are-empty.md](causes-of-missing-content/empty-libraries/libraries-are-empty.md)
 {% endcontent-ref %}
 
 {% content-ref url="manual-uninstallation.md" %}

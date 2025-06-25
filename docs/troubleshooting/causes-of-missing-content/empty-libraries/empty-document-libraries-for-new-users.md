@@ -21,7 +21,7 @@ https://graph.microsoft.com/v1.0/sites/TenantName.sharepoint.com:/sites/SiteName
 *   Manually enable the setting "Automatically add all SharePoint document libraries" in the preferences menu\
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * Enable the setting "[AddAllSharepointLibraries](https://docs.konnekt.io/configuration/mappings/auto-mapping#map-all-document-libraries)**"** via a policy for all users
 
 {% hint style="warning" %}

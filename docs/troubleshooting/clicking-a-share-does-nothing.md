@@ -7,4 +7,4 @@ This is most likely caused by the missing registration of the **KONNEKT** networ
 "ProviderOrder"="konnekt,RDPNP,LanmanWorkstation,webclient"
 ```
 
-You may also want to have a look at this: [libraries-are-empty.md](empty-libraries/libraries-are-empty.md "mention")
+You may also want to have a look at this: [libraries-are-empty.md](causes-of-missing-content/empty-libraries/libraries-are-empty.md "mention")
