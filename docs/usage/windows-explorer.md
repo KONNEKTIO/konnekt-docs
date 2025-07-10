@@ -1,6 +1,6 @@
 # Windows File Explorer
 
-NNEKT is fully integrated in the Windows File Explorer. Open File Explorer and you'll find a new item KONNEKT in the navigation pane.
+KONNEKT is fully integrated in the Windows File Explorer. Open File Explorer and you'll find a new item KONNEKT in the navigation pane.
 
 ![](<../../.gitbook/assets/2022-07-21 13_45_30-Windows Sandbox.png>)
 
