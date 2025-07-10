@@ -1,6 +1,6 @@
 # Windows File Explorer
 
-KONNEKT is fully integrated in the Windows File Explorer. Open File Explorer and you'll find a new item KONNEKT in the navigation pane.
+KONNEKT is fully integrated in Windows File Explorer. When you open File Explorer you'll find  KONNEKT in the navigation pane.
 
 ![](<../../.gitbook/assets/2022-07-21 13_45_30-Windows Sandbox.png>)
 
@@ -12,7 +12,7 @@ KONNEKT may take 1 to 3 minutes to discover your SharePoint sites, depending on 
 KONNEKT does NOT download your documents to the client. it is a synchronized view of your SharePoint library.
 {% endhint %}
 
-Under **General**, you'll find four sections:&#x20;
+**General** contains four sections:&#x20;
 
 * Upload
 * History
@@ -38,6 +38,10 @@ The files which you have changed or opened in your sites.
 To make **files** available offline from **OneDrive**, right-click on a file, then select Konnekt -> Offline available
 
 ![](<../../.gitbook/assets/2021-05-21 17_03_26-OneDrive.png>)
+
+{% hint style="info" %}
+The Offline Files feature is only available for files stored on OneDrive
+{% endhint %}
 
 ## **Accounts**
 
