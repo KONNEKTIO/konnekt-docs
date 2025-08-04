@@ -68,7 +68,7 @@
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
   * [Causes of missing content](troubleshooting/causes-of-missing-content/README.md)
     * [Empty libraries](troubleshooting/causes-of-missing-content/empty-libraries/README.md)
-      * [Empty Document Libraries for new users](troubleshooting/causes-of-missing-content/empty-libraries/empty-document-libraries-for-new-users.md)
+      * [Empty document libraries for managed mappings](troubleshooting/causes-of-missing-content/empty-libraries/empty-document-libraries-for-managed-mappings.md)
       * [Empty default libraries - error 404](troubleshooting/causes-of-missing-content/empty-libraries/empty-default-libraries-error-404.md)
       * [All libraries are empty](troubleshooting/causes-of-missing-content/empty-libraries/libraries-are-empty.md)
     * [Site Collections are not displayed for some users](troubleshooting/causes-of-missing-content/site-collections-are-not-displayed-for-some-users.md)

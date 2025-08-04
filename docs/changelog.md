@@ -8,18 +8,25 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 ## Versions
 
+### 2.11.2 (Published 2025-08-04)
+
+Fix:
+
+* [Managed mappings may result in empty drive](troubleshooting/causes-of-missing-content/empty-libraries/empty-document-libraries-for-managed-mappings.md)
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.11.2.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.2.0.Msi)
+* [KONNEKT 2.11.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.2.0.Msi)
+* [KONNEKT 2.11.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.2.0.Msi)
+* [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.11.1 (Published 2025-06-23)
 
 Fix:
 
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.11.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.1.0.Msi)
-* [KONNEKT 2.11.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.1.0.Msi)
-* [KONNEKT 2.11.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.1.0.Msi)
-* [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.11 (Published 2025-05-19)
 
