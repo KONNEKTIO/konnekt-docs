@@ -249,7 +249,7 @@ KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
   * [ARM64 processor platform support ](installation/system-requirements.md#processor-platform)(662)
   * [SharePoint Throttling Prevention policy](configuration/system-settings/throttling-prevention/sharepoint-throttling-prevention.md) (730)
   * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
-  * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](troubleshooting/slow-folder-browsing.md) (736)
+  * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](broken-reference) (736)
 * FIX
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 1 (648)
   * "This file does not exist" after re-install or uninstall (649)

@@ -50,10 +50,6 @@ description: >-
 [some-sites-or-libraries-do-not-appear-in-konnekt.md](causes-of-missing-content/some-sites-or-libraries-do-not-appear-in-konnekt.md)
 {% endcontent-ref %}
 
-{% content-ref url="slow-folder-browsing.md" %}
-[slow-folder-browsing.md](slow-folder-browsing.md)
-{% endcontent-ref %}
-
 {% content-ref url="why-is-there-a-grey-x-on-my-files-and-folders.md" %}
 [why-is-there-a-grey-x-on-my-files-and-folders.md](why-is-there-a-grey-x-on-my-files-and-folders.md)
 {% endcontent-ref %}

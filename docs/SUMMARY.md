@@ -74,7 +74,6 @@
     * [Site Collections are not displayed for some users](troubleshooting/causes-of-missing-content/site-collections-are-not-displayed-for-some-users.md)
     * [Some sites or libraries do not appear in KONNEKT](troubleshooting/causes-of-missing-content/some-sites-or-libraries-do-not-appear-in-konnekt.md)
     * [Sites missing or folders empty](troubleshooting/causes-of-missing-content/sites-missing-or-folders-empty.md)
-  * [Slow Folder Browsing](troubleshooting/slow-folder-browsing.md)
   * [Why is there a grey "X" or "brown suitcase" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
   * [How to change the tenant name](troubleshooting/how-to-change-the-tenant-name.md)
