@@ -49,6 +49,8 @@ This feature supports multi-tenancy, allowing you to add multiple Microsoft 365 
 
 To add another Microsoft 365 account via right-click and "Add an O365 account."&#x20;
 
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Existing accounts
 
 If you right-click on an existing user account, the following options will appear:
