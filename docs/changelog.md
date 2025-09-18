@@ -20,9 +20,9 @@ Fix:
 
 **Downloads**
 
-* [KONNEKT 2.11.2.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.3.0.Msi)
-* [KONNEKT 2.11.2.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.3.0.Msi)
-* [KONNEKT 2.11.2.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.3.0.Msi)
+* [KONNEKT 2.11.3.0 Windows X64 64 Bit](changelog.md#id-2.11.3-published-2025-09-18)
+* [KONNEKT 2.11.3.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.3.0.Msi)
+* [KONNEKT 2.11.3.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.3.0.Msi)
 * [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.11.2 (Published 2025-08-04)
