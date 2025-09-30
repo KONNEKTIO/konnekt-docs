@@ -29,7 +29,7 @@ To apply the policy you have to restart the **Windows Explorer** process, no nee
 ### Registry
 
 **Key names:** `ShellAccounts, ShellHistory, ShellOfflineFiles, ShellRestricted, ShellUploads`\
-**Key type:** REG\_DWORD (REG\_DWORD Value)
+**Key type:** REG\_DWORD (32-Bit Value)
 
 ## **There are several ways to apply the policy:**
 
