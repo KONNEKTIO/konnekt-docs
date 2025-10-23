@@ -78,6 +78,7 @@
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
   * [How to change the tenant name](troubleshooting/how-to-change-the-tenant-name.md)
   * [Failed to open Device](troubleshooting/failed-to-open-device.md)
+  * [PDF preview broken after Windows 11 update](troubleshooting/pdf-preview-broken-after-windows-11-update.md)
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
   * [Azure Marketplace](licensing/azure-marketplace.md)
