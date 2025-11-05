@@ -152,7 +152,7 @@ To map all Subsites (and Libraries) of one or more SharePoint sites, you can use
 **Query string**
 
 ```
-(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (path:https://c4a8ehamed.sharepoint.com/sites/MySite1 OR path:https://c4a8ehamed.sharepoint.com/sites/MySite2)
+(webtemplate:STS OR webtemplate:GROUP OR webtemplate:SITEPAGEPUBLISHING) AND (contentclass=STS_Site OR contentclass=STS_Web) AND (path:https://<YourTenantName>.sharepoint.com/sites/MySite1 OR path:https://<YourTenantName>.sharepoint.com/sites/MySite2)
 ```
 
 **Note:** change MySite1 and MySite2 to your SharePoint site names.&#x20;
