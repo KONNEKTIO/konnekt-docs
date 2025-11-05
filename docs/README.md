@@ -4,6 +4,11 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 # Welcome
 
+{% hint style="info" %}
+[**Meet us at Microsoft Ignite**\
+November 18th-20th, San Francisco, Booth #5118](https://ignite.microsoft.com/en-US/sponsors/3e18d5fc-b903-4afe-a69d-c73ae4e6ba79?source=sponsor-directory)
+{% endhint %}
+
 ## Overview
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
