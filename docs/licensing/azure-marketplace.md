@@ -23,7 +23,7 @@ In order to purchase solutions from independent software vendors (ISV) such as K
 *   In the PDF invoice you will receive from Microsoft, all KONNEKT fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja".\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For a more detailed cost breakdown of your base and additional user fees, please refer to the invoice in your Azure portal.
@@ -59,8 +59,14 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 
 ### User Downgrades
 
-* Downgrading the amount of users is currently not possible without cancelling the subscription.
-* If you want to perform a downgrade, please [cancel](azure-marketplace.md#cancellation) your current subscription and re-subscribe with the desired amount of users once the cancellation becomes effective.
+* You can **pre-register a reduction** of your licensed users for the **next renewal**, by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be downgraded.
+
+![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
+
+* A downgrade will become effective upon the next regular renewal of your subscription.
+* In case you change your mind and would like to change the user quantity or cancel the downgrade altogether, navigate back to your **KONNEKT subscription** and click **Cancel downgrade**.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Change Plan
 
