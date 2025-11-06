@@ -63,16 +63,14 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 
 ![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
 
-* A downgrade will become effective upon the next regular renewal of your subscription.
+* The downgrade will become effective upon the next regular renewal of your subscription.
 * In case you change your mind and would like to change the user quantity or cancel the downgrade altogether, navigate back to your **KONNEKT subscription** and click **Cancel downgrade**.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### Change Plan
 
-{% hint style="warning" %}
-This is currently **not supported**. Please [contact us](https://www.konnekt.io/help/) in case you have questions around this topic.
-{% endhint %}
+If available on Azure Portal, the **Change Plan** action allows you to change your current outdated plan to the most recent version of the plan.
 
 ### **Recurring Billing**
 
