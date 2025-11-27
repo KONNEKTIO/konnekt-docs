@@ -38,7 +38,7 @@ When it comes to applications, where bigger amounts of data with high throughput
 Database-files requiring simultaneous access from multiple workstations will not work with KONNEKT (and SharePoint Online in general) by design.
 
 {% hint style="info" %}
-KONNEKT is not the appropriate tool to perform data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online.
+KONNEKT is not the appropriate tool to perform data-migrations, where huge amounts of files are moved from legacy repositories to SharePoint Online, or vice versa.
 {% endhint %}
 
 ### File sizes
