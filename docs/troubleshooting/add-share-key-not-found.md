@@ -4,7 +4,7 @@
 
 When you try to add a SharePoint library manually (see [#add-additional-document-libraries](../configuration/mappings/add-a-document-library.md#add-additional-document-libraries "mention")), you get the the error message "Failed to open site: Key not found".
 
-![Error-Message: "Failed to open site: Key not found"](<../../.gitbook/assets/image (19).png>)
+![Error-Message: "Failed to open site: Key not found"](<../.gitbook/assets/image (26).png>)
 
 Customers with this issue may also also experience this: [libraries-are-empty.md](causes-of-missing-content/empty-libraries/libraries-are-empty.md "mention")
 

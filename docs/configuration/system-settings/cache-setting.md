@@ -73,7 +73,7 @@ To apply the policy you have to **restart the machine**
 * via GPO, [check settings via GPO](../management-options/settings-via-gpo.md)
 * pushing policies via Intune, see [setting for Intune Managed Devices](../management-options/setting-for-intune-managed-devices-1/intune-system-settings.md#cache)
 
-![](<../../../.gitbook/assets/2021-07-16 12\_27\_25-Cache.png>)
+![](<../../.gitbook/assets/2021-07-16 12_27_25-Cache.png>)
 
 #### **Policies** stored in:
 

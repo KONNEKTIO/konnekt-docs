@@ -2,7 +2,7 @@
 
 Right-click the KONNEKT icon in the taskbar to access the **tray menu** for configuring basic settings. The menu options are as follows:
 
-![](<../../.gitbook/assets/2022-07-22 11_15_41-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-07-22 11_15_41-Windows Sandbox.png>)
 
 ## Version
 
@@ -24,7 +24,7 @@ Displays the most recent version of KONNEKT
 
 To get an overview of KONNEKT related activities, events and errors. To open it just click on **Log** in the tray menu.
 
-![Log example](<../../.gitbook/assets/2022-07-22 11_24_05-Windows Sandbox.png>)
+![Log example](<../.gitbook/assets/2022-07-22 11_24_05-Windows Sandbox.png>)
 
 ## Exit
 

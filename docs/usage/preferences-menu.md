@@ -2,7 +2,7 @@
 
 Under **Preferences** you see the following KONNEKT settings.
 
-![](<../../.gitbook/assets/2022-08-02 15_12_19-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_12_19-Window.png>)
 
 There are 3 tabs in the Preferences menu:
 
@@ -14,7 +14,7 @@ There are 3 tabs in the Preferences menu:
 
 The first tab in Preferences is **General**
 
-![](<../../.gitbook/assets/2022-07-22 11_26_40-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-07-22 11_26_40-Windows Sandbox.png>)
 
 In this menu you can enable or disable the following settings:
 
@@ -44,7 +44,7 @@ It is also possible to change the download directory. Additionally you can selec
 
 The second tab of preferences is **License**
 
-![](<../../.gitbook/assets/2022-07-22 11_28_34-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-07-22 11_28_34-Windows Sandbox.png>)
 
 Your license key is visible in the input field (KONNEKT is activated for this key).\
 **Licensed to**: Displays the designated licensee and the number of entitled clients.\
@@ -54,4 +54,4 @@ Your license key is visible in the input field (KONNEKT is activated for this ke
 
 The last tab is **About** which contains information about the current installed version and a link to the KONNEKT website.
 
-![](<../../.gitbook/assets/2022-07-22 11_29_43-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-07-22 11_29_43-Windows Sandbox.png>)

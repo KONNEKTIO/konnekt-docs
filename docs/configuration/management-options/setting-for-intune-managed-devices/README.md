@@ -23,6 +23,6 @@ You can **download** the ADMX / ADML file [here](../#admx-adml-files).
 After importing the ADMX,ADML files, you have to choose by creating the configuration profile "Imported Administrative templates (Preview)" to find KONNEKT policies.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/2023-02-21 09_11_36-Create a profile.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2023-02-21 09_11_36-Create a profile.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/2022-12-30 17_01_40-Window.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2022-12-30 17_01_40-Window.png" alt=""><figcaption></figcaption></figure>

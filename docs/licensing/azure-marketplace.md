@@ -20,8 +20,7 @@ In order to purchase solutions from independent software vendors (ISV) such as K
 * Upon every renewal date, you will be billed immediately.
 * You will always be billed for the entire subscription cycle in advance.
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
-*   In the PDF invoice you will receive from Microsoft, all KONNEKT fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja".\
-
+*   In the PDF invoice you will receive from Microsoft, all KONNEKT fees are lumped into an item called "SaaS". The related Publisher is "glueckkanja".<br>
 
     <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -51,7 +50,7 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 
 * If you would like to upgrade your user count, you can do that any time during the current subscription cycle by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be upgraded.
 
-![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
+![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
 
 * Our platform will inform you about the new fees you to expect for a **complete** subscription cycle.
 * For the current cycle, we will bill the additional users for remaining days only.
@@ -61,7 +60,7 @@ For prices in Euro (EUR), please check out our [website](https://www.konnekt.io/
 
 * You can **pre-register a reduction** of your licensed users for the **next renewal**, by navigating to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and by clicking "Open SaaS Account on publisher's site" (see screenshot below). This will re-direct you to our platform where the amount of users can be downgraded.
 
-![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
+![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 2.png>)
 
 * The downgrade will become effective upon the next regular renewal of your subscription.
 * In case you change your mind and would like to change the user quantity or cancel the downgrade altogether, navigate back to your **KONNEKT subscription** and click **Cancel downgrade**.
@@ -80,7 +79,7 @@ If you decide to disable **Recurring billing**, your subscription will not renew
 
 * If you would like to (irreversibly) cancel your subscription, navigate to your **KONNEKT subscription** in the [Azure SaaS portal](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.SaaS%2Fresources) and click **Cancel subscription**.
 
-![](<../../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 3.png>)
+![](<../.gitbook/assets/Screenshot 2022-02-21 at 16.43.07 3.png>)
 
 * If you cancel within the grace period, the service will be stopped immediately.
 * If you cancel after the grace period, the service will remain active until the end of the current subscription cycle.
@@ -101,14 +100,14 @@ To get started with your KONNEKT subscription, follow below steps:
     * [Multiparty Offer](https://www.youtube.com/watch?v=TANUlgLuVqI)
 * Click **Subscribe**.
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../.gitbook/assets/image (31).png>)
 
 * Create or select the **Resource group** you would like to deploy the subscription to.
 * Assign a descriptive **Name** to later identify your subscription.
 * We recommend to keep **Recurring billing** **On** so that you do not have to worry about an automatic termination of your subscription.
 * Click **Review + subscribe** and then **Subscribe** to deploy the **SaaS** resource to your **Resource group**.
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../.gitbook/assets/image (19).png>)
 
 {% hint style="info" %}
 The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
@@ -116,7 +115,7 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 
 * Once the deployment is complete, please navigate to our platform by clicking **Configure account now**.
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 * After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired total **User** amount and a T**echnical contact**.
 
@@ -124,7 +123,7 @@ The random order of **Base Fees** und **Additional Users** under the **Price** i
 The **Technical contact** must have a mailbox connected to it, so we are able to notify you in case there are relevant issues with KONNEKT.
 {% endhint %}
 
-![](../../.gitbook/assets/Screenshot_2022-02-21_at_16_38_12.png)
+![](../.gitbook/assets/Screenshot_2022-02-21_at_16_38_12.png)
 
 * Based on the amount of users provided, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee. **The platform automatically selects the best price / tier**.
 * The platform will show you the licensing fees you have to expect under **Cost Projection**.

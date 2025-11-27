@@ -27,15 +27,15 @@ This KONNEKT setup requires local admin permissions.
 
 You can install KONNEKT by running the MSI file interactively. The setup dialog will start:
 
-![](<../../.gitbook/assets/2022-08-02 15_18_53-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_18_53-Window.png>)
 
 Click next.
 
-![](<../../.gitbook/assets/2022-08-02 15_19_21-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_19_21-Window.png>)
 
 Accept the license terms and click next.
 
-![](<../../.gitbook/assets/2022-08-02 15_19_47-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_19_47-Window.png>)
 
 You may then enter your license key.
 
@@ -43,19 +43,19 @@ You may then enter your license key.
 If you do not enter a license key, you start a 14 days trial version.
 {% endhint %}
 
-![](<../../.gitbook/assets/2022-08-02 15_20_34-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_20_34-Window.png>)
 
 KONNEKT is now ready to start the setup.
 
-![](<../../.gitbook/assets/2022-08-02 15_21_06-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_21_06-Window.png>)
 
 Click Finish to finalize the setup.
 
 After the installation is successfully finished, a pop up window shows up automatically to connect your Office 365 account and grant the required permissions to create an Enterprise Application in your tenant (see screenshots below).
 
-![](<../../.gitbook/assets/2022-08-16 15_28_19-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-08-16 15_28_19-Windows Sandbox.png>)
 
-![](<../../.gitbook/assets/2022-08-16 15_37_05-Windows Sandbox.png>)
+![](<../.gitbook/assets/2022-08-16 15_37_05-Windows Sandbox.png>)
 
 {% hint style="info" %}
 To grant the permissions, you have to log in with an admin account or an account that has permissions to create an Enterprise Application in your tenant.

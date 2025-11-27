@@ -33,7 +33,7 @@ Here are the possible settings:
 
 You can find this setting in the preferences menu:
 
-![](<../../../.gitbook/assets/2022-08-02 16\_30\_24-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 16_30_24-Window.png>)
 
 ### Policy
 

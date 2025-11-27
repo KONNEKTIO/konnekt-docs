@@ -14,7 +14,7 @@ When error(s) occurs, files will remain in Cache folder until you deal with them
 
 The error(s) will be shown in KONNEKT Explorer window under **Errors**
 
-![](<../../.gitbook/assets/2021-07-26 09\_18\_11-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../.gitbook/assets/2021-07-26 09_18_11-192.168.2.50 - Remote Desktop Connection.png>)
 
 By right mouse click on an error three options:
 
@@ -22,7 +22,7 @@ By right mouse click on an error three options:
 * **Export file to download folder:** this will export the file to your user download folder and delete the error automatically
 * **Discard your changes:** this option will ignore the error without saving the file&#x20;
 
-![](<../../.gitbook/assets/2021-07-26 09\_19\_56-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../.gitbook/assets/2021-07-26 09_19_56-192.168.2.50 - Remote Desktop Connection.png>)
 
 ### Deleting all Errors together
 
@@ -32,6 +32,6 @@ This feature is applicable to version 2.0 and above
 
 In some cases, you want to ignore all errors together (e.g. to free the Cache folder space), you can do it by right click on KONNEKT Icon in Explorer window and **Close file errors**
 
-![](<../../.gitbook/assets/2021-07-26 09\_18\_43-192.168.2.50 - Remote Desktop Connection.png>)
+![](<../.gitbook/assets/2021-07-26 09_18_43-192.168.2.50 - Remote Desktop Connection.png>)
 
 &#x20;

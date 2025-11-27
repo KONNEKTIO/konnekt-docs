@@ -115,7 +115,7 @@ Show **Uploads, History,** and **Offline Files** and hide **Account**
 
 #### **Result**
 
-![](../../../../.gitbook/assets/KonnektNewUi2.png)
+![](../../../.gitbook/assets/KonnektNewUi2.png)
 
 ## Tray icon
 

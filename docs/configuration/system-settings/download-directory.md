@@ -14,7 +14,7 @@ The default location for the Download Directory is `%USERPROFILE%\Downloads`.
 
 Users can change the location manually in the preferences dialog, as long as the policy is not set.
 
-<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 ## Policy
 

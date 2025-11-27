@@ -10,7 +10,7 @@ You can configure this feature with the following options alternatively:
 
 ### Preferences menu
 
-![](<../../../.gitbook/assets/2022-08-02 16\_18\_33-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 16_18_33-Window.png>)
 
 ### GPO/Intune
 
@@ -66,11 +66,11 @@ Make sure to run CMD without admin rights to avoid any connecting errors for nor
 
 &#x20;**Example:**
 
-![](../../../.gitbook/assets/AssignDriveLetter.png)
+![](../../.gitbook/assets/AssignDriveLetter.png)
 
 **Result:**
 
-![](<../../../.gitbook/assets/2022-08-02 16\_22\_46-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 16_22_46-Window.png>)
 
 ## Assign drive letters with Managed Mappings
 

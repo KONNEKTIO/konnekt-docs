@@ -4,11 +4,6 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 # Welcome
 
-{% hint style="info" %}
-[**Meet us at Microsoft Ignite**\
-November 18th-20th, San Francisco, Booth #5118](https://ignite.microsoft.com/en-US/sponsors/3e18d5fc-b903-4afe-a69d-c73ae4e6ba79?source=sponsor-directory)
-{% endhint %}
-
 ## Overview
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
@@ -17,7 +12,7 @@ KONNEKT works **online**. It does not sync files to your local disk and waste sp
 
 KONNEKT is capable of efficiently handling **big SharePoint Document Libraries** containing over 300,000 files. Explore the use cases described below for additional insights.
 
-![](../.gitbook/assets/konnekt-explorer-menu.webp)
+![](.gitbook/assets/konnekt-explorer-menu.webp)
 
 These docs cover the technical aspects of KONNEKT. All other information can be found on [https://konnekt.io/](https://konnekt.io/)
 

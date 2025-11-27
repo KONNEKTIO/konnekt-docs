@@ -6,7 +6,7 @@ If a software update is available, KONNEKT informs the user with a toast, if the
 
 You may alternatively observe the context menu of the KONNEKT tray icon (right click), if there is a new version available.
 
-![](<../../.gitbook/assets/2022-08-02 15\_34\_16-Window.png>)
+![](<../.gitbook/assets/2022-08-02 15_34_16-Window.png>)
 
 ## Manual download of current setup files
 

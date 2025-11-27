@@ -11,15 +11,15 @@ Do the following to add a further document library:
 3. Right-click on the account
 4. Select **Add share**
 
-![](../../../.gitbook/assets/add-share-menu.png)
+![](../../.gitbook/assets/add-share-menu.png)
 
 5\. Enter the document library URL in the dialog which opens then
 
-![](<../../../.gitbook/assets/2021-05-28 10\_04\_26-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2021-05-28 10_04_26-Windows Sandbox.png>)
 
 6\. Choose the right library you want to add
 
-![](<../../../.gitbook/assets/2021-05-28 10\_06\_12-Windows Sandbox.png>)
+![](<../../.gitbook/assets/2021-05-28 10_06_12-Windows Sandbox.png>)
 
 7\. You can change the name of your share. This name will appear in KONNEKT.
 
@@ -37,4 +37,4 @@ A manually added document library can be removed using the following steps:
 2. Navigate to **Konnekt**
 3. Click **Remove share**
 
-![](<../../../.gitbook/assets/2022-08-02 16\_13\_44-Window.png>)
+![](<../../.gitbook/assets/2022-08-02 16_13_44-Window.png>)
