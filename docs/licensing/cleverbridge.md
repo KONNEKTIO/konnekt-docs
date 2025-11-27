@@ -45,7 +45,7 @@ Subscriptions for KONNEKT are available based on an **annual** renewal interval.
 
 ### User Segments
 
-The following user segments are available for both, monthly and annual plans.
+The following user segments apply
 
 <table data-header-hidden><thead><tr><th width="286.83723958333337"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>User Segment</strong></td><td><strong>Minimum Total Users</strong></td><td><strong>Maximum Total Users</strong></td></tr><tr><td>KONNEKT 25 (Y) </td><td>25</td><td>249</td></tr><tr><td>KONNEKT 250 (Y) </td><td>250</td><td>999</td></tr><tr><td>KONNEKT 1000 (Y) </td><td>1,000</td><td>4,999</td></tr><tr><td>KONNEKT 5000 (Y)</td><td>5,000</td><td>9,999</td></tr><tr><td>KONNEKT 10000 (Y) </td><td>10,000</td><td>unlimited</td></tr></tbody></table>
 
