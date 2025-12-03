@@ -16,8 +16,10 @@ In this case check for entries under Windows Security / Protection History:
 
 ## Solution
 
-Exclude KONNEKT from the ASR rule "Office Child Process"
+Exclude KONNEKT from the ASR rule "Office Child Process":
 
 "C:\Program Files\Konnekt\Konnekt.exe"
+
+"C:\Program Files\Konnekt\KonnektStarter.exe"
 
 {% embed url="https://learn.microsoft.com/en-us/defender-endpoint/attack-surface-reduction-rules-reference#block-all-office-applications-from-creating-child-processes" %}
