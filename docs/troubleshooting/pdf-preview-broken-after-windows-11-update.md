@@ -16,7 +16,7 @@ Users can add the UNC path of their KONNEKT to the list of trusted sites:
 \\OneDrive-<TenantDefaultName>
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Registry Path**:
 
@@ -26,11 +26,11 @@ Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Se
 
 Add an entry named "file" as a REG\_DWORD and set its value to 2.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Recommendation
 
 It is generally recommended to set this entry via an Intune policy or GPO; either per user or per device.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 

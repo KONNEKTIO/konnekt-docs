@@ -12,7 +12,7 @@ Our support team may ask you to provide debug logs to analyze issues. To do so, 
 
 * Set Log-Level to "Debug":
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,7 @@ Run crashguard.exe and click "Send report":
 
 "C:\Program Files\Konnekt\crashguard.exe"
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 In certain situations, a report cannot be sent due to company restrictions. In such cases, an email window may appear, or the new zipped folder will be saved on your Desktop.

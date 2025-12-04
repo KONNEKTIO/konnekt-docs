@@ -12,7 +12,7 @@ Without exclusion KONNEKT crashes when trying to open or preview an Office file 
 
 In this case check for entries under Windows Security / Protection History:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Solution
 
