@@ -21,7 +21,7 @@ These can be set in:
 * Create new profile for "Windows 10 and later"
 * Profile type "Settings catalog"
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * Search for "security pages"
 * Select the following category&#x20;  \
@@ -35,7 +35,7 @@ Windows Components > Internet Explorer > Internet Control Panel > Security Page
   * Site to Zone Assignment List
   * Site to Zone Assignment List (User)
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Set all three paths - UNC and URL
 

@@ -75,6 +75,7 @@
   * [How to change the tenant name](troubleshooting/how-to-change-the-tenant-name.md)
   * [How to deal with error(s)](troubleshooting/how-to-deal-with-error-s.md)
   * [Manual uninstallation](troubleshooting/manual-uninstallation.md)
+  * [Office shows outdated versions](troubleshooting/office-shows-outdated-versions.md)
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
   * [PDF preview broken after Windows 11 update](troubleshooting/pdf-preview-broken-after-windows-11-update.md)
   * [Risky action blocked](troubleshooting/risky-action-blocked.md)
