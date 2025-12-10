@@ -25,10 +25,7 @@ To prevent this warning, you need to add the server shown in the error message t
 * Checkmark "**Sub folders of this location are also trusted**"
 * Click **OK** to save.
 
-## **Solution 3**
+{% hint style="info" %}
+More details can be found under "[Add KONNEKT paths as Trusted sites](add-konnekt-paths-as-trusted-sites.md)".
+{% endhint %}
 
-You can disable the Co-Authoring in **KONNEKT:**
-
-* if it is enabled by right clicking on the **KONNEKT** tray icon
-* Then click **Preferences**
-* Disable the check box for **Office Co-Authoring**
