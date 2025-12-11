@@ -185,7 +185,7 @@ You do not need this if you use GPO or Intune management.
 
 ### Map default document libraries
 
-If enabled this setting will display all default libraries from all Site Collections where a user has access to.
+If enabled the setting "Enable Sharepoint Sites" will display all default libraries from all Site Collections where a user has access to.
 
 A user can set this setting via the preferences menu:
 
