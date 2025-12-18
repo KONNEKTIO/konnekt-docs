@@ -17,4 +17,4 @@ There are two methods to resolve these issues:
 1. Manually clear the Office cache at `%localappdata%\Microsoft\Office\16.0\OfficeFileCache`.
 2. Enable "Delete files from the Office Document Cache when they are closed" in an Office app per user.
 
-<figure><img src="../.gitbook/assets/image.png" alt="Excel Options \ Save \ Cache Settings"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="Excel Options \ Save \ Cache Settings"><figcaption></figcaption></figure>
