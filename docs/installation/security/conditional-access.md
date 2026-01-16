@@ -1,6 +1,6 @@
 # Conditional Access
 
-If you use [Azure AD Conditional Access](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview), you are of course also controlling the access of KONNEKT to your Microsoft 365 resources.
+If you use [Microsoft Entra Conditional Access policies](https://learn.microsoft.com/en-us/azure/active-directory/conditional-access/overview), you are of course also controlling the access of KONNEKT to your Microsoft 365 resources.
 
 KONNEKT is using different APIs to connect to Microsoft 365. Therefore, it is necessary to configure the corresponding Conditional Access policies to **"All cloud apps"**.&#x20;
 
