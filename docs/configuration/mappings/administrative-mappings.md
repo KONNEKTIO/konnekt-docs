@@ -19,7 +19,7 @@ To add mappings, go to the policy and click on **Show...**
 ![](<../../.gitbook/assets/2022-08-19 11_17_20-LabServer ‎- Remotedesktop.png>)
 
 {% hint style="info" %}
-Using this policy for drive-letter mapping will always map the the default document library as root.
+Using this policy for drive-letter mapping will always map the default document library as root.
 
 To map all libraries of one site you need to map the site and enable the policy [AddAllSharePointLibraries](auto-mapping.md#map-all-document-libraries)
 
