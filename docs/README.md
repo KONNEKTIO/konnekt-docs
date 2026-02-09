@@ -25,7 +25,7 @@ These docs cover the technical aspects of KONNEKT. All other information can be 
 | VDI Support (Citrix and Terminal Services)                                               | Transparent access to any SharePoint from Citrix and Terminal Services                                                          |
 | [Multi-tenancy](installation/configure-office-365-account.md#multi-tenant-configuration) | Connects to multiple tenants simultaneously                                                                                     |
 | [Multi-geo](configuration/mappings/multi-geo.md)                                         | Support for OneDrive and SharePoint Online Multi-Geo                                                                            |
-| [Co-authoring](configuration/system-settings/office365-co-authoring.md)                  | Supports the co-authoring of Microsoft Office 365                                                                               |
+| [Co-authoring](configuration/system-settings/office365-co-authoring.md)                  | Supports the co-authoring of Microsoft 365 (formerly Office 365)                                                                |
 
 ## Use cases
 
