@@ -14,5 +14,5 @@ Microsoft (temporarily) changed the content of the response of the query for the
 
 ### Solution
 
-We implemented a workaround for that behavior starting with KONNNEKT V2.0.0. Please see here, how to get the update: [software-updates.md](../installation/software-updates.md "mention").
+We implemented a workaround for that behavior starting with KONNEKT V2.0.0. Please see here, how to get the update: [software-updates.md](../installation/software-updates.md "mention").
 
