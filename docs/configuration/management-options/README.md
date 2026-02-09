@@ -16,4 +16,4 @@
 
 You can download the ADMX / ADML files here:
 
-{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-2-6-0-0.zip" %}
+{% file src="../../.gitbook/assets/KONNEKT-ADMX-ADML-2-11-0-0 (2).zip" %}
