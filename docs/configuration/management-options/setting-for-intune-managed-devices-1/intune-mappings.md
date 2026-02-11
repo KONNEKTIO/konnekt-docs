@@ -244,4 +244,4 @@ _<<mark style="color:red;">data id</mark>="<mark style="color:green;">Sharepoint
 
 ### **Note**
 
-For more information about the policy and how to set the URL with examples, see [Managed mappings](../../mappings/administrative-mappings.md)
+For more information about the policy and how to set the URL with examples, see [Managed mappings](../../mappings/managed-mappings.md)

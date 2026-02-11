@@ -163,7 +163,7 @@ Under this key, one value/data entry has to be generated per mapping:
 
 * **Value name:** equals Value data
 * **Value type:** `REG_SZ`
-* **Value data:** see [Policy definition](administrative-mappings.md#policy-definition).
+* **Value data:** see [Policy definition](managed-mappings.md#policy-definition).
 * Value **stored** in:
   * `HKEY_CURRENT_USER\SOFTWARE\Policies\GlueckKanja\Konnekt\SharepointSites`\
     or

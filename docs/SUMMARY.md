@@ -34,7 +34,7 @@
     * [Additional document libraries](configuration/mappings/add-a-document-library.md)
     * [Assign drive letters](configuration/mappings/assign-drive-letters.md)
     * [Auto mapping](configuration/mappings/auto-mapping.md)
-    * [Managed mappings](configuration/mappings/administrative-mappings.md)
+    * [Managed mappings](configuration/mappings/managed-mappings.md)
     * [Multi-Geo](configuration/mappings/multi-geo.md)
   * [System settings](configuration/system-settings/README.md)
     * [Authentication browser engine](configuration/system-settings/authentication-browser-engine.md)

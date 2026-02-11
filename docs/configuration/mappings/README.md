@@ -12,8 +12,8 @@
 [auto-mapping.md](auto-mapping.md)
 {% endcontent-ref %}
 
-{% content-ref url="administrative-mappings.md" %}
-[administrative-mappings.md](administrative-mappings.md)
+{% content-ref url="managed-mappings.md" %}
+[managed-mappings.md](managed-mappings.md)
 {% endcontent-ref %}
 
 {% content-ref url="multi-geo.md" %}

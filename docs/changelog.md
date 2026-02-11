@@ -169,7 +169,7 @@ Fix:
 Add:
 
 * "View Online" for a folder directs to corresponding subfolder in SharePoint (591)
-* [Managed Mapping supports root site URLs and Teams URLs](configuration/mappings/administrative-mappings.md#policy-definition) (741)
+* [Managed Mapping supports root site URLs and Teams URLs](configuration/mappings/managed-mappings.md#policy-definition) (741)
 * Login prompt negotiates for Edge Browser (791)
 * File support for OneNote notebooks (2730)
 * CoAuthoring for OneNote documents (2730)
@@ -273,7 +273,7 @@ KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
 * ADD
   * [ARM64 processor platform support ](installation/system-requirements.md#processor-platform)(662)
   * [SharePoint Throttling Prevention policy](configuration/system-settings/throttling-prevention/sharepoint-throttling-prevention.md) (730)
-  * [Add to favorites in Managed Mappings](configuration/mappings/administrative-mappings.md#make-mapping-a-konnekt-favorite) (733)
+  * [Add to favorites in Managed Mappings](configuration/mappings/managed-mappings.md#make-mapping-a-konnekt-favorite) (733)
   * Changed search strategy for folder browsing to work around [performance degradation of Microsoft SharePoint Online REST API](/broken/pages/kv1GX9A2K2ybLdYqoa6r) (736)
 * FIX
   * Explorer may get unresponsive when creating new folder in SharePoint root - part 1 (648)
@@ -308,7 +308,7 @@ KONNEKT 2.2.1.0 (64-Bit, 32-Bit, Arm64 versions are available)
 * ADD
   * Customize explorer UI ([Hide several options](configuration/gui-behavior/konnekt-explorer-ui.md), [hide tray icon](configuration/gui-behavior/hide-tray-icon.md))
   * Custom site scope ([individual search string](configuration/mappings/auto-mapping.md))
-  * Automatic mappings ([Managed mappings](configuration/mappings/administrative-mappings.md))
+  * Automatic mappings ([Managed mappings](configuration/mappings/managed-mappings.md))
   * [Cache settings](configuration/system-settings/cache-setting.md) (individual write handling to SharePoint Online e.g. for VDI environments)
   * [Intune Management](configuration/management-options/setting-for-intune-managed-devices-1/)
   * Offline Attribute Filter to enable explorer previews on certain file types

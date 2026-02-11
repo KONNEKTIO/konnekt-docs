@@ -74,7 +74,7 @@ Make sure to run CMD without admin rights to avoid any connecting errors for nor
 
 ## Assign drive letters with Managed Mappings
 
-You can map drive letters to sites and libraries with [Managed Mappings](administrative-mappings.md).
+You can map drive letters to sites and libraries with [Managed Mappings](managed-mappings.md).
 
 ## **There are several ways to apply the policy:**
 
