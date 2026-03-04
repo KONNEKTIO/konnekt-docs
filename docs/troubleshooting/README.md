@@ -1,6 +1,6 @@
 ---
 description: >-
-  here you can find some warning or error messeges and the reason and solution
+  here you can find some warning or error messages and the reason and solution
   for each one.
 ---
 

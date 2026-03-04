@@ -32,7 +32,7 @@ If additional SharePoint Online environments are to be accessed under other Azur
 
 ## Multi-Tenant Configuration
 
-With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts**
+With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts.**
 
 <figure><img src="../../.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
 

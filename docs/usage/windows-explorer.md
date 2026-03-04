@@ -23,7 +23,7 @@ KONNEKT does NOT download your documents to the client. it is a synchronized vie
 
 ## **Uploads**
 
-The place where the data queue is located, which you're uploading to the SPS. Here you can find all your data if something goes wrong during the upload process (Internet connection lost..). The files will be automatically deleted as long as they are successfully uploaded to the SP.
+The place where the data queue is located, which you're uploading to the SPO. Here you can find all your data if something goes wrong during the upload process (Internet connection lost..). The files will be automatically deleted as long as they are successfully uploaded to the SP.
 
 Once your data is successfully uploaded to the SharePoint Online (SPO), the files in the data queue will be automatically deleted. If there's an issue, such as an internet or wifi disruption, you can find all your data here for troubleshooting.
 

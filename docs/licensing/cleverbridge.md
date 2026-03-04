@@ -2,7 +2,7 @@
 
 Prerequisites & Vendor Onboarding
 
-In order to purchase KONNEKT from our merchant of record, cleverbride GmbH (headquartered in Germany), no special prerequisites have to be met, except for accepting their terms and conditions.
+In order to purchase KONNEKT from our merchant of record, cleverbridge GmbH (headquartered in Germany), no special prerequisites have to be met, except for accepting their terms and conditions.
 
 Depending on your sourcing and purchasing requirements, you might have to set up cleverbridge as a vendor in your system. cleverbridge provides all relevant onboarding information [via their website](https://support.cleverbridge.com/hc/en-us/articles/4405420244243-How-do-I-register-Cleverbridge-as-a-vendor).
 
