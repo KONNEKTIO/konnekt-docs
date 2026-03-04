@@ -73,7 +73,7 @@ KONNEKT can use proxy servers. However, we offer limited support for clients tha
 
 **Whitelist Graph API URL**
 
-* The Graph API is a RESTful API that uses HTTPS calls. Each API call technically has a unique UR
+* The Graph API is a RESTful API that uses HTTPS calls. Each API call uses a unique URL
 * To allow for use of different versions of the API, whitelist [https://graph.microsoft.com](https://graph.microsoft.com)
 
 
