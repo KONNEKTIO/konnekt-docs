@@ -1,5 +1,7 @@
 # Mappings
 
+Mappings control which SharePoint Site Collections and Document Libraries appear in your users' File Explorer. Auto Mapping is the recommended starting point for most organizations.
+
 {% content-ref url="add-a-document-library.md" %}
 [add-a-document-library.md](add-a-document-library.md)
 {% endcontent-ref %}

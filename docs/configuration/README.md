@@ -1,5 +1,7 @@
 # Advanced Configuration
 
+This section covers all advanced configuration options for KONNEKT, including policy management through Intune and Group Policy, mapping settings, and system-level behavior. Start with Management Options to choose your preferred configuration method.
+
 {% content-ref url="management-options/" %}
 [management-options](management-options/)
 {% endcontent-ref %}

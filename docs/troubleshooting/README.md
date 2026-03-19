@@ -6,6 +6,8 @@ description: >-
 
 # Troubleshooting
 
+This section helps you diagnose and resolve common issues with KONNEKT. If you're dealing with authentication problems, check Access Token Issues. For missing content, see Causes of Missing Content. To collect logs for a support case, start with Debug Log Preparation.
+
 {% content-ref url="add-share-key-not-found.md" %}
 [add-share-key-not-found.md](add-share-key-not-found.md)
 {% endcontent-ref %}

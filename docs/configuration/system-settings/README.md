@@ -1,5 +1,7 @@
 # System settings
 
+These settings control KONNEKT's core behavior including caching, authentication, file size limits, and throttling prevention. All settings can be deployed via Intune (ADMX / ADML) or Group Policy.
+
 {% content-ref url="authentication-browser-engine.md" %}
 [authentication-browser-engine.md](authentication-browser-engine.md)
 {% endcontent-ref %}

@@ -1,5 +1,7 @@
 # Deployment
 
+This section walks you through installing and configuring KONNEKT. Start with System Requirements, then proceed to Setup and account configuration.
+
 {% content-ref url="system-requirements.md" %}
 [system-requirements.md](system-requirements.md)
 {% endcontent-ref %}
