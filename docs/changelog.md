@@ -10,7 +10,7 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 ### 2.12.0 (Published 2026-04-08)
 
-Feature:
+Add:
 
 * Policy to open office files in Browser with Office Online
 
