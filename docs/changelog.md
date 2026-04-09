@@ -8,6 +8,25 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 ## Versions
 
+### 2.12.0 (Published 2026-04-08)
+
+Feature:
+
+* Policy to open office files in Browser with Office Online
+
+Fix:&#x20;
+
+* Sharepoint site discovery might fail if user UPN contains custom DNS subdomain
+* ManagedMapping drive deleted after some time
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.12.0.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.12.0.0.Msi)
+* [KONNEKT 2.12.0.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.12.0.0.Msi)
+* [KONNEKT 2.12.0.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.12.0.0.Msi)
+* [KONNEKT ADMX-ADML 2.12.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.11.4 (Published 2025-12-01)
 
 
