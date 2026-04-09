@@ -24,10 +24,21 @@ However, if you do not want to use Co-Authoring and want to load office files th
 
 Here are the possible settings:
 
-|     Function     | Value | Behavior                                                                                                                                                                                                                      |
-| :--------------: | :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|      Disable     |   0   | <p>KONNEKT handles up- and downloads to SharePoint Online for Microsoft Offices files.</p><p>Files are opened exclusively - Office 365 Co-Authoring is <strong>not</strong> working.</p>                                      |
-| Enable (default) |   1   | <p>KONNEKT will delegate the file-handling to the Microsoft Office apps for KONNEKT files that are opened from Windows File Explorer.</p><p>Microsoft Office 365 Co-Authoring and Auto-Save is available for those files.</p> |
+
+
+{% hint style="info" %}
+"Browser" function added since KONNEKT version 2.12.0. Usable via ADMX / ADML files.
+{% endhint %}
+
+
+
+|   Function   | Value | Behavior                                                                                                                                                                                                                      |
+| :----------: | :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    Disable   |   0   | <p>KONNEKT handles up- and downloads to SharePoint Online for Microsoft Offices files.</p><p>Files are opened exclusively - Office 365 Co-Authoring is <strong>not</strong> working.</p>                                      |
+| Desktop Apps |   1   | <p>KONNEKT will delegate the file-handling to the Microsoft Office apps for KONNEKT files that are opened from Windows File Explorer.</p><p>Microsoft Office 365 Co-Authoring and Auto-Save is available for those files.</p> |
+|    Browser   |   2   | Opens files in the default browser using Office Online.                                                                                                                                                                       |
+
+
 
 ### GUI
 
