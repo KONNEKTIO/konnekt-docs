@@ -12,12 +12,12 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 Add:
 
-* Policy to open office files in Browser with Office Online
+* Policy [Office365 Co-Authoring](configuration/system-settings/office365-co-authoring.md) extended to open office files in Browser with Office Online
 
 Fix:&#x20;
 
-* Sharepoint site discovery might fail if user UPN contains custom DNS subdomain
-* ManagedMapping drive deleted after some time
+* SharePoint site discovery might fail if user UPN contains custom DNS subdomain
+* [Managed mappings](configuration/mappings/managed-mappings.md) drive deleted after some time
 * Stability improvements
 
 **Downloads**
