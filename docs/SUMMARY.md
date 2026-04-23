@@ -79,6 +79,7 @@
   * [Opening MS Office documents display a warning message](troubleshooting/opening-ms-office-documents-displays-a-warning-message.md)
   * [PDF preview broken after Windows 11 update](troubleshooting/pdf-preview-broken-after-windows-11-update.md)
   * [Risky action blocked](troubleshooting/risky-action-blocked.md)
+  * [Reproduce file issues with Graph Explorer](troubleshooting/reproduce-file-issues-with-graph-explorer.md)
   * [Slow performance or errors caused by antivirus scanning](troubleshooting/slow-performance-or-errors-caused-by-antivirus-scanning.md)
   * [Subscribe a subset of users](troubleshooting/subscribe-a-subset-of-users.md)
   * [What is the maximum path and file name length?](troubleshooting/what-is-the-maximum-path-and-file-name-length.md)
