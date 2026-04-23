@@ -55,6 +55,7 @@
     * [Proxy settings](configuration/other/proxy-settings.md)
     * [Set license key](configuration/other/license-key-on-multi-user-environments.md)
 * [Troubleshooting](troubleshooting/README.md)
+  * [Administrative tasks](troubleshooting/administrative-tasks.md)
   * [Access token issues](troubleshooting/access-token-issues/README.md)
     * [Error message about missing token](troubleshooting/access-token-issues/error-message-about-missing-token.md)
     * [Failed to obtain access token to your OneDrive account](troubleshooting/access-token-issues/failed-to-obtain-access-token-to-your-onedrive-account.md)
