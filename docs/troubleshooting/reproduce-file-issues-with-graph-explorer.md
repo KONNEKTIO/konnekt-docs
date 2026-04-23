@@ -190,3 +190,4 @@ For the full reference, see the [Microsoft Graph Drive API](https://learn.micros
 * [Access token issues](https://docs.konnekt.io/troubleshooting/access-token-issues) - for 401 Unauthorized responses
 * [How to deal with error(s)](https://docs.konnekt.io/troubleshooting/how-to-deal-with-error-s) - for errors on specific files
 * [Debug log preparation](https://docs.konnekt.io/troubleshooting/debug-log-preparation) - how to collect logs with Graph API details
+* [Logging](https://docs.konnekt.io/configuration/system-settings/logging) - log level configuration
