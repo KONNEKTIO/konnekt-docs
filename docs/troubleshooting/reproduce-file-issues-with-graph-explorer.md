@@ -15,7 +15,19 @@ Use this procedure when:
 * You need to prove to Microsoft support that the issue is not caused by third-party software.
 * Intermittent slowness persists after the usual KONNEKT checks have been ruled out.
 
-Collect KONNEKT debug logs first - see [Debug log preparation](https://docs.konnekt.io/troubleshooting/debug-log-preparation). With the log level set to Debug, the logs contain the full Graph API request URL and response for every failed call.
+### Collect and inspect the debug log
+
+The normal way to get KONNEKT logs to support is by running `crashguard.exe` from `C:\Program Files\Konnekt`. That flow packages the logs and uploads them silently in the background - in most cases, neither the user nor the admin notices anything happening. See [Debug log preparation](https://docs.konnekt.io/troubleshooting/debug-log-preparation) for the standard support workflow.
+
+The Graph Explorer workflow is different: you need to open the log file yourself, locally, to copy the failing request URL and `request-id` into Graph Explorer. The log files are located at:
+
+```
+%LOCALAPPDATA%\Konnekt
+```
+
+KONNEKT keeps up to six rotating log files of about 1 MB each. Sort by modification time and start with the most recent file. Open it in a text editor and search for `error` or for the HTTP status code you are investigating (for example, `504`).
+
+Before reproducing the issue, set the log level to **Debug** so that full Graph API request URLs and responses are captured. See [Logging](https://docs.konnekt.io/configuration/system-settings/logging) for how to change the log level via the Preferences UI, the registry, or a managed policy.
 
 ### What a Graph API error looks like in the KONNEKT log
 
