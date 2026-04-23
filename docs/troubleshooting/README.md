@@ -1,9 +1,3 @@
----
-description: >-
-  here you can find some warning or error messages and the reason and solution
-  for each one.
----
-
 # Troubleshooting
 
 Start here when something isn't working. Follow these steps to identify your issue and jump to the relevant resolution page.
