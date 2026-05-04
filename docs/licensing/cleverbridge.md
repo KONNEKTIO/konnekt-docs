@@ -183,7 +183,7 @@ In case you are having difficulties accessing the self-management portal as desc
 
 ## **Trials**
 
-In case you would like to test KONNEKT, please [get in contact with us](https://www.konnekt.io/start-now/#try) or send us an email to [sales@konnekt.io](mailto:sales@konnekt.io).
+In case you would like to test KONNEKT, please [request a trial via our website](https://support.konnekt.io/support/tickets/new?ticket_form=trial_request_%28konnekt%29&_gl=1) or send us an email to [sales@konnekt.io](mailto:sales@konnekt.io).
 
 ## FAQs
 
