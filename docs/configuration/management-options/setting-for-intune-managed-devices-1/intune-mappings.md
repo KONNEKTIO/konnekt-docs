@@ -60,7 +60,7 @@ Device context:
 <enabled/> <data id="DriveSelect" value="F:"/>
 ```
 
-Disable connect drive mapping
+Disable connect drive letter mapping
 
 ```
 <enabled/> <data id="DriveSelect" value="disabled"/>
