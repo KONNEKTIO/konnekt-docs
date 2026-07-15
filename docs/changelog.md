@@ -8,6 +8,23 @@ If you'd like to **stay up to date on the latest changes and news in the KONNEKT
 
 ## Versions
 
+### 2.12.1 (Published 2026-07-15)
+
+Fix:&#x20;
+
+* SharePoint throttling: Reduced likelihood of hitting rate limits
+* Login fails for UPNs from domains with multi-label public suffixes
+* File downloads could fail on SharePoint Online due to an invalid tempauth token
+* Proxy detection could fail on Windows
+* Stability improvements
+
+**Downloads**
+
+* [KONNEKT 2.12.1.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.12.1.0.Msi)
+* [KONNEKT 2.12.1.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.12.1.0.Msi)
+* [KONNEKT 2.12.1.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.12.1.0.Msi)
+* [KONNEKT ADMX-ADML 2.12.0.0](configuration/management-options/#admx-adml-files)
+
 ### 2.12.0 (Published 2026-04-08)
 
 Add:
@@ -20,13 +37,6 @@ Fix:&#x20;
 * [Managed mappings](configuration/mappings/managed-mappings.md) drive deleted after some time
 * Stability improvements
 
-**Downloads**
-
-* [KONNEKT 2.12.0.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.12.0.0.Msi)
-* [KONNEKT 2.12.0.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.12.0.0.Msi)
-* [KONNEKT 2.12.0.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.12.0.0.Msi)
-* [KONNEKT ADMX-ADML 2.12.0.0](configuration/management-options/#admx-adml-files)
-
 ### 2.11.4 (Published 2025-12-01)
 
 
@@ -34,13 +44,6 @@ Fix:&#x20;
 Fix:
 
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.11.4.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.4.0.Msi)
-* [KONNEKT 2.11.4.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.4.0.Msi)
-* [KONNEKT 2.11.4.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.4.0.Msi)
-* [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.11.3 (Published 2025-09-18)
 
@@ -51,13 +54,6 @@ Add:
 Fix:
 
 * Stability improvements
-
-**Downloads**
-
-* [KONNEKT 2.11.3.0 Windows X64 64 Bit](https://trial.konnekt.io/releases/Konnekt-X64-2.11.3.0.Msi)
-* [KONNEKT 2.11.3.0 Windows X86 32 Bit](https://trial.konnekt.io/releases/Konnekt-X86-2.11.3.0.Msi)
-* [KONNEKT 2.11.3.0 Windows ARM 64 Bit](https://trial.konnekt.io/releases/Konnekt-Arm64-2.11.3.0.Msi)
-* [KONNEKT ADMX-ADML 2.11.0.0](configuration/management-options/#admx-adml-files)
 
 ### 2.11.2 (Published 2025-08-04)
 
