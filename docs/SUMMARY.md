@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [KONNEKT Documentation](README.md)
 * [User manual](usage/README.md)
   * [Windows File Explorer](usage/windows-explorer.md)
   * [Tray Menu](usage/tray-menu.md)
