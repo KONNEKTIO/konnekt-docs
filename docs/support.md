@@ -8,9 +8,14 @@ Customers, who have an active subscription to KONNEKT are eligible for our suppo
 
 Our support services cover technical assistance for administrators:
 
-* For the most current KONNEKT version
 * Technical questions about features of KONNEKT
 * Support for incidents regarding KONNEKT
+
+### Supported versions
+
+We provide support exclusively for the latest release of KONNEKT as listed in our [changelog](https://docs.konnekt.io/changelog). If you experience issues while running an older version, we ask you to update to the latest release before contacting support.
+
+KONNEKT integrates closely with Microsoft 365 and SharePoint Online and is continuously developed to stay compatible with these platforms as they evolve. In addition, security requirements change over time: what was considered safe in the past may later be identified as insecure, and we adapt the product accordingly. For these reasons, running the latest release is essential to ensure that KONNEKT works reliably and securely.
 
 ## Access
 
