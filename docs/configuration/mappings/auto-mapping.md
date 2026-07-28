@@ -13,6 +13,10 @@ KONNEKT updates the mappings every 60 minutes.
 KONNEKT uses SharePoint Online Search's default 'Result Source.' Modifying this setting could alter the Site Collections and Document Libraries displayed.
 {% endhint %}
 
+{% hint style="info" %}
+Using Microsoft's "[Restrict discovery of SharePoint sites and content](https://learn.microsoft.com/en-us/sharepoint/restricted-content-discovery)" setting may affect what Site Collections are displayed within KONNEKT.
+{% endhint %}
+
 ## Site scope
 
 {% hint style="info" %}
