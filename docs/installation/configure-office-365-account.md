@@ -32,7 +32,7 @@ If needed, libraries can be mapped to a specific driver letter (see [Assign driv
 
 With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts.**
 
-<figure><img src="../../.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/KONNEKTIO/konnekt-docs/blob/main/.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You cannot add guest accounts from foreign M365 tenants. Only members can be added.

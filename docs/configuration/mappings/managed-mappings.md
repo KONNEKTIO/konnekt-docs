@@ -53,16 +53,16 @@ Please also note [Microsoft's recommendations regarding subsites](https://learn.
   Your root site: `https://contoso.sharepoint.com`\
   The Managed Mapping should look like this: `https://contoso.sharepoint.com/|RootSite|R:`
 * `<Name>:` Name you choose for the mapped site. This name must be unique for each mapping.\
-  &#xNAN;_&#x6F;ptional => value may be empty_
+  _&#x6F;ptional => value may be empty_
 * `<DriveLetter>:` Drive letter for drive mapping.\
-  &#xNAN;_&#x6F;ptional => value may be empty_
+  _&#x6F;ptional => value may be empty_
 * `<TenantName>:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
-  &#xNAN;_&#x6F;ptional => value may be empty_
+  _&#x6F;ptional => value may be empty_
 * `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. You must run KONNEKT 2.2.1 or newer for this feature to work properly.\
   Possible values:\
   \- `FALSE` (default)\
   \- `TRUE`\
-  &#xNAN;_&#x6F;ptional => value may be empty_
+  _&#x6F;ptional => value may be empty_
 
 **Site mapping result:**
 

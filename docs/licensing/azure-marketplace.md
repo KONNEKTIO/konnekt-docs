@@ -4,9 +4,76 @@
 
 In order to purchase solutions from independent software vendors (ISV) such as KONNEKT, you must fulfil the following requirements:
 
-1. You have an active Azure subscription.
+1. You have an active Azure subscription in one of the following countries: Armenia, Australia, Austria, Bulgaria, Belgium, Canada, Chile, Colombia, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, India, Indonesia, Ireland, Italy, Kenya, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Monaco, Netherlands, New Zealand, Nigeria, Norway, Poland, Portugal, Puerto Rico, Romania, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sweden, Switzerland, Taiwan, Thailand, Türkiye, United Arab Emirates, United Kingdom, United States, Vietnam..
 2. The account you want to purchase our solution with must have the **Owner** or **Contributor** role assigned on the Azure subscription you are going to pay with.
 3. The billing account linked to your Azure subscription is properly set up. Depending on your billing account type (Microsoft Customer Agreement or Enterprise Agreement), you might need to enable marketplace purchases in the Azure portal first.
+
+## How to purchase KONNEKT?
+
+To get started with your KONNEKT subscription, follow below steps:
+
+{% stepper %}
+{% step %}
+### Locate [KONNEKT](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the Azure Marketplace
+
+* In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
+  * More details on Private Offers and MPOs can be found in Microsoft's documentation.
+    * [Private Offer](https://learn.microsoft.com/en-us/marketplace/private-offers-purchase)
+    * [Multiparty Offer](https://www.youtube.com/watch?v=TANUlgLuVqI)
+* Click **Subscribe**.
+
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Subscribe to KONNEKT
+
+* Create or select the **Resource group** you would like to deploy the subscription to.
+* Assign a descriptive **Name** to later identify your subscription.
+* We recommend to keep **Recurring billing** **On** so that you do not have to worry about an automatic termination of your subscription.
+* Click **Review + subscribe** and then **Subscribe** to deploy the **SaaS** resource to your **Resource group**.
+
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
+{% endhint %}
+{% endstep %}
+
+{% step %}
+### Configure your account
+
+* Once the deployment is complete, please navigate to our platform by clicking **Configure account now**.
+
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Add additional information
+
+After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired total **User** amount and a T**echnical contact**.
+
+{% hint style="info" %}
+The **Technical contact** must have a mailbox connected to it, so we are able to notify you in case there are relevant issues with KONNEKT.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+
+Based on the amount of users provided, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee. **The platform automatically selects the best price / tier**.
+
+The platform will show you the licensing fees you have to expect under **Cost Projection**.
+
+If you are happy with it, please click **Review & Submit** for a final review and a fee summary.
+
+Complete the checkout by confirming your choice and clicking **Submit**.
+
+If you are happy with it, please complete the enrolment by clicking S**ubmit**, which triggers us to generate a license key for KONNEKT. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
+
+{% hint style="info" %}
+You will only be charged by Microsoft, once you have completed the enrolment on our landing page and received our welcome email.
+{% endhint %}
+{% endstep %}
+{% endstepper %}
 
 ## Pricing Model
 
@@ -89,51 +156,6 @@ If you decide to disable **Recurring billing**, your subscription will not renew
 In case you would like to test KONNEKT, please [request a trial via our website](https://support.konnekt.io/support/tickets/new?ticket_form=trial_request_%28konnekt%29&_gl=1) or send us an email to [sales@konnekt.io](mailto:sales@konnekt.io).
 
 ## FAQs
-
-### How to purchase KONNEKT?
-
-To get started with your KONNEKT subscription, follow below steps:
-
-* Locate [KONNEKT](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the **Marketplace** in your **Azure Portal**. In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
-  * More details on Private Offers and MPOs can be found in Microsoft's documentation.
-    * [Private Offer](https://learn.microsoft.com/en-us/marketplace/private-offers-purchase)
-    * [Multiparty Offer](https://www.youtube.com/watch?v=TANUlgLuVqI)
-* Click **Subscribe**.
-
-![](<../.gitbook/assets/image (31).png>)
-
-* Create or select the **Resource group** you would like to deploy the subscription to.
-* Assign a descriptive **Name** to later identify your subscription.
-* We recommend to keep **Recurring billing** **On** so that you do not have to worry about an automatic termination of your subscription.
-* Click **Review + subscribe** and then **Subscribe** to deploy the **SaaS** resource to your **Resource group**.
-
-![](<../.gitbook/assets/image (19).png>)
-
-{% hint style="info" %}
-The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
-{% endhint %}
-
-* Once the deployment is complete, please navigate to our platform by clicking **Configure account now**.
-
-![](<../.gitbook/assets/image (35).png>)
-
-* After authenticating on our platform using your Microsoft credentials, you will be prompted for additional information, such as the desired total **User** amount and a T**echnical contact**.
-
-{% hint style="info" %}
-The **Technical contact** must have a mailbox connected to it, so we are able to notify you in case there are relevant issues with KONNEKT.
-{% endhint %}
-
-![](../.gitbook/assets/Screenshot_2022-02-21_at_16_38_12.png)
-
-* Based on the amount of users provided, we will charge the relevant base fee for your user segment as well as additional users, in case you require more than the included amount in your base fee. **The platform automatically selects the best price / tier**.
-* The platform will show you the licensing fees you have to expect under **Cost Projection**.
-* If you are happy with it, please click **Review & Submit** for a final review and a fee summary.
-* Complete the checkout by confirming your choice and clicking **Submit**.
-* If you are happy with it, please complete the enrolment by clicking S**ubmit**, which triggers us to generate a license key for KONNEKT. You will receive this key as part of our welcome email including all relevant information on the next steps (e.g. how to install KONNEKT on your clients). This won't take any longer than one business day.
-
-{% hint style="info" %}
-You will only be charged by Microsoft, once you have completed the enrolment on our landing page and received our welcome email.
-{% endhint %}
 
 ### Why is my Azure Marketplace purchase not working?
 
