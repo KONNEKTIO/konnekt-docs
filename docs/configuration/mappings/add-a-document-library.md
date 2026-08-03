@@ -26,7 +26,7 @@ Do the following to add a further document library:
 Now the document library will be added and is available via the KONNEKT menu in the Windows Explorer.
 
 {% hint style="warning" %}
-This feature offers you to add only public libraries, to add a private channel library please check [here ](auto-mapping.md#example-2-add-teams-private-channels-automatically-to-konnekt-explorer-window)
+This feature offers you to add only public libraries. To add a private channel library, see [Teams private and shared channels](auto-mapping.md#teams-private-and-shared-channels).
 {% endhint %}
 
 ## Remove additional document libraries

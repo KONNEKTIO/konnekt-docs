@@ -47,6 +47,6 @@ If KONNEKT setup requests a restart, please do so. Please be aware that shutting
 
 ## Recommended update procedure
 
-Managed FAT clients should be updated by the client management system (e.g. MEM/Intune)
+Managed FAT clients should be updated by the client management system (e.g. Microsoft Intune).
 
 Multiuser VDI servers should be updated manually by admins.

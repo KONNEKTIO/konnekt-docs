@@ -6,7 +6,7 @@ If you see an error regarding a missing token (like the one below) please re-che
 
 You can consent **KONNEKT** permissions in two ways:
 
-**1-** Directly after the installation, a Microsoft Pop-up window shows up, log on with a Microsoft Entra ID (Azure AD) admin account (or one account has a role that allows granting admin consent), check the option **"Consent on behalf of your organization"** and grant **KONNEKT** needed permissions.
+**1-** Directly after the installation, a Microsoft Pop-up window shows up, log on with a Microsoft Entra ID admin account (or one account has a role that allows granting admin consent), check the option **"Consent on behalf of your organization"** and grant **KONNEKT** needed permissions.
 
 <figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 

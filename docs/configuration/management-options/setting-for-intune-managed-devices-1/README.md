@@ -10,7 +10,7 @@ For more in information please visit [Understanding ADMX-backed policies](https:
 
 In order to set the KONNEKT policies you need to ingest the admx file in a configuration profile first:
 
-1\. Go to your **Microsoft Endpoint Manager** portal\
+1\. Go to the **Microsoft Intune admin center**\
 2\. Click on **Devices**, then in the sub-menu go to **Configuration profiles**\
 3\. **Create profile:** Select Platform **Windows 10 and later,** profile type **Templates,** in search field choose **Custom,** then **Create**
 

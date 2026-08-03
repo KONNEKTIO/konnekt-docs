@@ -205,7 +205,7 @@ To request a quote for KONNEKT,&#x20;
 
 Cleverbridge will automatically remove the VAT if you provide a valid European VAT ID (and are not located in Germany) or a valid business registration number in countries where a VAT exemption applies (e.g. ABN in Australia).
 
-If the VAT is not removed but you believe that you are entitled to a VAT exemption, please [contact cleverbridge directly](cleverbridge.md#for-which-inquiries-should-i-contact-cleverbridge-directly).
+If the VAT is not removed but you believe that you are entitled to a VAT exemption, please [contact cleverbridge directly](#for-what-inquiries-should-i-contact-cleverbridge-directly).
 
 ### How do I convert a quote into an order?
 

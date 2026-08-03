@@ -1,24 +1,24 @@
 # Configure Office 365 account
 
-KONNEKT leverages the user's account in Microsoft Entra ID (Azure AD) to access SharePoint Online.
+KONNEKT leverages the user's account in Microsoft Entra ID (formerly Azure AD) to access SharePoint Online.
 
 ## Single Sign On (SSO)
 
-If your system is configured for single sign-on (SSO) with Microsoft Entra ID (Azure AD), KONNEKT will automatically set up your account.
+If your system is configured for single sign-on (SSO) with Microsoft Entra ID, KONNEKT will automatically set up your account.
 
 ## Manual Account Configuration
 
-If your system is not configured for single sign-on (SSO) with Microsoft Entra ID (Azure AD), KONNEKT will open a dialog, to set up the Office 365 / Microsoft Entra ID (Azure AD) account:
+If your system is not configured for single sign-on (SSO) with Microsoft Entra ID, KONNEKT will open a dialog to set up the account:
 
 ![](<../.gitbook/assets/2022-08-02 15_21_56-Window.png>)
 
 Click on "Connect your Office 365 Account".
 
-KONNEKT will open the Microsoft Entra ID (Azure AD) sign-in page:
+KONNEKT will open the Microsoft Entra ID sign-in page:
 
 ![](<../.gitbook/assets/2022-08-02 15_22_32-Window.png>)
 
-Sign in with your Microsoft Entra ID (Azure AD) account.
+Sign in with your Microsoft Entra ID account.
 
 ## Autologin Mapping
 
@@ -32,7 +32,7 @@ If needed, libraries can be mapped to a specific driver letter (see [Assign driv
 
 With KONNEKT it is possible to work with multiple tenants simultaneously. Just open the Windows Explorer with KONNEKT selected on the left pane and right-click on **Accounts.**
 
-<figure><img src="https://github.com/KONNEKTIO/konnekt-docs/blob/main/.gitbook/assets/aadaccount.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/addaccount.png" alt="Right-click menu on Accounts in the KONNEKT Explorer pane, showing the &#34;Add O365 account&#34; command"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You cannot add guest accounts from foreign M365 tenants. Only members can be added.
