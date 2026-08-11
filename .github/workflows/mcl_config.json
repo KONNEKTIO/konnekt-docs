@@ -2,28 +2,39 @@
   "ignorePatterns": [
     {
       "pattern": ".*broken-reference.*"
+    },
+    {
+      "comment": "Service endpoint, not a public page - answers 401 by design",
+      "pattern": "^https://crashguard\\.konnekt\\.io"
+    },
+    {
+      "comment": "Zendesk bot protection answers 403 even with a browser User-Agent",
+      "pattern": "^https://support\\.cleverbridge\\.com"
     }
   ],
   "replacementPatterns": [
     {
       "pattern": "\\\\_",
       "replacement": "_"
-    },
-    {
-      "pattern": "\\\\_",
-      "replacement": "_"
-    },
-    {
-      "pattern": "\\\\_",
-      "replacement": "_"
-    },
-    {
-      "pattern": "\\\\_",
-      "replacement": "_"
-    },
-    {
-      "pattern": "\\\\_",
-      "replacement": "_"
     }
-  ]
+  ],
+  "httpHeaders": [
+    {
+      "urls": [
+        "https://learn.microsoft.com",
+        "https://docs.microsoft.com",
+        "https://www.microsoft.com",
+        "https://azure.microsoft.com"
+      ],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; markdown-link-check)",
+        "Accept": "text/html"
+      }
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
 }
