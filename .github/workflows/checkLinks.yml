@@ -1,6 +1,11 @@
 name: Check Markdown links
 
-on: push
+on:
+  pull_request:
+  schedule:
+    # Monday 06:00 UTC - full sweep, catches GitBook edits pushed straight to main
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
 
 jobs:
   markdown-link-check:
@@ -11,3 +16,8 @@ jobs:
       with:
         config-file: '.github/workflows/mcl_config.json'
         use-verbose-mode: 'yes'
+        # On a pull request, check only the files that PR touches, so
+        # pre-existing broken links elsewhere cannot mask a new regression.
+        # Ignored by the scheduled run, which sweeps the whole repository.
+        check-modified-files-only: ${{ github.event_name == 'pull_request' && 'yes' || 'no' }}
+        base-branch: 'main'
