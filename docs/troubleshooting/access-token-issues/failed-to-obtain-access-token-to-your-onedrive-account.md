@@ -12,7 +12,7 @@ When trying to log in to KONNEKT, the error message "Failed to obtain an access 
 
 ### Cause
 
-If you see this error, please check the Sign-in logs in Azure/EntraID to see if there are any failed sign- ins.
+If you see this error, please check the sign-in logs in Microsoft Entra ID to see if there are any failed sign-ins.
 
 Take a look at the active and interactive Sign-ins.
 

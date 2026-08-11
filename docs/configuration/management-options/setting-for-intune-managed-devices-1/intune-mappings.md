@@ -99,7 +99,7 @@ Device context:
 
 **Note**
 
-For more information about the policy and the query, see [Auto mapping](../../mappings/auto-mapping.md#1.-site-scope)
+For more information about the policy and the query, see [Auto mapping](../../mappings/auto-mapping.md#site-scope)
 
 ## SharePoint Usage
 
@@ -133,7 +133,7 @@ Device context:
 
 **Note**
 
-For more information about the policy, see [Map default document site libraries](../../mappings/auto-mapping.md#map-default-document-site-libraries)
+For more information about the policy, see [Map default document libraries](../../mappings/auto-mapping.md#map-default-document-libraries)
 
 ## Multi-Geo
 

@@ -8,7 +8,7 @@ description: Access OneDrive, SharePoint and Teams lightning fast with Windows E
 
 KONNEKT brings files that are stored in SharePoint Online document libraries to your Windows File Explorer.&#x20;
 
-KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix Virtual Apps** (fka Citrix XenApp)**, Citrix Virtual Desktop** (fka Citrix XenDesktop)**, Azure Virtual Desktop** (AVD - fka Windows Virtual Desktop WVD) or **Windows 365** (W365) **Cloud PC**.
+KONNEKT works **online**. It does not sync files to your local disk and waste space there. That is why KONNEKT does a great job in **VDI** environments like **Citrix Virtual Apps**, **Citrix Virtual Desktops**, **Azure Virtual Desktop** (AVD) or **Windows 365 Cloud PC**.
 
 KONNEKT is capable of efficiently handling **big SharePoint Document Libraries** containing over 300,000 files. Explore the use cases described below for additional insights.
 
@@ -69,17 +69,17 @@ KONNEKT is a client-side tool - there is no backend. **Data is transferred direc
 
 KONNEKT uses the **native Microsoft APIs** (Microsoft SharePoint API and Microsoft Graph API) with standard Microsoft authentication to access Microsoft 365. This means that **conditional access** is also effective for access from KONNEKT to SharePoint Online.
 
-## KONNEKT vs. OneDrive Sync Client
+## KONNEKT vs. Microsoft OneDrive sync app
 
-The **main differences** between Microsoft **OneDrive Sync Client** and **KONNEKT** are:
+The **main differences** between the **OneDrive sync app** and **KONNEKT** are:
 
-| Feature                                                            |                                                                OneDrive Sync Client                                                                |                        KONNEKT                        |
+| Feature                                                            |                                                                 OneDrive sync app                                                                  |                        KONNEKT                        |
 | ------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------: |
 | Are the files **synced** to the local machine?                     |                                                        <p>Yes</p><p>(at least partially)</p>                                                       |                           No                          |
 | Automatically map the SharePoint volumes, the user has access to   |                                            <p>No</p><p>(Users mark libraries to be synced manually)</p>                                            |     [Yes](configuration/mappings/auto-mapping.md)     |
 | **Drive-Letter** support                                           |                                                                         No                                                                         | [Yes](configuration/mappings/assign-drive-letters.md) |
-| Works in **VDI** environments (e.g. Citrix,  AVD/WVD, Windows 365) |                                                                       limited                                                                      |                          Yes                          |
+| Works in **VDI** environments (e.g. Citrix, AVD, Windows 365)      |                                                                       limited                                                                      |                          Yes                          |
 | Support for **UNC** addressing                                     |                                                                         No                                                                         |                          Yes                          |
 | <p>Work with big Sites/Libraries<br>(>100 k files)</p>             | [limited](https://support.microsoft.com/en-us/office/restrictions-and-limitations-in-onedrive-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa) |                [Yes](./#file-structure)               |
 
-You have the option to use KONNEKT side-by-side with Microsoft 365 or stand-alone by replacing the OneDrive client. But in every configuration KONNEKT is a helpful leap to the Office 365 ecosystem (Office, Outlook, SharePoint,...) by providing not only the documents and data but also the right options to jump directly to the SharePoint Online Site, providing the links to share or make the versions of a file accessible.
+You have the option to use KONNEKT side-by-side with Microsoft 365 or stand-alone by replacing the OneDrive sync app. But in every configuration KONNEKT is a helpful leap to the Microsoft 365 ecosystem (Office, Outlook, SharePoint,...) by providing not only the documents and data but also the right options to jump directly to the SharePoint Online Site, providing the links to share or make the versions of a file accessible.

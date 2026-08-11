@@ -6,11 +6,11 @@ When you are trying to log in to KONNEKT you get the error message "Failed to ob
 
 ## Cause
 
-KONNEKT does not support having "Excluded Apps" in a MFA-requiring Microsoft Entra (Azure AD) Conditional Access policy in combination with a non-SSO Windows session.
+KONNEKT does not support having "Excluded Apps" in an MFA-requiring Microsoft Entra ID Conditional Access policy in combination with a non-SSO Windows session.
 
 ## Workaround
 
-Our recommended workaround is to enable the Windows machine for holding a Primary Refresh Token (PRT) e.g. by Entra Join (AAD Join) or Register. Please see [here ](https://learn.microsoft.com/en-us/entra/identity/devices/concept-primary-refresh-token#how-is-a-prt-issued)for details.
+Our recommended workaround is to enable the Windows machine for holding a Primary Refresh Token (PRT), e.g. by making the device Microsoft Entra joined or Microsoft Entra registered. Please see [here ](https://learn.microsoft.com/en-us/entra/identity/devices/concept-primary-refresh-token#how-is-a-prt-issued)for details.
 
 Other alternatives are (not really recommended):
 

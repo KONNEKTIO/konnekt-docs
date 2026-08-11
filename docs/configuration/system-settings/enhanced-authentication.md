@@ -21,7 +21,7 @@ To enable this setting, configure it tenant-wide. Enabling this will prompt Azur
 
 With more detailed permissions, users have to reauthenticate. Additionally, the UNC path and displayed tenant name will switch to the default tenant name rather than the initial tenant name.
 
-This feature enables the use of conditional access policies with excluded apps in Azure/EntraID.
+This feature enables the use of Conditional Access policies with excluded apps in Microsoft Entra ID.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

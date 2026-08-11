@@ -13,8 +13,8 @@
 {% hint style="success" %}
 KONNEKT runs in different **VDI** environments:
 
-* Hypervisor systems (e.g. Citrix Virtual Desktops (fka Citrix XenDesktop), VMware Horizon),
-* Multi-session systems (e.g. Citrix Virtual Apps (fka Citrix XenApp), Microsoft Terminal server/RDS) and
+* Hypervisor systems (e.g. Citrix Virtual Desktops, VMware Horizon),
+* Multi-session systems (e.g. Citrix Virtual Apps, Microsoft Terminal server/RDS) and
 * Microsoft Azure Virtual Desktop (AVD)
 * Microsoft Windows 365 (W365) Cloud PC
 {% endhint %}
@@ -24,8 +24,8 @@ KONNEKT works **independently** from:
 
 * .NET
 * specific Citrix versions
-* Microsoft365 Apps (fka Office365 ProPlus)
-* OneDrive Sync Client
+* Microsoft 365 Apps (formerly Office 365 ProPlus)
+* Microsoft OneDrive sync app
 {% endhint %}
 
 ### Processor Platform
@@ -53,7 +53,7 @@ To bypass your proxy server with traffic from KONNEKT, please make sure, that Wi
 
 You may do this by putting this URI on the exclude list in your proxy PAC file.&#x20;
 
-You should also make sure, that the KONNEKT client can reach [Microsoft Entra ID (Azure AD) and SharePoint Online](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) without being interfered by proxy servers or other application layer gateways (ALG) such as firewalls etc.
+You should also make sure, that the KONNEKT client can reach [Microsoft Entra ID and SharePoint Online](https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide) without being interfered by proxy servers or other application layer gateways (ALG) such as firewalls etc.
 {% endhint %}
 
 
@@ -85,7 +85,7 @@ KONNEKT can use proxy servers. However, we offer limited support for clients tha
 
 
 
-**Microsoft EntraID (Azure AD)**
+**Microsoft Entra ID**
 
 * Whitelist both endpoints \*.portal.azure.com and portal.azure.com to ensure access to the domain and the subdomains
 * [Azure portal URLs for proxy bypass](https://learn.microsoft.com/en-us/azure/azure-portal/azure-portal-safelist-urls?tabs=public-cloud#azure-portal-urls-for-proxy-bypass)

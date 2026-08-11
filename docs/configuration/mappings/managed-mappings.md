@@ -56,7 +56,7 @@ Please also note [Microsoft's recommendations regarding subsites](https://learn.
   _&#x6F;ptional => value may be empty_
 * `<DriveLetter>:` Drive letter for drive mapping.\
   _&#x6F;ptional => value may be empty_
-* `<TenantName>:` Microsoft365 tenant-name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
+* `<TenantName>:` Microsoft 365 tenant name for the corresponding account that must be used to access this site. (\<TenantName>.onmicrosoft.com).\
   _&#x6F;ptional => value may be empty_
 * `<Favorite>:` Indicate if mapping shall be a KONNEKT favorite. You must run KONNEKT 2.2.1 or newer for this feature to work properly.\
   Possible values:\
@@ -110,7 +110,7 @@ https://foreignTenant.sharepoint.com/sites/mysite||X:|ForeignTenant
 
 This will add all document libraries of the site "mysite", from the tenant "ForeignTenant.onmicrosoft.com". The network path will be mapped to drive X.&#x20;
 
-The user must have an account configured in KONNEKT, that belongs to the Microsoft Entra ID (Azure AD) in the tenant "ForeignTenant".
+The user must have an account configured in KONNEKT, that belongs to Microsoft Entra ID in the tenant "ForeignTenant".
 
 #### Make mapping a KONNEKT favorite
 

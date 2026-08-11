@@ -14,3 +14,9 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# macOS Finder metadata
+.DS_Store
+
+# Local Claude Code config and internal skills - not for the public repo
+.claude/
