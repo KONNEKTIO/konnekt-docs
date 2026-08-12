@@ -87,7 +87,7 @@
   * [Why is there a grey "X" or "brown suitcase" on my files and folders?](troubleshooting/why-is-there-a-grey-x-on-my-files-and-folders.md)
 * [Changelog](changelog.md)
 * [Licensing](licensing/README.md)
-  * [Microsoft Marketplace](licensing/azure-marketplace.md)
+  * [Microsoft Marketplace](licensing/microsoft-marketplace.md)
   * [cleverbridge](licensing/cleverbridge.md)
 * [Support](support.md)
 * [KONNEKT Website](https://konnekt.io/)

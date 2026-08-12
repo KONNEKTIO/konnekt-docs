@@ -16,9 +16,9 @@ For more information see [https://github.com/OneDrive/onedrive-api-docs/blob/liv
 {% hint style="warning" %}
 #### Links for "specific people" not supported
 
-Please check your "[Default SharePoint link scope policy](https://docs.microsoft.com/en-us/sharepoint/change-default-sharing-link)" setting in SharePoint Online.&#x20;
+Please check your "[Default SharePoint link scope policy](https://docs.microsoft.com/en-us/sharepoint/change-default-sharing-link)" setting in SharePoint Online.
 
-![](<../../.gitbook/assets/image (23).png>)
+<img src="../../.gitbook/assets/image (21).png" alt="" data-size="original">
 
 _Copy Link To Clipboard_ in KONNEKT will not work, if the _Default sharing link type_ of a SharePoint Site is set to _Specific people_ and the KONNEKT _Default SharePoint link scope policy_ is not set.
 

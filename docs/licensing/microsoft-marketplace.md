@@ -1,4 +1,4 @@
-# Azure Marketplace
+# Microsoft Marketplace
 
 ## Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
@@ -77,13 +77,13 @@ You will only be charged by Microsoft, once you have completed the enrolment on 
 
 ## Pricing Model
 
-* KONNEKT is offered as an **annual subscription plan** with different [User Segments](azure-marketplace.md#user-segments). The correct **user segment** is automatically selected by our platform based on the amount of desired users.
+* KONNEKT is offered as an **annual subscription plan** with different [User Segments](microsoft-marketplace.md#user-segments). The correct **user segment** is automatically selected by our platform based on the amount of desired users.
 * The annual subscription plan consists of a **base fee** which includes a certain amount of users per year - depending on the **user segment**. For example, the **base fee** for the user segment _KONNEKT 25_ includes 25 users per year.
-* If more than the included amount of users is required, **additional users** can be added to the  plan. For each additional user, we charge an additional annual per-user fee.
+* If more than the included amount of users is required, **additional users** can be added to the plan. For each additional user, we charge an additional annual per-user fee.
 
 ## Invoicing
 
-* During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will start billing once your cancellation grace period has expired.&#x20;
+* During the first subscription interval, your subscription fees are not immediately due after completing the subscription enrolment. Instead we will start billing once your cancellation grace period has expired.
 * Upon every renewal date, you will be billed immediately.
 * You will always be billed for the entire subscription cycle in advance.
 * The related items should appear on your Microsoft Azure invoice (Pay-As-You-Go) the month after we have reported your fees to Microsoft.
