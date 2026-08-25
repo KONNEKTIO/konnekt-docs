@@ -14,7 +14,7 @@ To get started with your KONNEKT subscription, follow below steps:
 
 {% stepper %}
 {% step %}
-### Locate [KONNEKT](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the Azure Marketplace
+### Locate [KONNEKT](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/GalleryItemDetailsBladeNopdl/id/glueckkanja-gabag.konnekt-transactable-prod) on the Microsoft Marketplace
 
 * In case we have extended a **Private Offer** to you or your MSP/distribution has extended a **Multiparty Offer (MPO)** to you, navigate to **Marketplace** in your **Azure Portal** and then to **Private Offer Management** to locate the Private Offer.
   * More details on Private Offers and MPOs can be found in Microsoft's documentation.
@@ -36,7 +36,7 @@ To get started with your KONNEKT subscription, follow below steps:
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Azure Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
+The random order of **Base Fees** und **Additional Users** under the **Price** information is attributed to limitations of the Microsoft Marketplace. Later during the the enrolment process, we will provide you with transparent information on the expected licensing costs.
 {% endhint %}
 {% endstep %}
 
@@ -157,12 +157,12 @@ In case you would like to test KONNEKT, please [request a trial via our website]
 
 ## FAQs
 
-### Why is my Azure Marketplace purchase not working?
+### Why is my Microsoft Marketplace purchase not working?
 
-You may encounter problems when purchasing through Azure Marketplace. Here is a list of reasons, why buying through Azure Marketplace may fail:
+You may encounter problems when purchasing through Microsoft Marketplace. Here is a list of reasons, why buying through Microsoft Marketplace may fail:
 
-1. You do not have permissions in your Azure tenant to purchase through Azure Marketplace. You must be assigned the role of Owner or Contributor in the Azure subscription you want to pay with.
-2. The subscription belongs to an Enterprise Agreement (EA) and the EA admin disabled Azure Marketplace purchases. Or the EA admin has enabled purchases only for free offers and the offer is a paid offer. Please see [here](https://learn.microsoft.com/en-us/marketplace/purchase-control-options) for details.
+1. You do not have permissions in your Azure tenant to purchase through Microsoft Marketplace. You must be assigned the role of Owner or Contributor in the Azure subscription you want to pay with.
+2. The subscription belongs to an Enterprise Agreement (EA) and the EA admin disabled Microsoft Marketplace purchases. Or the EA admin has enabled purchases only for free offers and the offer is a paid offer. Please see [here](https://learn.microsoft.com/en-us/marketplace/purchase-control-options) for details.
 3.  The subscription you're using belongs to a billing account in a region where the offer isn't available.\
     Our Marketplace offers are available in the following countries/regions:
 
