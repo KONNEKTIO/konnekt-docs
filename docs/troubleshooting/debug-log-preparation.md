@@ -28,7 +28,7 @@ When trying to reproduce the problem, please note the use case you are trying. A
 {% step %}
 ## Wait a moment and close KONNEKT
 
-Wait up to a minute, then close KONNEKT via  the Taskbar Tray icon.
+Wait up to a minute, then close KONNEKT via the Taskbar Tray icon.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -36,7 +36,7 @@ Wait up to a minute, then close KONNEKT via  the Taskbar Tray icon.
 {% step %}
 ## Collect the logs
 
-Run crashguard.exe and click "Send report":
+Run crashguard.exe "as administrator" and click "Send report":
 
 "C:\Program Files\Konnekt\crashguard.exe"
 
