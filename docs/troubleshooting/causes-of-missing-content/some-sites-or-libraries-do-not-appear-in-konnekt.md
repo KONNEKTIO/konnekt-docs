@@ -6,9 +6,13 @@ SharePoint Online sites or libraries which should be mapped via auto mapping do 
 
 ## Background
 
-KONNEKT runs a search on SharePoint Online to discover sites & libraries. To find libraries here, the user must be a member of the site.&#x20;
+KONNEKT runs a search on SharePoint Online to discover sites & libraries. To find libraries here, the user must be a member of the site.
 
 In some cases, users may be owners of a site, but not members. This results in not discovered sites or libraries.
+
+{% hint style="info" %}
+If a Site Collcetions are marked a&#x73;**"restricted"** with [Restricted Content Discovery (RCD)](https://learn.microsoft.com/en-us/sharepoint/restricted-content-discovery) their content is less discoverable in tenant-wide search.
+{% endhint %}
 
 ## Solution
 
