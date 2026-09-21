@@ -50,7 +50,7 @@ In certain situations, a report cannot be sent due to company restrictions. In s
 {% step %}
 ## Send to us
 
-After submitting the report, please send us a brief email:
+After submitting the report, please send us a brief email (support@konnekt.io):
 
 * Use case / what went wrong?
 * Timestamp / when did it happen?
