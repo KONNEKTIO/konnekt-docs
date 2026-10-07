@@ -36,7 +36,11 @@ Wait up to a minute, then close KONNEKT via the Taskbar Tray icon.
 {% step %}
 ## Collect the logs
 
-Run crashguard.exe "as administrator" and click "Send report":
+{% hint style="info" %}
+Since Windows version `10.0.26100.8737` and `10.0.22621.6931` crashguard.exe can't export KONNEKT's logs and Event Logs at the same time. We are working on a fix. In the meantime "run as administrator" is only needed to provide Event logs.
+{% endhint %}
+
+Run crashguard.exe and click "Send report":
 
 "C:\Program Files\Konnekt\crashguard.exe"
 
