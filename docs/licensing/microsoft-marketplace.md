@@ -150,7 +150,7 @@ If you decide to disable **Recurring billing**, your subscription will not renew
 
 * If you wish to cancel within the 72-hour grace period, click on 'Cancel subscription'. Your subscription will be cancelled immediately.&#x20;
 * If you cancel after the grace period has expired, click on 'Edit recurring billing' and deactivate auto-renewal. The service will remain active until the end of the current subscription cycle.
-* In case you require an immediate cancellation (e.g. due to an otherwise blocked Azure subscription change), please send an email to sales@scepman.com, stating the reason for the immediate cancellation.
+* In case you require an immediate cancellation (e.g. due to an otherwise blocked Azure subscription change), please send an email to sales@konnekt.io, stating the reason for the immediate cancellation.
 
 ## Trials
 
