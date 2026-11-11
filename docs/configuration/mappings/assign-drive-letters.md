@@ -41,8 +41,19 @@ After applying the policy, restarting the machine is required
 
 ### Registry
 
-**Key name:** `ConnectDrive`\
-**Key type:** REG\_SZ (String Value)
+**Path:** `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\GlueckKanja\Konnekt`
+
+* **Value name:** `ConnectDrivePolicy`
+* **Value type:** `REG_DWORD`
+* **Valid values:** 1 = assign the letter in `ConnectDrive`, 2 = no drive letter (requires KONNEKT 2.6.0 or newer)
+* **Default:** Not set
+
+The drive letter itself:
+
+* **Value name:** `ConnectDrive`
+* **Value type:** `REG_SZ`
+* **Valid values:** `F:` to `Z:`
+* **Default:** `H:`
 
 ## Assign drive letters to other folders using "net use"
 

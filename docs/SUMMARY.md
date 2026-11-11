@@ -11,6 +11,7 @@
     * [Grant tenant-wide admin consent](installation/security/grant-admin-consent-in-enterprise-applications.md)
     * [Conditional Access](installation/security/conditional-access.md)
   * [Setup](installation/setup.md)
+  * [Deploy on session hosts and VDI](installation/deploy-on-session-hosts-and-vdi.md)
   * [Configure Office 365 account](installation/configure-office-365-account.md)
   * [Software updates](installation/software-updates.md)
 * [Advanced Configuration](configuration/README.md)
