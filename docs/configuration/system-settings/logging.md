@@ -57,11 +57,10 @@ You do not need this if you use GPO or Intune management
 Please do not use this setting unless requested by our support team.
 {% endhint %}
 
-The Log Rotation setting determines the maximum size of one log file. The **default** is 1 MB (1024 \* 1024 = 1.048.576 bits), so that the maximum total size of all 6 log files is 6 MB.
+The Log Rotation setting determines the maximum size of one log file. The **default** is 1 MB (1024 \* 1024 = 1,048,576 bytes), so that the maximum total size of all 6 log files is 6 MB.
 
 * **Value name:** `LogRotation`
 * **Value type:** `REG_DWORD`
-* **Value data:** Maximum files size; unit is bits
+* **Value data:** Maximum file size, unit is bytes
 * **Value stored in:**
   * `HKEY_CURRENT_USER\SOFTWARE\GlueckKanja\Konnekt`
-
